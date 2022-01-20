@@ -1,0 +1,811 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#"
+     xml:base="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:ns="http://creativecommons.org/ns#"
+     xmlns:ns1="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:wot="http://xmlns.com/wot/0.1/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:adms="http://www.w3.org/ns/adms#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:atipet="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet"
+     xmlns:relators="http://id.loc.gov/vocabulary/relators/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet">
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet/0.0.1"/>
+        <owl:imports rdf:resource="http://www.geonames.org/ontology"/>
+        <owl:imports rdf:resource="http://www.w3.org/2006/time#2016"/>
+        <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <rdfs:comment xml:lang="pt">Ontologia que modela atividades realizadas por grupos PET</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#aconteceuNoLocal -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#aconteceuNoLocal">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#ProdutoMaterialEfêmero"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Local"/>
+        <rdfs:comment xml:lang="pt">Local em que um produto imaterial (eventos, etc) aconteceu, quando aplicável</rdfs:comment>
+        <rdfs:label xml:lang="pt">Aconteceu no Local</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#atividadesSãoRelacionadas -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#atividadesSãoRelacionadas">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Atividade"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Atividade"/>
+        <rdfs:comment xml:lang="pt">Indica que duas atividades têm alguma relação entre si, de forma genérica. Pode ser usada pra indicar sub-atividades, atividades que causaram outras atividades ou outro tipo de relação</rdfs:comment>
+        <rdfs:label xml:lang="pt">Atividades São Relacionadas</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#executadaNoLocal -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#executadaNoLocal">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Atividade"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Local"/>
+        <rdfs:comment xml:lang="pt">Indica em qual lugar a atividade foi executada</rdfs:comment>
+        <rdfs:label xml:lang="pt">Executada no Local</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#integranteDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#integranteDe">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#temIntegrante"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Agente"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Organização"/>
+        <rdfs:comment xml:lang="pt">Indica que um Agente é parte de uma Organização</rdfs:comment>
+        <rdfs:label xml:lang="pt">Integrante de</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#participaçãoComPapel -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#participaçãoComPapel">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#RelacionadorParticipanteAtividade"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#PapelParticipante"/>
+        <rdfs:comment xml:lang="pt">Indica o papel com o qual o participante participou da atividade</rdfs:comment>
+        <rdfs:label xml:lang="pt">Participação com Papel de</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#realizadaPeloGrupo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#realizadaPeloGrupo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Atividade"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#GrupoPET"/>
+        <rdfs:comment xml:lang="pt">Indica qual grupo é o responsável pela realização da atividade</rdfs:comment>
+        <rdfs:label xml:lang="pt">Realizada pelo Grupo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#referenteAoParticipante -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#referenteAoParticipante">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#RelacionadorParticipanteAtividade"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Agente"/>
+        <rdfs:comment xml:lang="pt">A qual participante se refere o relacionador</rdfs:comment>
+        <rdfs:label xml:lang="pt">Referente ao Participante</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#referenteÀAtividade -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#referenteÀAtividade">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#RelacionadorParticipanteAtividade"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Atividade"/>
+        <rdfs:comment xml:lang="pt">A qual atividade se refere esse relacionador</rdfs:comment>
+        <rdfs:label xml:lang="pt">Referente à Atividade</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#temDataRealização -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#temDataRealização">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#ProdutoMaterialEfêmero"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Período"/>
+        <rdfs:comment xml:lang="pt">Indica data em que um produto efêmero foi realizado, quando aplicável</rdfs:comment>
+        <rdfs:label xml:lang="pt">Tem Data de Realização</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#temEstadoAtividade -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#temEstadoAtividade">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Atividade"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#EstadoAtividade"/>
+        <rdfs:comment xml:lang="pt">Qual o estado atual da atividade</rdfs:comment>
+        <rdfs:label xml:lang="pt">Tem Estado de Execução</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#temEstudante -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#temEstudante">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#temIntegrante"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Pessoa"/>
+        <rdfs:comment xml:lang="pt">Indica que um estudante que pertence à organização</rdfs:comment>
+        <rdfs:label xml:lang="pt">Tem Estudante</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#temIntegrante -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#temIntegrante">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Organização"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Agente"/>
+        <rdfs:comment xml:lang="pt">Indica que uma organização tem um integrante</rdfs:comment>
+        <rdfs:label xml:lang="pt">Tem Integrante</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#temPeríodoDeExecução -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#temPeríodoDeExecução">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Atividade"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Período"/>
+        <rdfs:comment xml:lang="pt">Período durante o qual a atividade estava em execução</rdfs:comment>
+        <rdfs:label xml:lang="pt">Tem Período de Execução</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#temResultado -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#temResultado">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Atividade"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Produto"/>
+        <rdfs:comment xml:lang="pt">Indica um produto que foi feito como resultado de uma atividade</rdfs:comment>
+        <rdfs:label xml:lang="pt">Tem Resultado</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#temTutor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#temTutor">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#temIntegrante"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Pessoa"/>
+        <rdfs:comment xml:lang="pt">Indica que um tutor pertenca à organização</rdfs:comment>
+        <rdfs:label xml:lang="pt">Tem Tutor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#éTipoAtividade -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#éTipoAtividade">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Atividade"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#TipoAtividade"/>
+        <rdfs:comment xml:lang="pt">Indica um tipo da atividade (ensino, extensão, pesquisa). Pode ter mais de um por atividade quando elas forem mixtas</rdfs:comment>
+        <rdfs:label xml:lang="pt">Atividade é do Tipo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#atividadesDesenvolvidas -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#atividadesDesenvolvidas">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#descrição"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#RelacionadorRealizadorAtividade"/>
+        <rdfs:comment xml:lang="pt">Descrição das atividades desenvolvidas por um realizador</rdfs:comment>
+        <rdfs:label xml:lang="pt">Atividades Desenvolvidas</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#avaliação -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#avaliação">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#descrição"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Atividade"/>
+        <rdfs:comment xml:lang="pt">Texto avaliando a realização da atividade</rdfs:comment>
+        <rdfs:label xml:lang="pt">Avaliação</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#descrição -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#descrição">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="pt">Texto descrevendo algum aspecto do objeto</rdfs:comment>
+        <rdfs:label xml:lang="pt">Descrição</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#horasTrabalhoAtividade -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#horasTrabalhoAtividade">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Atividade"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:comment xml:lang="pt">Quantas horas de trabalho uma atividade tomou no total. Carga horária total.</rdfs:comment>
+        <rdfs:label xml:lang="pt">Horas de Trabalho da Atividade</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#horasTrabalhoRealizador -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#horasTrabalhoRealizador">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#RelacionadorRealizadorAtividade"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:comment xml:lang="pt">Quantas horas um realizador trabalhou em uma atividade. Carga horária do realizador.</rdfs:comment>
+        <rdfs:label xml:lang="pt">Horas de Trabalho do Realizador</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#justificativa -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#justificativa">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#descrição"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Atividade"/>
+        <rdfs:comment xml:lang="pt">Texto explicando o motivo da realização da atividade</rdfs:comment>
+        <rdfs:label xml:lang="pt">Justificativa</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#metodologia -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#metodologia">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#descrição"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Atividade"/>
+        <rdfs:comment xml:lang="pt">Texto explicando como a atividade foi/será realizada</rdfs:comment>
+        <rdfs:label xml:lang="pt">Metodologia</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#metodologiaAvaliação -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#metodologiaAvaliação">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#descrição"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Atividade"/>
+        <rdfs:label xml:lang="pt">Metodologia de Avaliação</rdfs:label>
+        <owl:versionInfo xml:lang="pt">Texto expli
+cando como será o processo de avaliação da atividade</owl:versionInfo>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#objetivo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#objetivo">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#descrição"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Atividade"/>
+        <rdfs:comment xml:lang="pt">Texto descrevendo objetivos da atividade</rdfs:comment>
+        <rdfs:label xml:lang="pt">Objetivo</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#palavra-chave -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#palavra-chave">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#descrição"/>
+        <rdfs:comment xml:lang="pt">Palavra-chave que descreve um objeto</rdfs:comment>
+        <rdfs:label xml:lang="pt">Palavra-chave</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#resultadoEsperado -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#resultadoEsperado">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#descrição"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Atividade"/>
+        <rdfs:comment xml:lang="pt">Texto descrevendo quais são os resultados (produtos) que se deseja alcançar com a atividade</rdfs:comment>
+        <rdfs:label xml:lang="pt">Resultado Esperado</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#títuloAtividade -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#títuloAtividade">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/name"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Atividade"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="pt">Título da Atividade</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://geovocab.org/spatial#Feature -->
+
+    <rdf:Description rdf:about="http://geovocab.org/spatial#Feature">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Local"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Agente -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Agente">
+        <owl:equivalentClass rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:label xml:lang="pt">Agente</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Atividade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Atividade">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Project"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#temEstadoAtividade"/>
+                        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#títuloAtividade"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="pt">Um conjunto de ações realizadas por um conjunto de agentes com o objetivo comum de produzir certos resultados.</rdfs:comment>
+        <rdfs:label xml:lang="pt">Atividade</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Documento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Documento">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#ProdutoMaterialPermanente"/>
+                    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Document"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="pt">Documento produzido com uma atividade. Artigo, site, post, vídeo, etc.</rdfs:comment>
+        <rdfs:label xml:lang="pt">Documento</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#EstadoAtividade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#EstadoAtividade">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Concluída"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#EmExecução"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Interrompida"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#NãoIniciada"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:comment xml:lang="pt">Estado de execução em que se encontra a atividade. Se já foi iniciada ou se já acabou.</rdfs:comment>
+        <rdfs:label xml:lang="pt">Estado de Execução da Atividade</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Evento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Evento">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#ProdutoMaterialEfêmero"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#aconteceuNoLocal"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="pt">Realização ou participação em um evento</rdfs:comment>
+        <rdfs:label xml:lang="pt">Evento</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#GrupoPET -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#GrupoPET">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Organização"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#integranteDe"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#IES"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#temEstudante"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#temTutor"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="pt">Grupo PET</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#IES -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#IES">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Organização"/>
+        <rdfs:label xml:lang="pt">Instituto de Ensino Superior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Local -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Local">
+        <rdfs:label xml:lang="pt">Local</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Organização -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Organização">
+        <owl:equivalentClass rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Agente"/>
+        <rdfs:label xml:lang="pt">Organização</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#PapelParticipante -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#PapelParticipante">
+        <rdfs:comment xml:lang="pt">Papel de um participante em uma atividade (coordenador, realizador, ajudante, participante, patrocinador, etc)</rdfs:comment>
+        <rdfs:label xml:lang="pt">Papel do Participante</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#PapelPúblico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#PapelPúblico">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#PapelParticipante"/>
+        <rdfs:comment xml:lang="pt">Papel de um participante que faz parte do público, como alguém assistindo uma palestra, vendo uma exposição, aluno de uma oficina, etc.</rdfs:comment>
+        <rdfs:label xml:lang="pt">Papel de Público</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#PapelRealizador -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#PapelRealizador">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#PapelParticipante"/>
+        <rdfs:comment xml:lang="pt">Papel de uma pessoa que ajuda a executar uma atividade (organizador, coordenador, etc)</rdfs:comment>
+        <rdfs:label xml:lang="pt">Papel de Realizador</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Período -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Período">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2006/time#DateTimeInterval"/>
+        <rdfs:comment xml:lang="pt">Período de tempo com começo, fim, duração e outras coisas definidas na owl-time</rdfs:comment>
+        <rdfs:label xml:lang="pt">Período de Tempo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Pessoa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Pessoa">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Agente"/>
+                    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://xmlns.com/foaf/0.1/name"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="pt">foaf:Agent com algumas particularidades para essa ontologia</rdfs:comment>
+        <rdfs:label xml:lang="pt">Pessoa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Produto -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Produto">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://xmlns.com/foaf/0.1/name"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="pt">Um resultado da execução de uma atividade.</rdfs:comment>
+        <rdfs:label xml:lang="pt">Produto</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#ProdutoImaterial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#ProdutoImaterial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Produto"/>
+        <rdfs:comment xml:lang="pt">Entidades não materiais que são produzidas como resultado de uma atividade como conhecimento, interesse, relacionamentos, etc</rdfs:comment>
+        <rdfs:label xml:lang="pt">Produto Imaterial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#ProdutoMaterial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#ProdutoMaterial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Produto"/>
+        <rdfs:comment xml:lang="pt">Produtos que existem físicamente. Artefatos, eventos, etc</rdfs:comment>
+        <rdfs:label xml:lang="pt">Produto Material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#ProdutoMaterialEfêmero -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#ProdutoMaterialEfêmero">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#ProdutoMaterial"/>
+        <rdfs:comment xml:lang="pt">Produto material que acontece por um período de tempo e deixa de existir. Aulas, eventos, oficinas, etc</rdfs:comment>
+        <rdfs:label xml:lang="pt">Produto Material Efêmero</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#ProdutoMaterialPermanente -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#ProdutoMaterialPermanente">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#ProdutoMaterial"/>
+        <rdfs:comment xml:lang="pt">Produtos materiais que continuam a existir após a conclusão da atividade</rdfs:comment>
+        <rdfs:label xml:lang="pt">Produto Material Permanente</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#RelacionadorParticipanteAtividade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#RelacionadorParticipanteAtividade">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#participaçãoComPapel"/>
+                        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#referenteAoParticipante"/>
+                        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#referenteÀAtividade"/>
+                        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="pt">Reificação da participação de um agente em uma atividade</rdfs:comment>
+        <rdfs:label xml:lang="pt">Relacionador Participante-Atividade</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#RelacionadorRealizadorAtividade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#RelacionadorRealizadorAtividade">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#RelacionadorParticipanteAtividade"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#participaçãoComPapel"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#PapelRealizador"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:comment xml:lang="pt">Reificação da participação de um agente em uma atividade no papel de realizador</rdfs:comment>
+        <rdfs:label xml:lang="pt">Relacionador Realizador-Atividade</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#TipoAtividade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#TipoAtividade">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Ensino"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Extensão"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Pesquisa"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:comment xml:lang="pt">Se é uma atividade de ensino, pesquisa, extensão ou alguma mistura das três</rdfs:comment>
+        <rdfs:label xml:lang="pt">Tipo da Atividade</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/time#DateTimeInterval -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#DateTimeInterval"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Agent -->
+
+    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Agent"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Organization -->
+
+    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Organization"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Concluída -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Concluída">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#EstadoAtividade"/>
+        <rdfs:label xml:lang="pt">Concluída</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#EmExecução -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#EmExecução">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#EstadoAtividade"/>
+        <rdfs:label xml:lang="pt">Em Execução</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Ensino -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Ensino">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#TipoAtividade"/>
+        <rdfs:label xml:lang="pt">Ensino</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Extensão -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Extensão">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#TipoAtividade"/>
+        <rdfs:label xml:lang="pt">Extensão</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Interrompida -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Interrompida">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#EstadoAtividade"/>
+        <rdfs:label xml:lang="pt">Interrompida</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#NãoIniciada -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#NãoIniciada">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#EstadoAtividade"/>
+        <rdfs:label xml:lang="pt">Não Iniciada</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Pesquisa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#Pesquisa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#TipoAtividade"/>
+        <rdfs:label xml:lang="pt">Pesquisa</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

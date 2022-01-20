@@ -1,0 +1,543 @@
+@base <http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet/peteco/> .
+@prefix atipet: <http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix peteco: <http://www.semanticweb.org/nicolas-abril/ontologies/atividades-pet/peteco/> .
+
+<Atividade/atividade_1> a atipet:Atividade;
+  atipet:títuloAtividade "Oficina De Python Oo";
+  atipet:realizadaPeloGrupo <GrupoPET/Engenharia%20de%20Computação>;
+  atipet:temEstadoAtividade atipet:NãoIniciada;
+  atipet:avaliação "Atividades extras foram realizadas em substituição.";
+  atipet:temPeríodoDeExecução <Período/atividade_1>;
+  atipet:horasTrabalhoAtividade 105.0;
+  atipet:justificativa "A oficina de orientação a objetos em Python é destinada aos estudantes dos cursos de Engenharia de Computação, Bacharelado em Sistemas de Informação e afins, que fizeram previamente o curso de Python básico, ou que já tenham conhecimento equivalente da linguagem. Python pode ser usada como uma forma de iniciar os estudantes nos principais elementos da orientação a objetos, e também como um recurso para aprender mais sobre interfaces gráficas, já que é uma linguagem aberta, com uma vasta quantidade de bibliotecas gráficas disponíveis e é dotada de uma sintaxe de fácil compreensão.";
+  atipet:objetivo "Explorar os conceitos da orientação a objetos com a linguagem Python, a fim de estimular os estudantes a utilizar a orientação a objetos no desenvolvimento de projetos acadêmicos e em meio profissional. Instigar os estudantes a procurar além dos conteúdos mostrados na oficina, para que encontrem novas formas de uso da linguagem.";
+  atipet:metodologia "Deverá ser realizada uma oficina composta por 5 encontros de três horas, totalizando 15h, e que será planejada e executada por 3 petianos. A oficina será organizada em torno de um projeto principal a ser executado, que propõe aos alunos a elaboração de um programa com interface gráfica e construído com uso dos conceitos de orientação a objetos adquiridos no curso. A partir das necessidades do projeto, apresentam-se os conceitos da orientação a objetos e sua sintaxe na linguagem Python. Então, inicia-se o acompanhamento da prática por parte dos instrutores. O material didático do curso será disponibilizado aos alunos para acesso remoto";
+  atipet:resultadoEsperado "Dos estudantes participantes da oficina, espera-se torná-los preparados para explorar a linguagem Python e a orientação a objetos no meio científico, acadêmico e profissional. Espera-se também promover nos estudantes uma postura ativa diante de seus estudos, buscando identificar os problemas e desenvolvendo soluções. Para os petianos envolvidos, a atividade proporciona desenvolvimento da habilidade de comunicação em público e no processo de ensino/aprendizagem. Ajuda-os a lidarem com situações adversas que podem ocorrer no processo de ensino, bem como a lidar com possíveis críticas e como melhorar a partir delas. Também promove a integração dos membros do grupo PET já que devem trabalhar de forma cooperativa.";
+  atipet:metodologiaAvaliação "O responsável pela oficina aplicará um questionário ao final do curso, a fim de obter um feedback sobre a metodologia de ensino e percepção da qualidade do curso por parte dos alunos(as). Internamente, o responsável fará um relato ao grupo com os dados obtidos dos questionários, e com base na vivência em sala de aula. Todos discutem possíveis melhorias, e um relatório será redigido com os pontos fortes e fracos do curso, junto com as correções propostas para que as edições futuras sejam melhoradas." .
+
+<IES/Universidade%20Tecnológica%20Federal%20Do%20Paraná> a atipet:IES;
+  foaf:name "Universidade Tecnológica Federal Do Paraná";
+  atipet:temIntegrante <GrupoPET/Engenharia%20de%20Computação> .
+
+<GrupoPet/Engenharia%20de%20Computação> a atipet:GrupoPET;
+  foaf:name "Engenharia de Computação";
+  atipet:integranteDe <IES/Universidade%20Tecnológica%20Federal%20Do%20Paraná> .
+
+<Período/atividade_1> a atipet:Período;
+  time:hasBeginning <Instant/2019-02-04>;
+  time:hasEnd <Instant/2019-04-26> .
+
+<Instant/2019-02-04> a time:Instant;
+  time:inDateTime <DateTimeDescription/2019-02-04> .
+
+<Instant/2019-04-26> a time:Instant;
+  time:inDateTime <DateTimeDescription/2019-04-26> .
+
+<DateTimeDescription/2019-02-04> a time:DateTimeDescription;
+  time:unitType time:unitDay;
+  time:day "04"^^xsd:gDay;
+  time:month "02"^^xsd:gMonth;
+  time:year "2019"^^xsd:gYear .
+
+<DateTimeDescription/2019-04-26> a time:DateTimeDescription;
+  time:unitType time:unitDay;
+  time:day "26";
+  time:month "04"^^xsd:gMonth;
+  time:year "2019"^^xsd:gYear .
+
+<Atividade/atividade_2> a atipet:Atividade;
+  atipet:títuloAtividade "Minicurso De Latex";
+  atipet:realizadaPeloGrupo <GrupoPET/Engenharia%20de%20Computação>;
+  atipet:temEstadoAtividade atipet:NãoIniciada;
+  atipet:avaliação "Substituído por atividade não planejada.";
+  atipet:temPeríodoDeExecução <Período/atividade_2>;
+  atipet:horasTrabalhoAtividade 24.0;
+  atipet:justificativa "LaTeX é um editor de textos gratuito de alta qualidade tipográfica, muito utilizado na produção de textos matemáticos e científicos e, portanto, muito útil para os acadêmicos da UTFPR para realização de trabalhos e artigos. LaTeX permite aos usuários uma série de automatismos que os livram de tarefas recorrentes e sujeitas a erros como numeração de figuras e títulos, construção de índices remissivos, paginação e posicionamento de figuras e tabelas";
+  atipet:objetivo "Capacitar os estudantes a compreenderem o básico de LaTeX de forma que tenham autonomia para aprender opções avançadas e possam utilizá-la em trabalhos acadêmicos.";
+  atipet:metodologia "A atividade consistirá em dois encontros, de duas horas e meia cada, totalizando 5 horas. O minicurso será ofertado uma vez ao ano. Serão utilizados recursos visuais para as aulas, tais como slides, vídeos e afins, além do incentivo à prática das técnicas mostradas expositivamente. Após os encontros, o material usado será disponibilizado aos alunos. O público alvo são estudantes dos cursos de Engenharia de Computação, BSI, demais engenharias e licenciatura em Matemática. Dois integrantes do grupo PET são necessários para ministrar a oficina.";
+  atipet:resultadoEsperado "Dotar os estudantes dos cursos de Engenharia de Computação e afins de habilidades básicas para editar textos científicos em ferramentas gratuitas. Valorizar os estudantes envolvidos profissionalmente pelas habilidades adquiridas. Fazer com que desenvolvam um olhar crítico sobre o uso de ferramentas abertas, suas vantagens e inconveniências, além de aspectos essenciais não abordados comumente em aulas, mas que são essenciais para a formação de um cidadão, como o uso de software pirata. Material didático produzido para o curso será disponibilizado aos estudantes.";
+  atipet:metodologiaAvaliação "O responsável pela oficina aplicará um questionário ao final do curso sobre a metodologia de ensino e percepção da qualidade do curso por parte dos alunos(as). Um campo livre permite aos estudantes criticarem e sugerirem mudanças. Internamente, o responsável fará um relato ao grupo com os dados obtidos dos questionários e todos discutirão possíveis melhorias. Um relatório será redigido com os pontos fortes e fracos do curso com as correções propostas." .
+
+<Período/atividade_2> a atipet:Período;
+  time:hasBeginning <Instant/2019-03-10>;
+  time:hasEnd <Instant/2019-05-23> .
+
+<Instant/2019-03-10> a time:Instant;
+  time:inDateTime <DateTimeDescription/2019-03-10> .
+
+<Instant/2019-05-23> a time:Instant;
+  time:inDateTime <DateTimeDescription/2019-05-23> .
+
+<DateTimeDescription/2019-03-10> a time:DateTimeDescription;
+  time:unitType time:unitDay;
+  time:day "10"^^xsd:gDay;
+  time:month "03"^^xsd:gMonth;
+  time:year "2019"^^xsd:gYear .
+
+<DateTimeDescription/2019-05-23> a time:DateTimeDescription;
+  time:unitType time:unitDay;
+  time:day "23";
+  time:month "05"^^xsd:gMonth;
+  time:year "2019"^^xsd:gYear .
+
+<Atividade/atividade_3> a atipet:Atividade;
+  atipet:títuloAtividade "Oficina De Instalação De Linux";
+  atipet:realizadaPeloGrupo <GrupoPET/Engenharia%20de%20Computação>;
+  atipet:temEstadoAtividade atipet:NãoIniciada;
+  atipet:avaliação "Atividade não realizada. Outros cursos foram realizados em substituição.";
+  atipet:temPeríodoDeExecução <Período/atividade_3>;
+  atipet:horasTrabalhoAtividade 15.0;
+  atipet:justificativa "LINUX é um sistema operacional gratuito e confiável, porém sua instalação e uso não é fácil para novos usuários. Constitui-se em ferramenta importante para alunos de engenharia e computação, além de ser utilizado em ambientes acadêmicos e empresariais. Esta oficina faz uma introdução a sistemas Linux, seu funcionamento e sua utilização. Serão apresentadas algumas ferramentas e diferenças entre o Linux e outros sistemas. O domínio de sistemas Linux é importante para estudantes na área da computação por ser o principal sistema operacional livre existente, estando presente em grande parte dos computadores, servidores e outros dispositivos.";
+  atipet:objetivo "Capacitar os estudantes a instalar o sistema operacional Linux. Promover conscientização sobre a importância do uso e desenvolvimento de software livre. Divulgar ferramentas livres e gratuitas para sistemas Linux.";
+  atipet:metodologia "A atividade consistirá em um encontro de três horas. O curso será ofertado uma vez ao ano por dois instrutores de forma concomitante. O público alvo são estudantes dos cursos de Engenharia de Computação e Sistemas de Informação, mas está aberto a todos os demais interessados, principalmente, das áreas de engenharia, física e matemática. Os participantes irão ver uma demonstração e em seguida instalar o Linux em seus próprios computadores ou em máquinas virtuais. Ao final da oficina, responderão um questionário de avaliação da metodologia de ensino e percepção da qualidade do curso.";
+  atipet:resultadoEsperado "Dotar os estudantes dos cursos de Engenharia de Computação e afins de competência básica para instalação e futuro uso de um sistema operacional muito utilizado no mundo acadêmico e empresarial, complementando a formação dos mesmos.";
+  atipet:metodologiaAvaliação "O responsável pela oficina aplicará um questionário ao final do curso sobre a metodologia de ensino e percepção da qualidade do curso por parte dos alunos(as). Um campo livre permite aos estudantes criticarem e sugerirem mudanças. Internamente, o responsável fará um relato ao grupo com os dados obtidos dos questionários e todos discutirão possíveis melhorias. Um relatório será redigido com os pontos fortes e fracos do curso com as correções propostas." .
+
+<Período/atividade_3> a atipet:Período;
+  time:hasBeginning <Instant/2019-02-25>;
+  time:hasEnd <Instant/2019-04-28> .
+
+<Instant/2019-02-25> a time:Instant;
+  time:inDateTime <DateTimeDescription/2019-02-25> .
+
+<Instant/2019-04-28> a time:Instant;
+  time:inDateTime <DateTimeDescription/2019-04-28> .
+
+<DateTimeDescription/2019-02-25> a time:DateTimeDescription;
+  time:unitType time:unitDay;
+  time:day "25"^^xsd:gDay;
+  time:month "02"^^xsd:gMonth;
+  time:year "2019"^^xsd:gYear .
+
+<DateTimeDescription/2019-04-28> a time:DateTimeDescription;
+  time:unitType time:unitDay;
+  time:day "28";
+  time:month "04"^^xsd:gMonth;
+  time:year "2019"^^xsd:gYear .
+
+<Atividade/atividade_4> a atipet:Atividade;
+  atipet:títuloAtividade "Oficina De Arduino Básico";
+  atipet:realizadaPeloGrupo <GrupoPET/Engenharia%20de%20Computação>;
+  atipet:temEstadoAtividade atipet:Concluída;
+  atipet:avaliação "Realizado no mês de setembro, passou por todas as etapas como previsto no planejamento (preparação, divulgação, realização e avaliação). O curso teve uma grande procura, sendo notável a diversidade dos cursos dos interessados na etapa de inscrição. Os participantes eram de cursos variados: Engenharias Eletrônica, Mecânica e Elétrica, todos da UTFPR. Também atraiu participantes da UFPR, um do curso de Farmácia e outro de Engenharia Civil, além de um participante do Coral da UTFPR. Para a realização da oficina, foi requisitado aos alunos um aplicativo gratuito para interação com o módulo do HC05. O PETECO emprestou onze placas Arduino Uno, jumpers, sensores HC05, resistores e leds durante as aulas para a realização das atividades propostas Também notamos que a modificação do cronograma da oficina, que consistiu em agregar toda a carga horária de projeto em um único dia, foi satisfatória. Esta modificação proporcionou tempo para um projeto maior e contribuiu para diminuir o índice de desistência dos participantes. A metodologia da aula foi baseada em slides, esquemas no quadro, assistência individual dos petianos na fase de projeto prático, além do programa do projeto ter sido programado ao mesmo tempo com os participantes da oficina, tornando a aula mais interessante, intuitiva e dinâmica.";
+  atipet:temPeríodoDeExecução <Período/atividade_4>;
+  atipet:horasTrabalhoAtividade 78.0;
+  atipet:justificativa "O curso de Programação e Eletrônica Básica com Arduino é voltado principalmente para que os recém-ingressos nos cursos de Engenharia de Computação e afins entrem em contato com as disciplinas de programação e eletrônica de modo prático. Arduino é um projeto aberto de hardware que, quando implementado, provê uma plataforma de prototipagem rápida de artefatos que envolvem hardware e software. Uma implementação de Arduino é uma placa com um microcontrolador que pode ser programado em C/C++. Como Arduino é uma plataforma muito difundida e utilizada em diversos projetos de eletrônica, promove-se um maior contato dos estudantes com atividades práticas relacionadas aos seus cursos de graduação e, em particular, ao de Engenharia de Computação.";
+  atipet:objetivo "Capacitar os estudantes de Engenharia de Computação e de cursos afins a utilizar uma plataforma microcontrolada bastante difundida mundialmente que possibilita a criação de inúmeras aplicações onde haja sensoriamento, processamento (controle) e atuação. Outro objetivo é o de motivar os estudantes para que vislumbrem novas perspectivas de atuação no mercado de trabalho e para que desenvolvam o espírito de realização de projetos.";
+  atipet:metodologia "Um curso será ofertado com 4 encontros de 3h de duração, totalizando 12 horas. São necessários 2 integrantes do grupo PET para auxiliar os estudantes com a parte prática. De forma geral, o curso inicia por uma rápida exposição dos conceitos básicos de programação e eletrônica, são eles: funções, loops, configuração de pinos do Arduino e comunicação serial. Em seguida, adota-se uma metodologia baseada em projetos e exploração de possibilidades com o Arduino. São exemplos de projetos: dado com leds e mensagem fantasma por serial. Alguns dos projetos sugeridos são extraídos do livro 30 Projetos com Arduino de Simon Monk.";
+  atipet:resultadoEsperado "Este curso deve incentivar alunos a desenvolverem projetos concretos e a produzirem conhecimentos técnicos que não são abordados nas grades curriculares dos seus cursos de graduação. Isto também motiva o estudante no seu curso, podendo minimizar as retenções em disciplinas. Ao final da oficina, cada estudante terá produzido um projeto.";
+  atipet:metodologiaAvaliação "O responsável pela oficina aplicará um questionário ao final do curso sobre a metodologia de ensino e percepção da qualidade do curso por parte dos alunos(as). Ao final do questionário, há um campo texto livre, no qual os alunos podem criticar ou sugerir mudanças. Internamente, o responsável fará um relato ao grupo com os dados obtidos dos questionários e todos discutirão possíveis melhorias. Um relatório será redigido com os pontos fortes e fracos do curso com as correções propostas." .
+
+<Período/atividade_4> a atipet:Período;
+  time:hasBeginning <Instant/2019-07-23>;
+  time:hasEnd <Instant/2019-12-21> .
+
+<Instant/2019-07-23> a time:Instant;
+  time:inDateTime <DateTimeDescription/2019-07-23> .
+
+<Instant/2019-12-21> a time:Instant;
+  time:inDateTime <DateTimeDescription/2019-12-21> .
+
+<DateTimeDescription/2019-07-23> a time:DateTimeDescription;
+  time:unitType time:unitDay;
+  time:day "23"^^xsd:gDay;
+  time:month "07"^^xsd:gMonth;
+  time:year "2019"^^xsd:gYear .
+
+<DateTimeDescription/2019-12-21> a time:DateTimeDescription;
+  time:unitType time:unitDay;
+  time:day "21";
+  time:month "12"^^xsd:gMonth;
+  time:year "2019"^^xsd:gYear .
+
+<Atividade/atividade_5> a atipet:Atividade;
+  atipet:títuloAtividade "Petecotube";
+  atipet:realizadaPeloGrupo <GrupoPET/Engenharia%20de%20Computação>;
+  atipet:temEstadoAtividade atipet:Concluída;
+  atipet:avaliação "Conforme previsto, três vídeos foram realizados e publicados na plataforma YouTube totalizando cerca de 31 minutos de filme. As produções foram sobre o curso de Engenharia de Computação e sobre como montar um projetor caseiro de vídeo. * Vídeos sobre o curso de Engenharia de Computação: 1) Curso de Engenharia de Computação - Parte 1 (9'), 472 visualizações, 34 likes e 0 dislike, de 21/11/2019 até 14/1/2020 (disponível em: https://www.youtube.com/watch?v=rj-PNFmcIpQ) 2) Curso de Engenharia de Computação - Parte 2 (3min 21s), 149 visualizações, 17 likes e 1 dislike, de 17/12/2019 até 14/1/2020 (disponível em https://www.youtube.com/watch?v=oNgzlLrBMJM) * Como fazer um projetor caseiro? (18min 34s), 1.327 visualizações, 46 likes, 6 dislikes, de 31/3/2019 até 14/1/2020 (disponível em https://www.youtube.com/watch?v=f4oL81-dnWA&t=951s) A atividade atingiu plenamente os resultados esperados porque permitiu aos envolvidos um maior contato com o coordenador de curso de Engenharia de Computação, com os responsáveis do estúdio de filmagem (pessoal de EaD), dos laboratórios de pesquisa e com outros estudantes que forneceram vídeos de seus projetos de oficinas. Em avaliações internas, o grupo fez sugestões quanto ao tempo de execução dos vídeos para que não fossem demasiados longos. Em relação aos demais aspectos (qualidade do vídeo, locução, apresentação, conteúdo), a avaliação foi positiva, o que pode ser percebido pelas avaliações likes x dislikes dos vídeos.";
+  atipet:temPeríodoDeExecução <Período/atividade_5>;
+  atipet:horasTrabalhoAtividade 1800.0;
+  atipet:justificativa "Envolve o desenvolvimento e difusão de produções audiovisuais de divulgação do grupo, ensino e extensão por meio de um canal no YouTube. Os integrantes do grupo PET realizam vídeos de oficinas com conteúdos relacionados à engenharia e computação, entrevistas com pesquisadores e apresentação de curiosidades da área tecnológica. Publicar vídeos concisos e chamativos, além de aumentar a visibilidade do grupo junto aos estudantes da UTFPR e à comunidade externa, desmistifica tecnologias, difunde conhecimento, desperta interesse pela engenharia e computação e convida os espectadores a participarem de maneira mais comprometida com as atividades propostas pela equipe PET.";
+  atipet:objetivo "Motivar estudantes do ensino médio a atuar nas áreas de engenharia e computação por meio de vídeos que ilustram problemas relacionados a estas áreas ou afins. Chamar a atenção de recém ingressantes nos cursos de graduação da UTFPR às relações existentes entre aplicações interessantes e conteúdos fundamentais ligados à engenharia e à computação. Aumentar o alcance das ações desenvolvidas pelo grupo em direção à comunidade externa (ex. público geral - amantes e curiosos da tecnologia).";
+  atipet:metodologia "Prevê-se a participação de ao menos 3 integrantes do grupo PET por produção audiovisual. Para cada uma delas, as seguintes etapas estão previstas: 1) elaboração de argumento e roteiro: definir o que gravar, com qual finalidade, para qual público e como gravar; 2) pré-produção: é a preparação para a gravação e envolve definir datas, horários e locais de gravação com entrevistados/atores e equipe de gravação, realizar ensaios, providenciar equipamentos, cenários, objetos de cena, figurinos, planejar deslocamentos; 3) produção e captação: capturar som e vídeo e coletar autorizações para uso de imagem dos envolvidos; 3) edição e montagem; 4) publicação no canal e acompanhamento. Os membros do grupo PET farão ao menos três produções audiovisuais no ano de 2019. Na etapa de pré-produção, serão convidados professores e pesquisadores da UTFPR ou de outras universidades/organizações para entrevistas ou explicações. Conteúdos de ensino, de percurso em Engenhariade Computação ou de divulgação do grupo também serão produzidos pelos próprios membros do grupo PET.";
+  atipet:resultadoEsperado "Além das próprias produções que serão realizadas e postadas no canal YouTube (3 produções), a execução da atividade motiva os membros do grupo PET a buscarem por informações e pessoas conhecedoras de áreas ou assuntos que despertam interesse nas áreas de engenharia e computação aumentando a atratividade e a visibilidade dos cursos, principalmente para a comunidade externa. Também permite aos petianos construir um inventário de pessoas relacionadas a áreas que julgam interessantes e relevantes. Em última análise, permite-lhes ampliar a rede de contatos o que pode trazer benefícios para a carreira acadêmica ou profissional. Exercita o trabalho em equipe e desenvolve a habilidade de planejar e executar o planejado. Nos espectadores, provê a possibilidade de relacionar conteúdos vistos em sala de aula com pesquisas científicas ou com aplicações tecnológicas em uma linguagem bastante usual aumentando o interesse dos estudantes e do público em geral pelos conteúdos difundidos.";
+  atipet:metodologiaAvaliação "A atividade será analisada basicamente pelo número de pessoas atingidas e pela qualidade dos conteúdos. A análise de pessoas atingidas (quantitativa) será baseada no número de visualizações e a qualitativa, nos comentários postados, bem como em avaliações internas feitas pelos integrantes do grupo PET." .
+
+<Período/atividade_5> a atipet:Período;
+  time:hasBeginning <Instant/2019-02-04>;
+  time:hasEnd <Instant/2019-12-20> .
+
+<Instant/2019-12-20> a time:Instant;
+  time:inDateTime <DateTimeDescription/2019-12-20> .
+
+<DateTimeDescription/2019-12-20> a time:DateTimeDescription;
+  time:unitType time:unitDay;
+  time:day "20";
+  time:month "12"^^xsd:gMonth;
+  time:year "2019"^^xsd:gYear .
+
+<Atividade/atividade_6> a atipet:Atividade;
+  atipet:títuloAtividade "Minicurso Html E Css";
+  atipet:realizadaPeloGrupo <GrupoPET/Engenharia%20de%20Computação>;
+  atipet:temEstadoAtividade atipet:Concluída;
+  atipet:avaliação "Coordenada e executada pelo estudante Victor Menuzzo, apoiada por Paula Rodriguez e Saulo, a atividade ocorreu entre 17/3 e 17/4 (4 encontros de 2 horas cada). Todos os participantes receberam os slides com o conteúdo elaborado pelos petianos no formato Power Point. Também, foram enviados os programas criados e utilizados em demonstrações na sala de aula. A oficina teve por objetivo incentivar alunos (independente do curso) a aprenderem conceitos básicos de programação por meio de uma linguagem destinada a construção de páginas Web. O público alvo foi de estudantes da UTFPR de cursos e períodos variados, tendo 30 inscritos e 20 concluintes (67%). Os concluintes avaliaram positivamente o curso em relação ao conteúdo e a dinâmica das aulas. 5% dos concluintes disseram que o conteúdo foi muito básico, sendo uma ação corretiva ofertar o curso apenas para estudantes dos três primeiros períodos.";
+  atipet:temPeríodoDeExecução <Período/atividade_6>;
+  atipet:horasTrabalhoAtividade 62.0;
+  atipet:justificativa "O minicurso fornece aos alunos conceitos básicos de programação web, introduzindo inicialmente HTML para poderem criar o esqueleto de páginas Web. Conceitos básicos de listas, matrizes, cabeçalhos e afins são introduzidos concomitantemente. Para estilizarem as páginas Web, é introduzido o conteúdo de CSS, onde conceitos de porcentagem de ocupação de elementos da página, pixels, formas, cores e imagens são apresentados e praticados. Por fim, uma tarefa que permite aos estudantes conjugarem os elementos aprendidos na criação de uma página personalizada por estudante.";
+  atipet:objetivo "Incentivar os alunos de todos os cursos a programarem de forma lúdica em uma área que não é ofertada diretamente nas grades curriculares. Considerando-se que é um tema atrativo, espera-se aumentar a curiosidade e interesse pela lógica de programação além da possibilidade de abertura de horizontes para novos nichos de atuação no mercado de trabalho.";
+  atipet:metodologia "A oficina terá 4 encontros de 2 horas cada, totalizando 8 horas. Cada encontro será dividido em explicação/demonstração e criação de projetos utilizando os conceitos apresentados. O primeiro encontro será para familiarização dos estudantes com o editor de texto, serão também apresentados conceitos de HTML, como cabeçalho, listas, links, palavras-chave, títulos, subtítulos, fontes e estilos de fonte. No segundo encontro, continuaremos com os conceitos de HTML, porém mais específicos. Serão apresentados os conceitos de matrizes, listas, inserção de imagem e formulários. No terceiro encontro iniciaremos com o conteúdo de CSS (Cascade Style Sheet), iniciaremos pela junção de HTML com CSS. Em seguida, será apresentado como inserir cores, mudar tamanho de elementos da página Web, colocar bordas e conceitos de background. O último encontro está destinado para ensinarmos a estilizar matrizes e formulários. Também será realizado o trabalho final.";
+  atipet:resultadoEsperado "Estimular os estudantes a desenvolverem projetos concretos e a aprenderem ferramentas e técnicas que que não são abordadas nas grades curriculares dos cursos. Prover conhecimento sobre as diversas áreas de aplicação de conhecimento web além de aplicação em projetos pessoais. Sendo uma área interdisciplinar, desenvolve habilidades importantes na interação com pessoas de diversas áreas (ex. designers, programadores). Para os petianos, desenvolve a habilidade de comunicação em público e do processo de ensino/aprendizagem. Aumenta a interação com alunos/as de diferentes períodos e cursos servindo como elementos integradores.";
+  atipet:metodologiaAvaliação "A petiana(o) responsável controlará a frequência e o desenvolvimento dos projetos e aplicará um questionário ao final do curso sobre a metodologia de ensino e percepção da qualidade do curso por parte dos alunos. Internamente, a petiana(o) responsável fará um relato ao grupo com os dados obtidos dos questionários e todos discutirão possíveis melhorias. Um relatório será redigido com os pontos fortes e fracos do curso com as correções propostas." .
+
+<Período/atividade_6> a atipet:Período;
+  time:hasBeginning <Instant/2019-03-17>;
+  time:hasEnd <Instant/2019-04-17> .
+
+<Instant/2019-03-17> a time:Instant;
+  time:inDateTime <DateTimeDescription/2019-03-17> .
+
+<Instant/2019-04-17> a time:Instant;
+  time:inDateTime <DateTimeDescription/2019-04-17> .
+
+<DateTimeDescription/2019-03-17> a time:DateTimeDescription;
+  time:unitType time:unitDay;
+  time:day "17"^^xsd:gDay;
+  time:month "03"^^xsd:gMonth;
+  time:year "2019"^^xsd:gYear .
+
+<DateTimeDescription/2019-04-17> a time:DateTimeDescription;
+  time:unitType time:unitDay;
+  time:day "17";
+  time:month "04"^^xsd:gMonth;
+  time:year "2019"^^xsd:gYear .
+
+<Atividade/atividade_7> a atipet:Atividade;
+  atipet:títuloAtividade "Oficina De Confecção De Placas De Circuito Impresso";
+  atipet:realizadaPeloGrupo <GrupoPET/Engenharia%20de%20Computação>;
+  atipet:temEstadoAtividade atipet:Concluída;
+  atipet:avaliação "Realizada no período de 19 a 26 de outubro, atraiu estudantes dos cursos de Mecatrônica, Engenharia Eletrônica, de Computação e de Técnico em Eletrônica, sendo 5 participantes masculinos e 2 femininos. A oficina passou pelas etapas de preparação, divulgação, realização e avaliação como previsto. Foram disponibilizados diversos tipos de materiais aos participantes: material teórico, apresentação em slides feita pelos próprios petianos responsáveis pela oficina, componentes eletrônicos, materiais e ferramentas necessários para a confecção do circuito impresso. Foi utilizado um laboratório com computadores da universidade com o software CAD, necessário a primeira aula. Avaliando-se pela etapa de inscrições, o curso despertou grande interesse por parte de estudantes de cursos nos 5 primeiros períodos da graduação/técnico, mostrando que as pessoas estão interessadas em aprender circuitos eletrônicos cada vez mais cedo. A avaliação anônima da oficina pelos participantes ocorreu por um formulário online. A conclusão desprendida do formulário foi de que, como a maioria alunos ainda não teve contato com um programa CAD durante o curso, seria necessário um intervalo maior de tempo dedicado ao assunto. Porém, em geral, os alunos foram bastantes favoráveis no parecer sobre a oficina, destacando o bom desempenho dos instrutores.";
+  atipet:temPeríodoDeExecução <Período/atividade_7>;
+  atipet:horasTrabalhoAtividade 78.0;
+  atipet:justificativa "A confecção de placas de circuito impresso (PCI), é parte fundamental do conjunto de conhecimentos e habilidades que um engenheiro ou outro profissional que trabalhe com hardware deve possuir, desde a etapa de simulação do circuito e confecção do desenho da placa em ferramenta computacional de auxílio, passando pela corrosão da placa de fenolite (ou outro material para este fim) e terminando com a soldagem dos componentes. Apenas algumas disciplinas optativas na graduação abordam diretamente o aprendizado das ferramentas e técnicas envolvidas neste processo. Porém, tais conhecimentos e habilidades são necessárias desde o início do curso de Engenharia de Computação e facilita a elaboração de trabalhos das disciplinas da grade curricular. Deste modo, antes que os recém-ingressos cursem eventualmente estas disciplinas optativas mais ao final do curso, terão a oportunidade de aprender as habilidades básicas logo no início do curso.";
+  atipet:objetivo "Capacitar os alunos interessados em confeccionar uma placa de circuito impressa simples, pré-definida, desde a etapa de criação do esquemático, passando pela simulação utilizando o software adequado, até a corrosão da placa e soldagem dos componentes na mesma. Devido à simplicidade do circuito a ser confeccionado, a oficina também proporciona aos estudantes a compreensão de seu funcionamento. Ver na prática este funcionamento facilita a compreensão de disciplinas da grade curricular que abordam o assunto em níveis mais abstratos. Em última análise, o objetivo é reduzir a retenção em disciplinas que requerem conhecimentos em circuitos provendo uma visão prática e uma motivação inicial de aprendizado.";
+  atipet:metodologia "Esta atividade é conduzida por no mínimo dois integrantes do grupo PET. É iniciada pelo planejamento dos encontros, reserva de sala e preparação dos materiais. A finalização ocorre pela entrega de um relatório contendo a análise da oficina com base nos formulários de avaliação preenchidos pelos alunos. A oficina está planejada para ter 4 encontros de 3h de duração cada totalizando 12h¿. São necessários 3 petianos instrutores porque os estudantes necessitam de bastante ajuda prática (ex. corrosão, soldagem, uso do software). Haverá de 10 a 15 vagas primordialmente para calouros dos cursos de Engenharia da Computação, Engenharia Eletrônica, Engenharia Mecatrônica e Engenharia Elétrica. A oficina está organizada em torno de um circuito a ser montado. Explica-se o funcionamento deste circuito, de seus componentes e os estudantes montam e testam-no em uma placa protótipo (protoboard). Em seguida, com auxílio do software Proteus, os instrutores ensinam como fazer o projeto esquemático de posicionamento de componentes e de roteamento de  trilhas em circuitos. O circuito projetado é impresso pelos estudantes que realizam a corrosão da placa de fenolite com Percloreto de Ferro. Os estudantes soldam os componentes na placa e realizam os testes finais.";
+  atipet:resultadoEsperado "Capacitar os estudantes com conhecimentos e habilidades básicas na área de confecção de PCIs, bem como aumentar o interesse pela área de desenvolvimento de hardware, útil e necessária nas disciplinas de Oficinas de Integração (no curso de Engenharia de Computação) e em vários temas de TCC. O material didático será disponibilizado junto à página Web do curso. Para os petianos envolvidos, a atividade proporciona desenvolvimento da habilidade de comunicação em público e no processo de ensino/aprendizagem. Ajuda-os a lidarem com situações adversas que podem ocorrer no processo de ensino, bem como a lidar com possíveis críticas e como melhorar a partir delas. Também serve como meio integrador para os estudantes do curso de Engenharia de Computação e de outros cursos afins. Isto requer um aprendizado do projeto pedagógico do curso e a confrontação deste com a realidade vivenciada pelos petianos e por seus colegas.";
+  atipet:metodologiaAvaliação "A(O) petiana(o) responsável controlará a frequência e aplicará um questionário ao final do curso sobre a metodologia de ensino e percepção da qualidade do curso por parte dos alunos. Internamente, a(o) petiana(o) responsável fará um relato ao grupo com os dados obtidos dos questionários, da vivência durante a oficina e todos discutem possíveis melhorias. Um relatório será redigido com os pontos fortes e fracos do curso com as correções propostas para melhoria das edições futuras." .
+
+<Período/atividade_7> a atipet:Período;
+  time:hasBeginning <Instant/2019-02-04>;
+  time:hasEnd <Instant/2019-07-02> .
+
+<Instant/2019-07-02> a time:Instant;
+  time:inDateTime <DateTimeDescription/2019-07-02> .
+
+<DateTimeDescription/2019-07-02> a time:DateTimeDescription;
+  time:unitType time:unitDay;
+  time:day "02";
+  time:month "07"^^xsd:gMonth;
+  time:year "2019"^^xsd:gYear .
+
+<Atividade/atividade_8> a atipet:Atividade;
+  atipet:títuloAtividade "Petiscos De Ciência";
+  atipet:realizadaPeloGrupo <GrupoPET/Engenharia%20de%20Computação>;
+  atipet:temEstadoAtividade atipet:Concluída;
+  atipet:avaliação "A Profa. Marina Esther Groshaus projetou, organizou e realizou a atividade de extensão denominada PETISCOS DA CIÊNCIA com auxílio de 3 petianos e outros estudantes de graduação. No ano de 2019, foram realizados 5 (cinco) encontros, 13/9, 26/9, 18/10, 31/10 e 22/11, todos divulgados e publicados em http://petiscos.dainf.ct.utfpr.edu.br/. Segundo relatos da professora organizadora, os petianos tiveram participação plenamente satisfatória.";
+  atipet:temPeríodoDeExecução <Período/atividade_8>;
+  atipet:horasTrabalhoAtividade 30.0;
+  atipet:justificativa "Os Petiscos de Ciência são encontros de palestras informais que têm como objetivo divulgar as diferentes áreas de pesquisas realizadas no DAINF (Departamento de Informática). O público alvo são é comporto por estudantes (mesmo no primeiro ano), e professores de todos os cursos, já que não são necessários conhecimentos prévios.";
+  atipet:objetivo "Aumentar a interação entre docentes, docentes-discentes e com a comunidade externa à UTFPR. Disseminar os temas de pesquisa em curso e servir como ferramenta aos discentes para escolher suas disciplinas optativas e temas de TCC.";
+  atipet:metodologia "As palestras são realizadas a cada duas semanas precedidas por petiscos financiados pelos próprios participantes. Cada palestra dura cerca de 30 minutos seguida de participações da plateia. O papel dos petianos é de auxílio na organização do evento, desde a divulgação até a realização da palestra.";
+  atipet:resultadoEsperado "Nos petianos, desenvolver o espírito de colaboração e fomentar a participação nas atividades do departamento. Complementar a formação e vislumbrar novas áreas de atuação no campo da computação. Para a sociedade, a atividade como um todo visa disseminar conhecimento produzido intramuros e desmitificar alguns assuntos abordando-os de forma leve, porém séria.";
+  atipet:metodologiaAvaliação "A professora responsável fará relatos sobre a participação dos petianos envolvidos, basicamente se participam efetivamente da organização e realização da atividade." .
+
+<Período/atividade_8> a atipet:Período;
+  time:hasBeginning <Instant/2019-09-01>;
+  time:hasEnd <Instant/2019-12-19> .
+
+<Instant/2019-09-01> a time:Instant;
+  time:inDateTime <DateTimeDescription/2019-09-01> .
+
+<Instant/2019-12-19> a time:Instant;
+  time:inDateTime <DateTimeDescription/2019-12-19> .
+
+<DateTimeDescription/2019-09-01> a time:DateTimeDescription;
+  time:unitType time:unitDay;
+  time:day "01"^^xsd:gDay;
+  time:month "09"^^xsd:gMonth;
+  time:year "2019"^^xsd:gYear .
+
+<DateTimeDescription/2019-12-19> a time:DateTimeDescription;
+  time:unitType time:unitDay;
+  time:day "19";
+  time:month "12"^^xsd:gMonth;
+  time:year "2019"^^xsd:gYear .
+
+<Atividade/atividade_9> a atipet:Atividade;
+  atipet:títuloAtividade "Oficina De Python";
+  atipet:realizadaPeloGrupo <GrupoPET/Engenharia%20de%20Computação>;
+  atipet:temEstadoAtividade atipet:Concluída;
+  atipet:avaliação "A atividade foi plenamente realizada entre 3 a 24 de abril. Esta oficina teve alta atratividade pessoas: 111 inscritos dos quais foram selecionados 27 para participar de vários cursos de engenharia, de mestrados e doutorados da UTFPR. Os petianos envolvidos elaboraram um website no qual foi disponibilizado todo o material do curso utilizando a plataforma Google Sites. Nele, foram adicionados a apostila denominada ¿Manual do Python¿, criada pelos estudantes da equipe em 2018 e atualizada a cada semestre, em formato pdf; listas de exercícios; os exercícios resolvidos em aula; material extra; instruções básicas; a ementa do curso de 2019.1 e informações de contato do grupo. Estão expostos todo o conteúdo do minicurso e materiais adicionais através de imagens e de texto. Para cada aula, foi enviado um e-mail aos estudantes com avisos e envios relativos à aula. As listas de exercícios foram submetidas semanalmente cobrindo cada tópico para acompanhar o conteúdo apresentado Os exemplos utilizados em sala, interdisciplinares e aplicados, o formato da aula e o website do curso foram bem avaliados, bem como o material elaborado, o Manual do Python, o website do curso e as listas de exercícios. A dificuldade dos exercícios propostos e sugeridos nas listas de exercícios foram bem avaliados. Os participantes demonstraram interesse em continuar utilizando a linguagem, pensando no desenvolvimento de aplicações mais avançadas. Dado o grande número de participantes de pós-graduação nessa edição do minicurso, gerou-se um interesse muito grande em aplicações para o uso em teses/dissertações, como gráficos e análises estatísticas. Foi possível cobrir a maior parte dos conteúdos da disciplina de Fundamentos de Programação 1 ou Computação 1 (comum a alguns dos cursos dos participantes) usando a linguagem Python, e dessa forma os alunos sentiram-se motivados a estudar programação e a criar códigos para resolver problemas interdisciplinares. Um ponto a ser melhorado para o minicurso aplicado a estudantes não familiarizados com programação é a duração da oficina, que deverá ser maior (com base nas avaliações). A oficina também despertou interesse dos participantes pelo desenvolvimento de um outro curso que aborde os pacotes matemáticos/estatísticos/gráficos de programação Matplotlib e Numpy para Python. Material extra referente a esses conteúdos foi adicionado ao website do curso. Os petianos aprimoraram muito o curso demonstrando um amadurecimento grande em planejamento e realização.";
+  atipet:temPeríodoDeExecução <Período/atividade_9>;
+  atipet:horasTrabalhoAtividade 48.0;
+  atipet:justificativa "A oficina de introdução à linguagem de programação Python é destinada aos estudantes dos cursos de Engenharia de Computação, Bacharelado em Sistemas de Informação e afins. Python pode ser usada como uma forma de iniciar os estudantes nos principais elementos da programação e também como um recurso para a computação científica, já que é uma linguagem aberta, com uma vasta quantidade de bibliotecas disponíveis e é dotada de uma sintaxe de fácil compreensão.";
+  atipet:objetivo "Explorar os elementos básicos da programação com a linguagem Python e lógica de programação a fim de estimular estudantes a utilizá-la na realização de trabalhos acadêmicos e em meio profissional. Instigar os estudantes a procurarem além dos conteúdos mostrados na oficina para que encontrem novas formas de uso da linguagem.";
+  atipet:metodologia "Uma oficina foi planejada com dois instrutores do grupo PET. Cada oficina é composta por 4 encontros de duas horas totalizando 8h e será planejada e executada por 3 petianos. A oficina será organizada em torno de pequenos problemas a serem resolvidos. A partir dos problemas, apresentam-se os construtos da linguagem e diretivas de resolução. Então, inicia-se o acompanhamento da prática por parte dos instrutores. O material didático do curso será disponibilizados aos alunos para acesso remoto.";
+  atipet:resultadoEsperado "Será atualizado material didático do curso disponibilizado aos estudantes do curso. Aos estudantes participantes da oficina, torná-los aptos para explorar Python no meio científico, acadêmico e profissional. Promover nos estudantes uma postura ativa diante de seus estudos.Para os petianos envolvidos, a atividade proporciona desenvolvimento da habilidade de comunicação em público e no processo de ensino/aprendizagem. Ajuda-os a lidarem com situações adversas que podem ocorrer no processo de ensino, bem como a lidar com possíveis críticas e como melhorar a partir delas. Também promove a integração dos membros do grupo PET já que devem trabalhar de forma cooperativa.";
+  atipet:metodologiaAvaliação "O responsável pela oficina aplicará um questionário ao final do curso sobre a metodologia de ensino e percepção da qualidade do curso por parte dos alunos(as). Internamente, o responsável fará um relato ao grupo com os dados obtidos dos questionários e com base na vivência em sala de aula. Todos discutem possíveis melhorias. Um relatório será redigido com os pontos fortes e fracos do curso com as correções propostas para que as edições futuras sejam melhoradas" .
+
+<Período/atividade_9> a atipet:Período;
+  time:hasBeginning <Instant/2019-03-22>;
+  time:hasEnd <Instant/2019-04-26> .
+
+<Instant/2019-03-22> a time:Instant;
+  time:inDateTime <DateTimeDescription/2019-03-22> .
+
+<DateTimeDescription/2019-03-22> a time:DateTimeDescription;
+  time:unitType time:unitDay;
+  time:day "22"^^xsd:gDay;
+  time:month "03"^^xsd:gMonth;
+  time:year "2019"^^xsd:gYear .
+
+<Atividade/atividade_10> a atipet:Atividade;
+  atipet:títuloAtividade "Interação Com Outros Grupos Pet";
+  atipet:realizadaPeloGrupo <GrupoPET/Engenharia%20de%20Computação>;
+  atipet:temEstadoAtividade atipet:Concluída;
+  atipet:avaliação "Devido a restrições orçamentárias, tanto do custeio como da UTFPR, um petiano do grupo, Nicolas Abril, participou do SULPET realizado na Universidade Federal de Pelotas de 1º. a 4 de maio. Participaram do JOPARPET (UEM, Maringá, PR, de 15 a 17/11) três petianos. Não houve INTERPET, encontro dos grupos PET da UTFPR devido a falta de orçamento. O grupo PET Engenharia de Computação realizou atividades de integração (ex. festa Junina) com os grupos PET Computando Culturas com Equidade, Políticas Públicas e o PET Engenharia Eletrônica, todos da UTFPR/Curitiba. Portanto, face às restrições orçamentárias, considerou-se que o grupo ainda assim interagiu com outros de forma satisfatória.";
+  atipet:temPeríodoDeExecução <Período/atividade_10>;
+  atipet:horasTrabalhoAtividade 1189.0;
+  atipet:justificativa "Esta atividade envolve a participação em eventos de grupos PET nos níveis institucional, estadual, regional e nacional. Ela é justificada por proporcionar integração e troca de experiências com outros grupos PET e para divulgação de trabalhos realizados no grupo. Além disso, fomenta a ideia de unidade do programa.";
+  atipet:objetivo "Aumentar a partilha de experiências com outros grupos PET nos níveis institucional, regional, estadual e nacional para aprimorar e melhor compreender a natureza das atividades de ensino, pesquisa e extensão, o funcionamento e as políticas dos grupos PET. Aumentar a divulgação dos trabalhos desenvolvidos no grupo por meio da publicação de artigos em seminários científicos ou de extensão. Compreender o papel dos grupos PET na melhoria da formação acadêmica brasileira.";
+  atipet:metodologia "Os petianos elegem aqueles que participarão dos eventos - o número de participantes depende da verba de custeio. De forma geral, estima-se uma participação de 75-100% nos eventos da UTFPR e estadual (muitas vezes tem limites de inscrições), 50% no regional e 25% no nacional. No retorno, os petianos apresentam e debatem os trabalhos realizados e as impressões colhidas. São eventos candidatos: INTERPET, JOPARPET, SULPET e ENAPET. Além dos eventos oficiais, será buscado contato com grupos PET da UFPR, notadamente do Departamento de Informática. Há também a possibilidade de participação no Congresso Brasileiro da Sociedade Brasileira de Computação tem aberto espaço para participação dos grupos PET na área de computação. Os grupos podem expor suas atividades por meio de filmes, banners e presencialmente em um estande destinado a este fim.";
+  atipet:resultadoEsperado "Ampliar os horizontes dos integrantes do grupo de forma que vislumbrem novas atividades, inspirações e colaborações. Espera-se que as experiências de debate, discussão e diálogos os tornem mais preparados para analisar e debater ideias em outros fóruns, seja na vida acadêmica, profissional ou em sociedade. Espera-se que se tornem cidadãos/cidadãs mais participativos, engajados e cientes do seu entorno.";
+  atipet:metodologiaAvaliação "Nível quantitativo e qualitativo de participação nos eventos e discussões sobre a participação nos eventos e efeitos em nosso grupo. Também será avaliada quantitativa e qualitativamente pela publicação/apresentação de trabalhos nos eventos, participação em mesas e outros papeis voluntariados." .
+
+<Período/atividade_10> a atipet:Período;
+  time:hasBeginning <Instant/2019-02-04>;
+  time:hasEnd <Instant/2019-12-21> .
+
+<Atividade/atividade_11> a atipet:Atividade;
+  atipet:títuloAtividade "Reuniões De Trabalho E Permanências";
+  atipet:realizadaPeloGrupo <GrupoPET/Engenharia%20de%20Computação>;
+  atipet:temEstadoAtividade atipet:Concluída;
+  atipet:avaliação "As reuniões foram realizadas como previsto. Os itens de pauta foram diversificados e envolveram relatos de desenvolvimento das atividades, processos seletivos de novos integrantes do grupo, planejado versus realizado e planejamento para o ano de 2020 e auto-avaliações do grupo. A atividade atingiu plenamente seus objetivos pois permitiu a integração dos estudantes, desenvolveu o comprometimento deles com o grupo e permitiu aos integrantes compreenderem/desenvolverem habilidades na preparação e condução de reuniões seguindo a sistemática de informativos, pauta e discussões por item.";
+  atipet:temPeríodoDeExecução <Período/atividade_11>;
+  atipet:horasTrabalhoAtividade 1440.0;
+  atipet:justificativa "A realização de reuniões semanais de cerca de 3 horas cada com todos os membros do grupo PET é elemento chave para a coordenação das atividades. São nestas reuniões que são apresentados relatos sobre o estado das atividades, discutem-se melhorias e soluções para problemas, corrigem-se trajetórias e são realizadas avaliações e planejamentos. Os petianos também permanecerão na sala do grupo PET por cerca de 2 a 3h/semana para realizar estudos e atendimentos a outros estudantes.";
+  atipet:objetivo "Coordenar as ações dos petianos, promover a interação e integração e definir as ações a serem efetuadas em um horizonte de curto prazo. Algumas reuniões específicas são feitas para autoavaliação do grupo, processo seletivo e planejamento. As permanências tem o objetivo de organizar a sala, a documentação e proporcionar tempo para estudos de conteúdos relativos às atividades do grupo.";
+  atipet:metodologia "A pauta para a reunião é definida em comum acordo por todos os petianos que devem se preparar para cumpri-la. As reuniões são conduzidas por um presidente e um secretário. A cada reunião há um rodízio nestes papeis. Para cada assunto da pauta, discute-se e, quando é o caso, são definidas ações de curto prazo. O secretário da reunião redige a ata. Duas vezes ao ano discutimos os resultados da auto-avaliação do grupo na qual cada integrante avalia todos os demais por meio de formulários anônimos. As permanências serão feitas em escala por duplas. Cada dia útil será atribuído a uma dupla que realizará alguma atividade de organização, de estudo e eventualmente de atendimento a outros estudantes.";
+  atipet:resultadoEsperado "Dotar os petianos de uma sistemática de planejar, executar o planejado e replanejar quando necessário. Instalar nos petianos a visão de autocondução do grupo de forma negociada fundada no diálogo argumentado. Promover a integração dos petianos/as.";
+  atipet:metodologiaAvaliação "A avaliação é realizada pela participação nas reuniões, tanto quantitativamente pela frequência como qualitativamente pela participação e relatos. Será introduzido um procedimento para justificativa de falta e aceitação (ou não da justificativa) pelo grupo tanto para as reuniões quanto para as permanências." .
+
+<Período/atividade_11> a atipet:Período;
+  time:hasBeginning <Instant/2019-02-04>;
+  time:hasEnd <Instant/2019-12-21> .
+
+<Atividade/atividade_12> a atipet:Atividade;
+  atipet:títuloAtividade "Oficina De Manutenção De Computadores";
+  atipet:realizadaPeloGrupo <GrupoPET/Engenharia%20de%20Computação>;
+  atipet:temEstadoAtividade atipet:Concluída;
+  atipet:avaliação "Realizada nos meses de setembro e outubro, teve participação de 17 pessoas que avaliaram de forma positiva o curso. Os instrutores do grupo PET que realizaram a oficina desprenderam grande esforço para encontrar máquinas desprezadas para realizarem esta oficina. Conseguiram a doação e 10 máquinas do Departamento de Eletrônica tendo participado da negociação, movimentação dos bens e dos processos administrativos envolvidos (transferência patrimonial). Além disso, prepararam as máquinas para que estivessem adequadas para o curso. Como foi a primeira vez que realizaram esta oficina, os petianos envolvidos receberam diversas sugestões de melhorias para que as próximas versões sejam aprimoradas. De forma geral, os participantes sugeriram mais práticas de montagem ¿ o que as vezes é difícil pela falta de componentes disponíveis e que funcionem. Os instrutores relataram que aprenderam muito com a oficina notadamente sobre a importância de planejamento para que o curso seja aproveitado pelos participantes. Além disso, vivenciaram os trâmites administrativos que ocorrem em toda organização.";
+  atipet:temPeríodoDeExecução <Período/atividade_12>;
+  atipet:horasTrabalhoAtividade 42.0;
+  atipet:justificativa "A oficina de manutenção de computadores aborda os passos para montagem, manutenção, formatação e preparo de computadores pessoais. A justificativa é de que os estudantes do curso de Engenharia de Computação e afins necessitam desta ferramenta básica desde o início do curso. Muitas vezes, não conhecem os princípios básicos de manutenção causando-lhes problemas na realização de trabalhos acadêmicos.";
+  atipet:objetivo "Capacitar os estudantes a compreenderem o funcionamento geral do hardware de um computador de mesa pessoal e a limpar e montar os componentes. Capacitar os alunos a instalar um sistema operacional, tanto em ambiente de virtualização quanto localmente.";
+  atipet:metodologia "A partir dos componentes básicos necessários a montagem de um computador (placa-mãe, processador, memória, RAM, disco rígido, fonte de alimentação, placa de vídeo e gabinete), os estudantes procedem a montagem com auxílio dos instrutores. Após a montagem, os estudantes instalam uma distribuição do Sistema Operacional Linux. Para tal, devem realizar o download de mídias de instalação e proceder a instalação sob orientação dos instrutores. A oficina terá dois encontros de 3 horas cada, totalizando 6 horas em sala. Serão necessários dois instrutores para ajudar os estudantes por ser uma oficina eminentemente prática.";
+  atipet:resultadoEsperado "Dotar os estudantes do curso de Engenharia de Computação e afins de competências básicas para consertar uma de suas principais ferramentas de trabalho ao longo do curso de forma a evitar barreiras na realização dos trabalhos acadêmicos. Para os petianos, além do desenvolvimento de habilidades no processo de ensino/aprendizagem, desenvolver capacidade de planejamento e organização";
+  atipet:metodologiaAvaliação "O responsável pela oficina aplicará um questionário ao final do curso sobre a metodologia de ensino e percepção da qualidade do curso por parte dos alunos(as). Internamente, o responsável fará um relato ao grupo com os dados obtidos dos questionários e todos discutirão possíveis melhorias. Um relatório será redigido com os pontos fortes e fracos do curso com as correções propostas" .
+
+<Período/atividade_12> a atipet:Período;
+  time:hasBeginning <Instant/2019-02-19>;
+  time:hasEnd <Instant/2019-07-15> .
+
+<Instant/2019-02-19> a time:Instant;
+  time:inDateTime <DateTimeDescription/2019-02-19> .
+
+<Instant/2019-07-15> a time:Instant;
+  time:inDateTime <DateTimeDescription/2019-07-15> .
+
+<DateTimeDescription/2019-02-19> a time:DateTimeDescription;
+  time:unitType time:unitDay;
+  time:day "19"^^xsd:gDay;
+  time:month "02"^^xsd:gMonth;
+  time:year "2019"^^xsd:gYear .
+
+<DateTimeDescription/2019-07-15> a time:DateTimeDescription;
+  time:unitType time:unitDay;
+  time:day "15";
+  time:month "07"^^xsd:gMonth;
+  time:year "2019"^^xsd:gYear .
+
+<Atividade/atividade_13> a atipet:Atividade;
+  atipet:títuloAtividade "Oficina De Eletrônica Básica Para Ensino Fundamental E Médio";
+  atipet:realizadaPeloGrupo <GrupoPET/Engenharia%20de%20Computação>;
+  atipet:temEstadoAtividade atipet:Concluída;
+  atipet:avaliação "Essa atividade foi realizada em dois momentos, dia 16 de maio de 2019 visitamos o Colégio Estadual João Paulo II, onde realizamos a oficina com 60 alunos do oitavo ano do ensino fundamental, partindo da apresentação da Universidade, seus cursos e suas modalidades. Após a apresentação da Universidade, os estudantes foram divididos em pequenos grupos para realização da oficina prática, que consiste na montagem de um circuito de eletrônica básica, com auxílio dos integrantes do PET. No dia 11 de outubro de 2019, as mesmas atividades foram realizadas com 30 alunos do oitavo ano do ensino fundamental do Colégio Estadual José Busnardo. As oficinas, além de despertarem interesse em engenharias e exatas, permitem aos integrantes do PET conhecerem o ensino do ponto de vista dos professores seja pela prática das oficinas como pela interação com as professoras e dirigentes da escola e colégio visitados.";
+  atipet:temPeríodoDeExecução <Período/atividade_13>;
+  atipet:horasTrabalhoAtividade 72.0;
+  atipet:justificativa "Esta oficina visa o desenvolvimento de uma ação de extensão nas escolas públicas de Curitiba em que os integrantes do grupo PET Engenharia de Computação apresentarão atividades relacionadas a conteúdos de eletrônica por meio de oficinas práticas introdutórias e apresentações acerca de disciplinas, conteúdos, projetos e mercado de trabalho para crianças e adolescentes. Desta forma, além de divulgar a instituição e seus cursos, é dada aos alunos a oportunidade de conhecerem um pouco mais sobre a atividade de engenharia vislumbrando se há identificação, uma vez que muitos calouros entram no curso sem conhecimento prévio de como será a graduação.";
+  atipet:objetivo "Desmistificar a universidade e mostrar possibilidades de estudos de graduação aos estudantes de escolas públicas das regiões mais carentes da cidade por meio de oficinas práticas e apresentações dos cursos nas áreas de Engenharia e Computação. Atrair novos estudantes para as áreas de Engenharia e Computação bem como divulgar a UTFPR.";
+  atipet:metodologia "Essa atividade será realizada em um encontro das escolas dos estudantes participantes na UTFPR. Após a apresentação da Universidade, será exibida aos estudantes uma apresentação sucinta dos cursos de Engenharia (Computação, Eletrônica) e BSI, levando em consideração a grade curricular, duração, objetivos e mercado de trabalho. Após, os estudantes serão divididos em pequenos grupos para realização da oficina prática, que consiste na montagem de um circuito de eletrônica básica, com auxílio dos integrantes do PET (como são crianças e adolescentes, são necessários 4 petianos). Ao final das oficinas, realizada em um encontro de 3 horas, será solicitado aos alunos que respondam um formulário para avaliarem as atividades realizadas.";
+  atipet:resultadoEsperado "A oficina objetiva aumentar a confiança dos estudantes do ensino público na possibilidade futura de uma graduação no ensino superior, sobretudo no meio tecnológico. Para os integrantes do grupo PET, esta oficina é uma oportunidade para aplicar os conhecimentos adquiridos ao longo do curso, para realização tanto da exposição teórica quanto da prática.";
+  atipet:metodologiaAvaliação "Para avaliar o desenvolvimento da oficina serão utilizados os resultados do formulário que foi respondido pelos participantes. Com base nas respostas obtidas e na vivência durante a oficina, será feito um relato que será apresentado ao grupo e, posteriormente, um relatório interno no qual os pontos fracos e fortes serão apontados" .
+
+<Período/atividade_13> a atipet:Período;
+  time:hasBeginning <Instant/2019-03-01>;
+  time:hasEnd <Instant/2019-11-30> .
+
+<Instant/2019-03-01> a time:Instant;
+  time:inDateTime <DateTimeDescription/2019-03-01> .
+
+<Instant/2019-11-30> a time:Instant;
+  time:inDateTime <DateTimeDescription/2019-11-30> .
+
+<DateTimeDescription/2019-03-01> a time:DateTimeDescription;
+  time:unitType time:unitDay;
+  time:day "01"^^xsd:gDay;
+  time:month "03"^^xsd:gMonth;
+  time:year "2019"^^xsd:gYear .
+
+<DateTimeDescription/2019-11-30> a time:DateTimeDescription;
+  time:unitType time:unitDay;
+  time:day "30";
+  time:month "11"^^xsd:gMonth;
+  time:year "2019"^^xsd:gYear .
+
+<Atividade/atividade_14> a atipet:Atividade;
+  atipet:títuloAtividade "Oficina De Eletrônica Básica Para Calouros";
+  atipet:realizadaPeloGrupo <GrupoPET/Engenharia%20de%20Computação>;
+  atipet:temEstadoAtividade atipet:Concluída;
+  atipet:avaliação "Essa atividade consistiu em mostrar para os calouros da Universidade Tecnológica Federal do Paraná, de cursos variados, um ensino breve de eletrônica. Realizada em outubro, teve 16 inscritos e 5 concluintes. Como se tratou de uma primeira edição, muitas coisas tiveram que ser alteradas ao longo do curso. Por esse motivo, ocorreram alguns imprevistos que foram resolvidos. O grande número de desistências foi diagnosticado como decorrente do nível muito elementar do curso ¿ que era o objetivo. Acredita-se que uma das razões do elevado número de desistências foi a mudança de grade no curso de Engenharia Eletrônica, que ocorreu em primeira mão durante o segundo semestre de 2019. Essa nova grade apresenta disciplinas introdutórias já nos primeiros períodos, o que acaba tornando esses calouros um pouco mais experientes no assunto. Por esse motivo, acredita-se que para as próximas edições seja interessante atingir um público alvo diferente: principalmente estudantes de cursos que não apresentam grande especialidade em eletrônica, mas que fazem uso dela (ex. Mecatrônica, Elétrica, Sistemas de Informação, Design). Uma outra opção se a decisão for manter o público alvo original seria aprofundar os conteúdos da oficina já existente. Em relação aos instrutores, segundo os participantes da oficina, apresentaram um grande conhecimento sobre o tema, apesar de ainda estarem se adaptando a oficina e experimentando como repassar os conteúdos. O atendimento a cada aluno foi relatado pelos participantes como de extrema eficácia para sanar as dúvidas individuais. Aos petianos envolvidos, permitiu que refletissem sobre as grades curriculares dos cursos e sua influência no processo de ensino-aprendizagem. Mostrou as dificuldades deste processo, principalmente em relação à motivação dos estudantes que depende de múltiplas variáveis.";
+  atipet:temPeríodoDeExecução <Período/atividade_14>;
+  atipet:horasTrabalhoAtividade 80.0;
+  atipet:justificativa "Esta oficina tem como principal objetivo introduzir o manuseio de componentes eletrônicos aos calouros de Engenharia de Computação e de Eletrônica. Isto possivelmente reduz os problemas de retenção em disciplinas iniciais destes cursos e de evasão, já que experiências práticas têm se mostrado motivadoras, pois diminui a percepção negativa que os estudantes da UTFPR têm demonstrado acerca das disciplinas iniciais de seus cursos as quais consideram muito abstratas e distantes da prática.";
+  atipet:objetivo "Incentivar os estudantes a continuarem no curso por meio de atividades práticas, mostrando as possibilidades de criação a partir do conhecimento das utilidades dos componentes eletrônicos. Em paralelo, mostrar a importância da teoria vista em sala de aula ilustrando como ela pode ser utilizada no dia a dia.";
+  atipet:metodologia "Essa oficina será realizada em quatro encontros nos laboratórios da Universidade, onde serão apresentados circuitos eletrônicos e o funcionamento individual dos componentes. Os estudantes, em dupla, montarão um circuito compatível com o nível da turma. Ao fim dos quatro encontros será disponibilizado um formulário online para os alunos avaliarem como foi a experiência e o que acreditam que possa melhorar.";
+  atipet:resultadoEsperado "A oficina objetiva aumentar a confiança dos estudantes quanto à escolha do curso, bem como os incentivar a continuar na área. A atividade proporciona formação complementar nas áreas de eletrônica básica aos recém-ingressos do curso de Engenharia de Computação e afins. A metodologia de ensino, os materiais didáticos utilizados e produzidos para as oficinas são de acesso aberto, ou seja, qualquer pessoa ou instituição pode utilizá-los e multiplicar os efeitos positivos destas oficinas. Aos petianos, estas oficinas proporcionam o exercício do trabalho em equipe e a divisão do trabalho por competências por meio da execução colaborativa de atividades de ensino e extensão. Também, permite aos mesmos exercitarem-se no processo de ensino-aprendizagem entendendo as dificuldades de motivar os estudantes a serem sujeitos da própria formação e de adaptar o conteúdo da oficina ao nível dos estudantes";
+  atipet:metodologiaAvaliação "Para avaliar o desenvolvimento da oficina serão utilizados os resultados do formulário que foi respondido pelos participantes. Com base nas respostas obtidas e na vivência durante a oficina, será feito um relatório e um relato ao grupo. O formulário de avaliação qualitativo da oficina permite aos participantes apontarem os pontos positivos e os que podem ser melhorados, o grau de conhecimento, didática e qualidade do relacionamento entre instrutores e estudantes. Em relação à motivação proporcionada pelo curso, o formulário busca capturar quatro dimensões: atenção (se os meios empregados despertam e prendem a atenção do estudante), relevância (se os conteúdos aprendidos são vistos como úteis pelo estudante), confiança (se o estudante se sente capaz de lidar com os conteúdos abordados) e satisfação (se o estudante gostou da experiência de aprendizado utilizando circuitos). O responsável pela oficina coleta os dados dos formulários, analisa-os e, com as informações da vivência em sala de aula, faz um relatório escrito. Ao final, os instrutores da oficina realizam um relato ao grupo pet e discutem pontos a serem melhorados. O relatório pode ser ainda revisado após esta discussão e servirá de memória para instrutores futuros das mesmas oficinas." .
+
+<Período/atividade_14> a atipet:Período;
+  time:hasBeginning <Instant/2019-03-01>;
+  time:hasEnd <Instant/2019-11-30> .
+
+<Atividade/atividade_15> a atipet:Atividade;
+  atipet:títuloAtividade "Elaboração De Projeto De Pesquisa";
+  atipet:realizadaPeloGrupo <GrupoPET/Engenharia%20de%20Computação>;
+  atipet:temEstadoAtividade atipet:Concluída;
+  atipet:avaliação "Foram propostos vários temas, dentre os quais dois foram retidos para posterior análise e um selecionado para 2020. O primeiro deles foi Compactação de Arquivos Textos via Algoritmo de Huffman que acabou sendo rejeitado após análise mais aprofundada pela dificuldade de contribuição a área com estudantes de nível de graduação. A segunda proposta, Dados Abertos e Conectados, pode ser explorada mais facilmente pelos estudantes do grupo dado que é bastante ligada a ferramentas e técnicas com as quais tem bastante contato durante a graduação. Foi elaborado o projeto om a definição do problema, dos objetivos, metodologia e resultados esperados fazendo com que os petianos passassem pelas etapas de pesquisa de modo prático. Isto trouxe grande experiência na definição de temas, isto é, o que pode se tornar um assunto de pesquisa e o que dificilmente é. Também permitiu entender as diferentes facetas e assim compreender a diferença entre projetos de pesquisa, pesquisa e desenvolvimento e apenas desenvolvimento.";
+  atipet:temPeríodoDeExecução <Período/atividade_15>;
+  atipet:horasTrabalhoAtividade 1000.0;
+  atipet:justificativa "O grupo adotou o projeto RobôF desde sua criação. Os participantes atuais acreditam que o grupo deve realizar outros projetos de pesquisa e, portanto, esta atividade tem por fim fazer a transição do RobôF para outros projetos.. Adotando-se a linha de ter um projeto conjunto de pesquisa, esta atividade permitirá aos petianos elaborarem um ou mais projetos de pesquisa partindo de uma problemática, passando pelos objetivos e definição da metodologia. Desta forma vivenciarão o método científico na prática e poderão, a partir daí, definir um projeto mais significativo frente às contribuições projetadas.";
+  atipet:objetivo "Elaborar ao menos um projeto de pesquisa para um problema escolhido pelo grupo.";
+  atipet:metodologia "Os petianos buscarão problemas que interessam ao grupo (com a composição atual) e cada proponente fará um esboço do projeto para apresentação aos colegas. Este esboço conterá problema, objetivos, metodologia e resultados esperados. O grupo escolherá até dois projetos para desenvolverem.";
+  atipet:resultadoEsperado "Para cada projeto escolhido, será produzido um documento contendo o problema, os objetivos gerais e específicos, a metodologia e os resultados esperados. Se possível, para cada projeto as etapas iniciais deverão ser iniciadas produzindo relatórios para cada etapa.";
+  atipet:metodologiaAvaliação "O grupo avaliará o projeto fazendo uma análise crítica do projeto frente ao que é prescrito pela metodologia científica com auxílio do tutor. As etapas, uma vez iniciadas, serão metas a serem alcançadas" .
+
+<Período/atividade_15> a atipet:Período;
+  time:hasBeginning <Instant/2019-02-04>;
+  time:hasEnd <Instant/2019-12-21> .
+
+<Atividade/atividade_16> a atipet:Atividade;
+  atipet:títuloAtividade "Processos Seletivos";
+  atipet:realizadaPeloGrupo <GrupoPET/Engenharia%20de%20Computação>;
+  atipet:temEstadoAtividade atipet:Concluída;
+  atipet:avaliação "Um processo seletivo foi realizado no mês de abril (edital 05/2019-DIRGRAD-CT) para preenchimento de 2 (duas) vagas para estudantes bolsistas e até 4 (quatro) vagas para estudantes não-bolsistas na modalidade de cadastro reserva. A seleção contou com três etapas avaliativas: histórico escolar, dinâmica de grupo, entrevista e projeto de atividades. O processo contou com 18 inscritos dos quais dois foram aprovados como bolsistas, 4 como não-bolsistas e 5 ficaram em lista de espera. As chamadas do cadastro de reserva se esgotaram no final do ano devido a saída de estudantes do grupo. O link para o edital é http://portal.utfpr.edu.br/editais/graduacao-e-educacao-profissional/curitiba/selecao-de-estudantes-bolsistas-e-nao-bolsista";
+  atipet:temPeríodoDeExecução <Período/atividade_16>;
+  atipet:horasTrabalhoAtividade 360.0;
+  atipet:justificativa "Com a rotatividade dos petianos/as, é necessário realizar processo seletivo para preencher as vagas abertas. Provavelmente, de acordo com o padrão de anos anteriores, haverá até 2 processos neste ano.";
+  atipet:objetivo "Preparar e realizar processo seletivo para manter o grupo o maior tempo possível com doze bolsistas com petianos/as";
+  atipet:metodologia "O grupo PET possui dois modelos de processo seletivo: um para selecionar estudantes com perfil técnico específico (normalmente avançado em alguma área necessária aos nossos projetos) e outro, para selecionar estudantes com habilidades e competências transversais ao tripé ensino-pesquisa-extensão. Na modalidade de estudante com perfil técnico específico, aplica-se uma prova de conhecimento específico seguida de uma etapa de entrevistas. Na segunda modalidade, o processo seletivo tem três etapas: redação ou equivalente, dinâmica de grupo e entrevista, sendo a dinâmica uma etapa opcional. O histórico escolar também é analisado, notadamente o coeficiente de rendimento e as reprovações. O edital do processo seletivo e seus resultados intermediários são publicados na página web do grupo e afixados em mural.";
+  atipet:resultadoEsperado "Os petianos aprendem a avaliar seus colegas e, neste exercício, aprendem como se portar em entrevistas e dinâmicas de grupo o que pode ser importante na suas vidas profissionais. Também aprendem a importância de redigir editais com regras claras e da dificuldade de tomada de decisão quando há subjetividade nos critérios.";
+  atipet:metodologiaAvaliação "O processo seletivo é avaliado internamente pelo grupo em função dos critérios: foi bem divulgado, foi atrativo e se permitiu avaliar bem os candidatos e selecionar aqueles com o perfil necessário ao grupo" .
+
+<Período/atividade_16> a atipet:Período;
+  time:hasBeginning <Instant/2019-02-04>;
+  time:hasEnd <Instant/2019-12-21> .
+
+<Atividade/atividade_17> a atipet:Atividade;
+  atipet:títuloAtividade "Oficina Pensamento Computacional X Matemático";
+  atipet:realizadaPeloGrupo <GrupoPET/Engenharia%20de%20Computação>;
+  atipet:temEstadoAtividade atipet:Concluída;
+  atipet:avaliação "As oficinas foram realizadas no Colégio Estadual João Paulo II (60 estudantes do 8º. ano fundamental, maio/2019) e na escola pública José Busnardo (30 estudantes do 8º. ano fundamental). A atividade consiste na resolução de um problema lógico por pares de estudantes (o tamanho da equipe depende da quantidade de computadores disponíveis). Os petianos realizaram a apresentaram brevemente os cursos ligados à informática, organizaram as equipes e conduziram a oficina. Também trocaram experiências com as professoras do colégio e da escola durante a realização da atividade e puderam compreender de forma mais detalhada as dificuldades de ensino e de motivação para estudo de matemática. Percebeu-se grande interesse na realização da tarefa de pensamento computacional tanto da parte dos estudantes como dos professores. A partir da experiência in loco de realização das oficinas, os petianos vislumbraram o desenvolvimento de um instrumento de coleta de dados mais apropriado: um software que permitirá que os estudantes realizem a atividade e ao mesmo tempo seja feita a coleta de informações sobre o percurso de cada equipe. Além disso relataram satisfação pelo conhecimento que levaram aos estudantes e pelo que aprenderam caracterizando o processo dialógico de ensino-aprendizagem.";
+  atipet:temPeríodoDeExecução <Período/atividade_17>;
+  atipet:horasTrabalhoAtividade 120.0;
+  atipet:justificativa "Esta oficina tem como principal objetivo introduzir o pensamento computacional que é, em resumo, lógico, procedural e combinatorial, e suas relações com o pensamento matemático a estudantes do ensino médio de colégios públicos. Mostrar, de forma intuitiva, que computar é calcular. Além do aumento da atratividade dos cursos ligados às ciências exatas e engenharias, busca-se coletar evidências que o pensamento computacional pode alimentar o raciocínio matemático e vice-versa. Desta forma, esta atividade complementa a atividade de pesquisa `pensamento computacional x matemático.";
+  atipet:objetivo "Incentivar os estudantes a exercitarem o raciocínio computacional e, por consequência, matemático por meio de ligações intuitivas e lúdicas entre as duas disciplinas.";
+  atipet:metodologia "Essa oficina será realizada em três edições em um colégio público. Cada edição é composta pela oficina com uma turma diferente. A oficina é iniciada com uma apresentação geral da UTFPR. Em seguida, um problema prático de raciocínio lógico é apresentado aos estudantes (ex. canibais e missionários). Os estudantes são convidados a resolvê-lo e registrar a solução com uma linguagem artificial (vocabulário restrito). Uma solução encontrada é apresentada e discute-se as relações entre o problema apresentado, a computação e a matemática (ex. uso de variáveis, de uma linguagem, de relações de desigualdade). Aumenta-se a escala do problema e pede-se aos estudantes para verificar se a solução anterior ainda funciona ou se é preciso aumentá-la (escrever mais linhas de solução). Mostra-se intuitivamente, que alguns problemas tem complexidade exponencial. O aumento da solução não é linear em relação ao aumento das variáveis envolvidas. Finalmente, será disponibilizado um formulário online para os alunos avaliarem como foi a atividade e em qual medida enxergaram a matemática na computação.";
+  atipet:resultadoEsperado "A oficina objetiva apresentar a computação de maneira lúdica e permitir aos estudantes observarem a importância da matemática em ferramentas que utilizam para fazer trabalhos ou para lazer (ex. jogos). Espera-se coletar dados que subsidiem a pesquisa pensamento computacional x matemático evidenciando a alimentação positiva entre as duas disciplinas. Aos petianos, estas oficinas proporcionam o exercício do ensino e da pesquisa, sobre a dificuldade de se coletar dados por meio de experimentos que envolvem pessoas.";
+  atipet:metodologiaAvaliação "A avaliação será feita primordialmente de forma qualitativa. Os petianos envolvidos conversarão com a professora responsável do colégio para coletar impressões sobre a realização da atividade nos eixos motivação (foi motivante para os estudantes) e utilidade para a disciplina de matemática. Também será explorada a ligação entre as disciplinas de computação e matemática, isto é, se a professora vislumbrou a relação entre as duas. Para os estudantes participantes, será elaborado um instrumento de avaliação que permita coletar evidências que compreenderam a relação entre o problema computacional por eles resolvido e a matemática." .
+
+<Período/atividade_17> a atipet:Período;
+  time:hasBeginning <Instant/2019-03-01>;
+  time:hasEnd <Instant/2019-11-30> .
+
+<Atividade/atividade_18> a atipet:Atividade;
+  atipet:títuloAtividade "Mostra De Filmes Cinepeteco";
+  atipet:realizadaPeloGrupo <GrupoPET/Engenharia%20de%20Computação>;
+  atipet:temEstadoAtividade atipet:EmExecução;
+  atipet:avaliação "A atividade foi parcialmente realizada porque exibiu um de dois filmes previstos. Não obstante, a apresentação atraiu muitos participantes da UTFPR e externos (cerca de 30) para a exibição do filme Bacurau (Brasil, 2019, 131 minutos) no dia 18 de dezembro. A atividade passou por todas as etapas de preparação (escolha do filme e temas de discussão associados), divulgação, realização e avaliação. A avaliação dos participantes foi positiva dada o número elevado de participantes e as discussões que decorreram da exibição.";
+  atipet:temPeríodoDeExecução <Período/atividade_18>;
+  atipet:horasTrabalhoAtividade 42.0;
+  atipet:justificativa "A Mostra de Filmes consiste na exibição de filmes que explorem aspectos de tecnologia e seus impactos na sociedade. Os filmes serão selecionados pelos membros do PET a partir de temas específicos sobre os quais se deseja discutir. Por exemplo, impacto na qualidade das relações sociais a partir do uso da tecnologia, segurança da informação, relação entre robôs e seres humanos, substituição de força de trabalho humana por robótica, entre outros. Os temas estão relacionados, de forma geral, à tecnologia e trabalho, às questões de gênero no campo da computação, tecnologia e sociedade e tecnologia e ética. Outro aspecto desta atividade é a integração entre os recém-ingressos no curso e os mais antigos e com demais membros da comunidade.";
+  atipet:objetivo "Desenvolver o pensamento crítico sobre os impactos da tecnologia e da atividade profissional de engenharia e de sistemas de informação (e demais áreas afins) na sociedade contemporânea, em alunos dos cursos de Engenharia, Sistemas de Informação e demais interessados, a partir da linguagem cinematográfica. Favorecer a integração dos recém-ingressos no curso com os mais antigos e, também, com outros alunos(as) da UTFPR e demais membros da comunidade.";
+  atipet:metodologia "Serão exibidos dois filmes durante o ano. Após a exibição dos filmes haverá uma sessão para discutir os principais aspectos relacionados com tecnologia, trabalho, sociedade e gênero. A duração das discussões será flexível, conforme o interesse e participação dos convidados. Toda a comunidade acadêmica e servidores da UTFPR serão convidados a participar da mostra, principalmente alunos e professores dos cursos de Engenharia de Computação e Sistemas de Informação. O objetivo é reunir pessoas com diferentes formações para enriquecer as discussões. Também poderão ser convidados especialistas nos temas abordados para que possam contribuir com informações científicas de modo a estimular o interesse por pesquisas nas áreas abordadas. Na exibição será passado um formulário de presença para termos dados sobre o alcance da atividade. A avaliação é subjetiva por meio de um relatório efetuado pelos próprios petianos/petianas. A carga-horária estimada leva em conta as seguintes atividades: seleção do filme, preparação dos petianos(as) sobre o tema a ser discutido (leituras), preparação das intervenções para organizar o debate pós-exibição, organização da logística do evento, exibição e debate, e relatórios finais/prestação de contas ao grupo.";
+  atipet:resultadoEsperado "A Mostra de Filmes resulta em maior integração de alunos, professores e servidores da UTFPR e estimula o pensamento crítico sobre a forma como a tecnologia é apresentada para a sociedade em filmes de ficção científica. Além disto, pretende-se desenvolver a reflexão sobre as expectativas que filmes de ficção científica geram na sociedade, com relação ao potencial da tecnologia e suas reais possibilidades de implementação com base na situação atual das áreas correlatas. A Mostra de Filmes exercita o trabalho em equipe e desenvolve a habilidade de argumentação dos petianos no processo de escolha dos filmes que serão exibidos. Adicionalmente, amplia os conhecimentos sobre diferentes visões que são transmitidas por filmes de ficção científica sobre tecnologia. Estas visões estimulam a reflexão sobre o impacto destes filmes na imagem que se forma a respeito de profissionais das áreas de computação e engenharia. Também se instala nos petianos a reflexão sobre as consequências de suas atividades profissionais na sociedade que são fortemente ligadas à tecnologia.";
+  atipet:metodologiaAvaliação "A atividade Mostra de Filmes será avaliada pelo alcance (número de participantes), pelo perfil dos participantes e qualitativamente, também, pelo conteúdo das discussões e pelo engajamento dos participantes nas mesmas. Os organizadores da atividade apresentam os resultados alcançados pela atividade bem como os problemas e as melhorias para as próximas edições (ex. forma de divulgação, condução do debate, escolha do filme)." .
+
+<Período/atividade_18> a atipet:Período;
+  time:hasBeginning <Instant/2019-04-15>;
+  time:hasEnd <Instant/2019-11-12> .
+
+<Instant/2019-04-15> a time:Instant;
+  time:inDateTime <DateTimeDescription/2019-04-15> .
+
+<Instant/2019-11-12> a time:Instant;
+  time:inDateTime <DateTimeDescription/2019-11-12> .
+
+<DateTimeDescription/2019-04-15> a time:DateTimeDescription;
+  time:unitType time:unitDay;
+  time:day "15"^^xsd:gDay;
+  time:month "04"^^xsd:gMonth;
+  time:year "2019"^^xsd:gYear .
+
+<DateTimeDescription/2019-11-12> a time:DateTimeDescription;
+  time:unitType time:unitDay;
+  time:day "12";
+  time:month "11"^^xsd:gMonth;
+  time:year "2019"^^xsd:gYear .
+
+<Atividade/atividade_19> a atipet:Atividade;
+  atipet:títuloAtividade "Projeto Robôfun";
+  atipet:realizadaPeloGrupo <GrupoPET/Engenharia%20de%20Computação>;
+  atipet:temEstadoAtividade atipet:EmExecução;
+  atipet:avaliação "A revisão e a construção dos robôs foram realizadas com grande esforço devido à saída de estudantes mais experientes. Com a saída do líder do projeto (Jimmy), o projeto de 2018 ficou sob a responsabilidade de novos petianos que reavaliaram o projeto antigo e decidiram mudá-lo da plataforma Arduino para a Raspberry Pi. Um aspecto importante, a alimentação de energia, foi mantida como decidido no ano de 2018. Esta é realizada por Power Banks de celulares que foram comprados e testados. O robô funciona comandado por controle remoto, resta um problema de conexão com o HC-05 (Bluetooth do Arduino) para que possa ser controlado programaticamente. Também necessita ainda de um detetor de colisão por infravermelho. Desta forma, o hardware do robô necessita de mais esforços para que as próximas fases do projeto possam ser executadas: construir um manual de programação do robô e divulgar publicamente os produtos do projeto por meio da abertura do projeto de hardware, da documentação do software e da biblioteca de programação. Estas etapas são mais rápidas que o desenvolvimento do hardware e de grande importância porque permitem a multiplicação do projeto seja em escolas ou por indivíduos interessados que é o objetivo último deste projeto.";
+  atipet:temPeríodoDeExecução <Período/atividade_19>;
+  atipet:horasTrabalhoAtividade 1920.0;
+  atipet:justificativa "Concluir o desenvolvimento de um robô de baixo custo e de projeto aberto, denominado RobôF, que está na sua terceira versão, para que possa ser utilizado como instrumento de ensino-aprendizagem em oficinas de curta duração de programação de computadores, eletrônica básica e robótica. A justificativa é que, ao mesmo tempo que tais robôs são utilizados como instrumentos no processo de ensino-aprendizagem nas oficinas, também são objeto de um projeto prático que envolve pesquisa e desenvolvimento para os petianos. A ideia de ser de baixo custo e de projeto aberto é permitir sua multiplicação em instituições que queiram fazer uso não comercial do mesmo";
+  atipet:objetivo "Pesquisar e desenvolver técnicas de construção de robôs móveis sobre rodas equipados com bateria, sensores e atuadores que permitem seguir linhas e detectar obstáculos. O robô deve possuir módulo de comunicação sem fio que permita comandá-lo a distância. São objetivos específicos: concluir a execução do projeto de hardware realizado no ano de 2018 e construir robôs para testes (o que depende do custeio de 2019). Construir um manual de programação do robô por meio do ambiente e da linguagem de programação do Arduino. Divulgar os produtos do projeto por meio da abertura do projeto de hardware, da documentação do software e da biblioteca de programação.";
+  atipet:metodologia "sta atividade foi subdividida nas seguintes partes: 1) confecção da placa de controle de acordo com o projeto de 2018; 2) montagem da parte mecânica do robô (já revisada em 2018); 3) integração e testes da parte mecânica com a de controle; 4) estudo e documentação da programação do robô por meio da interface e linguagem do Arduino. Busca-se uma mecânica simples e facilmente reproduzível. Para isso, componentes baratos, de grande generalidade (para facilitar manutenção ou substituição por outros componentes similares) e facilmente disponíveis no mercado terão preferência de escolha, logicamente, desde que satisfaçam as necessidades do projeto. Toda a documentação do projeto, já disponível publicamente, será atualizada para que possa ser utilizada por outras instituições de forma livre e gratuita";
+  atipet:resultadoEsperado "sta atividade foi subdividida nas seguintes partes: 1) confecção da placa de controle de acordo com o projeto de 2018; 2) montagem da parte mecânica do robô (já revisada em 2018); 3) integração e testes da parte mecânica com a de controle; 4) estudo e documentação da programação do robô por meio da interface e linguagem do Arduino. Busca-se uma mecânica simples e facilmente reproduzível. Para isso, componentes baratos, de grande generalidade (para facilitar manutenção ou substituição por outros componentes similares) e facilmente disponíveis no mercado terão preferência de escolha, logicamente, desde que satisfaçam as necessidades do projeto. Toda a documentação do projeto, já disponível publicamente, será atualizada para que possa ser utilizada por outras instituições de forma livre e gratuita";
+  atipet:metodologiaAvaliação "O acompanhamento será realizado por relatos nas reuniões semanais do grupo PET realizado pelos participantes desta atividade ao grupo. Além disso, a atividade será avaliada por meio de atingimento de marcos de projeto e da documentação produzida." .
+
+<Período/atividade_19> a atipet:Período;
+  time:hasBeginning <Instant/2019-02-04>;
+  time:hasEnd <Instant/2019-12-21> .
+
+<Atividade/atividade_20> a atipet:Atividade;
+  atipet:títuloAtividade "Pesquisa: Raciocínio Matemático X Computacional";
+  atipet:realizadaPeloGrupo <GrupoPET/Engenharia%20de%20Computação>;
+  atipet:temEstadoAtividade atipet:EmExecução;
+  atipet:avaliação "A partir dos resultados do ano anterior, os participantes aperfeiçoaram a oficina de Pensamento Computacional e Matemático que foi realizada no Colégio Estadual João Paulo II (60 estudantes do 8º. ano fundamental, maio/2019) na escola pública José Busnardo (30 estudantes do 8º. ano fundamental) para estudantes do oitavo ano. A partir das experiências das oficinas, mais precisamene após a segunda delas, foi levantada a necessidade de uma coleta mais precisa e rápida das informações ¿ à medida que os participantes realizam a tarefa de resolução de um problema lógico em computador. O tempo exíguo de cerca de 50 minutos não permite que os participantes realizem a atividade e respondam com atenção ao questionário. A principal líder da atividade relatou que necessita de maior fundamentação na parte teórica (Ensino de Informática) e metodologia de pesquisa. Ressalta-se que houve mudança na liderança devido a saída da antiga líder. Considera-se que o resultado foi parcialmente atingido porque o artigo relatando os resultados da pesquisa foi revisado, mas não foi submetido a evento para publicação/apresentação.";
+  atipet:temPeríodoDeExecução <Período/atividade_20>;
+  atipet:horasTrabalhoAtividade 1248.0;
+  atipet:justificativa "O senso comum diz que computação e matemática sempre andam juntas afinal computar é uma forma de se fazer cálculos. Mas será que todas as subáreas da computação requerem das pessoas grande habilidade em raciocínio matemático? Quais delas realmente necessitam e estão fortemente embasadas em princípios matemáticos e quais não? Naqueles em que há entrelaçamento, como o raciocínio computacional pode ajudar o matemático e vice-versa? As respostas a estas questões auxiliam às pessoas que desejam ingressar em cursos de engenharia de computação, de sistemas de informação e afins na sua escolha. Também auxilia os que já são estudantes destes cursos a escolherem uma trajetória acadêmica e profissional.";
+  atipet:objetivo "Esta pesquisa visa revisar a bibliografia nas áreas de matemática, computação e educação no que tange a relação entre raciocínio matemático e computacional a fim de mapear, tomando por base as subáreas da computação, em quais delas os raciocínios matemático e computacional se entrelaçam e qual a natureza e intensidade deste entrelaçamento, isto é, se o raciocínio matemático é utilizado em uma subárea da computação, em qual medida e como se fortalecem. Para o ano de 2019 o objetivo é coletar dados sob a forma de questionários em oficinas de extensão realizadas com estudantes de ensino público para subsidiar uma análise qualitativa do ligação entre os dois tipos de raciocínio.";
+  atipet:metodologia "Ao menos dois integrantes do grupo PET devem realizar as seguintes etapas de pesquisa: (1) preparar oficinas que permitam aos estudantes vislumbrarem a matemática por detrás da computação; (2) elaborar questionários que permitam coletar dados destas oficinas; (3) compilar dados e analisá-los frente à teoria já estudada; (4) redigir versão final de artigo científico e publicá-lo.";
+  atipet:resultadoEsperado "Os integrantes do PET envolvidos devem produzir no mínimo um artigo contendo suas descobertas sobre as relações entre raciocínio matemático e computacional. Deseja-se que um artigo sobre o assunto pesquisado seja publicado no repositório da UTFPR e, se possível, apresentado em um evento destinado a estudantes. Esta pesquisa permite ao grupo PET entender de forma prática o método científico e, de forma aplicada, pode trazer a tona conhecimentos úteis para que futuros ingressantes decidam sobre seu ingresso em cursos relacionados à área de computação. Se bem realizada, os resultados desta pesquisa podem dar subsídios ao núcleo docente estruturante dos cursos que ofereçam disciplinas de computação para definição de pré-requisitos ou reforços de conteúdo (ou, de forma mais ambiciosa, novas metodologias de ensino).";
+  atipet:metodologiaAvaliação "A atividade será acompanhada internamente por relatos escritos sobre o andamento de cada uma das etapas pelo tutor e demais colegas do grupo. O tutor fará revisões das versões intermediárias do artigo. Ao final, os petianos/as produzirão um relatório artigo científico que, no mínimo, estará disponível no repositório aberto da UTFPR. Uma apresentação será feita internamente ao grupo para que seja submetido a críticas internas. É desejável que o artigo científico seja submetido, publicado e apresentado em algum evento PET ou outro destinado a estudantes." .
+
+<Período/atividade_20> a atipet:Período;
+  time:hasBeginning <Instant/2019-02-04>;
+  time:hasEnd <Instant/2019-12-20> .
