@@ -1,0 +1,3682 @@
+@base <http://www.semanticweb.org/dvieira/ontologies/2022/11/pet> .
+@prefix : <http://www.semanticweb.org/dvieira/ontologies/2022/11/pet#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wds: <http://www.wikidata.org/entity/statement/> .
+@prefix wdv: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix p: <http://www.wikidata.org/prop/> .
+
+<#GrupoPet/PET%20Bacharelado%20em%20Ciência%20da%20Computação> a :GrupoPET;
+  foaf:name "PET Bacharelado em Ciência da Computação";
+  dbo:location dbr:São_Carlos;
+  :atuaNoEixo "Ciências Exatas e da Terra";
+  :trabalhaCom "Desenvolvimento de Software";
+  :temSite "petbcc.ufscar.br";
+  :criadoEm "2009";
+  :temEmail "petbcc@ufscar.br";
+  :estáNoCampus "Campus São Carlos";
+  :temInstagram "https://instagram.com/petbcc.ufscar";
+  :temFacebook "https://fb.com/petbcc";
+  :temYouTube "https://www.youtube.com/channel/UCyoSac6aP0aGWMDw0XnsnqA";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20São%20Carlos> .
+
+<#Universidade/Universidade%20Federal%20de%20São%20Carlos> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q5440482;
+  rdfs:label "Universidade Federal de São Carlos";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_S%C3%A3o_Carlos" .
+
+<#GrupoPet/PET%20Tecnologias%20em%20Saúde> a :GrupoPET;
+  foaf:name "PET Tecnologias em Saúde";
+  dbo:location dbr:São_Paulo;
+  :atuaNoEixo "Interdisciplinar";
+  :trabalhaCom "Estudo das Ciências Exatas aplicadas ao corpo humano";
+  :temSite "pet-tecnologias.blogspot.com/";
+  :criadoEm "2013";
+  :temEmail "pet.tecnologias@unifesp.br";
+  :estáNoCampus "Campus São Paulo";
+  :temInstagram "https://instagram.com/pettecnologias";
+  :temFacebook "https://www.facebook.com/PET.Tecnologias";
+  :temYouTube "https://www.youtube.com/channel/UCQAbQRCOE0YglOpV4e2hlqQ";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20São%20Paulo> .
+
+<#Universidade/Universidade%20Federal%20de%20São%20Paulo> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q4384447;
+  rdfs:label "Universidade Federal de São Paulo";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_S%C3%A3o_Paulo" .
+
+<#GrupoPet/PET%20Conexões%20de%20Saberes%20Serviço%20Social> a :GrupoPET;
+  foaf:name "PET Conexões de Saberes Serviço Social";
+  dbo:location dbr:Maceió;
+  :atuaNoEixo "Ciências Sociais Aplicadas";
+  :trabalhaCom "Política Nacional de Assistência Social (PNAS)";
+  :temSite "petssoufal.wixsite.com/petssoufal";
+  :criadoEm "2010";
+  :temEmail "petssoufal@gmail.com";
+  :estáNoCampus "Campus A. C. Simões";
+  :temInstagram "https://instagram.com/petssoufal";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Alagoas> .
+
+<#Universidade/Universidade%20Federal%20de%20Alagoas> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q5440475;
+  rdfs:label "Universidade Federal de Alagoas";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Alagoas" .
+
+<#GrupoPet/PET%20ProdBio> a :GrupoPET;
+  foaf:name "PET ProdBio";
+  dbo:location dbr:São_Mateus;
+  :atuaNoEixo "Interdisciplinar";
+  :trabalhaCom "Pesca";
+  :temSite "petprodbio.saomateus.ufes.br/";
+  :criadoEm "2013";
+  :temEmail "petprodbio@gmail.com";
+  :estáNoCampus "Campus São Mateus";
+  :temInstagram "https://instagram.com/petprodbio";
+  :temFacebook "https://www.facebook.com/PETProdBio/";
+  :temYouTube "https://www.youtube.com/channel/UC3T_Aw60h1Dp0qopqIGZG9Q";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Espírito%20Santo> .
+
+<#Universidade/Universidade%20Federal%20do%20Espírito%20Santo> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q10387830;
+  rdfs:label "Universidade Federal do Espírito Santo";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Esp%C3%ADrito_Santo" .
+
+<#GrupoPet/GET%20Engenharia%20Ambiental%20e%20Sanitária> a :GrupoPET;
+  foaf:name "GET Engenharia Ambiental e Sanitária";
+  dbo:location dbr:Juiz_de_Fora;
+  :atuaNoEixo "Engenharias";
+  :criadoEm "2011";
+  :temEmail "get.esa@engenharia.ufjf.br";
+  :estáNoCampus "Campus Juiz de Fora";
+  :temInstagram "https://instagram.com/get_esa";
+  :temFacebook "https://www.facebook.com/getesaufjf";
+  :temYouTube "https://www.youtube.com/channel/UCl2TzKviGXBZpo1Zk4-Hc0Q";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Juiz%20de%20Fora> .
+
+<#Universidade/Universidade%20Federal%20de%20Juiz%20de%20Fora> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q7894373;
+  rdfs:label "Universidade Federal de Juiz de Fora";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Juiz_de_Fora" .
+
+<#GrupoPet/PET%20Matemática> a :GrupoPET;
+  foaf:name "PET Matemática";
+  dbo:location dbr:Ituiutaba, dbr:São_José_do_Rio_Preto, dbr:Londrina, dbr:Santa_Maria;
+  :atuaNoEixo "Ciências Exatas e da Terra";
+  :temSite "www.petmat.facip.ufu.br/";
+  :criadoEm "2010", "1988", "2006", "1992";
+  :temEmail "petmatpontal@gmail.com", "petmatibilce@gmail.com", "petmat@uel.br", "pet.matematica@ufsm.br";
+  :estáNoCampus "Campus Pontal", "Campus São José do Rio Preto", "Campus Londrina",
+    "Campus Santa Maria";
+  :temInstagram "https://instagram.com/petmatpontal", "https://instagram.com/petmatibilce",
+    "https://instagram.com/petmat.uel", "https://instagram.com/petmatematicaufsm";
+  :temFacebook "https://www.facebook.com/PETMatematicaPontalUFU", "https://www.facebook.com/petmatematicaibilce",
+    "https://www.facebook.com/PET.Mat.Uel", "https://www.facebook.com/petmatematicaufsm";
+  :temYouTube "https://www.youtube.com/channel/UC9eA-ceJzvRnibs1eCzoYjA", "https://www.youtube.com/channel/UC1-c81KSiCxji4tTNNqZoeQ",
+    "https://www.youtube.com/channel/UCdjOAtGddMNIECJAl3Nb1rA", "https://www.youtube.com/channel/UCbybdrX0tWjkQMHE3QP2JOg";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Uberlândia>, <#Universidade/Universidade%20Estadual%20Paulista%20Júlio%20de%20Mesquita%20Filho>,
+    <#Universidade/Universidade%20Estadual%20de%20Londrina>, <#Universidade/Universidade%20Federal%20de%20Santa%20Maria> .
+
+<#Universidade/Universidade%20Federal%20de%20Uberlândia> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q5440489;
+  rdfs:label "Universidade Federal de Uberlândia";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Uberl%C3%A2ndia" .
+
+<#GrupoPet/PET%20Arquitetura%20e%20Urbanismo> a :GrupoPET;
+  foaf:name "PET Arquitetura e Urbanismo";
+  dbo:location dbr:Campinas;
+  :atuaNoEixo "Ciências Sociais Aplicadas";
+  :temSite "arquiteturapet.wixsite.com/petarquiteturapucc";
+  :criadoEm "1992";
+  :temEmail "arquiteturapet@gmail.com";
+  :estáNoCampus "Campus I";
+  :temInstagram "https://instagram.com/petarquiteturapucc";
+  :temFacebook "https://www.facebook.com/petarquiteturapucc";
+  :éAfiliadoDe <#Universidade/Pontifícia%20Universidade%20Católica%20de%20Campinas> .
+
+<#Universidade/Pontifícia%20Universidade%20Católica%20de%20Campinas> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q839900;
+  rdfs:label "Pontifícia Universidade Católica de Campinas";
+  :temWikipedia "https://en.wikipedia.org/wiki/Pontifical_Catholic_University_of_Campinas" .
+
+<#GrupoPet/GET%20Telecom> a :GrupoPET;
+  foaf:name "GET Telecom";
+  dbo:location dbr:Uberlândia;
+  :atuaNoEixo "Engenharias";
+  :temSite "petelecom.github.io/petelecom/";
+  :criadoEm "2020";
+  :temEmail "petelecomufu@gmail.com";
+  :estáNoCampus "Campus Santa Mônica";
+  :temInstagram "https://instagram.com/petelecom_ufu";
+  :temYouTube "https://www.youtube.com/c/PETTelecomUFU/featured";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Uberlândia> .
+
+<#GrupoPet/PET%20Fisioterapia> a :GrupoPET;
+  foaf:name "PET Fisioterapia";
+  dbo:location dbr:Alfenas;
+  :atuaNoEixo "Ciências da Saúde";
+  :criadoEm "2010";
+  :temEmail "petfisiounifal@gmail.com";
+  :estáNoCampus "Campus Alfenas";
+  :temInstagram "https://instagram.com/petfisiounifal";
+  :temFacebook "https://www.facebook.com/PetFisioterapiaUnifal/";
+  :temYouTube "https://www.youtube.com/channel/UCWlwHpvP-ASAk9HKHqz5W-A";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Alfenas> .
+
+<#Universidade/Universidade%20Federal%20de%20Alfenas> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q10387825;
+  rdfs:label "Universidade Federal de Alfenas";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Alfenas" .
+
+<#GrupoPet/PET%20Biologia> a :GrupoPET;
+  foaf:name "PET Biologia";
+  dbo:location dbr:Viçosa, dbr:Manaus, dbr:Fortaleza, dbr:São_Carlos, dbr:Blumenau;
+  :atuaNoEixo "Ciências Biológicas";
+  :temSite "petbioufv.blogspot.com/", "pet-biologiaufam.wixsite.com/home", "www.petbioufscar.com/",
+    "petbiofurb.blogspot.com/";
+  :criadoEm "1985", "1992", "1968", "1996";
+  :temEmail "petbio@ufv.br", "petbiologiaufam@ufam.edu.br", "petbiologiaufc@gmail.com",
+    "pet.bio.ufscar@ufscar.br", "petbiofurb@gmail.com";
+  :estáNoCampus "Campus Viçosa", "Campus Manaus", "Campus Pici", "Campus São Carlos",
+    "Campus Blumenau";
+  :temInstagram "https://instagram.com/petbiologiaufv", "https://instagram.com/petbiologiaufam",
+    "https://instagram.com/petbiologiaufc", "https://instagram.com/petbiologia.ufscar",
+    "https://instagram.com/petbiofurb";
+  :temFacebook "https://pt-br.facebook.com/PET-Biologia-UFV-325757977459425/", "https://web.facebook.com/petbiologiaufam/?view_public_for=237110539786459",
+    "https://www.facebook.com/petbiologiaufc/", "https://www.facebook.com/petbioufscar";
+  :temYouTube "https://www.youtube.com/channel/UCxmX5MDaELEqZJzGARzlMxw/featured", "https://www.youtube.com/channel/UCP65m75m0zgtyFOyYhtKDVA",
+    "https://www.youtube.com/user/petbiologiaufc/featured", "https://www.youtube.com/channel/UCi-aqFNfx_mMv12-c6sOy8Q",
+    "https://www.youtube.com/user/PETBioFURB";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Viçosa>, <#Universidade/Universidade%20Federal%20do%20Amazonas>,
+    <#Universidade/Universidade%20Federal%20do%20Ceará>, <#Universidade/Universidade%20Federal%20de%20São%20Carlos>,
+    <#Universidade/Universidade%20Regional%20de%20Blumenau> .
+
+<#Universidade/Universidade%20Federal%20de%20Viçosa> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q5814528;
+  rdfs:label "Universidade Federal de Viçosa";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Vi%C3%A7osa" .
+
+<#GrupoPet/PET%20Conexões%20de%20Saberes%20-%20Penedo> a :GrupoPET;
+  foaf:name "PET Conexões de Saberes - Penedo";
+  dbo:location dbr:Arapiraca;
+  :atuaNoEixo "Interdisciplinar";
+  :temSite "petcspenedo.wixsite.com/petcspenedoufal";
+  :criadoEm "2010";
+  :temEmail "petcspenedo@gmail.com";
+  :estáNoCampus "Campus Arapiraca";
+  :temInstagram "https://instagram.com/petcspenedoufal";
+  :temFacebook "https://www.facebook.com/petcspenedoufal";
+  :temYouTube "https://youtube.com/c/PETConexoesdeSaberesPenedoUFAL";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Alagoas> .
+
+<#GrupoPet/PET%20Ciências%20Biológicas> a :GrupoPET;
+  foaf:name "PET Ciências Biológicas";
+  dbo:location dbr:São_José_do_Rio_Preto;
+  :atuaNoEixo "Ciências Biológicas";
+  :temSite "petbiologiaibilce.wixsite.com/petbio";
+  :criadoEm "1994";
+  :temEmail "petbiologiaibilce@gmail.com";
+  :estáNoCampus "Campus São José do Rio Preto";
+  :temInstagram "https://instagram.com/petbiologiaunesp";
+  :temFacebook "https://www.facebook.com/petbiologiaunespibilce";
+  :temYouTube "https://www.youtube.com/channel/UCKb85nDFp9nSliIsdvsizoQ";
+  :éAfiliadoDe <#Universidade/Universidade%20Estadual%20Paulista%20Júlio%20de%20Mesquita%20Filho> .
+
+<#Universidade/Universidade%20Estadual%20Paulista%20Júlio%20de%20Mesquita%20Filho>
+  a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q1817137;
+  rdfs:label "Universidade Estadual Paulista Júlio de Mesquita Filho";
+  :temWikipedia "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_State_University" .
+
+<#GrupoPet/PET%20Ciência%20e%20Tecnologia> a :GrupoPET;
+  foaf:name "PET Ciência e Tecnologia";
+  dbo:location dbr:Maceió;
+  :atuaNoEixo "Interdisciplinar";
+  :trabalhaCom "Programa de Apoio aos Estudantes das Escolas Públicas do Estado";
+  :temSite "www.google.com/url?sa=t&source=web&rct=j&url=http://pet.ufal.br/cet/&ved=2ahUKEwi7xPPtsdPsAhXHGbkGHWPADroQFjAAegQIAhAB&usg=AOvVaw3C0xFUwTxke425Qmjh9mLM";
+  :criadoEm "2010";
+  :temEmail "petct.ufal@gmail.com";
+  :estáNoCampus "Campus A. C. Simões";
+  :temInstagram "https://instagram.com/petct.ufal";
+  :temYouTube "https://www.youtube.com/channel/UCUbsomXy64w4CJ_kQMc-L7g";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Alagoas> .
+
+<#GrupoPet/PET%20Ações%20das%20Engenharias> a :GrupoPET;
+  foaf:name "PET Ações das Engenharias";
+  dbo:location dbr:Sertão;
+  :atuaNoEixo "Engenharias";
+  :temSite "pet.ufal.br/engenharias/";
+  :criadoEm "2010";
+  :temEmail "pet.engenharias@gmail.com";
+  :estáNoCampus "Campus Sertão";
+  :temInstagram "https://instagram.com/pet.engenharias";
+  :temFacebook "https://www.facebook.com/petengenharias";
+  :temYouTube "https://www.youtube.com/user/PETEngenhariasUFAL";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Alagoas> .
+
+<#GrupoPet/PET%20Letras> a :GrupoPET;
+  foaf:name "PET Letras";
+  dbo:location dbr:Bagé, dbr:Dourados;
+  :atuaNoEixo "Linguística, Letras e Arte";
+  :criadoEm "2010";
+  :temEmail "pet.letrasbage@gmail.com", "petletras.ufgd@ufgd.edu.br";
+  :estáNoCampus "Campus Bagé", "Campus Unidade II";
+  :temInstagram "https://instagram.com/pet.letrasbage", "https://instagram.com/petletrasufgd";
+  :temFacebook "https://www.facebook.com/pet.letras2bage/";
+  :temYouTube "https://www.youtube.com/channel/UCTM6uHyqJEjM5uIEQO8C3VA";
+  :éAfiliadoDe <#Universidade/Fundação%20Universidade%20Federal%20do%20Pampa>, <#Universidade/Fundação%20Universidade%20Federal%20da%20Grande%20Dourados>;
+  :temSite "petletrasufgd.wordpress.com/" .
+
+<#Universidade/Fundação%20Universidade%20Federal%20do%20Pampa> a :Universidade;
+  rdfs:seeAlso wd:Q3918;
+  rdfs:label "Fundação Universidade Federal do Pampa";
+  :temWikipedia "https://en.wikipedia.org/wiki/List_of_universities_in_Brazil_by_state" .
+
+<#GrupoPet/PET%20Agronomia> a :GrupoPET;
+  foaf:name "PET Agronomia";
+  dbo:location dbr:Cruz_das_Almas, dbr:Fortaleza;
+  :atuaNoEixo "Ciências Agrárias";
+  :temSite "www2.ufrb.edu.br/petagronomia/";
+  :criadoEm "1988", "1992";
+  :temEmail "petagronomiaufrb@gmail.com", "petagronomia@ufc.br";
+  :estáNoCampus "Campus Cruz das Almas", "Campus Pici";
+  :temInstagram "https://instagram.com/petagronomiaufrb_oficial", "https://instagram.com/petagronomiaufc/";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Recôncavo%20da%20Bahia>,
+    <#Universidade/Universidade%20Federal%20do%20Ceará>;
+  :temFacebook "https://www.facebook.com/petagronomiaufc/" .
+
+<#Universidade/Universidade%20Federal%20do%20Recôncavo%20da%20Bahia> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q6614109;
+  rdfs:label "Universidade Federal do Recôncavo da Bahia";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Rec%C3%B4ncavo_da_Bahia" .
+
+<#GrupoPet/PET%20Engenharia%20Civil> a :GrupoPET;
+  foaf:name "PET Engenharia Civil";
+  dbo:location dbr:Campo_Mourão, dbr:Porto_Alegre, dbr:Curitiba, dbr:Maceió;
+  :atuaNoEixo "Engenharias";
+  :temSite "www.petcivil.com.br/", "petcivil.blogspot.com/", "www.petcivilufal.com/";
+  :criadoEm "2010", "1992", "1983", "1988";
+  :temEmail "pet.civil.cm@gmail.com", "petcivil@ufrgs.br", "petcivilufpr@gmail.com",
+    "petengcv@gmail.com";
+  :estáNoCampus "Campus Campo Mourão", "Campus Centro", "Campus Centro Politécnico",
+    "Campus A. C. Simões";
+  :temInstagram "https://instagram.com/petcivilutfpr", "https://instagram.com/petcivilufrgs",
+    "https://instagram.com/petcivilufpr", "https://instagram.com/petcivilufal";
+  :temFacebook "https://www.facebook.com/petcivilutfprcm", "https://www.facebook.com/ufrgs.petcivil",
+    "https://www.facebook.com/petcivil", "https://www.facebook.com/petcvufal";
+  :temYouTube "http://www.youtube.com/c/PETCivilUTFPRCM", "https://www.youtube.com/user/petcivilufrgs",
+    "https://www.youtube.com/user/PETCivilUFPR", "https://www.youtube.com/PETCivilUFAL";
+  :éAfiliadoDe <#Universidade/Universidade%20Tecnológica%20Federal%20do%20Paraná>, <#Universidade/Universidade%20Federal%20do%20Rio%20Grande%20do%20Sul>,
+    <#Universidade/Universidade%20Federal%20do%20Paraná>, <#Universidade/Universidade%20Federal%20de%20Alagoas> .
+
+<#Universidade/Universidade%20Tecnológica%20Federal%20do%20Paraná> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q1131055;
+  rdfs:label "Universidade Tecnológica Federal do Paraná";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Technology_%E2%80%93_Paran%C3%A1" .
+
+<#GrupoPet/PET%20Engenharia%20Elétrica> a :GrupoPET;
+  foaf:name "PET Engenharia Elétrica";
+  dbo:location dbr:Itaubá, dbr:Cuiabá, dbr:Fortaleza;
+  :atuaNoEixo "Engenharias";
+  :trabalhaCom "Engenharias Elétrica e Eletrônica";
+  :temSite "peteletricaunifei.blogspot.com/", "www.peteletricaufmt.com/", "www.peteletrica.ufc.br";
+  :criadoEm "1992", "2010", "1983";
+  :temEmail "peteletricaunifei@gmail.com", "peteneufmt@gmail.com", "pet@dee.ufc.br";
+  :estáNoCampus "Campus Prof. José Rodrigues Seabra", "Campus Cuiabá", "Campus Pici";
+  :temInstagram "https://instagram.com/peteletricaunifei", "https://instagram.com/peteletricaufmt",
+    "https://instagram.com/peteletricaufc";
+  :temFacebook "https://www.facebook.com/peteletricaunifei/", "https://www.facebook.com/PetEletricaUfc";
+  :temYouTube "https://www.youtube.com/channel/UC5Fy4NlGFrNFvTqVKUNhrag/featured?view_as=subscriber",
+    "https://www.youtube.com/channel/UCFC9PwjAA63tp0SX2uOsPYA", "https://www.youtube.com/channel/UCa7ECEIszocpWAeUUHPtZWg";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Itajubá>, <#Universidade/Universidade%20Federal%20de%20Mato%20Grosso>,
+    <#Universidade/Universidade%20Federal%20do%20Ceará> .
+
+<#Universidade/Universidade%20Federal%20de%20Itajubá> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q7894372;
+  rdfs:label "Universidade Federal de Itajubá";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Itajub%C3%A1" .
+
+<#GrupoPet/GET%20Engenharia%20Computacional> a :GrupoPET;
+  foaf:name "GET Engenharia Computacional";
+  dbo:location dbr:Juiz_de_Fora;
+  :atuaNoEixo "Interdisciplinar";
+  :temSite "www.ufjf.br/get_engcomp/";
+  :criadoEm "2010";
+  :temEmail "get.engcomputacional@engenharia.ufjf.br";
+  :estáNoCampus "Campus Juiz de Fora";
+  :temInstagram "https://instagram.com/get.engcomp";
+  :temYouTube "https://www.youtube.com/channel/UCzgvhQpo6-WMS4CMP8qlhjQ";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Juiz%20de%20Fora> .
+
+<#GrupoPet/PET%20Engenharia%20de%20Alimentos> a :GrupoPET;
+  foaf:name "PET Engenharia de Alimentos";
+  dbo:location dbr:Ponta_Grossa, dbr:Dourados;
+  :atuaNoEixo "Ciências Agrárias", "Engenharias";
+  :criadoEm "2010";
+  :temEmail "engalimentos.pet@gmail.com", "petalimentos.ufgd@gmail.com";
+  :estáNoCampus "Campus Ponta Grossa", "Campus Unidade II";
+  :temInstagram "https://instagram.com/petengalimentos", "https://instagram.com/peteng.alimentos";
+  :temFacebook "https://www.facebook.com/petengalimuepg", "https://www.facebook.com/petalimentos.ufgd";
+  :éAfiliadoDe <#Universidade/Universidade%20Estadual%20de%20Ponta%20Grossa>, <#Universidade/Fundação%20Universidade%20Federal%20da%20Grande%20Dourados>;
+  :temSite "petalimentosufgd.blogspot.com/" .
+
+<#Universidade/Universidade%20Estadual%20de%20Ponta%20Grossa> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q7228043;
+  rdfs:label "Universidade Estadual de Ponta Grossa";
+  :temWikipedia "https://en.wikipedia.org/wiki/State_University_of_Ponta_Grossa" .
+
+<#GrupoPet/PET%20Química%20Ambiental> a :GrupoPET;
+  foaf:name "PET Química Ambiental";
+  dbo:location dbr:São_José_do_Rio_Preto;
+  :atuaNoEixo "Ciências Exatas e da Terra";
+  :trabalhaCom "Pesquisa, ensino e extensão dentro da área de Química e Ciências Ambientais";
+  :temSite "petqaibilce.wixsite.com/home";
+  :criadoEm "2010";
+  :temEmail "petqaibilce@gmail.com";
+  :estáNoCampus "Campus São José do Rio Preto";
+  :temInstagram "https://instagram.com/petqaibilce";
+  :temFacebook "https://www.facebook.com/petqaibilce";
+  :temYouTube "https://www.youtube.com/channel/UCr-dqTVpqc4K5sH5-HbAZCA";
+  :éAfiliadoDe <#Universidade/Universidade%20Estadual%20Paulista%20Júlio%20de%20Mesquita%20Filho> .
+
+<#GrupoPet/PET%20Ciência%20da%20Computação> a :GrupoPET;
+  foaf:name "PET Ciência da Computação";
+  dbo:location dbr:Cascavel;
+  :atuaNoEixo "Ciências Exatas e da Terra";
+  :temSite "www.inf.unioeste.br/petcomp/";
+  :criadoEm "2010";
+  :temEmail "petcomp.cascavel@gmail.com";
+  :estáNoCampus "Campus Cascavel";
+  :temInstagram "https://instagram.com/petcomp_unioeste";
+  :temFacebook "https://www.facebook.com/petcomp";
+  :temYouTube "https://www.youtube.com/channel/UC7c6zwLrLbuqVa4sjUn20Jg";
+  :éAfiliadoDe <#Universidade/Universidade%20Estadual%20do%20Oeste%20do%20Paraná> .
+
+<#Universidade/Universidade%20Estadual%20do%20Oeste%20do%20Paraná> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q7603637;
+  rdfs:label "Universidade Estadual do Oeste do Paraná";
+  :temWikipedia "https://en.wikipedia.org/wiki/Western_Paran%C3%A1_State_University" .
+
+<#GrupoPet/PET%20Produção%20Leiteira> a :GrupoPET;
+  foaf:name "PET Produção Leiteira";
+  dbo:location dbr:Dois_Vizinhos;
+  :atuaNoEixo "Ciências Agrárias";
+  :trabalhaCom "Bovinocultura de Leite";
+  :criadoEm "2011";
+  :temEmail "petleite-dv@utfpr.edu.br";
+  :estáNoCampus "Campus Dois Vizinhos";
+  :temInstagram "https://instagram.com/@petproducaoleiteira";
+  :temFacebook "https://www.facebook.com/utfpr.petproducaoleiteira";
+  :temYouTube "https://www.youtube.com/channel/UCK_U3AM-JSIhyhX6KUxCaCA";
+  :éAfiliadoDe <#Universidade/Universidade%20Tecnológica%20Federal%20do%20Paraná> .
+
+<#GrupoPet/PET%20Economia> a :GrupoPET;
+  foaf:name "PET Economia";
+  dbo:location dbr:Vitória_da_Conquista;
+  :atuaNoEixo "Ciências Sociais Aplicadas";
+  :criadoEm "2010";
+  :temEmail "peteconomia@uesb.edu.br";
+  :estáNoCampus "Campus Vitória da Conquista";
+  :temInstagram "https://instagram.com/@peteconomiauesb";
+  :temYouTube "https://www.youtube.com/channel/UC1uC-736mLRDhptwX8YUovw";
+  :éAfiliadoDe <#Universidade/Universidade%20Estadual%20do%20Sudoeste%20da%20Bahia> .
+
+<#Universidade/Universidade%20Estadual%20do%20Sudoeste%20da%20Bahia> a :Universidade;
+  rdfs:seeAlso wd:Q3918;
+  rdfs:label "Universidade Estadual do Sudoeste da Bahia";
+  :temWikipedia "https://en.wikipedia.org/wiki/Bahia" .
+
+<#GrupoPet/PET%20Conexões%20de%20Saberes%20Estatísticos> a :GrupoPET;
+  foaf:name "PET Conexões de Saberes Estatísticos";
+  dbo:location dbr:Carreiros;
+  :atuaNoEixo "Interdisciplinar";
+  :trabalhaCom "Educação Estatística";
+  :temSite "petsabest.furg.br";
+  :criadoEm "2010";
+  :temEmail "petsabest@gmail.com";
+  :estáNoCampus "Campus Carreiros";
+  :temInstagram "https://instagram.com/@petsabest";
+  :temFacebook "https://www.facebook.com/PETSabEst.FURG";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Rio%20Grande> .
+
+<#Universidade/Universidade%20Federal%20do%20Rio%20Grande> a :Universidade;
+  rdfs:seeAlso wd:Q3918;
+  rdfs:label "Universidade Federal do Rio Grande";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Rio_Grande_do_Sul" .
+
+<#GrupoPet/PET%20Educação%20Física> a :GrupoPET;
+  foaf:name "PET Educação Física";
+  dbo:location dbr:Londrina, dbr:Porto_Alegre;
+  :atuaNoEixo "Ciências da Saúde";
+  :temSite "petef.webs.com/apresentao.htm";
+  :criadoEm "2010", "1989";
+  :temEmail "petedfuel@gmail.com", "petefi.ufrgs@gmail.com";
+  :estáNoCampus "Campus Londrina", "Campus Centro";
+  :temInstagram "https://instagram.com/petef.uel", "https://instagram.com/petefiufrgs";
+  :temYouTube "https://www.youtube.com/channel/UCLyyhEiJLnIaXKngFnYNVWA", "https://www.youtube.com/channel/UCiMyTfAGeTEc62XwT1IFRtQ";
+  :éAfiliadoDe <#Universidade/Universidade%20Estadual%20de%20Londrina>, <#Universidade/Universidade%20Federal%20do%20Rio%20Grande%20do%20Sul>;
+  :temFacebook "https://cenapet.org/grupos/35/facebook.com/PETEFIUFRGS" .
+
+<#Universidade/Universidade%20Estadual%20de%20Londrina> a :Universidade;
+  rdfs:seeAlso wd:Q3918;
+  rdfs:label "Universidade Estadual de Londrina";
+  :temWikipedia "https://en.wikipedia.org/wiki/Londrina" .
+
+<#GrupoPet/PET%20Geografia> a :GrupoPET;
+  foaf:name "PET Geografia";
+  dbo:location dbr:Florianópolis, dbr:Niterói, dbr:Dourados;
+  :atuaNoEixo "Ciências Humanas";
+  :temSite "udesc.br/faed/petgeo", "petgeoufgd.blogspot.com/";
+  :criadoEm "1994", "1996", "2008";
+  :temEmail "petgeoudescdrive@gmail.com", "petgeo.uff@gmail.com", "petgeoufgd@gmail.com";
+  :estáNoCampus "Campus Florianópolis", "Campus Praia Vermelha", "Campus Unidade II";
+  :temInstagram "https://instagram.com/petgeoudesc", "https://instagram.com/petgeografiauff",
+    "https://instagram.com/petgeografiaufgd";
+  :temFacebook "https://cenapet.org/grupos/30/facebook.com/petgeoudesc", "https://www.facebook.com/petgeografiauff",
+    "https://www.facebook.com/PetGeografiaUFGD/";
+  :temYouTube "https://cenapet.org/grupos/30/youtube.com/PETGeoTube", "https://www.youtube.com/channel/UCPIFK2IGs_jcViQnXbkmOdQ",
+    "https://www.youtube.com/channel/UChjuKren2gsD1NmEUS8KlUQ";
+  :éAfiliadoDe <#Universidade/Fundação%20Universidade%20do%20Estado%20de%20Santa%20Catarina>,
+    <#Universidade/Universidade%20Federal%20Fluminense>, <#Universidade/Fundação%20Universidade%20Federal%20da%20Grande%20Dourados> .
+
+<#Universidade/Fundação%20Universidade%20do%20Estado%20de%20Santa%20Catarina> a :Universidade;
+  rdfs:seeAlso wd:Q3918;
+  rdfs:label "Fundação Universidade do Estado de Santa Catarina" .
+
+<#GrupoPet/PET%20Bio%20Pontal> a :GrupoPET;
+  foaf:name "PET Bio Pontal";
+  dbo:location dbr:Ituiutaba;
+  :atuaNoEixo "Ciências Biológicas";
+  :temSite "petbiopontal.wixsite.com/petbio/";
+  :criadoEm "2009";
+  :temEmail "petbiopontal@hotmail.com";
+  :estáNoCampus "Campus Pontal";
+  :temInstagram "https://instagram.com/petbiopontal";
+  :temFacebook "https://www.facebook.com/petbiopontal";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Uberlândia> .
+
+<#GrupoPet/PET%20Zootecnia> a :GrupoPET;
+  foaf:name "PET Zootecnia";
+  dbo:location dbr:Pirassununga;
+  :atuaNoEixo "Ciências Agrárias";
+  :temSite "petzoofzea.com.br/";
+  :criadoEm "1994";
+  :temEmail "petzootecnia@usp.br";
+  :estáNoCampus "Campus Pirassununga";
+  :temInstagram "https://instagram.com/@petzoousp";
+  :temFacebook "https://www.facebook.com/PET.ZOOTECNIA.USP/";
+  :temYouTube "https://www.youtube.com/channel/UC2H61cQSH_82dgnrrqghmSg";
+  :éAfiliadoDe <#Universidade/Universidade%20de%20São%20Paulo> .
+
+<#Universidade/Universidade%20de%20São%20Paulo> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q835960;
+  rdfs:label "Universidade de São Paulo";
+  :temWikipedia "https://en.wikipedia.org/wiki/University_of_S%C3%A3o_Paulo" .
+
+<#GrupoPet/PET%20Engenharia%20Biomédica> a :GrupoPET;
+  foaf:name "PET Engenharia Biomédica";
+  dbo:location dbr:Uberlândia;
+  :atuaNoEixo "Engenharias";
+  :temSite "petengenhariabiomedica.com/";
+  :criadoEm "2010";
+  :temEmail "pet.engenhariabiomedica.ufu@gmail.com";
+  :estáNoCampus "Campus Santa Mônica";
+  :temInstagram "https://instagram.com/petengenhariabiomedica";
+  :temFacebook "https://www.facebook.com/PetEngenhariaBiomedicaUfu";
+  :temYouTube "https://www.youtube.com/channel/UCGI5CoLikr9Bnm5S7h14y8Q";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Uberlândia> .
+
+<#Universidade/Universidade%20Federal%20do%20Amazonas> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q5440476;
+  rdfs:label "Universidade Federal do Amazonas";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Amazonas" .
+
+<#Universidade/Universidade%20Federal%20do%20Rio%20Grande%20do%20Sul> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q766447;
+  rdfs:label "Universidade Federal do Rio Grande do Sul";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Rio_Grande_do_Sul" .
+
+<#Universidade/Universidade%20Federal%20de%20Mato%20Grosso> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q7894374;
+  rdfs:label "Universidade Federal de Mato Grosso";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Mato_Grosso" .
+
+<#GrupoPet/PET%20Práticas%20Integradas%20em%20Saúde%20Coletiva> a :GrupoPET;
+  foaf:name "PET Práticas Integradas em Saúde Coletiva";
+  dbo:location dbr:Uruguaiana;
+  :atuaNoEixo "Ciências da Saúde";
+  :trabalhaCom "Saúde Coletiva";
+  :criadoEm "2010";
+  :temEmail "petpiscunipampa2020@gmail.com";
+  :estáNoCampus "Campus Uruguaiana";
+  :temInstagram "https://instagram.com/petpisc";
+  :temFacebook "https://www.facebook.com/petpisc";
+  :temYouTube "https://www.youtube.com/channel/UCqf1ii5EUQHSwNS_4npdglg";
+  :éAfiliadoDe <#Universidade/Fundação%20Universidade%20Federal%20do%20Pampa> .
+
+<#GrupoPet/PET%20Engenharias> a :GrupoPET;
+  foaf:name "PET Engenharias";
+  dbo:location dbr:Feira_de_Santana, dbr:Bagé;
+  :atuaNoEixo "Interdisciplinar", "Engenharias";
+  :temSite "sites.google.com/view/petengsuefs/p%C3%A1gina-inicial", "sites.unipampa.edu.br/petengenharias/";
+  :criadoEm "2010", "2012";
+  :temEmail "petengsuefs@gmail.com", "petengenharias.unipampa@gmail.com";
+  :estáNoCampus "Campus Feira de Santana", "Campus Bagé";
+  :temInstagram "https://instagram.com/pet.engs.uefs", "https://instagram.com/petengenharias.unipampa";
+  :temFacebook "https://www.facebook.com/petengsuefs", "https://www.facebook.com/PETEngenhariasBG/";
+  :temYouTube "https://www.youtube.com/channel/UCrhztdfvYLQhBmyledhjjmg", "https://www.youtube.com/channel/UC-1WGgm8C7-X12KvOBTclXQ";
+  :éAfiliadoDe <#Universidade/Universidade%20Estadual%20de%20Feira%20de%20Santana>,
+    <#Universidade/Fundação%20Universidade%20Federal%20do%20Pampa>;
+  :trabalhaCom "Interdisciplinar" .
+
+<#Universidade/Universidade%20Estadual%20de%20Feira%20de%20Santana> a :Universidade;
+  rdfs:seeAlso wd:Q3918;
+  rdfs:label "Universidade Estadual de Feira de Santana";
+  :temWikipedia "https://en.wikipedia.org/wiki/Feira_de_Santana" .
+
+<#GrupoPet/PET%20Conexões%20Administração> a :GrupoPET;
+  foaf:name "PET Conexões Administração";
+  dbo:location dbr:Vitória;
+  :atuaNoEixo "Ciências Sociais Aplicadas";
+  :criadoEm "2013";
+  :temEmail "petadmufes@gmail.com";
+  :estáNoCampus "Campus Goiabeiras";
+  :temInstagram "https://instagram.com/petadmufes";
+  :temYouTube "https://www.youtube.com/channel/UCxq1zAlDIQVt90sJ-JBNprA";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Espírito%20Santo> .
+
+<#GrupoPet/PET%20de%20Engenharia%20Civil> a :GrupoPET;
+  foaf:name "PET de Engenharia Civil";
+  dbo:location dbr:Fortaleza;
+  :atuaNoEixo "Engenharias";
+  :temSite "petcivil.ufc.br/portal/";
+  :criadoEm "1992";
+  :temEmail "bertini@ufc.br";
+  :estáNoCampus "Campus Pici";
+  :temInstagram "https://instagram.com/petcivil";
+  :temFacebook "https://web.facebook.com/ufcpetcivil/?_rdc=1&_rdr";
+  :temYouTube "https://www.youtube.com/channel/UCV-Xoyz5XoVxfYXXVJqrrhg";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Ceará> .
+
+<#Universidade/Universidade%20Federal%20do%20Ceará> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q2749558;
+  rdfs:label "Universidade Federal do Ceará";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Cear%C3%A1" .
+
+<#GrupoPet/PET%20Conexões%20Licenciaturas> a :GrupoPET;
+  foaf:name "PET Conexões Licenciaturas";
+  dbo:location dbr:Vitória;
+  :atuaNoEixo "Interdisciplinar";
+  :trabalhaCom "Docência";
+  :criadoEm "2010";
+  :temEmail "petlicufes@gmail.com";
+  :estáNoCampus "Campus Goiabeiras";
+  :temInstagram "https://instagram.com/petlicufes";
+  :temFacebook "https://www.facebook.com/petlicufes";
+  :temYouTube "https://www.youtube.com/channel/UCUnudVOLbn3KmqIj3XYNyBA";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Espírito%20Santo> .
+
+<#GrupoPet/PET%20Biomedicina> a :GrupoPET;
+  foaf:name "PET Biomedicina";
+  dbo:location dbr:Cabula;
+  :atuaNoEixo "Ciências da Saúde";
+  :criadoEm "2010";
+  :temEmail "pet-biomedicina@googlegroups.com";
+  :estáNoCampus "Campus Cabula";
+  :temInstagram "https://instagram.com/petbiomed";
+  :temFacebook "https://www.facebook.com/petbiomedicinaebmsp";
+  :éAfiliadoDe <#Universidade/Escola%20Bahiana%20de%20Medicina%20e%20Saúde%20Pública> .
+
+<#Universidade/Escola%20Bahiana%20de%20Medicina%20e%20Saúde%20Pública> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q10274292;
+  rdfs:label "Escola Bahiana de Medicina e Saúde Pública";
+  :temWikipedia "https://en.wikipedia.org/wiki/Escola_Bahiana_de_Medicina_e_Sa%C3%BAde_P%C3%BAblica" .
+
+<#GrupoPet/PET%20Engenharia%20Mecânica> a :GrupoPET;
+  foaf:name "PET Engenharia Mecânica";
+  dbo:location dbr:Fortaleza;
+  :atuaNoEixo "Engenharias";
+  :temSite "blogbempessoal.wordpress.com";
+  :criadoEm "1994";
+  :temEmail "petmec@ufc.br";
+  :estáNoCampus "Campus Pici";
+  :temInstagram "https://instagram.com/petmecufc";
+  :temFacebook "https://www.facebook.com/PETEngenhariaMecanicaUFC";
+  :temYouTube "https://www.youtube.com/channel/UChhz-YprztOkeHcrW8dKl1w";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Ceará> .
+
+<#GrupoPet/PET%20Agricultura%20Familiar> a :GrupoPET;
+  foaf:name "PET Agricultura Familiar";
+  dbo:location dbr:Dois_Vizinhos;
+  :atuaNoEixo "Ciências Agrárias";
+  :temSite "www.petagriculturafamiliar.com";
+  :criadoEm "2010";
+  :temEmail "petafdv@gmail.com";
+  :estáNoCampus "Campus Dois Vizinhos";
+  :temInstagram "https://instagram.com/petafdv";
+  :temFacebook "https://www.facebook.com/petagriculturafamiliar";
+  :temYouTube "https://www.youtube.com/channel/UCGINzDk3Sb2x4sTrYiYw0YA";
+  :éAfiliadoDe <#Universidade/Universidade%20Tecnológica%20Federal%20do%20Paraná> .
+
+<#GrupoPet/PET%20Direitos> a :GrupoPET;
+  foaf:name "PET Direitos";
+  dbo:location dbr:Ribeirão_Preto;
+  :atuaNoEixo "Ciências Sociais Aplicadas";
+  :criadoEm "2012";
+  :temEmail "pet_direitos@usp.br";
+  :estáNoCampus "Campus Ribeirão Preto";
+  :temInstagram "https://instagram.com/petdireitos";
+  :temFacebook "https://www.facebook.com/PETDireitos";
+  :temYouTube "https://www.youtube.com/channel/UCwByZCTCCnylC07JbNed4Fg";
+  :éAfiliadoDe <#Universidade/Universidade%20de%20São%20Paulo> .
+
+<#GrupoPet/PET%20Interdisciplinar%20Conexões%20de%20Saberes> a :GrupoPET;
+  foaf:name "PET Interdisciplinar Conexões de Saberes";
+  dbo:location dbr:Belém;
+  :atuaNoEixo "Interdisciplinar";
+  :criadoEm "2010";
+  :temEmail "petconexoesdesaberesufpa@gmail.com";
+  :estáNoCampus "Campus Belém";
+  :temFacebook "https://facebook.com/petinterdisciplinar";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Pará> .
+
+<#Universidade/Universidade%20Federal%20do%20Pará> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q4558480;
+  rdfs:label "Universidade Federal do Pará";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Par%C3%A1" .
+
+<#GrupoPet/PET%20Medicina%20Veterinária> a :GrupoPET;
+  foaf:name "PET Medicina Veterinária";
+  dbo:location dbr:Botucatu;
+  :atuaNoEixo "Ciências Agrárias";
+  :criadoEm "1995";
+  :temEmail "grupopet.fmvz@gmail.com";
+  :estáNoCampus "Campus Botucatu";
+  :temInstagram "https://instagram.com/petveterinaria_btu";
+  :temFacebook "https://www.facebook.com/petfmvzbotucatu/";
+  :temYouTube "https://www.youtube.com/channel/UCbS16iDOq4ZrQg5RCMeDJlA/featured";
+  :éAfiliadoDe <#Universidade/Universidade%20Estadual%20Paulista%20Júlio%20de%20Mesquita%20Filho> .
+
+<#GrupoPet/PET%20Humanidades%20e%20Letras> a :GrupoPET;
+  foaf:name "PET Humanidades e Letras";
+  dbo:location dbr:Auroras;
+  :atuaNoEixo "Interdisciplinar";
+  :trabalhaCom "Práticas interdisciplinares focadas na tríade ensino-pesquisa-extensão.";
+  :temSite "www.pethl.unilab.edu.br/";
+  :criadoEm "2013";
+  :temEmail "pethl@unilab.edu.br";
+  :estáNoCampus "Campus Auroras";
+  :temInstagram "https://instagram.com/pethldaunilab";
+  :éAfiliadoDe <#Universidade/Universidade%20da%20Integração%20Internacional%20da%20Lusofonia%20Afro-brasileira> .
+
+<#Universidade/Universidade%20da%20Integração%20Internacional%20da%20Lusofonia%20Afro-brasileira>
+  a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q10387886;
+  rdfs:label "Universidade da Integração Internacional da Lusofonia Afro-brasileira";
+  :temWikipedia "https://en.wikipedia.org/wiki/University_for_International_Integration_of_the_Afro-Brazilian_Lusophony" .
+
+<#Universidade/Fundação%20Universidade%20Federal%20da%20Grande%20Dourados> a :Universidade;
+  rdfs:seeAlso wd:Q3918;
+  rdfs:label "Fundação Universidade Federal da Grande Dourados";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Rio_de_Janeiro" .
+
+<#Universidade/Universidade%20Federal%20Fluminense> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q280247;
+  rdfs:label "Universidade Federal Fluminense";
+  :temWikipedia "https://en.wikipedia.org/wiki/Fluminense_Federal_University" .
+
+<#GrupoPet/PET%20Engenharia%20Florestal> a :GrupoPET;
+  foaf:name "PET Engenharia Florestal";
+  dbo:location dbr:Cuiabá;
+  :atuaNoEixo "Ciências Agrárias";
+  :temSite "www.petengenhariaflorestal.com.br/";
+  :criadoEm "1981";
+  :temEmail "petengenhariaflorestalufmt@gmail.com";
+  :estáNoCampus "Campus Cuiabá";
+  :temInstagram "https://instagram.com/petfloresta.ufmt";
+  :temFacebook "https://www.facebook.com/petfloresta.ufmt";
+  :temYouTube "https://www.youtube.com/channel/UClnWHbJltXHkeBME7IifL5Q";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Mato%20Grosso> .
+
+<#GrupoPet/PET%20Cidade%20Saúde%20e%20Justiça> a :GrupoPET;
+  foaf:name "PET Cidade Saúde e Justiça";
+  dbo:location dbr:Picos;
+  :atuaNoEixo "Interdisciplinar";
+  :criadoEm "2010";
+  :temEmail "petcsj@gmail.com";
+  :estáNoCampus "Campus Picos";
+  :temInstagram "https://instagram.com/pet.ufpipicos";
+  :temYouTube "https://www.youtube.com/channel/UCvGP4hAMyOB_3qKFbvxOlbQ?view_as=subscriber";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Piauí> .
+
+<#Universidade/Universidade%20Federal%20do%20Piauí> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q945699;
+  rdfs:label "Universidade Federal do Piauí";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Piau%C3%AD" .
+
+<#GrupoPet/PET%20Conexões%20de%20Saberes%20Socioambientais> a :GrupoPET;
+  foaf:name "PET Conexões de Saberes Socioambientais";
+  dbo:location dbr:Cruz_das_Almas;
+  :atuaNoEixo "Interdisciplinar";
+  :trabalhaCom "Socioambiental";
+  :temSite "www2.ufrb.edu.br/petsocioambientais/";
+  :criadoEm "2010";
+  :temEmail "petsocioambientais@ccaab.ufrb.edu.br";
+  :estáNoCampus "Campus Cruz das Almas";
+  :temInstagram "https://instagram.com/pet_socioambientais.ufrb";
+  :temFacebook "https://www.facebook.com/petrocaufrb";
+  :temYouTube "https://www.youtube.com/channel/UC7d8HxwhOT889yx0Di969Vw";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Recôncavo%20da%20Bahia> .
+
+<#Universidade/Universidade%20Regional%20de%20Blumenau> a :Universidade;
+  rdfs:seeAlso wd:Q3918;
+  rdfs:label "Universidade Regional de Blumenau";
+  :temWikipedia "https://en.wikipedia.org/wiki/List_of_universities_in_Brazil_by_state" .
+
+<#GrupoPet/PET%20História> a :GrupoPET;
+  foaf:name "PET História";
+  dbo:location dbr:Curitiba;
+  :atuaNoEixo "Ciências Humanas";
+  :temSite "pethistoriaufpr.wordpress.com/";
+  :criadoEm "1992";
+  :temEmail "memoria.pet.historia@gmail.com";
+  :estáNoCampus "Campus Rebouças";
+  :temInstagram "https://instagram.com/pethistoria.ufpr";
+  :temFacebook "https://www.facebook.com/PetHistoriaUfpr";
+  :temYouTube "https://www.youtube.com/channel/UCxUEx7dobCVQkYeSrFZgVZQ";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Paraná> .
+
+<#Universidade/Universidade%20Federal%20do%20Paraná> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q1232831;
+  rdfs:label "Universidade Federal do Paraná";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Paran%C3%A1" .
+
+<#GrupoPet/PET%20Nutrição> a :GrupoPET;
+  foaf:name "PET Nutrição";
+  dbo:location dbr:Salvador;
+  :atuaNoEixo "Ciências da Saúde";
+  :temSite "www.petnut.nut.ufba.br/";
+  :criadoEm "2010";
+  :temEmail "petnutufba@gmail.com";
+  :estáNoCampus "Campus Canela";
+  :temInstagram "https://instagram.com/%20petnutufba";
+  :temFacebook "https://www.facebook.com/PET-Nutri%C3%A7%C3%A3o-UFBA-120289898099265";
+  :temYouTube "https://www.youtube.com/channel/UCmzHZmBQZKcDQiPh-ncf3Lg";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20da%20Bahia> .
+
+<#Universidade/Universidade%20Federal%20da%20Bahia> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q159102;
+  rdfs:label "Universidade Federal da Bahia";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Bahia" .
+
+<#GrupoPet/PET%20Engenharia%20Química> a :GrupoPET;
+  foaf:name "PET Engenharia Química";
+  dbo:location dbr:Campinas;
+  :atuaNoEixo "Engenharias";
+  :temSite "sites.google.com/unicamp.br/petequnicamp/";
+  :criadoEm "2011";
+  :temEmail "petfeq@unicamp.br";
+  :estáNoCampus "Campus Campinas";
+  :temInstagram "https://instagram.com/petequnicamp";
+  :temYouTube "https://www.youtube.com/channel/UCPoYJc4g9JuSKpuAYHoH37w";
+  :éAfiliadoDe <#Universidade/Universidade%20Estadual%20de%20Campinas> .
+
+<#Universidade/Universidade%20Estadual%20de%20Campinas> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q2060678;
+  rdfs:label "Universidade Estadual de Campinas";
+  :temWikipedia "https://en.wikipedia.org/wiki/State_University_of_Campinas" .
+
+<#GrupoPet/PET%20Educação> a :GrupoPET;
+  foaf:name "PET Educação";
+  dbo:location dbr:Viçosa;
+  :atuaNoEixo "Ciências Humanas";
+  :temSite "www.petedu.ufv.br/";
+  :criadoEm "2010";
+  :temEmail "peteducacao@ufv.br";
+  :estáNoCampus "Campus Viçosa";
+  :temInstagram "https://instagram.com/peteduufv";
+  :temFacebook "https://cenapet.org/grupos/66/PET%20Educa%C3%A7%C3%A3o%20UFV";
+  :temYouTube "https://cenapet.org/grupos/66/PET%20EDU%20UFV:%20https://www.youtube.com/channel/UCpa0PmfTMiYEofv2b4sfYSA";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Viçosa> .
+
+<#GrupoPet/PET%20Administração> a :GrupoPET;
+  foaf:name "PET Administração";
+  dbo:location dbr:Manaus;
+  :atuaNoEixo "Ciências Sociais Aplicadas";
+  :temSite "petadmufam.com.br";
+  :criadoEm "1989";
+  :temEmail "petadmufam0@gmail.com";
+  :estáNoCampus "Campus Manaus";
+  :temInstagram "https://instagram.com/petadmufam";
+  :temFacebook "https://www.facebook.com/petadmufam/";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Amazonas> .
+
+<#GrupoPet/PET%20Medicina> a :GrupoPET;
+  foaf:name "PET Medicina";
+  dbo:location dbr:Manaus;
+  :atuaNoEixo "Ciências da Saúde";
+  :criadoEm "1994";
+  :temEmail "petufammedicina@gmail.com";
+  :estáNoCampus "Campus Manaus";
+  :temInstagram "https://instagram.com/petmedicinaufam";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Amazonas> .
+
+<#GrupoPet/PET%20AgroEnergia> a :GrupoPET;
+  foaf:name "PET AgroEnergia";
+  dbo:location dbr:Recife;
+  :atuaNoEixo "Ciências Agrárias";
+  :trabalhaCom "Inovação tecnológica";
+  :temSite "petagroenergi2.wixsite.com/pet-agroenergia";
+  :criadoEm "2012";
+  :temEmail "petagroenergia@ufrpe.br";
+  :estáNoCampus "Campus Dois Irmãos";
+  :temInstagram "https://instagram.com/petagroenergia";
+  :temFacebook "https://www.facebook.com/petagroenergia.ufrpe";
+  :temYouTube "https://www.youtube.com/channel/UCuMZVkHYad8jwtEztNqzKrQ";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20Rural%20de%20Pernambuco> .
+
+<#Universidade/Universidade%20Federal%20Rural%20de%20Pernambuco> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q7894368;
+  rdfs:label "Universidade Federal Rural de Pernambuco";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_Rural_University_of_Pernambuco" .
+
+<#GrupoPet/PET%20Comunicação%20Social> a :GrupoPET;
+  foaf:name "PET Comunicação Social";
+  dbo:location dbr:Manaus;
+  :atuaNoEixo "Ciências Sociais Aplicadas";
+  :temSite "medium.com/petcomufam/about";
+  :criadoEm "1988";
+  :temEmail "petcomufam@hotmail.com";
+  :estáNoCampus "Campus Manaus";
+  :temInstagram "https://instagram.com/petcomufam";
+  :temFacebook "https://www.facebook.com/petcomufam";
+  :temYouTube "https://www.youtube.com/user/petcomufam";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Amazonas> .
+
+<#GrupoPet/PET%20Engenharia%20de%20Controle%20e%20Automação> a :GrupoPET;
+  foaf:name "PET Engenharia de Controle e Automação";
+  dbo:location dbr:Leopoldina;
+  :atuaNoEixo "Engenharias";
+  :trabalhaCom "Desenvolvimento de ferramental para a área de controle e automação";
+  :criadoEm "2010";
+  :temEmail "petencaut2011@gmail.com";
+  :estáNoCampus "Campus Leopoldina";
+  :temInstagram "https://instagram.com/petencaut";
+  :temYouTube "https://youtube.com/user/Petencaut";
+  :éAfiliadoDe <#Universidade/Centro%20Federal%20de%20Educação%20Tecnológica%20de%20Minas%20Gerais> .
+
+<#Universidade/Centro%20Federal%20de%20Educação%20Tecnológica%20de%20Minas%20Gerais>
+  a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q159106;
+  rdfs:label "Centro Federal de Educação Tecnológica de Minas Gerais";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_Center_for_Technological_Education_of_Minas_Gerais" .
+
+<#GrupoPet/PET%20Química> a :GrupoPET;
+  foaf:name "PET Química";
+  dbo:location dbr:Arapiraca;
+  :atuaNoEixo "Ciências Exatas e da Terra";
+  :temSite "petquimicaufal.wixsite.com/petquimica";
+  :criadoEm "2010";
+  :temEmail "ufal.pet.quimica@gmail.com";
+  :estáNoCampus "Campus Arapiraca";
+  :temInstagram "https://instagram.com/petquimicaufal";
+  :temFacebook "https://facebook.com/petquimicaufal";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Alagoas> .
+
+<#GrupoPet/PET%20Arquitetura> a :GrupoPET;
+  foaf:name "PET Arquitetura";
+  dbo:location dbr:Maceió;
+  :atuaNoEixo "Ciências Sociais Aplicadas";
+  :temSite "petarqufal.wixsite.com/petarq";
+  :criadoEm "1995";
+  :temEmail "petarqufal@gmail.com";
+  :estáNoCampus "Campus A. C. Simões";
+  :temInstagram "https://instagram.com/petarqufal";
+  :temFacebook "https://www.facebook.com/petarqufal/";
+  :temYouTube "https://www.youtube.com/channel/UCYyQMtfgdr49mnu2_MSYpSQ";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Alagoas> .
+
+<#Universidade/Universidade%20Federal%20de%20Santa%20Maria> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q3790133;
+  rdfs:label "Universidade Federal de Santa Maria";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Santa_Maria" .
+
+<#GrupoPet/PET%20EEL%20UFSC> a :GrupoPET;
+  foaf:name "PET EEL UFSC";
+  dbo:location dbr:Florianópolis;
+  :atuaNoEixo "Engenharias";
+  :temSite "www.peteel.ufsc.br/";
+  :criadoEm "1991";
+  :temEmail "peteel@gmail.com";
+  :estáNoCampus "Campus Florianópolis";
+  :temInstagram "https://instagram.com/peteelufsc";
+  :temFacebook "https://www.facebook.com/peteelufsc/";
+  :temYouTube "https://www.youtube.com/user/PETEELchannel";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Santa%20Catarina> .
+
+<#Universidade/Universidade%20Federal%20de%20Santa%20Catarina> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q1851075;
+  rdfs:label "Universidade Federal de Santa Catarina";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Santa_Catarina" .
+
+<#GrupoPet/PET%20Engenharias%20da%20Mobilidade> a :GrupoPET;
+  foaf:name "PET Engenharias da Mobilidade";
+  dbo:location dbr:Joinville;
+  :atuaNoEixo "Engenharias";
+  :temSite "petemb.ufsc.br/";
+  :criadoEm "2010";
+  :temEmail "petemb.ufsc@gmail.com";
+  :estáNoCampus "Campus Joinville";
+  :temInstagram "https://instagram.com/petembufsc";
+  :temFacebook "https://www.facebook.com/petembufsc";
+  :temYouTube "https://www.youtube.com/channel/UCq6kdbBkf0RAGTuSzhMk_Vg/featured";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Santa%20Catarina> .
+
+<#GrupoPet/PET%20Conexões%20de%20Saberes%20-%20Licenciaturas%20e%20Serviço%20Social>
+  a :GrupoPET;
+  foaf:name "PET Conexões de Saberes - Licenciaturas e Serviço Social";
+  dbo:location dbr:Uberaba;
+  :atuaNoEixo "Interdisciplinar";
+  :trabalhaCom "Trabalho/educação/educação popular/meio ambiente/questão social";
+  :criadoEm "2010";
+  :temEmail "petcscsn@gmail.com";
+  :estáNoCampus "Campus Uberaba";
+  :temInstagram "https://instagram.com/https://instagram.com/pet_lss?igshid=277hs5gkrq6x";
+  :temFacebook "https://www.facebook.com/LicenciaturasEServicoSocial/";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Triângulo%20Mineiro> .
+
+<#Universidade/Universidade%20Federal%20do%20Triângulo%20Mineiro> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q10387837;
+  rdfs:label "Universidade Federal do Triângulo Mineiro";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Tri%C3%A2ngulo_Mineiro" .
+
+<#GrupoPet/PET%20Engenharia%20de%20Produção> a :GrupoPET;
+  foaf:name "PET Engenharia de Produção";
+  dbo:location dbr:Florianópolis;
+  :atuaNoEixo "Engenharias";
+  :temSite "www.peteps.com.br/";
+  :criadoEm "1982";
+  :temEmail "petepsufsc@gmail.com";
+  :estáNoCampus "Campus Florianópolis";
+  :temInstagram "https://instagram.com/petproducaoufsc";
+  :temFacebook "https://www.facebook.com/peteps";
+  :temYouTube "https://www.youtube.com/channel/UCD9kKs-IpDhO9OoU9sX_krQ";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Santa%20Catarina> .
+
+<#GrupoPet/PET%20Odontologia> a :GrupoPET;
+  foaf:name "PET Odontologia";
+  dbo:location dbr:Feira_de_Santana, dbr:Alfenas;
+  :atuaNoEixo "Ciências da Saúde";
+  :temSite "sites.google.com/uefs.br/pet-odontologia-uefs/in%C3%ADcio";
+  :criadoEm "2007", "1991";
+  :temEmail "petodontologia@uefs.br", "pet.odontologia@unifal-mg.edu.br";
+  :estáNoCampus "Campus Feira de Santana", "Campus Alfenas";
+  :temInstagram "https://instagram.com/petodontouefs", "https://instagram.com/petodontounifal";
+  :temFacebook "https://www.facebook.com/petodontouefs/", "https://www.facebook.com/petodontounifalmg";
+  :temYouTube "https://www.youtube.com/channel/UC-rzOgse1nQioPywozFoGvA", "https://www.youtube.com/channel/UC0Fd4jrk--HCNYEpYuH5eAg";
+  :éAfiliadoDe <#Universidade/Universidade%20Estadual%20de%20Feira%20de%20Santana>,
+    <#Universidade/Universidade%20Federal%20de%20Alfenas> .
+
+<#Universidade/Universidade%20Estadual%20de%20Feira%20de%20Santana> a :Universidade;
+  rdfs:seeAlso wd:Q3918;
+  rdfs:label "Universidade Estadual de Feira de Santana";
+  :temWikipedia "https://en.wikipedia.org/wiki/Feira_de_Santana" .
+
+<#GrupoPet/PET%20Economia> a :GrupoPET;
+  foaf:name "PET Economia";
+  dbo:location dbr:Feira_de_Santana, dbr:Campina_Grande;
+  :atuaNoEixo "Ciências Sociais Aplicadas";
+  :criadoEm "2008", "1988";
+  :temEmail "csj@uefs.br", "peteconomiaufcg@gmail.com";
+  :estáNoCampus "Campus Feira de Santana", "Campus Campina Grande";
+  :temInstagram "https://instagram.com/https://www.instagram.com/peteconomia/?hl=pt",
+    "https://instagram.com/peteconufcg";
+  :temFacebook "https://www.facebook.com/peteconomiauefs/";
+  :éAfiliadoDe <#Universidade/Universidade%20Estadual%20de%20Feira%20de%20Santana>,
+    <#Universidade/Universidade%20Federal%20de%20Campina%20Grande>;
+  :temSite "www.peteconomia.ufcg.edu.br";
+  :temYouTube "https://youtube.com/channel/UCYs7ZTXBCwrZKdZJ7_Np02g" .
+
+<#GrupoPet/PET%20Matemática> a :GrupoPET;
+  foaf:name "PET Matemática";
+  dbo:location dbr:Florianópolis, dbr:Vitória;
+  :atuaNoEixo "Ciências Exatas e da Terra";
+  :temSite "pet.mtm.ufsc.br/", "petmatematica.ufes.br/";
+  :criadoEm "1991";
+  :temEmail "grupo@pet.mtm.ufsc.br", "petmatufes1@gmail.com";
+  :estáNoCampus "Campus Florianópolis", "Campus Goiabeiras";
+  :temInstagram "https://instagram.com/pet.mtm.ufsc", "https://instagram.com/petmat.ufes";
+  :temFacebook "https://www.facebook.com/pet.mtm.ufsc", "https://pt-br.facebook.com/PetMatUFES";
+  :temYouTube "https://www.youtube.com/channel/UCmUgi9KEASBbXKoUxEdpJ4w", "https://www.youtube.com/channel/UCuBZwN2pozXDJixi8oKracw/featured";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Santa%20Catarina>, <#Universidade/Universidade%20Federal%20do%20Espírito%20Santo> .
+
+<#GrupoPet/PET%20Arquitetura%20e%20Urbanismo%20UFSC> a :GrupoPET;
+  foaf:name "PET Arquitetura e Urbanismo UFSC";
+  dbo:location dbr:Florianópolis;
+  :atuaNoEixo "Ciências Sociais Aplicadas";
+  :temSite "petarq.wordpress.com/";
+  :criadoEm "1992";
+  :temEmail "petarq@gmail.com";
+  :estáNoCampus "Campus Florianópolis";
+  :temInstagram "https://instagram.com/petarqufsc";
+  :temFacebook "https://www.facebook.com/PET-ARQ-UFSC-174590199283599/";
+  :temYouTube "https://www.youtube.com/user/petarquiteturaufsc";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Santa%20Catarina> .
+
+<#Universidade/Universidade%20Federal%20do%20Espírito%20Santo> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q10387830;
+  rdfs:label "Universidade Federal do Espírito Santo";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Esp%C3%ADrito_Santo" .
+
+<#GrupoPet/PET%20Biologia> a :GrupoPET;
+  foaf:name "PET Biologia";
+  dbo:location dbr:Florianópolis, dbr:Serra_Talhada;
+  :atuaNoEixo "Ciências Biológicas";
+  :temSite "petbiologia.ufsc.br/", "petbiologicasuast.wixsite.com/petbiologiauast";
+  :criadoEm "1992", "2010";
+  :temEmail "petbiologiaufsc@gmail.com", "petbiologia.uast@ufrpe.br";
+  :estáNoCampus "Campus Florianópolis", "Campus Serra Talhada";
+  :temInstagram "https://instagram.com/petbiologiaufsc", "https://instagram.com/petbiouast";
+  :temFacebook "https://cenapet.org/grupos/88/facebook.com/pg/petbiologiaufsc";
+  :temYouTube "https://www.youtube.com/channel/UCRZG_4_ZkpB0radxnB9pSaQ", "https://www.youtube.com/channel/UCDJvPO1Xh4bsGTaN4XURppA";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Santa%20Catarina>, <#Universidade/Universidade%20Federal%20Rural%20de%20Pernambuco>;
+  :trabalhaCom "Potencialidades do Semiárido" .
+
+<#GrupoPet/PET%20Engenharia%20Elétrica> a :GrupoPET;
+  foaf:name "PET Engenharia Elétrica";
+  dbo:location dbr:Joinville, dbr:João_Pessoa, dbr:Campina_Grande, dbr:Salvador;
+  :atuaNoEixo "Engenharias";
+  :temSite "www.udesc.br/cct/peteletrica", "www.cear.ufpb.br/peteletrica", "sites.google.com/ee.ufcg.edu.br/peteletrica",
+    "www.peteletrica.eng.ufba.br/2017/";
+  :criadoEm "1994", "2013", "2012", "2009";
+  :temEmail "pet.udesc@gmail.com", "pet.eletrica@cear.ufpb.br", "pet@ee.ufcg.edu.br",
+    "peteletrica@ufba.br";
+  :estáNoCampus "Campus Joinville", "Campus João Pessoa", "Campus Campina Grande", "Campus Ondina";
+  :temInstagram "https://instagram.com/peteel.udesc", "https://instagram.com/peteletrica",
+    "https://instagram.com/peteletricaufcg", "https://instagram.com/peteletricaufba";
+  :temFacebook "https://www.facebook.com/peteel.udesc";
+  :temYouTube "https://www.youtube.com/user/UDESCPETeletrica", "https://www.youtube.com/c/PETEl%C3%A9tricaUFPBMinicursos",
+    "https://www.youtube.com/user/PETeletricaUFBA";
+  :éAfiliadoDe <#Universidade/Fundação%20Universidade%20do%20Estado%20de%20Santa%20Catarina>,
+    <#Universidade/Universidade%20Federal%20da%20Paraíba>, <#Universidade/Universidade%20Federal%20de%20Campina%20Grande>,
+    <#Universidade/Universidade%20Federal%20da%20Bahia> .
+
+<#Universidade/Fundação%20Universidade%20do%20Estado%20de%20Santa%20Catarina> a :Universidade;
+  rdfs:seeAlso wd:Q3918;
+  rdfs:label "Fundação Universidade do Estado de Santa Catarina" .
+
+<#GrupoPet/PET%20Biomecânica> a :GrupoPET;
+  foaf:name "PET Biomecânica";
+  dbo:location dbr:Petrolina;
+  :atuaNoEixo "Ciências da Saúde";
+  :trabalhaCom "Biomecânica e Prática Baseada em Evidências";
+  :criadoEm "2010";
+  :temEmail "rodrigo.carvalho@univasf.edu.br";
+  :estáNoCampus "Campus Sede - Petrolina";
+  :temInstagram "https://instagram.com/pbe.univasf";
+  :temFacebook "https://www.facebook.com/PetBiomecanica";
+  :temYouTube "https://www.youtube.com/channel/UCrIM15Sp2XzJ4Nw2IxiE2zw";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Vale%20do%20São%20Francisco> .
+
+<#Universidade/Universidade%20Federal%20do%20Vale%20do%20São%20Francisco> a :Universidade;
+  rdfs:seeAlso wd:Q3918;
+  rdfs:label "Universidade Federal do Vale do São Francisco";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_the_S%C3%A3o_Francisco_Valley" .
+
+<#GrupoPet/PET%20Serviço%20Social> a :GrupoPET;
+  foaf:name "PET Serviço Social";
+  dbo:location dbr:Florianópolis;
+  :atuaNoEixo "Ciências Sociais Aplicadas";
+  :trabalhaCom "Serviço Social";
+  :temSite "petservicosocial.ufsc.br/pet/";
+  :criadoEm "1992";
+  :temEmail "pet.servicosocial@contato.ufsc.br";
+  :estáNoCampus "Campus Florianópolis";
+  :temInstagram "https://instagram.com/https://www.instagram.com/petssoufsc/";
+  :temFacebook "https://www.facebook.com/petservicosocialufsc";
+  :temYouTube "https://www.youtube.com/user/PETSSO1";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Santa%20Catarina> .
+
+<#GrupoPet/PET%20Psicologia> a :GrupoPET;
+  foaf:name "PET Psicologia";
+  dbo:location dbr:Maceió;
+  :atuaNoEixo "Ciências Humanas";
+  :criadoEm "2008";
+  :temEmail "petpsico.ufal@gmail.com";
+  :estáNoCampus "Campus A. C. Simões";
+  :temInstagram "https://instagram.com/petpsicoufal";
+  :temYouTube "https://www.youtube.com/user/PETPsicoUFAL";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Alagoas> .
+
+<#Universidade/Universidade%20Federal%20de%20Alagoas> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q5440475;
+  rdfs:label "Universidade Federal de Alagoas";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Alagoas" .
+
+<#GrupoPet/PET%20Ciência%20da%20Computação> a :GrupoPET;
+  foaf:name "PET Ciência da Computação";
+  dbo:location dbr:Curitiba;
+  :atuaNoEixo "Ciências Exatas e da Terra";
+  :temSite "web.inf.ufpr.br/";
+  :criadoEm "1992";
+  :temEmail "pet@inf.ufpr.br";
+  :estáNoCampus "Campus Centro Politécnico";
+  :temInstagram "https://instagram.com/petcompufpr";
+  :temFacebook "https://www.facebook.com/petcompufpr";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Paraná> .
+
+<#Universidade/Universidade%20Federal%20do%20Paraná> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q1232831;
+  rdfs:label "Universidade Federal do Paraná";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Paran%C3%A1" .
+
+<#GrupoPet/PET%20Bacharelado%20em%20Zootecnia> a :GrupoPET;
+  foaf:name "PET Bacharelado em Zootecnia";
+  dbo:location dbr:Maringá, dbr:Recife;
+  :atuaNoEixo "Ciências Agrárias";
+  :temSite "www.instagram.com/petzootecniauem/?hl=pt", "www.petzootecnia.com.br";
+  :criadoEm "1996", "1992";
+  :temEmail "grupo-pet-zoo@googlegroups.com", "petzootecniaufrpe1@gmail.com";
+  :estáNoCampus "Campus Sede", "Campus Dois Irmãos";
+  :temInstagram "https://instagram.com/petzootecniauem", "https://instagram.com/petzootecniaufrpe";
+  :temFacebook "https://www.facebook.com/petzoouem", "https://www.facebook.com/petzootec/";
+  :temYouTube "https://www.youtube.com/channel/UCRCpFAxbdi5QBtaRWT60guA", "https://www.youtube.com/channel/UCiFSn47d_8k97QmwyTJ0uNA";
+  :éAfiliadoDe <#Universidade/Universidade%20Estadual%20de%20Maringá>, <#Universidade/Universidade%20Federal%20Rural%20de%20Pernambuco>;
+  :trabalhaCom "Extensão, pesquisa e ensino em zootecnia" .
+
+<#Universidade/Universidade%20Estadual%20de%20Maringá> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q7894365;
+  rdfs:label "Universidade Estadual de Maringá";
+  :temWikipedia "https://en.wikipedia.org/wiki/State_University_of_Maring%C3%A1" .
+
+<#GrupoPet/PET%20Pedagogia%20UFSC> a :GrupoPET;
+  foaf:name "PET Pedagogia UFSC";
+  dbo:location dbr:Florianópolis;
+  :atuaNoEixo "Ciências Humanas";
+  :trabalhaCom "São três eixos de foco das ações do grupo: Processos Educativos, sujeitos e Relações Raciais (ERER); Núcleo de pesquisa da EJA – Práticas Educativas E Processos De Escolarização de Educação De Jovens E Adultos (EJA); Literatura Infantil e Juvenil.";
+  :criadoEm "2007";
+  :temEmail "petpedagogia07@gmail.com";
+  :estáNoCampus "Campus Florianópolis";
+  :temInstagram "https://instagram.com/petpedagogia07";
+  :temFacebook "https://www.facebook.com/PETPedagogiaUFSC/";
+  :temYouTube "https://www.youtube.com/channel/UCEwbqXp4S9sZbbDWRe_UAqw";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Santa%20Catarina> .
+
+<#GrupoPet/PET%20Engenharia%20de%20Computação> a :GrupoPET;
+  foaf:name "PET Engenharia de Computação";
+  dbo:location dbr:Curitiba;
+  :atuaNoEixo "Engenharias";
+  :temSite "dainf.ct.utfpr.edu.br/peteco/";
+  :criadoEm "2010";
+  :temEmail "petecoutfpr@gmail.com";
+  :estáNoCampus "Campus Curitiba";
+  :temInstagram "https://instagram.com/peteco_utfpr";
+  :temFacebook "https://www.facebook.com/petecoutf";
+  :temYouTube "https://www.youtube.com/c/PETECOUTFPR/featured";
+  :éAfiliadoDe <#Universidade/Universidade%20Tecnológica%20Federal%20do%20Paraná> .
+
+<#Universidade/Universidade%20Tecnológica%20Federal%20do%20Paraná> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q1131055;
+  rdfs:label "Universidade Tecnológica Federal do Paraná";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Technology_%E2%80%93_Paran%C3%A1" .
+
+<#GrupoPet/PET%20CoCE> a :GrupoPET;
+  foaf:name "PET CoCE";
+  dbo:location dbr:Curitiba;
+  :atuaNoEixo "Interdisciplinar";
+  :trabalhaCom "Computação e Inclusão";
+  :temSite "www.dainf.ct.utfpr.edu.br/petcoce/";
+  :criadoEm "2010";
+  :temEmail "petcoce.rh@gmail.com";
+  :estáNoCampus "Campus Curitiba";
+  :temInstagram "https://instagram.com/petcoce_utfpr";
+  :temFacebook "https://facebook.com/petcoce";
+  :temYouTube "https://www.youtube.com/channel/UCeVybTTPnKXIzhtgzP1fX2A";
+  :éAfiliadoDe <#Universidade/Universidade%20Tecnológica%20Federal%20do%20Paraná> .
+
+<#GrupoPet/PET%20Zootecnia> a :GrupoPET;
+  foaf:name "PET Zootecnia";
+  dbo:location dbr:Dois_Vizinhos, dbr:Glória;
+  :atuaNoEixo "Ciências Agrárias";
+  :criadoEm "2007", "2011";
+  :temEmail "petzootecnia.utfpr.dv@gmail.com", "ufu.zoopet@gmail.com";
+  :estáNoCampus "Campus Dois Vizinhos", "Campus Glória";
+  :temInstagram "https://instagram.com/petzootecnia_utfprdv", "https://instagram.com/zoopetufu";
+  :temFacebook "https://www.facebook.com/petzooutfprdv";
+  :temYouTube "https://www.youtube.com/channel/UCl0tGR6BNCan0gUN5yjSDuA";
+  :éAfiliadoDe <#Universidade/Universidade%20Tecnológica%20Federal%20do%20Paraná>, <#Universidade/Universidade%20Federal%20de%20Uberlândia>;
+  :temSite "www.petzoo.famev.ufu.br" .
+
+<#GrupoPet/PET%20ENGENHARIA%20QUÍMICA> a :GrupoPET;
+  foaf:name "PET ENGENHARIA QUÍMICA";
+  dbo:location dbr:Ponta_Grossa;
+  :atuaNoEixo "Engenharias";
+  :temSite "pet-pg.wixsite.com/pet-eq";
+  :criadoEm "2012";
+  :temEmail "pet-pg@utfpr.edu.br";
+  :estáNoCampus "Campus Ponta Grossa";
+  :temInstagram "https://instagram.com/%20petequtfprpg";
+  :temFacebook "https://www.facebook.com/petequtfpr";
+  :temYouTube "https://www.youtube.com/channel/UCHXHVAsPVKnd8RxTLIY8OUA";
+  :éAfiliadoDe <#Universidade/Universidade%20Tecnológica%20Federal%20do%20Paraná> .
+
+<#GrupoPet/PET%20Política%20Públicas> a :GrupoPET;
+  foaf:name "PET Política Públicas";
+  dbo:location dbr:Curitiba;
+  :atuaNoEixo "Interdisciplinar";
+  :trabalhaCom "Políticas Públicas";
+  :temSite "petpp.utfpr.edu.br/";
+  :criadoEm "2012";
+  :temEmail "comunicacao.petpp@gmail.com";
+  :estáNoCampus "Campus Curitiba";
+  :temInstagram "https://instagram.com/pet.politicaspublicas";
+  :temFacebook "https://www.facebook.com/petpputfpr";
+  :éAfiliadoDe <#Universidade/Universidade%20Tecnológica%20Federal%20do%20Paraná> .
+
+<#GrupoPet/PET%20Tecnologia%20em%20Alimentos> a :GrupoPET;
+  foaf:name "PET Tecnologia em Alimentos";
+  dbo:location dbr:Londrina;
+  :atuaNoEixo "Ciências Agrárias";
+  :criadoEm "2010";
+  :temEmail "alimentospet@gmail.com";
+  :estáNoCampus "Campus Londrina";
+  :temInstagram "https://instagram.com/pet_tecnologiaemalimentos";
+  :temFacebook "https://www.facebook.com/petalimentosutfprld";
+  :temYouTube "https://www.youtube.com/channel/UC9Q_LBDDCCLZeG7Lx92qakQ/featured";
+  :éAfiliadoDe <#Universidade/Universidade%20Tecnológica%20Federal%20do%20Paraná> .
+
+<#GrupoPet/PET%20Agronomia> a :GrupoPET;
+  foaf:name "PET Agronomia";
+  dbo:location dbr:Pato_Branco;
+  :atuaNoEixo "Ciências Agrárias";
+  :temSite "petagronomia.wordpress.com/";
+  :criadoEm "2006";
+  :temEmail "petagronomiautfpr@gmail.com";
+  :estáNoCampus "Campus Pato Branco";
+  :temInstagram "https://instagram.com/petagronomiautfpr";
+  :temYouTube "https://www.youtube.com/user/PETAgroUTFPR";
+  :éAfiliadoDe <#Universidade/Universidade%20Tecnológica%20Federal%20do%20Paraná> .
+
+<#GrupoPet/PET%20Física> a :GrupoPET;
+  foaf:name "PET Física";
+  dbo:location dbr:Maringá, dbr:João_Pessoa;
+  :atuaNoEixo "Ciências Exatas e da Terra";
+  :temSite "petfisicauem.wixsite.com/petfisicauem", "petfisicaufpb.wixsite.com/petfisicaufpb";
+  :criadoEm "1991", "2009";
+  :temEmail "petfisicauem@gmail.com", "petfisica@fisica.ufpb.br";
+  :estáNoCampus "Campus Sede", "Campus João Pessoa";
+  :temInstagram "https://instagram.com/petfisicauem", "https://instagram.com/petfisicaufpb";
+  :temFacebook "https://www.facebook.com/petfisicauem";
+  :temYouTube "https://www.youtube.com/channel/UC7-TUbyF6VFE9QvxUoq2lrQ";
+  :éAfiliadoDe <#Universidade/Universidade%20Estadual%20de%20Maringá>, <#Universidade/Universidade%20Federal%20da%20Paraíba> .
+
+<#GrupoPet/PET%20em%20Ciência%20da%20Computação> a :GrupoPET;
+  foaf:name "PET em Ciência da Computação";
+  dbo:location dbr:Mossoró;
+  :atuaNoEixo "Ciências Exatas e da Terra";
+  :temSite "petcc.uern.br";
+  :criadoEm "2010";
+  :temEmail "petcc@uern.br";
+  :estáNoCampus "Campus Mossoró";
+  :temInstagram "https://instagram.com/petccuern";
+  :éAfiliadoDe <#Universidade/Universidade%20do%20Estado%20do%20Rio%20Grande%20do%20Norte> .
+
+<#Universidade/Universidade%20do%20Estado%20do%20Rio%20Grande%20do%20Norte> a :Universidade;
+  rdfs:seeAlso wd:Q3918;
+  rdfs:label "Universidade do Estado do Rio Grande do Norte";
+  :temWikipedia "https://en.wikipedia.org/wiki/Rio_Grande_do_Norte" .
+
+<#GrupoPet/PET%20Agronomia%20-%20IFPA> a :GrupoPET;
+  foaf:name "PET Agronomia - IFPA";
+  dbo:location dbr:Castanhal;
+  :atuaNoEixo "Ciências Agrárias";
+  :criadoEm "2010";
+  :temEmail "petagro_ifpa@yahoo.com.br";
+  :estáNoCampus "Campus Castanhal";
+  :temInstagram "https://instagram.com/petagro_ifpa";
+  :temFacebook "https://www.facebook.com/petagro.agronomia";
+  :temYouTube "https://www.youtube.com/channel/UCJ9hPoIefUR7g8kxR6tbK4w/featured";
+  :éAfiliadoDe <#Universidade/Instituto%20Federal%20de%20Educação%2C%20Ciência%20e%20Tecnologia%20do%20Pará> .
+
+<#Universidade/Instituto%20Federal%20de%20Educação%2C%20Ciência%20e%20Tecnologia%20do%20Pará>
+  a :Universidade;
+  rdfs:seeAlso wd:Q3918;
+  rdfs:label "Instituto Federal de Educação, Ciência e Tecnologia do Pará";
+  :temWikipedia "https://en.wikipedia.org/wiki/Bel%C3%A9m" .
+
+<#GrupoPet/PET%20Zootecnia%20%22João%20Dimas%20Graciano%22> a :GrupoPET;
+  foaf:name "PET Zootecnia \"João Dimas Graciano\"";
+  dbo:location dbr:Dourados;
+  :atuaNoEixo "Ciências Agrárias";
+  :trabalhaCom "Zootecnia";
+  :temSite "petzooufgd.blogspot.com/";
+  :criadoEm "2007";
+  :temEmail "rodrigogarcia@ufgd.edu.br";
+  :estáNoCampus "Campus Unidade II";
+  :temInstagram "https://instagram.com/petzootec_ufgd";
+  :temFacebook "https://www.facebook.com/pg/PETZootecniaUFGD/";
+  :temYouTube "https://www.youtube.com/channel/UCzXCmnRAxrhF6rHWF8GT_Ig";
+  :éAfiliadoDe <#Universidade/Fundação%20Universidade%20Federal%20da%20Grande%20Dourados> .
+
+<#Universidade/Fundação%20Universidade%20Federal%20da%20Grande%20Dourados> a :Universidade;
+  rdfs:seeAlso wd:Q3918;
+  rdfs:label "Fundação Universidade Federal da Grande Dourados";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Rio_de_Janeiro" .
+
+<#GrupoPet/PET%20Zootecnia%20UFSM> a :GrupoPET;
+  foaf:name "PET Zootecnia UFSM";
+  dbo:location dbr:Santa_Maria;
+  :atuaNoEixo "Ciências Agrárias";
+  :criadoEm "2009";
+  :temEmail "petzootecniaufsm@gmail.com";
+  :estáNoCampus "Campus Santa Maria";
+  :temInstagram "https://instagram.com/petzootecnia_ufsm";
+  :temFacebook "https://www.facebook.com/petzootecnia";
+  :temYouTube "https://www.youtube.com/channel/UCkLnE9et1vq1b-zp227u-GA";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Santa%20Maria> .
+
+<#Universidade/Universidade%20Federal%20de%20Santa%20Maria> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q3790133;
+  rdfs:label "Universidade Federal de Santa Maria";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Santa_Maria" .
+
+<#GrupoPet/PET%20Bacharelado%20em%20Bioquímica> a :GrupoPET;
+  foaf:name "PET Bacharelado em Bioquímica";
+  dbo:location dbr:Viçosa;
+  :atuaNoEixo "Ciências Biológicas";
+  :temSite "petbqiufv.wixsite.com/petbqi";
+  :criadoEm "2010";
+  :temEmail "petbioquimicaufv@gmail.com";
+  :estáNoCampus "Campus Viçosa";
+  :temInstagram "https://instagram.com/petbioquimica";
+  :temFacebook "https://www.facebook.com/petbqiufv";
+  :temYouTube "https://www.youtube.com/channel/UCj9zhyjqip2G0SsFWUNb4Gg";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Viçosa> .
+
+<#Universidade/Universidade%20Federal%20de%20Viçosa> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q5814528;
+  rdfs:label "Universidade Federal de Viçosa";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Vi%C3%A7osa" .
+
+<#GrupoPet/PET%20Nutrição> a :GrupoPET;
+  foaf:name "PET Nutrição";
+  dbo:location dbr:Viçosa, dbr:Florianópolis;
+  :atuaNoEixo "Ciências da Saúde";
+  :criadoEm "1990", "1992";
+  :temEmail "petnut@ufv.br", "petntr@gmail.com";
+  :estáNoCampus "Campus Viçosa", "Campus Florianópolis";
+  :temInstagram "https://instagram.com/petnut.ufv", "https://instagram.com/petnutriufsc";
+  :temFacebook "https://facebook.com/petnutricaoufv/";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Viçosa>, <#Universidade/Universidade%20Federal%20de%20Santa%20Catarina>;
+  :temSite "www.petnutriufsc.com/" .
+
+<#GrupoPet/PET%20Geologia%20UFC> a :GrupoPET;
+  foaf:name "PET Geologia UFC";
+  dbo:location dbr:Fortaleza;
+  :atuaNoEixo "Ciências Exatas e da Terra";
+  :criadoEm "2016";
+  :temEmail "petgeologiaufc@gmail.com";
+  :estáNoCampus "Campus Pici";
+  :temInstagram "https://instagram.com/protopetgeologia";
+  :temFacebook "https://www.facebook.com/protopetgeologiaUFC";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Ceará> .
+
+<#Universidade/Universidade%20Federal%20do%20Ceará> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q2749558;
+  rdfs:label "Universidade Federal do Ceará";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Cear%C3%A1" .
+
+<#GrupoPet/PET%20Engenharia%20Florestal> a :GrupoPET;
+  foaf:name "PET Engenharia Florestal";
+  dbo:location dbr:Manaus;
+  :atuaNoEixo "Ciências Agrárias";
+  :criadoEm "1993";
+  :temEmail "florestal.pet.ufam@gmail.com";
+  :estáNoCampus "Campus Manaus";
+  :temInstagram "https://instagram.com/petflorestal_ufam";
+  :temFacebook "https://facebook.com/petflorestal.ufam/";
+  :temYouTube "https://www.youtube.com/channel/UC8QDtg2xfrtfdjt2nlMrL7Q";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Amazonas> .
+
+<#Universidade/Universidade%20Federal%20do%20Amazonas> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q5440476;
+  rdfs:label "Universidade Federal do Amazonas";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Amazonas" .
+
+<#GrupoPet/PET%20Elétrica> a :GrupoPET;
+  foaf:name "PET Elétrica";
+  dbo:location dbr:Campo_Grande, dbr:Juiz_de_Fora;
+  :atuaNoEixo "Engenharias";
+  :trabalhaCom "Estudo e desenvolvimento de ações na área de conservação de energia elétrica, mediante análises/simulações, otimizações de equipamentos, visando estabelecer economia de energia nas instalações e circuitos elétricos.";
+  :criadoEm "1994", "1991";
+  :temEmail "pet.eletrica.ufms@gmail.com", "pet.eletrica@engenharia.ufjf.br";
+  :estáNoCampus "Campus Cidade Universitária", "Campus Juiz de Fora";
+  :temInstagram "https://instagram.com/petelufms", "https://instagram.com/%20peteletricaufjf";
+  :temFacebook "https://www.facebook.com/petelufms/", "https://www.facebook.com/peteletricaufjf";
+  :temYouTube "https://youtube.com/channel/UC9KQM4uY6Vsr1h2hQh049wg", "https://www.youtube.com/user/peteleticaufjf";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Mato%20Grosso%20do%20Sul>,
+    <#Universidade/Universidade%20Federal%20de%20Juiz%20de%20Fora>;
+  :temSite "peteletrica.com/" .
+
+<#Universidade/Universidade%20Federal%20de%20Mato%20Grosso%20do%20Sul> a :Universidade;
+  rdfs:seeAlso wd:Q3918;
+  rdfs:label "Universidade Federal de Mato Grosso do Sul";
+  :temWikipedia "https://en.wikipedia.org/wiki/Mato_Grosso_do_Sul" .
+
+<#GrupoPet/PET%20Fronteira> a :GrupoPET;
+  foaf:name "PET Fronteira";
+  dbo:location dbr:Ponta_Porã;
+  :atuaNoEixo "Ciências Exatas e da Terra";
+  :criadoEm "2010";
+  :temEmail "anderson.lima@ufms.br";
+  :estáNoCampus "Campus Ponta Porã";
+  :temInstagram "https://instagram.com/petfronteira";
+  :temFacebook "https://www.facebook.com/pet.fronteira";
+  :temYouTube "https://www.youtube.com/channel/UCmXYZOcW41XLfjlisLgv5eA";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Mato%20Grosso%20do%20Sul> .
+
+<#GrupoPet/PET%20Administração> a :GrupoPET;
+  foaf:name "PET Administração";
+  dbo:location dbr:Campina_Grande, dbr:Recife;
+  :atuaNoEixo "Ciências Sociais Aplicadas";
+  :temSite "www.petadministracao.ufcg.edu.br/";
+  :criadoEm "2010";
+  :temEmail "petadmufcg@gmail.com", "petadmufrpe1@gmail.com";
+  :estáNoCampus "Campus Campina Grande", "Campus Dois Irmãos";
+  :temInstagram "https://instagram.com/petadmufcg", "https://instagram.com/petadmufrpe";
+  :temFacebook "https://www.facebook.com/petadmufcg", "https://www.facebook.com/PETADMINISTRACAOUFRPE/?show_switched_toast=0&show_switched_tooltip=0&show_podcast_settings=0";
+  :temYouTube "https://www.youtube.com/user/PETAdministracaoCG";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Campina%20Grande>, <#Universidade/Universidade%20Federal%20Rural%20de%20Pernambuco> .
+
+<#Universidade/Universidade%20Federal%20de%20Campina%20Grande> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q3848464;
+  rdfs:label "Universidade Federal de Campina Grande";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Campina_Grande" .
+
+<#GrupoPet/GET%20Medicina> a :GrupoPET;
+  foaf:name "GET Medicina";
+  dbo:location dbr:Juiz_de_Fora;
+  :atuaNoEixo "Ciências da Saúde";
+  :trabalhaCom "Medicina";
+  :criadoEm "2009";
+  :temEmail "get.medicina@gmail.com";
+  :estáNoCampus "Campus Juiz de Fora";
+  :temInstagram "https://instagram.com/get.medicina.ufjf";
+  :temFacebook "https://www.facebook.com/profile.php?id=100010984934399";
+  :temYouTube "https://www.youtube.com/channel/UCxg5aEYdVuG5jVy3otkW4fA";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Juiz%20de%20Fora> .
+
+<#Universidade/Universidade%20Federal%20de%20Juiz%20de%20Fora> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q7894373;
+  rdfs:label "Universidade Federal de Juiz de Fora";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Juiz_de_Fora" .
+
+<#GrupoPet/PET%20Licenciaturas> a :GrupoPET;
+  foaf:name "PET Licenciaturas";
+  dbo:location dbr:Porto_Seguro;
+  :atuaNoEixo "Interdisciplinar";
+  :criadoEm "2013";
+  :temEmail "petlicenciaturasifba@gmail.com";
+  :estáNoCampus "Campus Porto Seguro";
+  :temInstagram "https://instagram.com/pet_licenciaturas";
+  :temFacebook "https://www.facebook.com/petlicenciaturasps";
+  :temYouTube "https://www.youtube.com/channel/UCZZS04CDhgiuDfobQUG5icg/about";
+  :éAfiliadoDe <#Universidade/Instituto%20Federal%20de%20Educação%2C%20Ciência%20e%20Tecnologia%20da%20Bahia> .
+
+<#Universidade/Instituto%20Federal%20de%20Educação%2C%20Ciência%20e%20Tecnologia%20da%20Bahia>
+  a :Universidade;
+  rdfs:seeAlso wd:Q3918;
+  rdfs:label "Instituto Federal de Educação, Ciência e Tecnologia da Bahia";
+  :temWikipedia "https://en.wikipedia.org/wiki/Bahia" .
+
+<#GrupoPet/PET%20Biblioteconomia> a :GrupoPET;
+  foaf:name "PET Biblioteconomia";
+  dbo:location dbr:São_Luís;
+  :atuaNoEixo "Ciências Sociais Aplicadas";
+  :temSite "petbiblioteconomiaufma.wordpress.com/";
+  :criadoEm "1988";
+  :temEmail "petbiblioteconomiaufma@gmail.com";
+  :estáNoCampus "Campus São Luís";
+  :temInstagram "https://instagram.com/petbiblioufma";
+  :temFacebook "https://www.facebook.com/pg/petbiblioteconomiaufma/";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Maranhão> .
+
+<#Universidade/Universidade%20Federal%20do%20Maranhão> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q5440477;
+  rdfs:label "Universidade Federal do Maranhão";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Maranh%C3%A3o" .
+
+<#Universidade/Universidade%20Federal%20da%20Paraíba> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q5440479;
+  rdfs:label "Universidade Federal da Paraíba";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Para%C3%ADba" .
+
+<#GrupoPet/PET%20Floresta> a :GrupoPET;
+  foaf:name "PET Floresta";
+  dbo:location dbr:Seropédica;
+  :atuaNoEixo "Ciências Agrárias";
+  :trabalhaCom "Práticas Sustentáveis";
+  :criadoEm "2010";
+  :temEmail "petfloresta.rural@gmail.com";
+  :estáNoCampus "Campus Seropédica";
+  :temInstagram "https://instagram.com/https://www.instagram.com/petflorestaufrrj/?hl=pt-br";
+  :temFacebook "https://www.facebook.com/PETFloresta.UFRuralRJ";
+  :temYouTube "https://www.youtube.com/channel/UC_GzH3oxhS2c7cRbsVzGSCQ";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20Rural%20do%20Rio%20de%20Janeiro> .
+
+<#Universidade/Universidade%20Federal%20Rural%20do%20Rio%20de%20Janeiro> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q7834196;
+  rdfs:label "Universidade Federal Rural do Rio de Janeiro";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_Rural_University_of_Rio_de_Janeiro" .
+
+<#GrupoPet/PET%20Engenharia%20Mecânica> a :GrupoPET;
+  foaf:name "PET Engenharia Mecânica";
+  dbo:location dbr:Campina_Grande;
+  :atuaNoEixo "Engenharias";
+  :temSite "petmec-cg.wixsite.com/petmec-cg";
+  :criadoEm "2012";
+  :temEmail "petmeccampina@gmail.com";
+  :estáNoCampus "Campus Campina Grande";
+  :temInstagram "https://instagram.com/petmeccampina";
+  :temFacebook "https://www.facebook.com/PetmecCg";
+  :temYouTube "https://www.youtube.com/channel/UCsbVSffIKclcuvTmdQyzCug";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Campina%20Grande> .
+
+<#GrupoPet/PROPET%20Fonoaudiologia> a :GrupoPET;
+  foaf:name "PROPET Fonoaudiologia";
+  dbo:location dbr:Nova_Friburgo;
+  :atuaNoEixo "Ciências da Saúde";
+  :temSite "sites.google.com/view/propetfono/home";
+  :criadoEm "2013";
+  :temEmail "petfono1@gmail.com";
+  :estáNoCampus "Campus Nova Friburgo";
+  :temInstagram "https://instagram.com/pro_pet_fono";
+  :temFacebook "https://www.facebook.com/pet.fono.5/";
+  :temYouTube "https://www.youtube.com/channel/UCCC6GXBLq05StzdhsyHK-qQ";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20Fluminense> .
+
+<#Universidade/Universidade%20Federal%20Fluminense> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q280247;
+  rdfs:label "Universidade Federal Fluminense";
+  :temWikipedia "https://en.wikipedia.org/wiki/Fluminense_Federal_University" .
+
+<#Universidade/Universidade%20Federal%20Rural%20de%20Pernambuco> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q7894368;
+  rdfs:label "Universidade Federal Rural de Pernambuco";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_Rural_University_of_Pernambuco" .
+
+<#GrupoPet/PET%20Bacharelado%20em%20Ciências%20Biológicas> a :GrupoPET;
+  foaf:name "PET Bacharelado em Ciências Biológicas";
+  dbo:location dbr:Recife;
+  :atuaNoEixo "Ciências Biológicas";
+  :criadoEm "1991";
+  :temEmail "petbio@gmail.com";
+  :estáNoCampus "Campus Dois Irmãos";
+  :temInstagram "https://instagram.com/petbioufrpe";
+  :temFacebook "https://www.facebook.com/PETbiologiaUFRPE/";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20Rural%20de%20Pernambuco> .
+
+<#Universidade/Universidade%20Federal%20de%20Uberlândia> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q5440489;
+  rdfs:label "Universidade Federal de Uberlândia";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Uberl%C3%A2ndia" .
+
+<#GrupoPet/PET%20Bacharelado%20em%20Sistemas%20de%20Informação> a :GrupoPET;
+  foaf:name "PET Bacharelado em Sistemas de Informação";
+  dbo:location dbr:Uberlândia;
+  :atuaNoEixo "Interdisciplinar";
+  :temSite "www.petsi.facom.ufu.br/";
+  :criadoEm "2012";
+  :temEmail "petsiufu@gmail.com";
+  :estáNoCampus "Campus Santa Mônica";
+  :temInstagram "https://instagram.com/petsi_ufu";
+  :temFacebook "https://cenapet.org/grupos/125/facebook.com/petsi.ufu";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Uberlândia> .
+
+<#GrupoPet/PET%20Geografia> a :GrupoPET;
+  foaf:name "PET Geografia";
+  dbo:location dbr:Três_Lagoas;
+  :atuaNoEixo "Ciências Humanas";
+  :trabalhaCom "Geografia";
+  :temSite "petgeoufmscptl.blogspot.com/";
+  :criadoEm "1988";
+  :temEmail "pet-geo.cptl@ufms.br";
+  :estáNoCampus "Campus Três Lagoas - Unidade I";
+  :temInstagram "https://instagram.com/petgeo_cptl";
+  :temFacebook "https://facebook.com/petgeografiaufmscptl/";
+  :temYouTube "https://youtube.com/channel/UCQzbR_hrt4clC8dLA79DJ4g";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Mato%20Grosso%20do%20Sul> .
+
+<#GrupoPet/PET%20Administração%20Pública> a :GrupoPET;
+  foaf:name "PET Administração Pública";
+  dbo:location dbr:Araraquara;
+  :atuaNoEixo "Ciências Sociais Aplicadas";
+  :criadoEm "1992";
+  :temEmail "petadm@gmail.com";
+  :estáNoCampus "Campus Araraquara";
+  :temInstagram "https://instagram.com/petadmpublicaunesp";
+  :temFacebook "https://www.facebook.com/PETAdministracaoPublica";
+  :temYouTube "https://www.youtube.com/user/jubusnardi";
+  :éAfiliadoDe <#Universidade/Universidade%20Estadual%20Paulista%20Júlio%20de%20Mesquita%20Filho> .
+
+<#Universidade/Universidade%20Estadual%20Paulista%20Júlio%20de%20Mesquita%20Filho>
+  a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q1817137;
+  rdfs:label "Universidade Estadual Paulista Júlio de Mesquita Filho";
+  :temWikipedia "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_State_University" .
+
+<#GrupoPet/PET%20Intercultural%20Indígena> a :GrupoPET;
+  foaf:name "PET Intercultural Indígena";
+  dbo:location dbr:Caruaru;
+  :atuaNoEixo "Interdisciplinar";
+  :criadoEm "2010";
+  :temEmail "daniel.ferreirasilva@ufpe.br";
+  :estáNoCampus "Campus Caruaru";
+  :temInstagram "https://instagram.com/petindigenaufpe";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Pernambuco> .
+
+<#Universidade/Universidade%20Federal%20de%20Pernambuco> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q2322256;
+  rdfs:label "Universidade Federal de Pernambuco";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Pernambuco" .
+
+<#GrupoPet/PET%20Ciências%20Natuais> a :GrupoPET;
+  foaf:name "PET Ciências Natuais";
+  dbo:location dbr:Araguaína;
+  :atuaNoEixo "Interdisciplinar";
+  :temSite "petcnat.blogspot.com/";
+  :criadoEm "2010";
+  :temEmail "petcnat@gmail.com";
+  :estáNoCampus "Campus Araguaína";
+  :temInstagram "https://instagram.com/petcnat";
+  :éAfiliadoDe <#Universidade/Fundação%20Universidade%20Federal%20do%20Tocantins> .
+
+<#Universidade/Fundação%20Universidade%20Federal%20do%20Tocantins> a :Universidade;
+  rdfs:seeAlso wd:Q3918;
+  rdfs:label "Fundação Universidade Federal do Tocantins";
+  :temWikipedia "https://en.wikipedia.org/wiki/Tocantins" .
+
+<#GrupoPet/PET%20Conexões%20Acesso%20e%20Sucesso%20no%20Ensino%20Superior> a :GrupoPET;
+  foaf:name "PET Conexões Acesso e Sucesso no Ensino Superior";
+  dbo:location dbr:Duque_de_Caxias;
+  :atuaNoEixo "Ciências Humanas";
+  :trabalhaCom "Acesso de estudantes de origem popular e permanência ao ensino superior";
+  :criadoEm "2017";
+  :temEmail "petacessofeufrj@gmail.com";
+  :estáNoCampus "Campus Duque de Caxias";
+  :temInstagram "https://instagram.com/pet.acessoufrj";
+  :temFacebook "https://www.facebook.com/petacessoufrj/";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Rio%20de%20Janeiro> .
+
+<#Universidade/Universidade%20Federal%20do%20Rio%20de%20Janeiro> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q586904;
+  rdfs:label "Universidade Federal do Rio de Janeiro";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Rio_de_Janeiro" .
+
+<#Universidade/Universidade%20Federal%20de%20Alfenas> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q10387825;
+  rdfs:label "Universidade Federal de Alfenas";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Alfenas" .
+
+<#GrupoPet/PET%20AutoNet> a :GrupoPET;
+  foaf:name "PET AutoNet";
+  dbo:location dbr:Cel._Octayde_Jorge_da_Silva;
+  :atuaNoEixo "Engenharias";
+  :trabalhaCom "Robótica";
+  :temSite "petautonet.com/";
+  :criadoEm "2010";
+  :temEmail "autonet@gmail.com";
+  :estáNoCampus "Campus Cuiabá";
+  :temInstagram "https://instagram.com/petautonet";
+  :temFacebook "https://www.facebook.com/petautonet/";
+  :éAfiliadoDe <#Universidade/Instituto%20Federal%20de%20Educação%2C%20Ciência%20e%20Tecnologia%20de%20Mato%20Grosso> .
+
+<#Universidade/Instituto%20Federal%20de%20Educação%2C%20Ciência%20e%20Tecnologia%20de%20Mato%20Grosso>
+  a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q10302485;
+  rdfs:label "Instituto Federal de Educação, Ciência e Tecnologia de Mato Grosso";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_Institute_of_Mato_Grosso" .
+
+<#GrupoPet/PET%20Pedagogia> a :GrupoPET;
+  foaf:name "PET Pedagogia";
+  dbo:location dbr:Campina_Grande;
+  :atuaNoEixo "Interdisciplinar";
+  :trabalhaCom "Ensino, Pesquisa e Extensão";
+  :temSite "pedagogiaufcg.blogspot.com/";
+  :criadoEm "2006";
+  :temEmail "ufcgpetpedagogiapet@gmail.com";
+  :estáNoCampus "Campus Campina Grande";
+  :temInstagram "https://instagram.com/petpedagogia";
+  :temFacebook "https://www.facebook.com/PET-Pedagogia-UFCG-1638600306368983";
+  :temYouTube "https://www.youtube.com/channel/UCQ1SzURWSd8XS9AfNDOEZRw";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Campina%20Grande> .
+
+<#GrupoPet/PET%20Cinema> a :GrupoPET;
+  foaf:name "PET Cinema";
+  dbo:location dbr:Cachoeira;
+  :atuaNoEixo "Linguística, Letras e Arte";
+  :trabalhaCom "Cinema e Educação";
+  :temSite "www.petcinemaufrb.com.br";
+  :criadoEm "2010";
+  :temEmail "petcinema@ufrb.edu.br";
+  :estáNoCampus "Campus Cachoeira";
+  :temInstagram "https://instagram.com/petcinema";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Recôncavo%20da%20Bahia> .
+
+<#Universidade/Universidade%20Federal%20do%20Recôncavo%20da%20Bahia> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q6614109;
+  rdfs:label "Universidade Federal do Recôncavo da Bahia";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Rec%C3%B4ncavo_da_Bahia" .
+
+<#GrupoPet/PET%20Indígena> a :GrupoPET;
+  foaf:name "PET Indígena";
+  dbo:location dbr:Oiapoque, dbr:Litoral_Norte;
+  :atuaNoEixo "Interdisciplinar";
+  :criadoEm "2010";
+  :temEmail "petindigena.clii@gmail.com", "petindigena.ufpb@gmail.com";
+  :estáNoCampus "Campus Binacional de Oiapoque", "Campus Litoral Norte";
+  :temInstagram "https://instagram.com/petindigena.clii", "https://instagram.com/petindigenapotiguara";
+  :temFacebook "https://www.facebook.com/petindigenaunifap";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Amapá>, <#Universidade/Universidade%20Federal%20da%20Paraíba>;
+  :trabalhaCom "O acesso e a permanência do universitário indígena na academia";
+  :temSite "petindigena.ccae.ufpb.br/";
+  :temYouTube "https://www.youtube.com/watch?v=zLvACchZwwI&t=283s" .
+
+<#Universidade/Universidade%20Federal%20do%20Amapá> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q7894381;
+  rdfs:label "Universidade Federal do Amapá";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Amap%C3%A1" .
+
+<#Universidade/Universidade%20Federal%20da%20Bahia> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q159102;
+  rdfs:label "Universidade Federal da Bahia";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Bahia" .
+
+<#GrupoPet/PET%20Química> a :GrupoPET;
+  foaf:name "PET Química";
+  dbo:location dbr:Araraquara;
+  :atuaNoEixo "Ciências Exatas e da Terra";
+  :temSite "petquimicaunesp.wixsite.com/petquim";
+  :criadoEm "1996";
+  :temEmail "petquimicaunesp@gmail.com";
+  :estáNoCampus "Campus Araraquara";
+  :temInstagram "https://instagram.com/petquimicaunesp";
+  :temFacebook "https://facebook.com/petquimicaunesp";
+  :temYouTube "https://m.youtube.com/channel/UC5TZuD4zHkCoO39n_Z_frHA/featured";
+  :éAfiliadoDe <#Universidade/Universidade%20Estadual%20Paulista%20Júlio%20de%20Mesquita%20Filho> .
+
+<#GrupoPet/PET%20Engenharia%20Química> a :GrupoPET;
+  foaf:name "PET Engenharia Química";
+  dbo:location dbr:Campina_Grande, dbr:Natal;
+  :atuaNoEixo "Engenharias";
+  :criadoEm "2010", "1996";
+  :temEmail "pet.eq@eq.ufcg.edu.br", "eqpeteq@gmail.com";
+  :estáNoCampus "Campus Campina Grande";
+  :temInstagram "https://instagram.com/petequfcg";
+  :temFacebook "https://www.facebook.com/petequfcg";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Campina%20Grande> .
+
+<#GrupoPet/PET%20Música> a :GrupoPET;
+  foaf:name "PET Música";
+  dbo:location dbr:Juazeiro_do_Norte;
+  :atuaNoEixo "Linguística, Letras e Arte";
+  :trabalhaCom "Ensino, pesquisa e extensão no campo musical.";
+  :temSite "petmusica.ufca.edu.br/";
+  :criadoEm "2012";
+  :temEmail "petmusica.iisca@ufca.edu.br";
+  :estáNoCampus "Campus Juazeiro do Norte";
+  :temInstagram "https://instagram.com/petmusufca";
+  :temYouTube "https://www.youtube.com/channel/UC7FmY4HSU5rOwnY1WqV3jGQ";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Cariri> .
+
+<#Universidade/Universidade%20Federal%20do%20Cariri> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q10387824;
+  rdfs:label "Universidade Federal do Cariri";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Cariri" .
+
+<#GrupoPet/PET%20Engenharia%20Agrícola> a :GrupoPET;
+  foaf:name "PET Engenharia Agrícola";
+  dbo:location dbr:Lavras, dbr:Dourados;
+  :atuaNoEixo "Ciências Agrárias";
+  :criadoEm "1995", "2010";
+  :temEmail "pet.agricola@ufla.br", "petengagricola@ufgd.edu.br";
+  :estáNoCampus "Campus Lavras", "Campus Unidade II";
+  :temInstagram "https://instagram.com/petagricolaufla", "https://instagram.com/pet_engenharia_agricola_ufgd";
+  :temFacebook "https://www.facebook.com/PetAgricolaUfla", "https://facebook.com/petagricolaufgd/";
+  :temYouTube "https://www.youtube.com/channel/UCiFz8MPADcVqK6eAwGdsr2g", "https://www.youtube.com/channel/UCKXBgfbzrjNanAOptYt6OMQ";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Lavras>, <#Universidade/Fundação%20Universidade%20Federal%20da%20Grande%20Dourados> .
+
+<#Universidade/Universidade%20Federal%20de%20Lavras> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q10387826;
+  rdfs:label "Universidade Federal de Lavras";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Lavras" .
+
+<#GrupoPet/PET%20Medicina%20Veterinária> a :GrupoPET;
+  foaf:name "PET Medicina Veterinária";
+  dbo:location dbr:Jaboticabal;
+  :atuaNoEixo "Ciências Agrárias";
+  :criadoEm "1982";
+  :temEmail "petvet.fcav@gmail.com";
+  :estáNoCampus "Campus Jaboticabal";
+  :temInstagram "https://instagram.com/petvetfcav";
+  :temFacebook "https://facebook.com/petvet.fcav";
+  :éAfiliadoDe <#Universidade/Universidade%20Estadual%20Paulista%20Júlio%20de%20Mesquita%20Filho> .
+
+<#GrupoPet/PET%20Protagonismo%20Juvenil%20em%20Periferias%20Urbanas> a :GrupoPET;
+  foaf:name "PET Protagonismo Juvenil em Periferias Urbanas";
+  dbo:location dbr:João_Pessoa;
+  :atuaNoEixo "Ciências Humanas";
+  :trabalhaCom "Educação";
+  :criadoEm "2010";
+  :temEmail "protagonismojuvenilpet@gmail.com";
+  :estáNoCampus "Campus João Pessoa";
+  :temInstagram "https://instagram.com/pet.protagonismojuvenil";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20da%20Paraíba> .
+
+<#GrupoPet/PET%20Engenharia%20Têxtil> a :GrupoPET;
+  foaf:name "PET Engenharia Têxtil";
+  dbo:location dbr:Goioerê;
+  :atuaNoEixo "Engenharias";
+  :criadoEm "2012";
+  :temEmail "pettextil@gmail.com";
+  :estáNoCampus "Campus Goioerê";
+  :temInstagram "https://instagram.com/pet.engtextil";
+  :temFacebook "https://www.facebook.com/PETtextil/";
+  :éAfiliadoDe <#Universidade/Universidade%20Estadual%20de%20Maringá> .
+
+<#GrupoPet/PET%20Engenharia%20de%20Alimentos> a :GrupoPET;
+  foaf:name "PET Engenharia de Alimentos";
+  dbo:location dbr:Goiânia, dbr:Lavras;
+  :atuaNoEixo "Ciências Agrárias";
+  :criadoEm "2006", "2013";
+  :temEmail "petengali@gmail.com", "petalimentos.dca@ufla.br";
+  :estáNoCampus "Campus Samambaia", "Campus Lavras";
+  :temInstagram "https://instagram.com/petengali_ufg", "https://instagram.com/petalimentosufla";
+  :temFacebook "https://www.facebook.com/PETengAliUFG/";
+  :temYouTube "https://www.youtube.com/channel/UC0qsNtWhO7du11DUufKy_YQ", "https://www.youtube.com/user/petalimentosufla/featured";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Goiás>, <#Universidade/Universidade%20Federal%20de%20Lavras>;
+  :trabalhaCom "Dedicação em aprender sobre as áreas de Engenharia, Ciência e Tecnologia de Alimentos. Assim como, inovar as práticas e técnicas pedagógicas utilizadas no curso o de graduação, contribuindo para a redução da taxa de evasão e retenção e para a formação de profissionais de alto nível técnico, com conceitos fundamentais da ciência, habilidades e competências necessárias ao exercício profissional, mas também com visão de mundo e comprometimento social, ético e cidadão." .
+
+<#Universidade/Universidade%20Federal%20de%20Goiás> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q7894375;
+  rdfs:label "Universidade Federal de Goiás";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Goi%C3%A1s" .
+
+<#GrupoPet/PET%20Biblioteconomia%20e%20Ciência%20da%20Informação> a :GrupoPET;
+  foaf:name "PET Biblioteconomia e Ciência da Informação";
+  dbo:location dbr:São_Carlos;
+  :atuaNoEixo "Ciências Sociais Aplicadas";
+  :temSite "www.petbci.ufscar.br/";
+  :criadoEm "2010";
+  :temEmail "petbci@ufscar.br";
+  :estáNoCampus "Campus São Carlos";
+  :temInstagram "https://instagram.com/petbci";
+  :temFacebook "https://www.facebook.com/petbci";
+  :temYouTube "https://www.youtube.com/petbciufscar";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20São%20Carlos> .
+
+<#Universidade/Universidade%20Federal%20de%20São%20Carlos> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q5440482;
+  rdfs:label "Universidade Federal de São Carlos";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_S%C3%A3o_Carlos" .
+
+<#GrupoPet/PET%20Engenharia%20Química> a :GrupoPET;
+  :estáNoCampus "Campus Central", "Campus Santa Mônica";
+  :temInstagram "https://instagram.com/petequfrn", "https://instagram.com/ufupeteq";
+  :temFacebook "https://cenapet.org/grupos/156/facebook.com/petequfrn", "https://www.facebook.com/PetEngenhariaQuimica";
+  :temYouTube "https://www.youtube.com/channel/UC_KwXLBja8lDctfsAxbniFQ", "https://www.youtube.com/channel/UCXpy-cYsMUSCCa1JHz8fflg";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Rio%20Grande%20do%20Norte>,
+    <#Universidade/Universidade%20Federal%20de%20Uberlândia>;
+  foaf:name "PET Engenharia Química";
+  dbo:location dbr:Uberlândia;
+  :atuaNoEixo "Engenharias";
+  :temSite "petequfu.com.br/";
+  :criadoEm "1991";
+  :temEmail "ufupeteq@gmail.com" .
+
+<#Universidade/Universidade%20Federal%20do%20Rio%20Grande%20do%20Norte> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q3847505;
+  rdfs:label "Universidade Federal do Rio Grande do Norte";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Rio_Grande_do_Norte" .
+
+<#GrupoPet/PET%20Medicina%20Veterinária> a :GrupoPET;
+  foaf:name "PET Medicina Veterinária";
+  dbo:location dbr:Uberlândia;
+  :atuaNoEixo "Ciências Agrárias";
+  :temSite "www.pet.famev.ufu.br/";
+  :criadoEm "2006";
+  :temEmail "petmedvetufu@gmail.com";
+  :estáNoCampus "Campus Umuarama";
+  :temInstagram "https://instagram.com/petmedvet.ufu";
+  :temFacebook "https://www.facebook.com/petmedvetufu";
+  :temYouTube "https://www.youtube.com/channel/UCVk0mkSvqwiYdv8ha5NfuZg";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Uberlândia> .
+
+<#Universidade/Universidade%20Federal%20de%20Uberlândia> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q5440489;
+  rdfs:label "Universidade Federal de Uberlândia";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Uberl%C3%A2ndia" .
+
+<#GrupoPet/PET%20Medicina%20UFTM> a :GrupoPET;
+  foaf:name "PET Medicina UFTM";
+  dbo:location dbr:Uberaba;
+  :atuaNoEixo "Ciências da Saúde";
+  :temSite "petmeduftm.wixsite.com/medicina";
+  :criadoEm "1988";
+  :temEmail "petmedicinauftm@gmail.com";
+  :estáNoCampus "Campus Uberaba";
+  :temInstagram "https://instagram.com/petmeduftm";
+  :temFacebook "https://www.facebook.com/PET-Medicina-UFTM-361684677236765/";
+  :temYouTube "https://www.youtube.com/channel/UCPFxKJzRLHcsvJTA9DOZP6A";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Triângulo%20Mineiro> .
+
+<#Universidade/Universidade%20Federal%20do%20Triângulo%20Mineiro> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q10387837;
+  rdfs:label "Universidade Federal do Triângulo Mineiro";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Tri%C3%A2ngulo_Mineiro" .
+
+<#GrupoPet/PET%20Administração> a :GrupoPET;
+  foaf:name "PET Administração";
+  dbo:location dbr:Fortaleza, dbr:Viçosa, dbr:Manaus;
+  :atuaNoEixo "Ciências Sociais Aplicadas";
+  :temSite "www.petadm.ufc.br/", "www.petadm.ufv.br/", "www.petadmufam.site/";
+  :criadoEm "2011", "1988", "1989";
+  :temEmail "petadmufc@ufc.br", "gestao.petadmufv@gmail.com", "petadm@ufam.edu.br";
+  :estáNoCampus "Campus Benfica", "Campus Viçosa", "Campus Manaus";
+  :temInstagram "https://instagram.com/petadmufc", "https://instagram.com/pet.adm",
+    "https://instagram.com/petadmufam";
+  :temYouTube "https://www.youtube.com/channel/UC-ffd_f3Lis4_4NSBk_gR5Q", "https://www.youtube.com/channel/UCx64PtI8XscxSr0h92uV2iw";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Ceará>, <#Universidade/Universidade%20Federal%20de%20Viçosa>,
+    <#Universidade/Universidade%20Federal%20do%20Amazonas>;
+  :temFacebook "https://www.facebook.com/pet.adm/", "https://www.facebook.com/petadmufam/" .
+
+<#Universidade/Universidade%20Federal%20do%20Ceará> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q2749558;
+  rdfs:label "Universidade Federal do Ceará";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Cear%C3%A1" .
+
+<#GrupoPet/PET%20Psicologia%20Geografia/Ciências%20Sociais> a :GrupoPET;
+  foaf:name "PET Psicologia Geografia/Ciências Sociais";
+  dbo:location dbr:Dourados;
+  :atuaNoEixo "Ciências Humanas";
+  :temSite "www.petpsicologiaufgd.com/";
+  :criadoEm "2010";
+  :temEmail "petpsicologiaufgd@gmail.com";
+  :estáNoCampus "Campus Unidade II";
+  :temInstagram "https://instagram.com/petpsicologiaufgd";
+  :temFacebook "https://www.facebook.com/PETPSICOLOGIAUFGD";
+  :temYouTube "https://www.youtube.com/channel/UC7B2XXyGs-f9OueofSknCjg";
+  :éAfiliadoDe <#Universidade/Fundação%20Universidade%20Federal%20da%20Grande%20Dourados> .
+
+<#Universidade/Fundação%20Universidade%20Federal%20da%20Grande%20Dourados> a :Universidade;
+  rdfs:seeAlso wd:Q3918;
+  rdfs:label "Fundação Universidade Federal da Grande Dourados";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Rio_de_Janeiro" .
+
+<#Universidade/Universidade%20Federal%20de%20Viçosa> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q5814528;
+  rdfs:label "Universidade Federal de Viçosa";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Vi%C3%A7osa" .
+
+<#GrupoPet/PET%20Ciência> a :GrupoPET;
+  foaf:name "PET Ciência";
+  dbo:location dbr:Poços_de_Caldas;
+  :atuaNoEixo "Interdisciplinar";
+  :trabalhaCom "Divulgação Científica";
+  :temSite "petciencia.blogspot.com/";
+  :criadoEm "2010";
+  :temEmail "petciencia@unifal-mg.edu.br";
+  :estáNoCampus "Campus Poços de Caldas";
+  :temInstagram "https://instagram.com/petciencia";
+  :temFacebook "https://www.facebook.com/unifal.petciencia";
+  :temYouTube "https://www.youtube.com/c/PetCi%C3%AAncia/featured";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Alfenas> .
+
+<#Universidade/Universidade%20Federal%20de%20Alfenas> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q10387825;
+  rdfs:label "Universidade Federal de Alfenas";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Alfenas" .
+
+<#GrupoPet/PET%20Geografia> a :GrupoPET;
+  foaf:name "PET Geografia";
+  dbo:location dbr:Nova_Iguaçu, dbr:Rio_Claro, dbr:Rio_de_Janeiro, dbr:Rio_Branco;
+  :atuaNoEixo "Ciências Humanas";
+  :trabalhaCom "Cultura e Cidadania: diálogo de saberes no ensino de geografia";
+  :temSite "geo-pet.blogspot.com/", "petgeografiauerj.wixsite.com/petgeografiauerj",
+    "petgeoufac.com/";
+  :criadoEm "2010", "1994", "1991", "2009";
+  :temEmail "petgeoufrrjim@gmail.com", "petgeorc@gmail.com", "petuerjgeografia@gmail.com",
+    "pet.geografia@ufac.br";
+  :estáNoCampus "Campus Nova Iguaçu", "Campus Rio Claro", "Campus Maracanã - Francisco Negrão de Lima",
+    "Campus Rio Branco";
+  :temInstagram "https://instagram.com/petgeoufrrj_im", "https://instagram.com/petgeografiarc",
+    "https://instagram.com/petgeouerj", "https://instagram.com/petgeografia2019ufac";
+  :temFacebook "https://www.facebook.com/pet.geo.im.ufrrj/", "https://www.facebook.com/petgeografia",
+    "https://www.facebook.com/watch/PetGeoUerj/", "https://www.facebook.com/paginapetgeoufac";
+  :temYouTube "https://www.youtube.com/user/LeoViannaPensador/featured", "https://www.youtube.com/channel/UCKgxmz9OxK6jTZl1ZkCc24w",
+    "https://www.youtube.com/channel/UC4pF5m8oxaWrwnQZDZiWF7w", "https://www.youtube.com/channel/UCiyGqdjtlG3Yikcfte8Bulg";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20Rural%20do%20Rio%20de%20Janeiro>,
+    <#Universidade/Universidade%20Estadual%20Paulista%20Júlio%20de%20Mesquita%20Filho>,
+    <#Universidade/Universidade%20do%20Estado%20do%20Rio%20de%20Janeiro>, <#Universidade/Universidade%20Federal%20do%20Acre> .
+
+<#Universidade/Universidade%20Federal%20Rural%20do%20Rio%20de%20Janeiro> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q7834196;
+  rdfs:label "Universidade Federal Rural do Rio de Janeiro";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_Rural_University_of_Rio_de_Janeiro" .
+
+<#GrupoPet/PET%20Letras> a :GrupoPET;
+  foaf:name "PET Letras";
+  dbo:location dbr:Uberlândia, dbr:Paricarana, dbr:Jaguarão;
+  :atuaNoEixo "Linguística, Letras e Arte";
+  :temSite "www.petletrasufu.weebly.com", "petletrasjaguarao.wordpress.com";
+  :criadoEm "1994", "2006", "2013";
+  :temEmail "petletufu@gmail.com", "pet.letras@ufrr.br", "petletrasjaguarao@gmail.com";
+  :estáNoCampus "Campus Santa Mônica", "Campus Paricarana", "Campus Jaguarão";
+  :temInstagram "https://instagram.com/petletrasufu", "https://instagram.com/pet.letras_ufrr",
+    "https://instagram.com/letraspet";
+  :temFacebook "https://facebook.com/petletrasufu", "https://facebook.com/PETLetrasUFRR/",
+    "https://www.facebook.com/petletrasjaguarao";
+  :temYouTube "https://www.youtube.com/user/PETLetrasUFU";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Uberlândia>, <#Universidade/Universidade%20Federal%20de%20Roraima>,
+    <#Universidade/Fundação%20Universidade%20Federal%20do%20Pampa> .
+
+<#GrupoPet/PET%20Mais%20Saúde> a :GrupoPET;
+  foaf:name "PET Mais Saúde";
+  dbo:location dbr:Ituiutaba;
+  :atuaNoEixo "Interdisciplinar";
+  :trabalhaCom "Conexões do Saberes: Populações do Campo";
+  :temSite "petmsaude.wixsite.com/petmsaude";
+  :criadoEm "2010";
+  :temEmail "petmsaude@gmail.com";
+  :estáNoCampus "Campus Pontal";
+  :temInstagram "https://instagram.com/petmaissaude";
+  :temFacebook "https://www.facebook.com/petmais.saude";
+  :temYouTube "https://www.youtube.com/channel/UCeA7K1YB6y2rZv1WL8D_pfw";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Uberlândia> .
+
+<#GrupoPet/PET%20Engenharia%20Civil> a :GrupoPET;
+  foaf:name "PET Engenharia Civil";
+  dbo:location dbr:Belém, dbr:Carreiros;
+  :atuaNoEixo "Engenharias";
+  :temSite "petcivilufpa.wixsite.com/petcivil", "petcivil.furg.br/";
+  :criadoEm "1991", "1994";
+  :temEmail "petcivil.ufpa@gmail.com", "petcivil.furg@gmail.com";
+  :estáNoCampus "Campus Belém", "Campus Carreiros";
+  :temInstagram "https://instagram.com/petcivilufpa", "https://instagram.com/petcivilfurg";
+  :temFacebook "https://www.facebook.com/petengenhariacivil.ufpa/", "https://www.facebook.com/petcivilfurg/";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Pará>, <#Universidade/Universidade%20Federal%20do%20Rio%20Grande>;
+  :temYouTube "https://www.youtube.com/channel/UC4BF7JvRdm2VaCt1Zhos9_A" .
+
+<#Universidade/Universidade%20Federal%20do%20Pará> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q4558480;
+  rdfs:label "Universidade Federal do Pará";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Par%C3%A1" .
+
+<#GrupoPet/PET%20Farmácia> a :GrupoPET;
+  foaf:name "PET Farmácia";
+  dbo:location dbr:João_Pessoa, dbr:Campo_Grande, dbr:Jardim_Botânico, dbr:Araraquara;
+  :atuaNoEixo "Ciências da Saúde";
+  :criadoEm "1992", "2007", "1994";
+  :temEmail "pet-farmacia@ccs.ufpb.br", "petfarmaciaufms@gmail.com", "petfarmaciaufpr@gmail.com",
+    "farmaciapet.unesp@gmail.com";
+  :estáNoCampus "Campus João Pessoa", "Campus Cidade Universitária", "Campus Jardim Botânico",
+    "Campus Araraquara";
+  :temInstagram "https://instagram.com/petfarmaciaufpb", "https://instagram.com/petfarmaciaufms",
+    "https://instagram.com/petfarmaciaufpr", "https://instagram.com/petfarmaciaunesp";
+  :temFacebook "https://www.facebook.com/petfarmacia.ufpb", "https://www.facebook.com/petfarmaciaufms/",
+    "https://facebook.com/grupopetfarmaciaufpr", "https://www.facebook.com/petfarmaciaunesp";
+  :temYouTube "https://www.youtube.com/c/PETFarm%C3%A1ciaUFPB", "https://www.youtube.com/channel/UC4F3VaLL94I_MIqr5_lXkYQ",
+    "https://www.youtube.com/channel/UC3FziLcX4TB8WZkX1XoLC2Q", "https://www.youtube.com/channel/UCdtxJUvMetFYKaVm5kmNOBg";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20da%20Paraíba>, <#Universidade/Universidade%20Federal%20de%20Mato%20Grosso%20do%20Sul>,
+    <#Universidade/Universidade%20Federal%20do%20Paraná>, <#Universidade/Universidade%20Estadual%20Paulista%20Júlio%20de%20Mesquita%20Filho>;
+  :trabalhaCom "Uso Racional de Medicamentos";
+  :temSite "www.petfarmacia.ufms.br/", "petfarmacia.ufpr.br/" .
+
+<#Universidade/Universidade%20Federal%20da%20Paraíba> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q5440479;
+  rdfs:label "Universidade Federal da Paraíba";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Para%C3%ADba" .
+
+<#GrupoPet/PET%20Odontologia> a :GrupoPET;
+  foaf:name "PET Odontologia";
+  dbo:location dbr:Fortaleza, dbr:Pelotas, dbr:Santa_Maria;
+  :atuaNoEixo "Ciências da Saúde";
+  :temSite "www.petodontologia.ufc.br/", "petodontoufpel.wixsite.com/petodontoufpel",
+    "www.ufsm.br/pet/odontologia/";
+  :criadoEm "1988", "1992", "2006";
+  :temEmail "petodontologiaufce@gmail.com", "petodontologia2021@gmail.com", "petodontologiaufsm@gmail.com";
+  :estáNoCampus "Campus Porangabussu", "Campus Pelotas", "Campus Santa Maria";
+  :temInstagram "https://instagram.com/petodontologia", "https://instagram.com/petodontologiaufpel",
+    "https://instagram.com/petodontoufsm";
+  :temYouTube "https://www.youtube.com/channel/UC2afk0mQ8mUefqDPSI-Rqkw", "https://www.youtube.com/channel/UCnoGa70odr7OCIa6lMabTwA";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Ceará>, <#Universidade/Universidade%20Federal%20de%20Pelotas>,
+    <#Universidade/Universidade%20Federal%20de%20Santa%20Maria>;
+  :temFacebook "https://facebook.com/petodontologiaufpel", "https://www.facebook.com/PetOdontologiaUfsm" .
+
+<#GrupoPet/PET%20Produção> a :GrupoPET;
+  foaf:name "PET Produção";
+  dbo:location dbr:São_Carlos;
+  :atuaNoEixo "Engenharias";
+  :temSite "www.pet.dep.ufscar.br/";
+  :criadoEm "1991";
+  :temEmail "pet@dep.ufscar.br";
+  :estáNoCampus "Campus São Carlos";
+  :temInstagram "https://instagram.com/petproducao";
+  :temFacebook "https://www.facebook.com/petproducao/";
+  :temYouTube "https://www.youtube.com/user/petproducaoufscar";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20São%20Carlos> .
+
+<#Universidade/Universidade%20Federal%20de%20São%20Carlos> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q5440482;
+  rdfs:label "Universidade Federal de São Carlos";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_S%C3%A3o_Carlos" .
+
+<#GrupoPet/PET%20Conexões%20Cultura> a :GrupoPET;
+  foaf:name "PET Conexões Cultura";
+  dbo:location dbr:Vitória;
+  :atuaNoEixo "Interdisciplinar";
+  :temSite "petcultura.blogspot.com/";
+  :criadoEm "2010";
+  :temEmail "petcultura@gmail.com";
+  :estáNoCampus "Campus Goiabeiras";
+  :temInstagram "https://instagram.com/pet_cultura";
+  :temYouTube "https://www.youtube.com/channel/UCG8_NiqP7ZEZCxBOmTiHQrg";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Espírito%20Santo> .
+
+<#Universidade/Universidade%20Federal%20do%20Espírito%20Santo> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q10387830;
+  rdfs:label "Universidade Federal do Espírito Santo";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Esp%C3%ADrito_Santo" .
+
+<#GrupoPet/PET%20Engenharia%20Mecânica> a :GrupoPET;
+  foaf:name "PET Engenharia Mecânica";
+  dbo:location dbr:Santa_Mônica;
+  :atuaNoEixo "Engenharias";
+  :temSite "www.pet.mecanica.ufu.br/";
+  :criadoEm "1979";
+  :temEmail "petmecufu@gmail.com";
+  :estáNoCampus "Campus Santa Mônica";
+  :temInstagram "https://instagram.com/petmec.ufu";
+  :temFacebook "https://www.facebook.com/petmec.ufu";
+  :temYouTube "https://www.youtube.com/PETMEC";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Uberlândia> .
+
+<#GrupoPet/PET%20Ciências%20Agrárias> a :GrupoPET;
+  foaf:name "PET Ciências Agrárias";
+  dbo:location dbr:Rio_Pomba;
+  :atuaNoEixo "Ciências Agrárias";
+  :criadoEm "2010";
+  :temEmail "petcienciasagrariasrp@gmail.com";
+  :estáNoCampus "Campus Rio Pomba";
+  :temInstagram "https://instagram.com/pet.cienciasagrariasrp";
+  :éAfiliadoDe <#Universidade/Instituto%20Federal%20de%20Educação%2C%20Ciência%20e%20Tecnologia%20do%20Sudeste%20de%20Minas%20Gerais> .
+
+<#Universidade/Instituto%20Federal%20de%20Educação%2C%20Ciência%20e%20Tecnologia%20do%20Sudeste%20de%20Minas%20Gerais>
+  a :Universidade;
+  rdfs:seeAlso wd:Q3918;
+  rdfs:label "Instituto Federal de Educação, Ciência e Tecnologia do Sudeste de Minas Gerais";
+  :temWikipedia "https://en.wikipedia.org/wiki/List_of_universities_in_Brazil_by_state" .
+
+<#GrupoPet/PET%20Agronomia> a :GrupoPET;
+  foaf:name "PET Agronomia";
+  dbo:location dbr:Uberlândia, dbr:Capão_do_Leão, dbr:Montes_Claros, dbr:Manaus, dbr:Botucatu;
+  :atuaNoEixo "Ciências Agrárias";
+  :criadoEm "1991", "1964", "2001", "2012", "1995";
+  :temEmail "petagronomiaufu@gmail.com", "petufpelagronomia@gmail.com", "agropetufmg@gmail.com",
+    "petagronomia@ufam.edu.br", "agronomiapet@gmail.com";
+  :estáNoCampus "Campus Umuarama", "Campus Capão do Leão", "Campus Montes Claros", "Campus Manaus",
+    "Campus Botucatu";
+  :temInstagram "https://instagram.com/petagroufu", "https://instagram.com/petagroufpel",
+    "https://instagram.com/petagronomiaufmg", "https://instagram.com/petagronomia.ufam",
+    "https://instagram.com/petagrobotucatu";
+  :temFacebook "https://www.facebook.com/petagronomiaufu/", "https://www.facebook.com/petagronomia.ufpel",
+    "https://www.facebook.com/fcapetagronomia";
+  :temYouTube "https://www.youtube.com/user/PETAgroUFU", "https://www.youtube.com/channel/UC2M_DWz-RH9x0gvnTqz6ghw",
+    "https://www.youtube.com/channel/UCdCYKSLG9itP_mM5NqC2Vkw";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Uberlândia>, <#Universidade/Universidade%20Federal%20de%20Pelotas>,
+    <#Universidade/Universidade%20Federal%20de%20Minas%20Gerais>, <#Universidade/Universidade%20Federal%20do%20Amazonas>,
+    <#Universidade/Universidade%20Estadual%20Paulista%20Júlio%20de%20Mesquita%20Filho>;
+  :temSite "petufpelagronomia.wixsite.com/petagro", "sites.google.com/view/pet-agronomia-unesp-botucatutu/p%C3%A1gina-inicial" .
+
+<#GrupoPet/PET%20Escola%20de%20Comunicação> a :GrupoPET;
+  foaf:name "PET Escola de Comunicação";
+  dbo:location dbr:Rio_de_Janeiro;
+  :atuaNoEixo "Ciências Sociais Aplicadas";
+  :trabalhaCom "Comunicação social";
+  :temSite "sites.google.com/eco.ufrj.br/petecoufrj";
+  :criadoEm "2012";
+  :temEmail "pet@eco.ufrj.br";
+  :estáNoCampus "Campus Praia Vermelha";
+  :temInstagram "https://instagram.com/petecoufrj";
+  :temFacebook "https://www.facebook.com/petecoufrj";
+  :temYouTube "https://www.youtube.com/channel/UC9A6EyDMalG_gPFLYlCaa3g";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Rio%20de%20Janeiro> .
+
+<#Universidade/Universidade%20Federal%20do%20Rio%20de%20Janeiro> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q586904;
+  rdfs:label "Universidade Federal do Rio de Janeiro";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Rio_de_Janeiro" .
+
+<#GrupoPet/PET%20Matemática> a :GrupoPET;
+  foaf:name "PET Matemática";
+  dbo:location dbr:Campina_Grande, dbr:Manaus;
+  :atuaNoEixo "Ciências Exatas e da Terra";
+  :temSite "www.dme.ufcg.edu.br/pet", "pet-mat-ufam.blogspot.com/";
+  :criadoEm "2009", "2012";
+  :temEmail "ufcgpetmatematica@gmail.com", "petmatematica2018@gmail.com";
+  :estáNoCampus "Campus Campina Grande", "Campus Manaus";
+  :temInstagram "https://instagram.com/petmatufcg", "https://instagram.com/pet.mat.ufam";
+  :temFacebook "https://cenapet.org/grupos/177/www.facebook.com/petmatufcg", "https://www.facebook.com/people/PET-Matem%C3%A1tica-UFAM/100063983024413/";
+  :temYouTube "https://www.youtube.com/channel/UCAQkcoeptINUJJQ2pnYEYiA", "https://www.youtube.com/channel/UCWYhtP72a9lXyB5A80NgaJw";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Campina%20Grande>, <#Universidade/Universidade%20Federal%20do%20Amazonas> .
+
+<#Universidade/Universidade%20Federal%20de%20Campina%20Grande> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q3848464;
+  rdfs:label "Universidade Federal de Campina Grande";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Campina_Grande" .
+
+<#Universidade/Universidade%20Federal%20de%20Roraima> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q7894378;
+  rdfs:label "Universidade Federal de Roraima";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Roraima" .
+
+<#Universidade/Universidade%20Federal%20do%20Amazonas> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q5440476;
+  rdfs:label "Universidade Federal do Amazonas";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Amazonas" .
+
+<#GrupoPet/PET%20Pedagogia> a :GrupoPET;
+  foaf:name "PET Pedagogia";
+  dbo:location dbr:Palmas, dbr:Maringá;
+  :atuaNoEixo "Ciências Humanas";
+  :trabalhaCom "Educação Infantil e Ensino Fundamental (anos iniciais): docência, gestão, política e legislação";
+  :criadoEm "2007", "1996";
+  :temEmail "petpedagogia1@gmail.com", "petpedagogiauem0@gmail.com";
+  :estáNoCampus "Campus Palmas", "Campus Sede";
+  :temInstagram "https://instagram.com/petpedpalmas", "https://instagram.com/petpedagogia.uem";
+  :temFacebook "https://www.facebook.com/PETPedPalmas", "https://www.facebook.com/PetPedagogia";
+  :éAfiliadoDe <#Universidade/Fundação%20Universidade%20Federal%20do%20Tocantins>, <#Universidade/Universidade%20Estadual%20de%20Maringá>;
+  :temSite "pet-pedagogiauem.blogspot.com/";
+  :temYouTube "https://www.youtube.com/channel/UCG1QLN1l1v-w5auDAd5HoJg" .
+
+<#Universidade/Fundação%20Universidade%20Federal%20do%20Tocantins> a :Universidade;
+  rdfs:seeAlso wd:Q3918;
+  rdfs:label "Fundação Universidade Federal do Tocantins";
+  :temWikipedia "https://en.wikipedia.org/wiki/Tocantins" .
+
+<#GrupoPet/PET%20Conexões%20Urbanas> a :GrupoPET;
+  foaf:name "PET Conexões Urbanas";
+  dbo:location dbr:Manaus;
+  :atuaNoEixo "Interdisciplinar";
+  :trabalhaCom "Ações afirmativas";
+  :criadoEm "2010";
+  :temEmail "conexoesurbano.pet@gmail.com";
+  :estáNoCampus "Campus Manaus";
+  :temInstagram "https://instagram.com/petconexoesurbanas";
+  :temFacebook "https://www.facebook.com/Petconexoesurbano";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Amazonas> .
+
+<#GrupoPet/PET%20Políticas%20Públicas> a :GrupoPET;
+  foaf:name "PET Políticas Públicas";
+  dbo:location dbr:Recife;
+  :atuaNoEixo "Interdisciplinar";
+  :trabalhaCom "Ações afirmativas para a juventude";
+  :criadoEm "2011";
+  :temEmail "petpoliticaspublicas.ufrpe@gmail.com";
+  :estáNoCampus "Campus Dois Irmãos";
+  :temInstagram "https://instagram.com/petpoliticaspublicas";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20Rural%20de%20Pernambuco> .
+
+<#Universidade/Universidade%20Federal%20Rural%20de%20Pernambuco> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q7894368;
+  rdfs:label "Universidade Federal Rural de Pernambuco";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_Rural_University_of_Pernambuco" .
+
+<#GrupoPet/PET%20Ecologia> a :GrupoPET;
+  foaf:name "PET Ecologia";
+  dbo:location dbr:Recife;
+  :atuaNoEixo "Interdisciplinar";
+  :trabalhaCom "Ecologia e Conservação da Natureza";
+  :criadoEm "2010";
+  :temEmail "petecologia.db@ufrpe.br";
+  :estáNoCampus "Campus Dois Irmãos";
+  :temInstagram "https://instagram.com/ecologiapet";
+  :temFacebook "https://www.facebook.com/PetEcoUFRPE";
+  :temYouTube "https://www.youtube.com/channel/UCykH3h8ixrfDN5JBDLj-KiA";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20Rural%20de%20Pernambuco> .
+
+<#GrupoPet/PET%20História> a :GrupoPET;
+  foaf:name "PET História";
+  dbo:location dbr:Dourados, dbr:Florianópolis;
+  :atuaNoEixo "Ciências Humanas";
+  :trabalhaCom "Humanidades";
+  :temSite "petfch.blogspot.com";
+  :criadoEm "2010", "1992";
+  :temEmail "pethistoriafch@ufgd.edu.br", "pet.hst.ufsc@gmail.com";
+  :estáNoCampus "Campus Unidade II", "Campus Florianópolis";
+  :temInstagram "https://instagram.com/pethistoriaufgd", "https://instagram.com/pethistoriaufsc";
+  :temFacebook "https://www.facebook.com/pethistufgd", "https://www.facebook.com/PetHistoriaUfsc/";
+  :temYouTube "https://youtube.com/channel/UCOxfZ12rTVRVYQqvnHtatPw", "https://www.youtube.com/channel/UCUyTQXBvkpQT5c1mC_ykrFw?app=desktop&sub_confirmation=1";
+  :éAfiliadoDe <#Universidade/Fundação%20Universidade%20Federal%20da%20Grande%20Dourados>,
+    <#Universidade/Universidade%20Federal%20de%20Santa%20Catarina> .
+
+<#GrupoPet/PET%20Biologia> a :GrupoPET;
+  foaf:name "PET Biologia";
+  dbo:location dbr:São_Luís;
+  :atuaNoEixo "Ciências Biológicas";
+  :temSite "petbioufma.wordpress.com/inicio-2/";
+  :criadoEm "1988";
+  :temEmail "petbioufma@gmail.com";
+  :estáNoCampus "Campus São Luís";
+  :temInstagram "https://instagram.com/petbioufma";
+  :temFacebook "https://www.facebook.com/petbiologiaufma/";
+  :temYouTube "https://youtube.com/channel/UCujE-2FmKSMtHSt11UVqojQ";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Maranhão> .
+
+<#Universidade/Universidade%20Federal%20do%20Maranhão> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q5440477;
+  rdfs:label "Universidade Federal do Maranhão";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Maranh%C3%A3o" .
+
+<#Universidade/Universidade%20Federal%20de%20Mato%20Grosso%20do%20Sul> a :Universidade;
+  rdfs:seeAlso wd:Q3918;
+  rdfs:label "Universidade Federal de Mato Grosso do Sul";
+  :temWikipedia "https://en.wikipedia.org/wiki/Mato_Grosso_do_Sul" .
+
+<#GrupoPet/PET%20Parasitologia> a :GrupoPET;
+  foaf:name "PET Parasitologia";
+  dbo:location dbr:Recife;
+  :atuaNoEixo "Ciências da Saúde";
+  :trabalhaCom "área da saúde";
+  :criadoEm "2010";
+  :temEmail "petparasitologiaufpe.2@gmail.com";
+  :estáNoCampus "Campus Reitor Joaquim Amazonas";
+  :temInstagram "https://instagram.com/petparasitoufpe";
+  :temFacebook "https://www.facebook.com/petparasitologiaufpe";
+  :temYouTube "https://cenapet.org/grupos/187/Petparasitologia";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Pernambuco> .
+
+<#Universidade/Universidade%20Federal%20de%20Pernambuco> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q2322256;
+  rdfs:label "Universidade Federal de Pernambuco";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Pernambuco" .
+
+<#GrupoPet/PET%20Química> a :GrupoPET;
+  foaf:name "PET Química";
+  dbo:location dbr:Itumbiara, dbr:Ribeirão_Preto, dbr:Fortaleza, dbr:Ponta_Grossa;
+  :atuaNoEixo "Ciências Exatas e da Terra";
+  :criadoEm "2013", "2006", "1988", "2007";
+  :temEmail "petnetquimica@gmail.com", "petquimicarp@usp.br", "petquim.ufc@gmail.com",
+    "petquimica@uepg.br";
+  :estáNoCampus "Campus Itumbiara", "Campus Ribeirão Preto", "Campus Pici", "Campus Ponta Grossa";
+  :temInstagram "https://instagram.com/petquimicaifg", "https://instagram.com/petquimica_rp",
+    "https://instagram.com/petquimicaufc", "https://instagram.com/petquimicauepg";
+  :temYouTube "https://www.youtube.com/channel/UCSoAZ-osnMLNd7Abu6mCgYA", "https://www.youtube.com/c/PETQu%C3%ADmicaUSPRP",
+    "https://youtube.com/channel/UCtIL87zuNz705kIHZ8TuDKA", "https://www.youtube.com/channel/UC1CHw18l8R7W4q7yp_iH9Kw";
+  :éAfiliadoDe <#Universidade/Instituto%20Federal%20de%20Educação%2C%20Ciência%20e%20Tecnologia%20de%20Goiás>,
+    <#Universidade/Universidade%20de%20São%20Paulo>, <#Universidade/Universidade%20Federal%20do%20Ceará>,
+    <#Universidade/Universidade%20Estadual%20de%20Ponta%20Grossa>;
+  :trabalhaCom "Meio ambiente e uso sustentável de recursos naturais";
+  :temFacebook "https://www.facebook.com/petquimicausprp/", "https://www.facebook.com/PETQuimica",
+    "https://facebook.com/PETQuimicaUEPG/";
+  :temSite "www.petquimica.ufc.br" .
+
+<#Universidade/Instituto%20Federal%20de%20Educação%2C%20Ciência%20e%20Tecnologia%20de%20Goiás>
+  a :Universidade;
+  rdfs:seeAlso wd:Q3918;
+  rdfs:label "Instituto Federal de Educação, Ciência e Tecnologia de Goiás";
+  :temWikipedia "https://en.wikipedia.org/wiki/Goi%C3%A1s" .
+
+<#Universidade/Universidade%20Federal%20de%20Santa%20Catarina> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q1851075;
+  rdfs:label "Universidade Federal de Santa Catarina";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Santa_Catarina" .
+
+<#GrupoPet/PET%20GAPE> a :GrupoPET;
+  foaf:name "PET GAPE";
+  dbo:location dbr:Pelotas;
+  :atuaNoEixo "Interdisciplinar";
+  :trabalhaCom "Educação Popular";
+  :temSite "petgape.wordpress.com";
+  :criadoEm "2008";
+  :temEmail "gapeclpd@gmail.com";
+  :estáNoCampus "Campus Pelotas";
+  :temInstagram "https://instagram.com/petgape";
+  :temFacebook "https://www.facebook.com/petgapeufpel/";
+  :temYouTube "https://www.youtube.com/channel/UCA2UeRXbtU3ljbBHR1pJ2jA";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Pelotas> .
+
+<#Universidade/Universidade%20Federal%20de%20Pelotas> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q7894376;
+  rdfs:label "Universidade Federal de Pelotas";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Pelotas" .
+
+<#GrupoPet/PET%20Computação%20UFPel> a :GrupoPET;
+  foaf:name "PET Computação UFPel";
+  dbo:location dbr:Porto;
+  :atuaNoEixo "Ciências Exatas e da Terra";
+  :temSite "wp.ufpel.edu.br/petcomp";
+  :criadoEm "2009";
+  :temEmail "pet@inf.ufpel.edu.br";
+  :estáNoCampus "Campus Porto";
+  :temInstagram "https://instagram.com/computacao.ufpel";
+  :temFacebook "https://www.facebook.com/petcomputacaoufpel";
+  :temYouTube "https://www.youtube.com/channel/UC8-0R3hgLNoQq8yisN9snDA";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Pelotas> .
+
+<#Universidade/Universidade%20de%20São%20Paulo> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q835960;
+  rdfs:label "Universidade de São Paulo";
+  :temWikipedia "https://en.wikipedia.org/wiki/University_of_S%C3%A3o_Paulo" .
+
+<#Universidade/Universidade%20Federal%20de%20Santa%20Maria> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q3790133;
+  rdfs:label "Universidade Federal de Santa Maria";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Santa_Maria" .
+
+<#Universidade/Fundação%20Universidade%20Federal%20do%20Pampa> a :Universidade;
+  rdfs:seeAlso wd:Q3918;
+  rdfs:label "Fundação Universidade Federal do Pampa";
+  :temWikipedia "https://en.wikipedia.org/wiki/List_of_universities_in_Brazil_by_state" .
+
+<#GrupoPet/PET%20Geologia> a :GrupoPET;
+  foaf:name "PET Geologia";
+  dbo:location dbr:Curitiba, dbr:Cuiabá, dbr:Manaus;
+  :atuaNoEixo "Ciências Exatas e da Terra";
+  :temSite "petgeoufpr.wixsite.com/petgeologia", "petgeologiaufmt.com", "petgeologiaufam.com";
+  :criadoEm "1992", "1995", "2012";
+  :temEmail "petgeo.ufpr@gmail.com", "pet.geologia@ufmt.br", "petgeologia@ufam.edu.br";
+  :estáNoCampus "Campus Centro Politécnico", "Campus Cuiabá", "Campus Manaus";
+  :temInstagram "https://instagram.com/petgeologiaufpr", "https://instagram.com/petgeologiaufmt",
+    "https://instagram.com/petgeologiaufam";
+  :temFacebook "https://www.facebook.com/PETGeologiaUFPR", "https://www.facebook.com/petgeologiaufmt/",
+    "https://www.facebook.com/petgeologiaufam";
+  :temYouTube "https://www.youtube.com/channel/UCN5pqYcdkHSrxxKlgmG18kQ", "https://www.youtube.com/channel/UCn_B3Y62ZCxMS80Ws-wbdtw";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Paraná>, <#Universidade/Universidade%20Federal%20de%20Mato%20Grosso>,
+    <#Universidade/Universidade%20Federal%20do%20Amazonas> .
+
+<#Universidade/Universidade%20Federal%20do%20Paraná> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q1232831;
+  rdfs:label "Universidade Federal do Paraná";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Paran%C3%A1" .
+
+<#GrupoPet/PET%20Fronteiras%3A%20Saberes%20e%20Práticas%20Populares> a :GrupoPET;
+  foaf:name "PET Fronteiras: Saberes e Práticas Populares";
+  dbo:location dbr:Pelotas;
+  :atuaNoEixo "Interdisciplinar";
+  :trabalhaCom "Saberes e Práticas Populares";
+  :temSite "pet-saberes-e-praticas-populares1.webnode.com/";
+  :criadoEm "2012";
+  :temEmail "petfronteirasufpel@gmail.com";
+  :estáNoCampus "Campus Pelotas";
+  :temInstagram "https://instagram.com/pet_fronteiras";
+  :temFacebook "https://facebook.com/petfronteirassaberesepraticaspopulares/";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Pelotas> .
+
+<#Universidade/Universidade%20Estadual%20de%20Maringá> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q7894365;
+  rdfs:label "Universidade Estadual de Maringá";
+  :temWikipedia "https://en.wikipedia.org/wiki/State_University_of_Maring%C3%A1" .
+
+<#GrupoPet/PET%20Ciências> a :GrupoPET;
+  foaf:name "PET Ciências";
+  dbo:location dbr:Cerro_Largo;
+  :atuaNoEixo "Interdisciplinar";
+  :trabalhaCom "Meio Ambiente e Formação e Professores - Ciências";
+  :temSite "petciencias.blogspot.com/";
+  :criadoEm "2010";
+  :temEmail "petcienciasuffs@gmail.com";
+  :estáNoCampus "Campus Cerro Largo";
+  :temInstagram "https://instagram.com/pet_ciencias";
+  :temFacebook "https://www.facebook.com/PetCiencias";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20da%20Fronteira%20Sul> .
+
+<#Universidade/Universidade%20Federal%20da%20Fronteira%20Sul> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q7894370;
+  rdfs:label "Universidade Federal da Fronteira Sul";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Fronteira_Sul" .
+
+<#GrupoPet/PET%20Ciência%20da%20Computação> a :GrupoPET;
+  foaf:name "PET Ciência da Computação";
+  dbo:location dbr:Campo_Grande;
+  :atuaNoEixo "Ciências Exatas e da Terra";
+  :criadoEm "2009";
+  :temEmail "petcomputacao@facom.ufms.br";
+  :estáNoCampus "Campus Cidade Universitária";
+  :temInstagram "https://instagram.com/petcomputacaoufms";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Mato%20Grosso%20do%20Sul> .
+
+<#GrupoPet/PET%20Estratégias%20para%20Diminuir%20a%20Retenção%20e%20a%20Evasão> a
+    :GrupoPET;
+  foaf:name "PET Estratégias para Diminuir a Retenção e a Evasão";
+  dbo:location dbr:JK;
+  :atuaNoEixo "Interdisciplinar";
+  :trabalhaCom "Retenção e Evasão";
+  :temSite "site.ufvjm.edu.br/petestrategias/";
+  :criadoEm "2009";
+  :temEmail "flaviana.tavares@ict.ufvjm.edu.br";
+  :estáNoCampus "Campus JK - Diamantina";
+  :temInstagram "https://instagram.com/petestrategias.ufvjm";
+  :temFacebook "https://www.facebook.com/petestrategias";
+  :temYouTube "https://www.youtube.com/channel/UC-jEvLUGw5sw4FxvRXWDIsA";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20Dos%20Vales%20do%20Jequitinhonha%20e%20Mucuri> .
+
+<#Universidade/Universidade%20Federal%20Dos%20Vales%20do%20Jequitinhonha%20e%20Mucuri>
+  a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q10387836;
+  rdfs:label "Universidade Federal Dos Vales do Jequitinhonha e Mucuri";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Vales_do_Jequitinhonha_e_Mucuri" .
+
+<#GrupoPet/PET%20Participação%20e%20Controle%20Social%20em%20Saúde> a :GrupoPET;
+  foaf:name "PET Participação e Controle Social em Saúde";
+  dbo:location dbr:Porto_Alegre;
+  :atuaNoEixo "Ciências da Saúde";
+  :trabalhaCom "Participação e Controle Social em Saúde";
+  :criadoEm "2010";
+  :temEmail "petconexoespcss@gmail.com";
+  :estáNoCampus "Campus Centro";
+  :temInstagram "https://instagram.com/petconexoesemsaude";
+  :temFacebook "https://www.facebook.com/petconexoesemsaude/";
+  :temYouTube "https://www.youtube.com/channel/UCHUFznL27kT4WXLq1DlWS9w";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Rio%20Grande%20do%20Sul> .
+
+<#Universidade/Universidade%20Federal%20do%20Rio%20Grande%20do%20Sul> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q766447;
+  rdfs:label "Universidade Federal do Rio Grande do Sul";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Rio_Grande_do_Sul" .
+
+<#GrupoPet/PET%20Conexões%20de%20Saberes%20Políticas%20Públicas%20de%20Juventude>
+  a :GrupoPET;
+  foaf:name "PET Conexões de Saberes Políticas Públicas de Juventude";
+  dbo:location dbr:Porto_Alegre;
+  :atuaNoEixo "Ciências Humanas";
+  :trabalhaCom "Políticas Públicas de Juventude e Ações Afirmativas";
+  :criadoEm "2010";
+  :temEmail "petconexoesppj@gmail.com";
+  :estáNoCampus "Campus Centro";
+  :temInstagram "https://instagram.com/petconexoesppj";
+  :temFacebook "https://www.facebook.com/petconexoesppj/";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Rio%20Grande%20do%20Sul> .
+
+<#GrupoPet/PET%20Enfermagem> a :GrupoPET;
+  foaf:name "PET Enfermagem";
+  dbo:location dbr:Campinas;
+  :atuaNoEixo "Ciências da Saúde";
+  :criadoEm "1996";
+  :temEmail "petenfermagem96@gmail.com";
+  :estáNoCampus "Campus II";
+  :temInstagram "https://instagram.com/petenfermagempuc";
+  :temFacebook "https://facebook.com/petenfermagempuc/";
+  :temYouTube "https://www.youtube.com/channel/UC0u5xVAU272_taHdUjNETsA";
+  :éAfiliadoDe <#Universidade/Pontifícia%20Universidade%20Católica%20de%20Campinas> .
+
+<#Universidade/Pontifícia%20Universidade%20Católica%20de%20Campinas> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q839900;
+  rdfs:label "Pontifícia Universidade Católica de Campinas";
+  :temWikipedia "https://en.wikipedia.org/wiki/Pontifical_Catholic_University_of_Campinas" .
+
+<#Universidade/Universidade%20Federal%20de%20Minas%20Gerais> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q132140;
+  rdfs:label "Universidade Federal de Minas Gerais";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Minas_Gerais" .
+
+<#GrupoPet/PET%20Bacharelado%20em%20Estatística> a :GrupoPET;
+  foaf:name "PET Bacharelado em Estatística";
+  dbo:location dbr:São_Carlos;
+  :atuaNoEixo "Ciências Exatas e da Terra";
+  :temSite "petestatisticaufscar.wordpress.com/";
+  :criadoEm "2006";
+  :temEmail "petestatufscar@gmail.com";
+  :estáNoCampus "Campus São Carlos";
+  :temInstagram "https://instagram.com/petestat.ufscar";
+  :temFacebook "https://www.facebook.com/petestufscar";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20São%20Carlos> .
+
+<#GrupoPet/PET%20Ciências%20Biológicas> a :GrupoPET;
+  foaf:name "PET Ciências Biológicas";
+  dbo:location dbr:Botucatu;
+  :atuaNoEixo "Ciências Biológicas";
+  :temSite "www3.ibb.unesp.br/petcbb/";
+  :criadoEm "2012";
+  :temEmail "petcbb@gmail.com";
+  :estáNoCampus "Campus Botucatu";
+  :temInstagram "https://instagram.com/petcbb";
+  :temFacebook "https://www.facebook.com/petcbbunesp/";
+  :temYouTube "https://www.youtube.com/channel/UCBpdKWJM8K5rV7f5xRnbreg";
+  :éAfiliadoDe <#Universidade/Universidade%20Estadual%20Paulista%20Júlio%20de%20Mesquita%20Filho> .
+
+<#Universidade/Universidade%20Estadual%20Paulista%20Júlio%20de%20Mesquita%20Filho>
+  a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q1817137;
+  rdfs:label "Universidade Estadual Paulista Júlio de Mesquita Filho";
+  :temWikipedia "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_State_University" .
+
+<#GrupoPet/PET%20Conexões%20de%20Saberes%3A%20Comunidades%20Indígenas> a :GrupoPET;
+  foaf:name "PET Conexões de Saberes: Comunidades Indígenas";
+  dbo:location dbr:Rio_Branco;
+  :atuaNoEixo "Interdisciplinar";
+  :trabalhaCom "Saberes indígenas - Saberes acadêmicos";
+  :temSite "www.petcomunidadesindigenasufac.org/";
+  :criadoEm "2010";
+  :temEmail "pet.conexind@ufac.br";
+  :estáNoCampus "Campus Rio Branco";
+  :temFacebook "https://facebook.com/petcomunidadesindigenasufac";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Acre> .
+
+<#Universidade/Universidade%20Federal%20do%20Acre> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q10387829;
+  rdfs:label "Universidade Federal do Acre";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Acre" .
+
+<#GrupoPet/PET%20Computação> a :GrupoPET;
+  foaf:name "PET Computação";
+  dbo:location dbr:Porto_Alegre;
+  :atuaNoEixo "Ciências Exatas e da Terra";
+  :temSite "www.inf.ufrgs.br/pet/projetos/";
+  :criadoEm "1988";
+  :temEmail "pet@inf.ufrgs.br";
+  :estáNoCampus "Campus Vale";
+  :temInstagram "https://instagram.com/petcompufrgs";
+  :temFacebook "https://www.facebook.com/PETCompUFRGS";
+  :temYouTube "https://www.youtube.com/user/PetCompUfrgs";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Rio%20Grande%20do%20Sul> .
+
+<#GrupoPet/PET%20Educação%20-%20Conexão%20de%20Saberes> a :GrupoPET;
+  foaf:name "PET Educação - Conexão de Saberes";
+  dbo:location dbr:Itabaiana;
+  :atuaNoEixo "Ciências Humanas";
+  :temSite "peteduca.com.br/";
+  :criadoEm "2009";
+  :temEmail "pet_educacao@academico.ufs.br";
+  :estáNoCampus "Campus Itabaiana";
+  :temInstagram "https://instagram.com/pet.educacao";
+  :temFacebook "https://www.facebook.com/petconexaosaberes";
+  :temYouTube "https://www.youtube.com/channel/UCLpsR4snHC93M9P6lNPA0yQ";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Sergipe> .
+
+<#Universidade/Universidade%20Federal%20de%20Sergipe> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q7894380;
+  rdfs:label "Universidade Federal de Sergipe";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Sergipe" .
+
+<#GrupoPet/PET%20Física> a :GrupoPET;
+  foaf:name "PET Física";
+  dbo:location dbr:Manaus;
+  :atuaNoEixo "Ciências Exatas e da Terra";
+  :trabalhaCom "Física";
+  :temSite "pet-fisica-ufam.blogspot.com/";
+  :criadoEm "1991";
+  :temEmail "petfisica@ufam.edu.br";
+  :estáNoCampus "Campus Manaus";
+  :temInstagram "https://instagram.com/petfisicaufam";
+  :temFacebook "https://www.facebook.com/PETFisicaUFAM/";
+  :temYouTube "https://www.youtube.com/channel/UCZ1bAOs1fzIukAe5F4HRr2w";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Amazonas> .
+
+<#Universidade/Universidade%20Estadual%20de%20Ponta%20Grossa> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q7228043;
+  rdfs:label "Universidade Estadual de Ponta Grossa";
+  :temWikipedia "https://en.wikipedia.org/wiki/State_University_of_Ponta_Grossa" .
+
+<#GrupoPet/PET%20Conexões%20de%20Saberes%20Educomunicação> a :GrupoPET;
+  foaf:name "PET Conexões de Saberes Educomunicação";
+  dbo:location dbr:Uberlândia;
+  :atuaNoEixo "Ciências Humanas";
+  :trabalhaCom "EDUCOMUNICAÇÃO";
+  :temSite "www.peteducom.com.br/";
+  :criadoEm "2010";
+  :temEmail "petcnxed@gmail.com";
+  :estáNoCampus "Campus Santa Mônica";
+  :temInstagram "https://instagram.com/petcnxed";
+  :temFacebook "https://www.facebook.com/PetCnxEducomunicacao";
+  :temYouTube "https://cenapet.org/grupos/219/PET%20Conex%C3%B5es%20de%20Saberes%20Educomunica%C3%A7%C3%A3o";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Uberlândia> .
+
+<#GrupoPet/PET%20Pesquisa%20e%20Extensão%20em%20Espaços%20Sóciopedagógicos> a :GrupoPET;
+  foaf:name "PET Pesquisa e Extensão em Espaços Sóciopedagógicos";
+  dbo:location dbr:São_Luís;
+  :atuaNoEixo "Interdisciplinar";
+  :criadoEm "2010";
+  :temEmail "e.petconexoes@gmail.com";
+  :estáNoCampus "Campus São Luís";
+  :temInstagram "https://instagram.com/petespufma";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Maranhão> .
+
+<#GrupoPet/PET%20Conexões%20de%20Saberes%3A%20Cenários%20de%20Práticas%20e%20Estágios%20Curriculares%20Noturnos>
+  a :GrupoPET;
+  foaf:name "PET Conexões de Saberes: Cenários de Práticas e Estágios Curriculares Noturnos";
+  dbo:location dbr:Porto_Alegre;
+  :atuaNoEixo "Ciências da Saúde";
+  :trabalhaCom "Cenários de Práticas e Estágios Curriculares Noturnos";
+  :criadoEm "2010";
+  :temEmail "petsaudenoturno.ufrgs@gmail.com";
+  :estáNoCampus "Campus Centro";
+  :temInstagram "https://instagram.com/petsaudenoturno";
+  :temFacebook "https://www.facebook.com/Pet-Cen%C3%A1rios-de-Pr%C3%A1ticas-e-de-Est%C3%A1gios-Curriculares-Noturnos-UFRGS-1713390695558325/";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Rio%20Grande%20do%20Sul> .
+
+<#GrupoPet/PET%20Ciência%2C%20Tecnologia%20e%20Inovação> a :GrupoPET;
+  foaf:name "PET Ciência, Tecnologia e Inovação";
+  dbo:location dbr:Santo_André;
+  :atuaNoEixo "Interdisciplinar";
+  :criadoEm "2010";
+  :temEmail "contato.pet.cti.ufabc@gmail.com";
+  :estáNoCampus "Campus Santo André";
+  :temInstagram "https://instagram.com/pet.cti.ufabc";
+  :temFacebook "https://www.facebook.com/pet.cti.ufabc/";
+  :temYouTube "https://www.youtube.com/c/PETCTIUFABC";
+  :éAfiliadoDe <#Universidade/Fundação%20Universidade%20Federal%20do%20Abc> .
+
+<#Universidade/Fundação%20Universidade%20Federal%20do%20Abc> a :Universidade;
+  rdfs:seeAlso wd:Q3918;
+  rdfs:label "Fundação Universidade Federal do Abc";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Rio_de_Janeiro" .
+
+<#Universidade/Universidade%20Federal%20do%20Rio%20Grande> a :Universidade;
+  rdfs:seeAlso wd:Q3918;
+  rdfs:label "Universidade Federal do Rio Grande";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Rio_Grande_do_Sul" .
+
+<#GrupoPet/PET%20Intervenção%20Socioambiental%20em%20Uruçuí-Una> a :GrupoPET;
+  foaf:name "PET Intervenção Socioambiental em Uruçuí-Una";
+  dbo:location dbr:Bom_Jesus;
+  :atuaNoEixo "Interdisciplinar";
+  :temSite "urucuiuna.blogspot.com/";
+  :criadoEm "2010";
+  :temEmail "pet5bj@gmail.com";
+  :estáNoCampus "Campus Bom Jesus";
+  :temInstagram "https://instagram.com/pet5bj";
+  :temFacebook "https://facebook.com/pet5bj/";
+  :temYouTube "https://www.youtube.com/channel/UCfMUBg4cCQrtUUz6FjBQEsw";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Piauí> .
+
+<#Universidade/Universidade%20Federal%20do%20Piauí> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q945699;
+  rdfs:label "Universidade Federal do Piauí";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Piau%C3%AD" .
+
+<#GrupoPet/PET%20Música> a :GrupoPET;
+  foaf:name "PET Música";
+  dbo:location dbr:São_Paulo;
+  :atuaNoEixo "Linguística, Letras e Arte";
+  :temSite "petmusica.wordpress.com";
+  :criadoEm "1996";
+  :temEmail "petmusica.ia@unesp.br";
+  :estáNoCampus "Campus São Paulo";
+  :temInstagram "https://instagram.com/petmusicaunesp";
+  :temFacebook "https://www.facebook.com/petmusica";
+  :temYouTube "https://www.youtube.com/user/petmusica";
+  :éAfiliadoDe <#Universidade/Universidade%20Estadual%20Paulista%20Júlio%20de%20Mesquita%20Filho> .
+
+<#Universidade/Universidade%20do%20Estado%20do%20Rio%20de%20Janeiro> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q2840233;
+  rdfs:label "Universidade do Estado do Rio de Janeiro";
+  :temWikipedia "https://en.wikipedia.org/wiki/Rio_de_Janeiro_State_University" .
+
+<#Universidade/Universidade%20Federal%20de%20Mato%20Grosso> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q7894374;
+  rdfs:label "Universidade Federal de Mato Grosso";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Mato_Grosso" .
+
+<#GrupoPet/PET%20Serviço%20Social> a :GrupoPET;
+  foaf:name "PET Serviço Social";
+  dbo:location dbr:Rio_de_Janeiro;
+  :atuaNoEixo "Ciências Sociais Aplicadas";
+  :criadoEm "2006";
+  :temEmail "petservicosocial.uerj@gmail.com";
+  :estáNoCampus "Campus Maracanã - Francisco Negrão de Lima";
+  :temInstagram "https://instagram.com/petservicosocial.uerj";
+  :temFacebook "https://www.facebook.com/petservicosocialuerj/";
+  :temYouTube "https://www.youtube.com/watch?v=7ulXSrqnlg4";
+  :éAfiliadoDe <#Universidade/Universidade%20do%20Estado%20do%20Rio%20de%20Janeiro> .
+
+<#Universidade/Universidade%20do%20Estado%20do%20Rio%20de%20Janeiro> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q2840233;
+  rdfs:label "Universidade do Estado do Rio de Janeiro";
+  :temWikipedia "https://en.wikipedia.org/wiki/Rio_de_Janeiro_State_University" .
+
+<#GrupoPet/PET%20Física> a :GrupoPET;
+  foaf:name "PET Física";
+  dbo:location dbr:Darcy_Ribeiro, dbr:Londrina, dbr:Santa_Maria;
+  :atuaNoEixo "Ciências Exatas e da Terra";
+  :temSite "www.pet.if.unb.br/", "www.ufsm.br/pet/fisica/";
+  :criadoEm "2009", "1991", "1992";
+  :temEmail "petfisicaunb@gmail.com", "petfisica@uel.br", "petfisica@ufsm.br";
+  :estáNoCampus "Campus Darcy Ribeiro", "Campus Londrina", "Campus Santa Maria";
+  :temInstagram "https://instagram.com/fisicapet", "https://instagram.com/petfisicauel",
+    "https://instagram.com/petfisicaufsm";
+  :temFacebook "https://www.facebook.com/PETFisicaUnB/", "https://facebook.com/uel.petfisica/",
+    "https://cenapet.org/grupos/273/facebook.com/petfisicaufsm";
+  :temYouTube "https://www.youtube.com/channel/UCCt5JqYPctoMxXhW0xoJShw", "https://www.youtube.com/channel/UCIYogtmqDhbBLyJhr-wThpQ",
+    "https://www.youtube.com/channel/UCA81uWltMtz8zFGY8_9-eZg";
+  :éAfiliadoDe <#Universidade/Universidade%20de%20Brasília>, <#Universidade/Universidade%20Estadual%20de%20Londrina>,
+    <#Universidade/Universidade%20Federal%20de%20Santa%20Maria> .
+
+<#Universidade/Universidade%20de%20Brasília> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q1330634;
+  rdfs:label "Universidade de Brasília";
+  :temWikipedia "https://en.wikipedia.org/wiki/University_of_Bras%C3%ADlia" .
+
+<#GrupoPet/PET%20Engenharia%20de%20Alimentos> a :GrupoPET;
+  foaf:name "PET Engenharia de Alimentos";
+  dbo:location dbr:Porto_Alegre, dbr:Carreiros;
+  :atuaNoEixo "Engenharias", "Ciências Agrárias";
+  :criadoEm "2010", "2012";
+  :temEmail "petengenhariadealimentosufrgs@gmail.com", "grupopeteafurg@gmail.com";
+  :estáNoCampus "Campus Vale", "Campus Carreiros";
+  :temInstagram "https://instagram.com/petufrgsalimentos", "https://instagram.com/peteafurg";
+  :temFacebook "https://www.facebook.com/petealimentos", "https://www.facebook.com/peteafurg/";
+  :temYouTube "https://www.youtube.com/channel/UCdPu_MQgyubQGTEkBtQYgIA", "https://www.youtube.com/channel/UCWrdABFyxsOneEsk81nIYdA";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Rio%20Grande%20do%20Sul>,
+    <#Universidade/Universidade%20Federal%20do%20Rio%20Grande> .
+
+<#Universidade/Universidade%20Federal%20do%20Rio%20Grande%20do%20Sul> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q766447;
+  rdfs:label "Universidade Federal do Rio Grande do Sul";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Rio_Grande_do_Sul" .
+
+<#GrupoPet/PET%20Biotecnologia> a :GrupoPET;
+  foaf:name "PET Biotecnologia";
+  dbo:location dbr:Garanhuns;
+  :atuaNoEixo "Ciências Agrárias";
+  :trabalhaCom "Biotecnologia";
+  :temSite "petbiotec1.wixsite.com/petbiotec";
+  :criadoEm "2010";
+  :temEmail "petbiotecnologia@ufape.edu.br";
+  :estáNoCampus "Campus Garanhuns (UAG)";
+  :temInstagram "https://instagram.com/petbiotecufape";
+  :temFacebook "https://www.facebook.com/petbiotecnologiaufape/";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Agreste%20de%20Pernambuco> .
+
+<#Universidade/Universidade%20Federal%20do%20Agreste%20de%20Pernambuco> a :Universidade;
+  rdfs:seeAlso wd:Q3918;
+  rdfs:label "Universidade Federal do Agreste de Pernambuco";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_Rural_University_of_Pernambuco" .
+
+<#GrupoPet/GET%20Engenharia%20Mecânica> a :GrupoPET;
+  foaf:name "GET Engenharia Mecânica";
+  dbo:location dbr:Juiz_de_Fora;
+  :atuaNoEixo "Engenharias";
+  :criadoEm "2018";
+  :temEmail "get.mecanica@engenharia.ufjf.br";
+  :estáNoCampus "Campus Juiz de Fora";
+  :temInstagram "https://instagram.com/getmecufjf";
+  :temFacebook "https://facebook.com/GETMecUFJF/";
+  :temYouTube "https://bit.ly/YoutubeGETMecUFJF";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Juiz%20de%20Fora> .
+
+<#Universidade/Universidade%20Federal%20de%20Juiz%20de%20Fora> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q7894373;
+  rdfs:label "Universidade Federal de Juiz de Fora";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Juiz_de_Fora" .
+
+<#GrupoPet/PET%20Engenharia%20de%20Pesca> a :GrupoPET;
+  foaf:name "PET Engenharia de Pesca";
+  dbo:location dbr:Serra_Talhada;
+  :atuaNoEixo "Ciências Agrárias";
+  :temSite "petpescauast.wordpress.com/";
+  :criadoEm "2012";
+  :temEmail "petpescauast@ufrpe.br";
+  :estáNoCampus "Campus Serra Talhada";
+  :temInstagram "https://instagram.com/petpescauast";
+  :temFacebook "https://www.facebook.com/PETpesca";
+  :temYouTube "https://www.youtube.com/channel/UCjzgr72YHd92uaKW2QTVghA";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20Rural%20de%20Pernambuco> .
+
+<#Universidade/Universidade%20Federal%20Rural%20de%20Pernambuco> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q7894368;
+  rdfs:label "Universidade Federal Rural de Pernambuco";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_Rural_University_of_Pernambuco" .
+
+<#Universidade/Universidade%20Estadual%20de%20Londrina> a :Universidade;
+  rdfs:seeAlso wd:Q3918;
+  rdfs:label "Universidade Estadual de Londrina";
+  :temWikipedia "https://en.wikipedia.org/wiki/Londrina" .
+
+<#GrupoPet/PET%20Agro> a :GrupoPET;
+  foaf:name "PET Agro";
+  dbo:location dbr:Registro;
+  :atuaNoEixo "Ciências Agrárias";
+  :criadoEm "2012";
+  :temEmail "petagroregistro@hotmail.com";
+  :estáNoCampus "Campus Registro";
+  :temInstagram "https://instagram.com/petagroregistro";
+  :temFacebook "https://www.facebook.com/petagroregistro";
+  :temYouTube "https://www.youtube.com/channel/UCKUBlPW_AizEftY5fuiQVRg";
+  :éAfiliadoDe <#Universidade/Universidade%20Estadual%20Paulista%20Júlio%20de%20Mesquita%20Filho> .
+
+<#Universidade/Universidade%20Estadual%20Paulista%20Júlio%20de%20Mesquita%20Filho>
+  a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q1817137;
+  rdfs:label "Universidade Estadual Paulista Júlio de Mesquita Filho";
+  :temWikipedia "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_State_University" .
+
+<#GrupoPet/PET%20Saúde%20da%20Criança> a :GrupoPET;
+  foaf:name "PET Saúde da Criança";
+  dbo:location dbr:Baixada_Santista;
+  :atuaNoEixo "Ciências da Saúde";
+  :trabalhaCom "Saúde da Criança";
+  :criadoEm "2011";
+  :temEmail "petsaudedacrianca2011@gmail.com";
+  :estáNoCampus "Campus Baixada Santista";
+  :temInstagram "https://instagram.com/petsaudecrianca";
+  :temFacebook "https://www.facebook.com/petsaudedacrianca/";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20São%20Paulo> .
+
+<#Universidade/Universidade%20Federal%20de%20São%20Paulo> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q4384447;
+  rdfs:label "Universidade Federal de São Paulo";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_S%C3%A3o_Paulo" .
+
+<#GrupoPet/PET%20Bacharelado%20em%20Engenharia%20Elétrica> a :GrupoPET;
+  foaf:name "PET Bacharelado em Engenharia Elétrica";
+  dbo:location dbr:Palmas;
+  :atuaNoEixo "Engenharias";
+  :criadoEm "2010";
+  :temEmail "petengenhariaeletricauft@mail.uft.edu.br";
+  :estáNoCampus "Campus Palmas";
+  :temInstagram "https://instagram.com/peteletricauft";
+  :temFacebook "https://www.facebook.com/peteletricauft";
+  :temYouTube "https://www.youtube.com/channel/UCTRSediIylh02LDiVU-nqYw";
+  :éAfiliadoDe <#Universidade/Fundação%20Universidade%20Federal%20do%20Tocantins> .
+
+<#Universidade/Fundação%20Universidade%20Federal%20do%20Tocantins> a :Universidade;
+  rdfs:seeAlso wd:Q3918;
+  rdfs:label "Fundação Universidade Federal do Tocantins";
+  :temWikipedia "https://en.wikipedia.org/wiki/Tocantins" .
+
+<#GrupoPet/PET%20Enfermagem> a :GrupoPET;
+  foaf:name "PET Enfermagem";
+  dbo:location dbr:Santa_Maria, dbr:Uberaba, dbr:Goiânia;
+  :atuaNoEixo "Ciências da Saúde";
+  :criadoEm "2007", "2006", "1996";
+  :temEmail "petenfermagemufsm2013@gmail.com", "uftmpetenfermagem@gmail.com", "pet.fen.ufg@gmail.com";
+  :estáNoCampus "Campus Santa Maria", "Campus Uberaba", "Campus Colemar Natal e Silva";
+  :temInstagram "https://instagram.com/petenfermagemufsm", "https://instagram.com/petenfermagemufg";
+  :temFacebook "https://www.facebook.com/petenf.ufsm", "https://cenapet.org/grupos/287/facebook.com/PetEnfermagemUftm/";
+  :temYouTube "https://www.youtube.com/channel/UCSS8DSiplzy7rfVRPIlajQQ", "https://www.youtube.com/channel/UC7Wv3SKxzoUNaEJsPdhYxRw",
+    "https://www.youtube.com/channel/UCP2mGJ174syLk5gzrbjmMIA";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Santa%20Maria>, <#Universidade/Universidade%20Federal%20do%20Triângulo%20Mineiro>,
+    <#Universidade/Universidade%20Federal%20de%20Goiás>;
+  :trabalhaCom "Políticas Públicas de Saúde", "ENFERMAGEM" .
+
+<#Universidade/Universidade%20Federal%20de%20Santa%20Maria> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q3790133;
+  rdfs:label "Universidade Federal de Santa Maria";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Santa_Maria" .
+
+<#GrupoPet/PET%20Ciência%2C%20Tecnologia%20%26%20Cidadania> a :GrupoPET;
+  foaf:name "PET Ciência, Tecnologia & Cidadania";
+  dbo:location dbr:Alegrete;
+  :atuaNoEixo "Engenharias";
+  :criadoEm "2013";
+  :temEmail "petctcunipampa@gmail.com";
+  :estáNoCampus "Campus Alegrete";
+  :temInstagram "https://instagram.com/petctcengenharias";
+  :temFacebook "https://www.facebook.com/PET-CTC-Engenharias-Unipampa-Alegrete-454543104640193/";
+  :temYouTube "https://youtube.com/channel/UCF5EVeMNPWnd1iUnTU4dK7A";
+  :éAfiliadoDe <#Universidade/Fundação%20Universidade%20Federal%20do%20Pampa> .
+
+<#Universidade/Fundação%20Universidade%20Federal%20do%20Pampa> a :Universidade;
+  rdfs:seeAlso wd:Q3918;
+  rdfs:label "Fundação Universidade Federal do Pampa";
+  :temWikipedia "https://en.wikipedia.org/wiki/List_of_universities_in_Brazil_by_state" .
+
+<#GrupoPet/PET%20Engenharia%20Civil> a :GrupoPET;
+  foaf:name "PET Engenharia Civil";
+  dbo:location dbr:Maringá, dbr:Santa_Maria;
+  :atuaNoEixo "Engenharias";
+  :temSite "petciviluem.com/";
+  :criadoEm "2012", "2013";
+  :temEmail "petciviluem@gmail.com", "petcivil@ufsm.br";
+  :estáNoCampus "Campus Sede", "Campus Santa Maria";
+  :temInstagram "https://instagram.com/petciviluem", "https://instagram.com/petcivilufsm";
+  :temFacebook "https://www.facebook.com/petciviluem", "https://www.facebook.com/petcivilufsm";
+  :temYouTube "https://www.youtube.com/channel/UCpM_aNC9iIWbCiYQxYrvBuA", "https://www.youtube.com/channel/UC3YPNkfq62dJw9qS53LilDw";
+  :éAfiliadoDe <#Universidade/Universidade%20Estadual%20de%20Maringá>, <#Universidade/Universidade%20Federal%20de%20Santa%20Maria> .
+
+<#Universidade/Universidade%20Estadual%20de%20Maringá> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q7894365;
+  rdfs:label "Universidade Estadual de Maringá";
+  :temWikipedia "https://en.wikipedia.org/wiki/State_University_of_Maring%C3%A1" .
+
+<#GrupoPet/PET%20Matemática> a :GrupoPET;
+  foaf:name "PET Matemática";
+  dbo:location dbr:Darcy_Ribeiro, dbr:Uberlândia;
+  :atuaNoEixo "Ciências Exatas e da Terra";
+  :trabalhaCom "Matemática";
+  :temSite "pet.mat.unb.br/";
+  :criadoEm "1995", "1992";
+  :temEmail "p3tmatunb@gmail.com", "petmat.famat@gmail.com";
+  :estáNoCampus "Campus Darcy Ribeiro", "Campus Santa Mônica";
+  :temInstagram "https://instagram.com/petmatunb", "https://instagram.com/petmatufu";
+  :temFacebook "https://www.facebook.com/PETMATUNB/", "https://www.facebook.com/petmatematicaufu";
+  :temYouTube "https://www.youtube.com/petmatematicaunb", "https://www.youtube.com/c/PETMatem%C3%A1ticaUFU";
+  :éAfiliadoDe <#Universidade/Universidade%20de%20Brasília>, <#Universidade/Universidade%20Federal%20de%20Uberlândia> .
+
+<#GrupoPet/PET%20Zootecnia> a :GrupoPET;
+  foaf:name "PET Zootecnia";
+  dbo:location dbr:Londrina, dbr:Araguaína;
+  :atuaNoEixo "Ciências Agrárias";
+  :trabalhaCom "Pet Zootecnia";
+  :criadoEm "2011", "2013";
+  :temEmail "petuelzootecnia@gmail.com", "petzootecnia@uft.edu.br";
+  :estáNoCampus "Campus Londrina", "Campus Araguaína";
+  :temInstagram "https://instagram.com/petzootecniauel", "https://instagram.com/petzootecniaufnt";
+  :temFacebook "https://www.facebook.com/PET-Zootecnia-UEL-341431985896246/";
+  :temYouTube "https://www.youtube.com/channel/UCq-YexpIIQuJhj_21ifraIA/featured", "https://www.youtube.com/channel/UCUzHcTxm2A_MO0W5Aw820mw/videos";
+  :éAfiliadoDe <#Universidade/Universidade%20Estadual%20de%20Londrina>, <#Universidade/Fundação%20Universidade%20Federal%20do%20Tocantins> .
+
+<#GrupoPet/PET%20Farmácia> a :GrupoPET;
+  foaf:name "PET Farmácia";
+  dbo:location dbr:Ouro_Preto;
+  :atuaNoEixo "Ciências da Saúde";
+  :temSite "petfarmacia.ufop.br/";
+  :criadoEm "1992";
+  :temEmail "pet-farmacia.ef@ufop.edu.br";
+  :estáNoCampus "Campus Ouro Preto";
+  :temInstagram "https://instagram.com/petfarmaciaufop";
+  :temFacebook "https://www.facebook.com/PETFarmaciaUFOP";
+  :temYouTube "https://www.youtube.com/channel/UC-FU1-GtUwc2pZa5pfgnpNg";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Ouro%20Preto> .
+
+<#Universidade/Universidade%20Federal%20de%20Ouro%20Preto> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q6741204;
+  rdfs:label "Universidade Federal de Ouro Preto";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Ouro_Preto" .
+
+<#GrupoPet/PET%20Educação%20Física> a :GrupoPET;
+  foaf:name "PET Educação Física";
+  dbo:location dbr:Cuiabá, dbr:Santa_Maria, dbr:Maringá;
+  :atuaNoEixo "Ciências da Saúde", "Interdisciplinar";
+  :trabalhaCom "Desenvolvimento de programas de exercícios físicos para saúde", "Educação Física";
+  :criadoEm "2006", "2010", "1991";
+  :temEmail "petufmtfef@gmail.com", "petedfufsm@gmail.com", "petdefuem@gmail.com";
+  :estáNoCampus "Campus Cuiabá", "Campus Santa Maria", "Campus Sede";
+  :temInstagram "https://instagram.com/pet_educacao_fisica", "https://instagram.com/peteducacaofisicaufsm",
+    "https://instagram.com/peteducauem";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Mato%20Grosso>, <#Universidade/Universidade%20Federal%20de%20Santa%20Maria>,
+    <#Universidade/Universidade%20Estadual%20de%20Maringá>;
+  :temYouTube "https://www.youtube.com/channel/UCNIdPDC9qND8h2U-wvIfQXQ", "https://youtube.com/channel/UC4grzuvSHsdNjganhcq_Mxw";
+  :temFacebook "https://facebook.com/petedfisicauem" .
+
+<#Universidade/Universidade%20Federal%20de%20Mato%20Grosso> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q7894374;
+  rdfs:label "Universidade Federal de Mato Grosso";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Mato_Grosso" .
+
+<#GrupoPet/PET%20Agronomia> a :GrupoPET;
+  foaf:name "PET Agronomia";
+  dbo:location dbr:Cascavel;
+  :atuaNoEixo "Ciências Agrárias";
+  :trabalhaCom "Desenvolvimento rural sustentável";
+  :criadoEm "2010";
+  :temEmail "petagronomiaunioeste2017@gmail.com";
+  :estáNoCampus "Campus Cascavel";
+  :temInstagram "https://instagram.com/petagronomiaunioeste";
+  :temYouTube "https://youtube.com/channel/UCG-wgT6ReXdwQDMieGbKhrQ";
+  :éAfiliadoDe <#Universidade/Universidade%20Estadual%20do%20Oeste%20do%20Paraná> .
+
+<#Universidade/Universidade%20Estadual%20do%20Oeste%20do%20Paraná> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q7603637;
+  rdfs:label "Universidade Estadual do Oeste do Paraná";
+  :temWikipedia "https://en.wikipedia.org/wiki/Western_Paran%C3%A1_State_University" .
+
+<#GrupoPet/PET%20Computação> a :GrupoPET;
+  foaf:name "PET Computação";
+  dbo:location dbr:São_Carlos;
+  :atuaNoEixo "Ciências Exatas e da Terra";
+  :temSite "pet.icmc.usp.br/";
+  :criadoEm "1995";
+  :temEmail "petcomp@icmc.usp.br";
+  :estáNoCampus "Campus São Carlos";
+  :temInstagram "https://instagram.com/petcomputacaousp";
+  :temFacebook "https://www.facebook.com/petcompusp";
+  :temYouTube "https://www.youtube.com/c/PETComputa%C3%A7%C3%A3oUSP";
+  :éAfiliadoDe <#Universidade/Universidade%20de%20São%20Paulo> .
+
+<#Universidade/Universidade%20de%20São%20Paulo> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q835960;
+  rdfs:label "Universidade de São Paulo";
+  :temWikipedia "https://en.wikipedia.org/wiki/University_of_S%C3%A3o_Paulo" .
+
+<#GrupoPet/PET%20Práticas%20de%20Letramento> a :GrupoPET;
+  foaf:name "PET Práticas de Letramento";
+  dbo:location dbr:Recife;
+  :atuaNoEixo "Interdisciplinar";
+  :criadoEm "2010";
+  :temEmail "petletramento@gmail.com";
+  :estáNoCampus "Campus Dois Irmãos";
+  :temInstagram "https://instagram.com/petletramentoufrpe";
+  :temFacebook "https://www.facebook.com/petletramentorural";
+  :temYouTube "https://www.youtube.com/channel/UCJZ05bGGA3GvsdZVN13G7wg";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20Rural%20de%20Pernambuco> .
+
+<#GrupoPet/PET%20Letras> a :GrupoPET;
+  foaf:name "PET Letras";
+  dbo:location dbr:Campina_Grande;
+  :atuaNoEixo "Linguística, Letras e Arte";
+  :trabalhaCom "Identidade, Alteridade e Integração";
+  :temSite "petletrasufcg.wixsite.com/pet-letras";
+  :criadoEm "1992";
+  :temEmail "petletrasufcg@gmail.com";
+  :estáNoCampus "Campus Campina Grande";
+  :temInstagram "https://instagram.com/petletrasufcg";
+  :temFacebook "https://www.facebook.com/petletrasufcg/";
+  :temYouTube "https://www.youtube.com/user/PETLetrasUFCG";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Campina%20Grande> .
+
+<#Universidade/Universidade%20Federal%20de%20Campina%20Grande> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q3848464;
+  rdfs:label "Universidade Federal de Campina Grande";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Campina_Grande" .
+
+<#GrupoPet/PET%20Informática> a :GrupoPET;
+  foaf:name "PET Informática";
+  dbo:location dbr:Maringá;
+  :atuaNoEixo "Ciências Exatas e da Terra";
+  :temSite "www.din.uem.br/pet/";
+  :criadoEm "1991";
+  :temEmail "pet@din.uem.br";
+  :estáNoCampus "Campus Sede";
+  :temInstagram "https://instagram.com/petinfouem";
+  :temFacebook "https://www.facebook.com/petInformaticauem/";
+  :temYouTube "https://www.youtube.com/c/PETInform%C3%A1ticaUEM";
+  :éAfiliadoDe <#Universidade/Universidade%20Estadual%20de%20Maringá> .
+
+<#GrupoPet/PET%20Medicina%20Veterinária> a :GrupoPET;
+  foaf:name "PET Medicina Veterinária";
+  dbo:location dbr:Lavras;
+  :atuaNoEixo "Ciências Agrárias";
+  :criadoEm "2013";
+  :temEmail "petmvufla@gmail.com";
+  :estáNoCampus "Campus Lavras";
+  :temInstagram "https://instagram.com/petmvufla";
+  :temFacebook "https://www.facebook.com/petveterinariaufla/";
+  :temYouTube "https://www.youtube.com/channel/UCGeq_sF5SG7rdWTD3uAwZsA";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Lavras> .
+
+<#Universidade/Universidade%20Federal%20de%20Lavras> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q10387826;
+  rdfs:label "Universidade Federal de Lavras";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Lavras" .
+
+<#GrupoPet/PET%20Química> a :GrupoPET;
+  foaf:name "PET Química";
+  dbo:location dbr:Natal;
+  :atuaNoEixo "Ciências Exatas e da Terra";
+  :trabalhaCom "Pesquisa, ensino e extensão dentro da área de Química.";
+  :temSite "petquimicaufrn1.wixsite.com/petquimicaufrn/sobrenos";
+  :criadoEm "1988";
+  :temEmail "petquimicaufrn1@gmail.com";
+  :estáNoCampus "Campus Central";
+  :temInstagram "https://instagram.com/petquimica.ufrn";
+  :temFacebook "https://www.facebook.com/pg/petquimicaufrn";
+  :temYouTube "https://www.youtube.com/channel/UCgsaty5inU90XRQ9t90qcjA";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Rio%20Grande%20do%20Norte> .
+
+<#Universidade/Universidade%20Federal%20do%20Rio%20Grande%20do%20Norte> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q3847505;
+  rdfs:label "Universidade Federal do Rio Grande do Norte";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Rio_Grande_do_Norte" .
+
+<#GrupoPet/Pet%20Engenharia%20Florestal> a :GrupoPET;
+  foaf:name "Pet Engenharia Florestal";
+  dbo:location dbr:Dois_Vizinhos;
+  :atuaNoEixo "Ciências Agrárias";
+  :temSite "www.petflorestalutfpr.com.br/";
+  :criadoEm "2010";
+  :temEmail "petflorestal.utfprdv@gmail.com";
+  :estáNoCampus "Campus Dois Vizinhos";
+  :temInstagram "https://instagram.com/pet_florestal";
+  :temYouTube "https://www.youtube.com/channel/UCuAVaBtdrBbMio0nKvGq5rw";
+  :éAfiliadoDe <#Universidade/Universidade%20Tecnológica%20Federal%20do%20Paraná> .
+
+<#Universidade/Universidade%20Tecnológica%20Federal%20do%20Paraná> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q1131055;
+  rdfs:label "Universidade Tecnológica Federal do Paraná";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Technology_%E2%80%93_Paran%C3%A1" .
+
+<#GrupoPet/PET%20Engenharia%20Elétrica> a :GrupoPET;
+  foaf:name "PET Engenharia Elétrica";
+  dbo:location dbr:Santa_Maria, dbr:Ilha_Solteira;
+  :atuaNoEixo "Engenharias";
+  :temSite "www.notion.so/petee/SITE-PET-Engenharia-El-trica-UFSM-680b3baafe9e4181875dd32179e41820",
+    "pet-ee.wixsite.com/peteletrica";
+  :criadoEm "1995", "2012";
+  :temEmail "petee.dados@gmail.com", "peteletricailh@gmail.com";
+  :estáNoCampus "Campus Santa Maria", "Campus Ilha Solteira";
+  :temInstagram "https://instagram.com/petengenhariaeletrica", "https://instagram.com/peteletricailha";
+  :temFacebook "https://www.facebook.com/peteeufsm/", "https://www.facebook.com/peteletricailha";
+  :temYouTube "https://www.youtube.com/channel/UCBEYpCQ4ruNVIHnAUV5Gmug", "https://www.youtube.com/channel/UC8Irwo0fFPRMIQGspwtmBcw";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Santa%20Maria>, <#Universidade/Universidade%20Estadual%20Paulista%20Júlio%20de%20Mesquita%20Filho> .
+
+<#GrupoPet/PET%20Educação%20Física%20-%20Biomecânica> a :GrupoPET;
+  foaf:name "PET Educação Física - Biomecânica";
+  dbo:location dbr:Petrolina;
+  :atuaNoEixo "Ciências da Saúde";
+  :trabalhaCom "Biomecânica e Prática Baseada em Evidências";
+  :criadoEm "2010";
+  :temEmail "pbe.univasf@gmail.com";
+  :estáNoCampus "Campus Sede - Petrolina";
+  :temInstagram "https://instagram.com/pbe.univasf";
+  :temFacebook "https://www.facebook.com/PetBiomecanica";
+  :temYouTube "https://www.youtube.com/channel/UCrIM15Sp2XzJ4Nw2IxiE2zw";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Vale%20do%20São%20Francisco> .
+
+<#Universidade/Universidade%20Federal%20do%20Vale%20do%20São%20Francisco> a :Universidade;
+  rdfs:seeAlso wd:Q3918;
+  rdfs:label "Universidade Federal do Vale do São Francisco";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_the_S%C3%A3o_Francisco_Valley" .
+
+<#GrupoPet/PET%20Ciências%20Agrárias> a :GrupoPET;
+  foaf:name "PET Ciências Agrárias";
+  dbo:location dbr:Frederico_Westphalen;
+  :atuaNoEixo "Ciências Agrárias";
+  :criadoEm "2010";
+  :temEmail "petagronomiafw@ufsm.br";
+  :estáNoCampus "Campus Frederico Westphalen";
+  :temInstagram "https://instagram.com/petcienciasagrarias";
+  :temFacebook "https://www.facebook.com/AgronomiaPET/";
+  :temYouTube "https://youtube.com/channel/UCjkN8bs_IkYjoGsXSl1cOfg";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Santa%20Maria> .
+
+<#GrupoPet/PET%20Ciências%20Biologicas> a :GrupoPET;
+  foaf:name "PET Ciências Biologicas";
+  dbo:location dbr:Rio_Claro;
+  :atuaNoEixo "Ciências Biológicas";
+  :temSite "petbiologiarc.wixsite.com/unesp";
+  :criadoEm "2009";
+  :temEmail "petbioloriarioclaro@gmail.com";
+  :estáNoCampus "Campus Rio Claro";
+  :temInstagram "https://instagram.com/petbiologiarioclaro";
+  :temYouTube "https://www.youtube.com/c/PETBiologiaRC";
+  :éAfiliadoDe <#Universidade/Universidade%20Estadual%20Paulista%20Júlio%20de%20Mesquita%20Filho> .
+
+<#GrupoPet/PET%20Psicologia> a :GrupoPET;
+  foaf:name "PET Psicologia";
+  dbo:location dbr:Assis;
+  :atuaNoEixo "Ciências Humanas";
+  :criadoEm "2012";
+  :temEmail "petpsicologia.assis@gmail.com";
+  :estáNoCampus "Campus Assis";
+  :temInstagram "https://instagram.com/petpsicologia_";
+  :temFacebook "https://www.facebook.com/PET.Psicologia";
+  :temYouTube "https://www.youtube.com/c/PETPsicologiaUNESPAssis";
+  :éAfiliadoDe <#Universidade/Universidade%20Estadual%20Paulista%20Júlio%20de%20Mesquita%20Filho> .
+
+<#GrupoPet/PET%20Economia> a :GrupoPET;
+  foaf:name "PET Economia";
+  dbo:location dbr:Palmas;
+  :atuaNoEixo "Ciências Sociais Aplicadas";
+  :trabalhaCom "Economia Regional";
+  :criadoEm "2009";
+  :temEmail "peteconomia@uft.edu.br";
+  :estáNoCampus "Campus Palmas";
+  :temInstagram "https://instagram.com/peteconomiauft";
+  :éAfiliadoDe <#Universidade/Fundação%20Universidade%20Federal%20do%20Tocantins> .
+
+<#GrupoPet/PET%20Comunidades%20Urbanas%20-%20Conexões%20de%20Saberes> a :GrupoPET;
+  foaf:name "PET Comunidades Urbanas - Conexões de Saberes";
+  dbo:location dbr:Natal;
+  :atuaNoEixo "Interdisciplinar";
+  :trabalhaCom "Comunidades Urbanas";
+  :criadoEm "2010";
+  :temEmail "comunidadesurbanaspet@gmail.com";
+  :estáNoCampus "Campus Natal - Central";
+  :temInstagram "https://instagram.com/peturbanasufrn";
+  :temFacebook "https://www.facebook.com/PetComunidadesUrbanasUFRN";
+  :éAfiliadoDe <#Universidade/Instituto%20Federal%20de%20Educação%2C%20Ciência%20e%20Tecnologia%20do%20Rio%20Grande%20do%20Norte> .
+
+<#Universidade/Instituto%20Federal%20de%20Educação%2C%20Ciência%20e%20Tecnologia%20do%20Rio%20Grande%20do%20Norte>
+  a :Universidade;
+  rdfs:seeAlso wd:Q3918;
+  rdfs:label "Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Rio_Grande_do_Sul" .
+
+<#GrupoPet/PET%20Biologia> a :GrupoPET;
+  foaf:name "PET Biologia";
+  dbo:location dbr:Santa_Maria, dbr:JK;
+  :atuaNoEixo "Ciências Biológicas";
+  :temSite "sites.google.com/site/petbioufsmrs/home";
+  :criadoEm "1992", "2010";
+  :temEmail "petbioufsm@gmail.com", "ricbarata@hotmail.com";
+  :estáNoCampus "Campus Santa Maria", "Campus JK - Diamantina";
+  :temInstagram "https://instagram.com/petbioufsm";
+  :temFacebook "https://www.facebook.com/petbiologiaufsm";
+  :temYouTube "https://www.youtube.com/channel/UCJFPZFADlqlnaXQAfDNKS-A", "https://www.youtube.com/channel/UClBStY4P0doIFHZPcf7VrFg";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Santa%20Maria>, <#Universidade/Universidade%20Federal%20Dos%20Vales%20do%20Jequitinhonha%20e%20Mucuri>;
+  :trabalhaCom "Ciências Biológicas" .
+
+<#GrupoPet/PET%20Comunicação%20Social> a :GrupoPET;
+  foaf:name "PET Comunicação Social";
+  dbo:location dbr:Santa_Maria;
+  :atuaNoEixo "Ciências Sociais Aplicadas";
+  :trabalhaCom "Ensino, Pesquisa e Extensão";
+  :temSite "www.ufsm.br/pet/comunicacao-social/";
+  :criadoEm "1992";
+  :temEmail "petcomunicacaosocial@ufsm.br";
+  :estáNoCampus "Campus Santa Maria";
+  :temInstagram "https://instagram.com/petcomufsm";
+  :temFacebook "https://www.facebook.com/petcomufsm";
+  :temYouTube "https://www.youtube.com/channel/UCPBAu6b8gE3c8H2qVb-b5cg";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Santa%20Maria> .
+
+<#GrupoPet/PET%20Geografia> a :GrupoPET;
+  foaf:name "PET Geografia";
+  dbo:location dbr:Ituiutaba, dbr:Londrina;
+  :atuaNoEixo "Ciências Humanas";
+  :trabalhaCom "Ações Afirmativas";
+  :temSite "petgeofacip.blogspot.com/", "geografiapetuel.wixsite.com/website";
+  :criadoEm "2009", "1994";
+  :temEmail "petgeo.facip@gmail.com", "geografia.petuel@gmail.com";
+  :estáNoCampus "Campus Pontal", "Campus Londrina";
+  :temInstagram "https://instagram.com/petgeografia", "https://instagram.com/petgeouel";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Uberlândia>, <#Universidade/Universidade%20Estadual%20de%20Londrina>;
+  :temFacebook "https://www.facebook.com/petgeouel/";
+  :temYouTube "https://www.youtube.com/channel/UChTwJ6tiF-rnJAI4PlX-Apw" .
+
+<#Universidade/Universidade%20Federal%20de%20Uberlândia> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q5440489;
+  rdfs:label "Universidade Federal de Uberlândia";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Uberl%C3%A2ndia" .
+
+<#GrupoPet/PET%20Conexões%20Ciência%20da%20Computação> a :GrupoPET;
+  foaf:name "PET Conexões Ciência da Computação";
+  dbo:location dbr:Rio_Pomba;
+  :atuaNoEixo "Ciências Exatas e da Terra";
+  :temSite "sistemas.riopomba.ifsudestemg.edu.br/gpca/";
+  :criadoEm "2010";
+  :temEmail "pet.computacao@ifsudestemg.edu.br";
+  :estáNoCampus "Campus Rio Pomba";
+  :temFacebook "https://www.facebook.com/gpca.if/";
+  :éAfiliadoDe <#Universidade/Instituto%20Federal%20de%20Educação%2C%20Ciência%20e%20Tecnologia%20do%20Sudeste%20de%20Minas%20Gerais> .
+
+<#Universidade/Instituto%20Federal%20de%20Educação%2C%20Ciência%20e%20Tecnologia%20do%20Sudeste%20de%20Minas%20Gerais>
+  a :Universidade;
+  rdfs:seeAlso wd:Q3918;
+  rdfs:label "Instituto Federal de Educação, Ciência e Tecnologia do Sudeste de Minas Gerais";
+  :temWikipedia "https://en.wikipedia.org/wiki/List_of_universities_in_Brazil_by_state" .
+
+<#GrupoPet/PET%20Conexões%20de%20Saberes%20Ciências%20da%20Natureza%20e%20Matemática>
+  a :GrupoPET;
+  foaf:name "PET Conexões de Saberes Ciências da Natureza e Matemática";
+  dbo:location dbr:Uberaba;
+  :atuaNoEixo "Interdisciplinar";
+  :trabalhaCom "Educação e Formação de Professores";
+  :criadoEm "2009";
+  :temEmail "petconexoescnm@gmail.com";
+  :estáNoCampus "Campus Uberaba";
+  :temInstagram "https://instagram.com/pet_cnm";
+  :temFacebook "https://www.facebook.com/pet.cnm.ciencias.da.natureza.e.matematica.4";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Triângulo%20Mineiro> .
+
+<#Universidade/Universidade%20Federal%20do%20Triângulo%20Mineiro> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q10387837;
+  rdfs:label "Universidade Federal do Triângulo Mineiro";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Tri%C3%A2ngulo_Mineiro" .
+
+<#GrupoPet/PET%20Bacharelado%20Interdisciplinar%20em%20Ciência%20e%20Economia> a :GrupoPET;
+  foaf:name "PET Bacharelado Interdisciplinar em Ciência e Economia";
+  dbo:location dbr:Varginha;
+  :atuaNoEixo "Ciências Sociais Aplicadas";
+  :temSite "petbiceunifal2017.wixsite.com/petbice";
+  :criadoEm "2010";
+  :temEmail "pet.bice@unifal-mg.edu.br";
+  :estáNoCampus "Campus Varginha";
+  :temInstagram "https://instagram.com/petbiceunifalmg";
+  :temFacebook "https://www.facebook.com/petbice";
+  :temYouTube "https://www.youtube.com/channel/UCG4mtF0zAGhDKQRAfz2zgcw";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Alfenas> .
+
+<#Universidade/Universidade%20Federal%20de%20Alfenas> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q10387825;
+  rdfs:label "Universidade Federal de Alfenas";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Alfenas" .
+
+<#GrupoPet/PET%20Conexões%20de%20Saberes%3A%20Inclusão%2C%20Diversidade%20e%20Protagonismo>
+  a :GrupoPET;
+  foaf:name "PET Conexões de Saberes: Inclusão, Diversidade e Protagonismo";
+  dbo:location dbr:Cuiabá;
+  :atuaNoEixo "Interdisciplinar";
+  :trabalhaCom "Inclusão, Diversidade e Protagonismo";
+  :criadoEm "2010";
+  :temEmail "petconexoesufmtcba@gmail.com";
+  :estáNoCampus "Campus Cuiabá";
+  :temInstagram "https://instagram.com/pet_inclusao.diversidad.protag";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Mato%20Grosso> .
+
+<#GrupoPet/PET%20Educação%20Física%20e%20Lazer> a :GrupoPET;
+  foaf:name "PET Educação Física e Lazer";
+  dbo:location dbr:Pampulha;
+  :atuaNoEixo "Ciências da Saúde";
+  :trabalhaCom "Lazer";
+  :criadoEm "2003";
+  :temEmail "pet.efelazer@gmail.com";
+  :estáNoCampus "Campus Pampulha";
+  :temInstagram "https://instagram.com/petefelazer.ufmg";
+  :temFacebook "https://cenapet.org/grupos/282/facebook.com/petefelazer/";
+  :temYouTube "https://youtube.com/user/petlazer";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Minas%20Gerais> .
+
+<#Universidade/Universidade%20Federal%20de%20Minas%20Gerais> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q132140;
+  rdfs:label "Universidade Federal de Minas Gerais";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Minas_Gerais" .
+
+<#Universidade/Universidade%20Federal%20do%20Rio%20Grande> a :Universidade;
+  rdfs:seeAlso wd:Q3918;
+  rdfs:label "Universidade Federal do Rio Grande";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Rio_Grande_do_Sul" .
+
+<#GrupoPet/PET%20Solos%3A%20agregando%20saberes> a :GrupoPET;
+  foaf:name "PET Solos: agregando saberes";
+  dbo:location dbr:Câmpus_Soane_Nazaré_de_Andrade;
+  :atuaNoEixo "Ciências Exatas e da Terra";
+  :trabalhaCom "Solos";
+  :temSite "www.petsolosuesc.com/";
+  :criadoEm "2009";
+  :temEmail "petsolos@uesc.br";
+  :estáNoCampus "Campus Câmpus Soane Nazaré de Andrade";
+  :temInstagram "https://instagram.com/petsolos.uesc";
+  :temFacebook "https://cenapet.org/grupos/286/facebook.com/petsolosuesc/";
+  :temYouTube "https://www.youtube.com/channel/UCQKBcJwUEIBPU6c22ZrIgtA/featured";
+  :éAfiliadoDe <#Universidade/Universidade%20Estadual%20de%20Santa%20Cruz> .
+
+<#Universidade/Universidade%20Estadual%20de%20Santa%20Cruz> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q10387814;
+  rdfs:label "Universidade Estadual de Santa Cruz";
+  :temWikipedia "https://en.wikipedia.org/wiki/State_University_of_Santa_Cruz" .
+
+<#GrupoPet/PET%20Design> a :GrupoPET;
+  foaf:name "PET Design";
+  dbo:location dbr:Florianópolis;
+  :atuaNoEixo "Ciências Sociais Aplicadas";
+  :temSite "sites.florianopolis.ifsc.edu.br/petdesign/";
+  :criadoEm "2006";
+  :temEmail "petdesign.fln@ifsc.edu.br%E2%80%8B";
+  :estáNoCampus "Campus Florianópolis";
+  :temInstagram "https://instagram.com/petdesignifsc";
+  :temFacebook "https://www.facebook.com/DesignIFSCPET";
+  :temYouTube "https://www.youtube.com/channel/UCxbY2khND_3tmMZNuP6ddog";
+  :éAfiliadoDe <#Universidade/Instituto%20Federal%20de%20Educação%2C%20Ciência%20e%20Tecnologia%20de%20Santa%20Catarina> .
+
+<#Universidade/Instituto%20Federal%20de%20Educação%2C%20Ciência%20e%20Tecnologia%20de%20Santa%20Catarina>
+  a :Universidade;
+  rdfs:seeAlso wd:Q3918;
+  rdfs:label "Instituto Federal de Educação, Ciência e Tecnologia de Santa Catarina";
+  :temWikipedia "https://en.wikipedia.org/wiki/Florian%C3%B3polis" .
+
+<#GrupoPet/PET%20Economia%20Solidária> a :GrupoPET;
+  foaf:name "PET Economia Solidária";
+  dbo:location dbr:São_Carlos;
+  :atuaNoEixo "Interdisciplinar";
+  :criadoEm "2010";
+  :temEmail "pet.ufscar@ufscar.br";
+  :estáNoCampus "Campus São Carlos";
+  :temInstagram "https://instagram.com/pet_ecosol";
+  :temFacebook "https://www.facebook.com/PETEcosol";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20São%20Carlos> .
+
+<#Universidade/Universidade%20Federal%20de%20São%20Carlos> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q5440482;
+  rdfs:label "Universidade Federal de São Carlos";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_S%C3%A3o_Carlos" .
+
+<#GrupoPet/PET%20Indígena%20-%20Ações%20em%20Saúde> a :GrupoPET;
+  foaf:name "PET Indígena - Ações em Saúde";
+  dbo:location dbr:São_Carlos;
+  :atuaNoEixo "Ciências da Saúde";
+  :trabalhaCom "Saúde Indígena";
+  :temSite "petindiufscar.wixsite.com/petindigenaufscar";
+  :criadoEm "2010";
+  :temEmail "petindsaude@ufscar.br";
+  :estáNoCampus "Campus São Carlos";
+  :temInstagram "https://instagram.com/petsaudeindigenaufscar";
+  :temFacebook "https://cenapet.org/grupos/290/facebook.com/petsaudeindigenaufscar/";
+  :temYouTube "https://www.youtube.com/channel/UCaP1o08seirYG59q18hrMXw";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20São%20Carlos> .
+
+<#GrupoPet/PET-Letras> a :GrupoPET;
+  foaf:name "PET-Letras";
+  dbo:location dbr:Uberaba;
+  :atuaNoEixo "Linguística, Letras e Arte";
+  :temSite "www.petletrasuftm.com.br/";
+  :criadoEm "2007";
+  :temEmail "petletrasuftm.uberaba@gmail.com";
+  :estáNoCampus "Campus Uberaba";
+  :temInstagram "https://instagram.com/petletrasuftm";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Triângulo%20Mineiro> .
+
+<#GrupoPet/PET%20Práxis> a :GrupoPET;
+  foaf:name "PET Práxis";
+  dbo:location dbr:Erechim;
+  :atuaNoEixo "Interdisciplinar";
+  :trabalhaCom "Educação popular";
+  :temSite "petconexoesdesaberes-uffs.blogspot.com/";
+  :criadoEm "2010";
+  :temEmail "petpraxiserechim@gmail.com";
+  :estáNoCampus "Campus Erechim";
+  :temInstagram "https://instagram.com/petpraxisuffs";
+  :temFacebook "https://www.facebook.com/GrupoPraxisPETConexoesdeSaberes";
+  :temYouTube "https://www.youtube.com/channel/UCyfscokCTeKkCYUv3rpxmMA?view_as=subscriber";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20da%20Fronteira%20Sul> .
+
+<#Universidade/Universidade%20Federal%20da%20Fronteira%20Sul> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q7894370;
+  rdfs:label "Universidade Federal da Fronteira Sul";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Fronteira_Sul" .
+
+<#GrupoPet/PET%20Engenharia%20Ambiental> a :GrupoPET;
+  foaf:name "PET Engenharia Ambiental";
+  dbo:location dbr:Fortaleza;
+  :atuaNoEixo "Engenharias";
+  :trabalhaCom "Ambiental";
+  :temSite "petengambufc.wordpress.com/";
+  :criadoEm "2010";
+  :temEmail "petambiental@ufc.br";
+  :estáNoCampus "Campus Pici";
+  :temInstagram "https://instagram.com/petambientalufc_";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20do%20Ceará> .
+
+<#Universidade/Universidade%20Federal%20do%20Ceará> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q2749558;
+  rdfs:label "Universidade Federal do Ceará";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Cear%C3%A1" .
+
+<#GrupoPet/PET%20Música%20em%20Etnografia> a :GrupoPET;
+  foaf:name "PET Música em Etnografia";
+  dbo:location dbr:Darcy_Ribeiro;
+  :atuaNoEixo "Linguística, Letras e Arte";
+  :temSite "petmusica.unb.br/";
+  :criadoEm "2011";
+  :temEmail "petmusica@unb.br";
+  :estáNoCampus "Campus Darcy Ribeiro";
+  :temInstagram "https://instagram.com/petmusicaunb";
+  :éAfiliadoDe <#Universidade/Universidade%20de%20Brasília> .
+
+<#GrupoPet/PET%20Agroflorestal> a :GrupoPET;
+  foaf:name "PET Agroflorestal";
+  dbo:location dbr:Chapadão_do_Sul;
+  :atuaNoEixo "Ciências Agrárias";
+  :criadoEm "2010";
+  :temEmail "petagroflorestal@hotmail.com";
+  :estáNoCampus "Campus Chapadão do Sul";
+  :temInstagram "https://instagram.com/pet_cpcs";
+  :temYouTube "https://www.youtube.com/channel/UCYmgQ1kx7CWZ8crL0n0WrWw";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Mato%20Grosso%20do%20Sul> .
+
+<#Universidade/Universidade%20Federal%20de%20Mato%20Grosso%20do%20Sul> a :Universidade;
+  rdfs:seeAlso wd:Q3918;
+  rdfs:label "Universidade Federal de Mato Grosso do Sul";
+  :temWikipedia "https://en.wikipedia.org/wiki/Mato_Grosso_do_Sul" .
+
+<#Universidade/Universidade%20Federal%20Dos%20Vales%20do%20Jequitinhonha%20e%20Mucuri>
+  a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q10387836;
+  rdfs:label "Universidade Federal Dos Vales do Jequitinhonha e Mucuri";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Vales_do_Jequitinhonha_e_Mucuri" .
+
+<#GrupoPet/PET%20Conexões%20de%20Saberes%20Tecnologias%20Sociais%2C%20Trabalho%20e%20Desenvolvimento%20Social%20Regional>
+  a :GrupoPET;
+  foaf:name "PET Conexões de Saberes Tecnologias Sociais, Trabalho e Desenvolvimento Social Regional";
+  dbo:location dbr:Poços_de_Caldas;
+  :atuaNoEixo "Interdisciplinar";
+  :trabalhaCom "Tecnologias Sociais";
+  :temSite "petconexoespcaldas.wixsite.com/conexoesdesaberes";
+  :criadoEm "2010";
+  :temEmail "petsaberespcaldas@unifal-mg.edu.br";
+  :estáNoCampus "Campus Poços de Caldas";
+  :temInstagram "https://instagram.com/petsaberes";
+  :temFacebook "https://www.facebook.com/pet.conexoes.unifal/";
+  :temYouTube "https://www.youtube.com/channel/UC__wnjnP2o_6x1KTTxyk_ag";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Alfenas> .
+
+<#GrupoPet/PET%20Matemática%20%28Licenciatura%29> a :GrupoPET;
+  foaf:name "PET Matemática (Licenciatura)";
+  dbo:location dbr:Goiânia;
+  :atuaNoEixo "Ciências Exatas e da Terra";
+  :criadoEm "2007";
+  :temEmail "petmat.ufg@gmail.com";
+  :estáNoCampus "Campus Samambaia";
+  :temInstagram "https://instagram.com/petmatufg";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Goiás> .
+
+<#Universidade/Universidade%20Federal%20de%20Goiás> a :Universidade;
+  rdfs:seeAlso wd:Q3918, wd:Q7894375;
+  rdfs:label "Universidade Federal de Goiás";
+  :temWikipedia "https://en.wikipedia.org/wiki/Federal_University_of_Goi%C3%A1s" .
+
+<#GrupoPet/PET%20Nutrição> a :GrupoPET;
+  foaf:name "PET Nutrição";
+  dbo:location dbr:Goiânia;
+  :atuaNoEixo "Ciências da Saúde";
+  :temSite "petnutufg.blogspot.com/";
+  :criadoEm "2007";
+  :temEmail "petnutufg@gmail.com";
+  :estáNoCampus "Campus Colemar Natal e Silva";
+  :temInstagram "https://instagram.com/petnutufg";
+  :temYouTube "https://www.youtube.com/channel/UCJnJ3BsXTcgdBjIRP2o6zHw";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Goiás> .
+
+<#GrupoPet/PET%20Fitoterapia> a :GrupoPET;
+  foaf:name "PET Fitoterapia";
+  dbo:location dbr:Campina_Grande;
+  :atuaNoEixo "Ciências da Saúde";
+  :trabalhaCom "Fitoterapia";
+  :temSite "www.ufcg.edu.br/petfitoterapia";
+  :criadoEm "2011";
+  :temEmail "petfitoterapia17@gmail.com";
+  :estáNoCampus "Campus Campina Grande";
+  :temInstagram "https://instagram.com/_petfitoterapia";
+  :temFacebook "https://cenapet.org/grupos/307/facebook.com/PetFitoterapia/";
+  :temYouTube "https://www.youtube.com/channel/UCtYsRzN3PGlDD_iMRpD9ROw";
+  :éAfiliadoDe <#Universidade/Universidade%20Federal%20de%20Campina%20Grande> .

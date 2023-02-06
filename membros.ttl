@@ -1,0 +1,3939 @@
+@base <http://www.semanticweb.org/dvieira/ontologies/2022/11/pet> .
+@prefix : <http://www.semanticweb.org/dvieira/ontologies/2022/11/pet#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<#Membro/Maria%20Luiza%20Cunha> a :Membro;
+  foaf:name "Maria Luiza Cunha";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Alimentos> .
+
+<#Membro/Mariane%20da%20Rosa> a :Membro;
+  foaf:name "Mariane da Rosa";
+  :integra <#GrupoPET/PET%20Arquitetura%20e%20Urbanismo> .
+
+<#Membro/Kaique%20Alves> a :Membro;
+  foaf:name "Kaique Alves";
+  :integra <#GrupoPET/PET%20Bacharelado%20em%20Ciência%20da%20Computação> .
+
+<#Membro/Catarina%20Castro> a :Membro;
+  foaf:name "Catarina Castro";
+  :integra <#GrupoPET/PET%20Bacharelado%20em%20Sistemas%20de%20Informação>, <#GrupoPET/PET%20Engenharia%20Civil> .
+
+<#Membro/Cauã%20da%20Costa> a :Membro;
+  foaf:name "Cauã da Costa";
+  :integra <#GrupoPET/PET%20Medicina%20Veterinária> .
+
+<#Membro/Alexia%20Porto> a :Membro;
+  foaf:name "Alexia Porto";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/João%20Guilherme%20Correia> a :Membro;
+  foaf:name "João Guilherme Correia";
+  :integra <#GrupoPET/PET%20Engenharia%20Elétrica> .
+
+<#Membro/Murilo%20Araújo> a :Membro;
+  foaf:name "Murilo Araújo";
+  :integra <#GrupoPET/PET%20Engenharia%20Elétrica> .
+
+<#Membro/Noah%20Cardoso> a :Membro;
+  foaf:name "Noah Cardoso";
+  :integra <#GrupoPET/PET%20Química> .
+
+<#Membro/Gustavo%20Lima> a :Membro;
+  foaf:name "Gustavo Lima";
+  :integra <#GrupoPET/PET%20de%20Engenharia%20Civil> .
+
+<#Membro/Mariana%20da%20Conceição> a :Membro;
+  foaf:name "Mariana da Conceição";
+  :integra <#GrupoPET/PET%20Política%20Públicas> .
+
+<#Membro/Enrico%20das%20Neves> a :Membro;
+  foaf:name "Enrico das Neves";
+  :integra <#GrupoPET/PET%20Economia%20Solidária> .
+
+<#Membro/Maria%20Julia%20Teixeira> a :Membro;
+  foaf:name "Maria Julia Teixeira";
+  :integra <#GrupoPET/PET%20História> .
+
+<#Membro/Clara%20Freitas> a :Membro;
+  foaf:name "Clara Freitas";
+  :integra <#GrupoPET/PET%20Zootecnia> .
+
+<#Membro/Manuela%20Gomes> a :Membro;
+  foaf:name "Manuela Gomes";
+  :integra <#GrupoPET/PET%20Interdisciplinar%20Conexões%20de%20Saberes> .
+
+<#Membro/Lucas%20Gabriel%20Duarte> a :Membro;
+  foaf:name "Lucas Gabriel Duarte";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Cauê%20da%20Rocha> a :Membro;
+  foaf:name "Cauê da Rocha";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Vinicius%20da%20Rosa> a :Membro;
+  foaf:name "Vinicius da Rosa";
+  :integra <#GrupoPET/PET%20Economia> .
+
+<#Membro/Henrique%20Correia> a :Membro;
+  foaf:name "Henrique Correia";
+  :integra <#GrupoPET/PET%20Engenharia%20Civil> .
+
+<#Membro/Lorena%20Carvalho> a :Membro;
+  foaf:name "Lorena Carvalho";
+  :integra <#GrupoPET/PET%20Biologia> .
+
+<#Membro/Mirella%20Castro> a :Membro;
+  foaf:name "Mirella Castro";
+  :integra <#GrupoPET/PET%20Engenharias> .
+
+<#Membro/Olivia%20Silva> a :Membro;
+  foaf:name "Olivia Silva";
+  :integra <#GrupoPET/PET%20Matemática%20%28Licenciatura%29> .
+
+<#Membro/Luana%20Aragão> a :Membro;
+  foaf:name "Luana Aragão";
+  :integra <#GrupoPET/PET%20Bacharelado%20em%20Zootecnia> .
+
+<#Membro/Pedro%20Lucas%20da%20Mata> a :Membro;
+  foaf:name "Pedro Lucas da Mata";
+  :integra <#GrupoPET/PET%20Informática> .
+
+<#Membro/Marina%20Barros> a :Membro;
+  foaf:name "Marina Barros";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%20Serviço%20Social> .
+
+<#Membro/Esther%20da%20Paz> a :Membro;
+  foaf:name "Esther da Paz";
+  :integra <#GrupoPET/PET%20Medicina%20UFTM> .
+
+<#Membro/Vitor%20Hugo%20Carvalho> a :Membro;
+  foaf:name "Vitor Hugo Carvalho";
+  :integra <#GrupoPET/PET%20Letras> .
+
+<#Membro/Otávio%20Barros> a :Membro;
+  foaf:name "Otávio Barros";
+  :integra <#GrupoPET/PET%20Música%20em%20Etnografia> .
+
+<#Membro/Ana%20Beatriz%20Barbosa> a :Membro;
+  foaf:name "Ana Beatriz Barbosa";
+  :integra <#GrupoPET/PET%20Bacharelado%20em%20Zootecnia> .
+
+<#Membro/Maria%20Fernanda%20Dias> a :Membro;
+  foaf:name "Maria Fernanda Dias";
+  :integra <#GrupoPET/PET%20CoCE> .
+
+<#Membro/Davi%20Lucca%20Farias> a :Membro;
+  foaf:name "Davi Lucca Farias";
+  :integra <#GrupoPET/PET%20EEL%20UFSC> .
+
+<#Membro/Heitor%20Pereira> a :Membro;
+  foaf:name "Heitor Pereira";
+  :integra <#GrupoPET/PET%20Biologia> .
+
+<#Membro/Marcelo%20Oliveira> a :Membro;
+  foaf:name "Marcelo Oliveira";
+  :integra <#GrupoPET/PET%20Escola%20de%20Comunicação> .
+
+<#Membro/Danilo%20da%20Cunha> a :Membro;
+  foaf:name "Danilo da Cunha";
+  :integra <#GrupoPET/PET%20Ciência%20da%20Computação> .
+
+<#Membro/Rafael%20Monteiro> a :Membro;
+  foaf:name "Rafael Monteiro";
+  :integra <#GrupoPET/PET%20Biologia> .
+
+<#Membro/Murilo%20Cunha> a :Membro;
+  foaf:name "Murilo Cunha";
+  :integra <#GrupoPET/PET%20Engenharia%20Elétrica> .
+
+<#Membro/Olivia%20da%20Paz> a :Membro;
+  foaf:name "Olivia da Paz";
+  :integra <#GrupoPET/PET%20Bio%20Pontal> .
+
+<#Membro/Kamilly%20da%20Rosa> a :Membro;
+  foaf:name "Kamilly da Rosa";
+  :integra <#GrupoPET/PET%20Engenharia%20Civil> .
+
+<#Membro/Isadora%20Fernandes> a :Membro;
+  foaf:name "Isadora Fernandes";
+  :integra <#GrupoPET/PET%20Biologia> .
+
+<#Membro/Mariana%20Cunha> a :Membro;
+  foaf:name "Mariana Cunha";
+  :integra <#GrupoPET/PET%20Agronomia> .
+
+<#Membro/Murilo%20Dias> a :Membro;
+  foaf:name "Murilo Dias";
+  :integra <#GrupoPET/GET%20Telecom> .
+
+<#Membro/Eduarda%20Alves> a :Membro;
+  foaf:name "Eduarda Alves";
+  :integra <#GrupoPET/PET%20Agronomia> .
+
+<#Membro/Breno%20Cavalcanti> a :Membro;
+  foaf:name "Breno Cavalcanti";
+  :integra <#GrupoPET/PET%20Matemática> .
+
+<#Membro/Otávio%20da%20Mata> a :Membro;
+  foaf:name "Otávio da Mata";
+  :integra <#GrupoPET/PET%20Física> .
+
+<#Membro/Bernardo%20Almeida> a :Membro;
+  foaf:name "Bernardo Almeida";
+  :integra <#GrupoPET/PET%20Física> .
+
+<#Membro/Lorena%20Pereira> a :Membro;
+  foaf:name "Lorena Pereira";
+  :integra <#GrupoPET/PET%20Química%20Ambiental> .
+
+<#Membro/Lavínia%20Teixeira> a :Membro;
+  foaf:name "Lavínia Teixeira";
+  :integra <#GrupoPET/PET%20Ciências%20Natuais> .
+
+<#Membro/Joaquim%20Costa> a :Membro;
+  foaf:name "Joaquim Costa";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Alimentos> .
+
+<#Membro/Alana%20Fogaça> a :Membro;
+  foaf:name "Alana Fogaça";
+  :integra <#GrupoPET/PET%20Administração%20Pública> .
+
+<#Membro/Augusto%20Costela> a :Membro;
+  foaf:name "Augusto Costela";
+  :integra <#GrupoPET/PET%20Medicina%20Veterinária> .
+
+<#Membro/João%20Vitor%20Carvalho> a :Membro;
+  foaf:name "João Vitor Carvalho";
+  :integra <#GrupoPET/PET%20Intercultural%20Indígena> .
+
+<#Membro/Noah%20Pinto> a :Membro;
+  foaf:name "Noah Pinto";
+  :integra <#GrupoPET/PET%20Práxis> .
+
+<#Membro/Samuel%20Santos> a :Membro;
+  foaf:name "Samuel Santos";
+  :integra <#GrupoPET/PET%20Ciências%20Agrárias> .
+
+<#Membro/Marcelo%20Barros> a :Membro;
+  foaf:name "Marcelo Barros";
+  :integra <#GrupoPET/PET%20Zootecnia> .
+
+<#Membro/João%20Miguel%20da%20Mata> a :Membro;
+  foaf:name "João Miguel da Mata";
+  :integra <#GrupoPET/PET%20Engenharia%20Civil> .
+
+<#Membro/Olivia%20Fogaça> a :Membro;
+  foaf:name "Olivia Fogaça";
+  :integra <#GrupoPET/PET%20AgroEnergia> .
+
+<#Membro/Julia%20Fernandes> a :Membro;
+  foaf:name "Julia Fernandes";
+  :integra <#GrupoPET/PET%20Ciências%20Biológicas> .
+
+<#Membro/Nathan%20Moraes> a :Membro;
+  foaf:name "Nathan Moraes";
+  :integra <#GrupoPET/PET%20Práticas%20de%20Letramento> .
+
+<#Membro/Maria%20Alice%20da%20Luz> a :Membro;
+  foaf:name "Maria Alice da Luz";
+  :integra <#GrupoPET/PET%20Educação%20Física> .
+
+<#Membro/Thales%20Fogaça> a :Membro;
+  foaf:name "Thales Fogaça";
+  :integra <#GrupoPET/PET%20Cinema> .
+
+<#Membro/João%20Nascimento> a :Membro;
+  foaf:name "João Nascimento";
+  :integra <#GrupoPET/PET%20Design> .
+
+<#Membro/Nicole%20Alves> a :Membro;
+  foaf:name "Nicole Alves";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%20-%20Licenciaturas%20e%20Serviço%20Social> .
+
+<#Membro/Lucas%20Melo> a :Membro;
+  foaf:name "Lucas Melo";
+  :integra <#GrupoPET/PET%20Tecnologia%20em%20Alimentos> .
+
+<#Membro/Henrique%20Jesus> a :Membro;
+  foaf:name "Henrique Jesus";
+  :integra <#GrupoPET/PET%20Química> .
+
+<#Membro/Benício%20Oliveira> a :Membro;
+  foaf:name "Benício Oliveira";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Controle%20e%20Automação> .
+
+<#Membro/Bruno%20Gonçalves> a :Membro;
+  foaf:name "Bruno Gonçalves";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%20Ciências%20da%20Natureza%20e%20Matemática> .
+
+<#Membro/Isadora%20Viana> a :Membro;
+  foaf:name "Isadora Viana";
+  :integra <#GrupoPET/PET%20Biologia> .
+
+<#Membro/Otávio%20Porto> a :Membro;
+  foaf:name "Otávio Porto";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Alimentos>, <#GrupoPET/PET%20Matemática> .
+
+<#Membro/Davi%20Lucca%20Ribeiro> a :Membro;
+  foaf:name "Davi Lucca Ribeiro";
+  :integra <#GrupoPET/PET%20Comunicação%20Social> .
+
+<#Membro/Leandro%20Fernandes> a :Membro;
+  foaf:name "Leandro Fernandes";
+  :integra <#GrupoPET/PET%20Agronomia> .
+
+<#Membro/Ana%20Julia%20Novaes> a :Membro;
+  foaf:name "Ana Julia Novaes";
+  :integra <#GrupoPET/PET%20Cinema> .
+
+<#Membro/Mariane%20Ramos> a :Membro;
+  foaf:name "Mariane Ramos";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%20Estatísticos> .
+
+<#Membro/Clarice%20Viana> a :Membro;
+  foaf:name "Clarice Viana";
+  :integra <#GrupoPET/PET%20Zootecnia%20%22João%20Dimas%20Graciano%22> .
+
+<#Membro/Caio%20Nunes> a :Membro;
+  foaf:name "Caio Nunes";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Benjamin%20Souza> a :Membro;
+  foaf:name "Benjamin Souza";
+  :integra <#GrupoPET/PET%20AgroEnergia>, <#GrupoPET/PET%20Engenharia%20Ambiental> .
+
+<#Membro/Ana%20Carolina%20Peixoto> a :Membro;
+  foaf:name "Ana Carolina Peixoto";
+  :integra <#GrupoPET/PET%20Indígena%20-%20Ações%20em%20Saúde> .
+
+<#Membro/Gabriel%20Costa> a :Membro;
+  foaf:name "Gabriel Costa";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Sophie%20Nascimento> a :Membro;
+  foaf:name "Sophie Nascimento";
+  :integra <#GrupoPET/PET%20Ações%20das%20Engenharias> .
+
+<#Membro/Stephany%20Dias> a :Membro;
+  foaf:name "Stephany Dias";
+  :integra <#GrupoPET/PET%20Arquitetura%20e%20Urbanismo%20UFSC> .
+
+<#Membro/Luiza%20Melo> a :Membro;
+  foaf:name "Luiza Melo";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Maria%20Eduarda%20da%20Costa> a :Membro;
+  foaf:name "Maria Eduarda da Costa";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Gabrielly%20Barros> a :Membro;
+  foaf:name "Gabrielly Barros";
+  :integra <#GrupoPET/PET%20Intervenção%20Socioambiental%20em%20Uruçuí-Una> .
+
+<#Membro/Sofia%20Viana> a :Membro;
+  foaf:name "Sofia Viana";
+  :integra <#GrupoPET/PET%20Educação%20Física> .
+
+<#Membro/Natália%20Sales> a :Membro;
+  foaf:name "Natália Sales";
+  :integra <#GrupoPET/PET%20Comunicação%20Social> .
+
+<#Membro/Stephany%20Barros> a :Membro;
+  foaf:name "Stephany Barros";
+  :integra <#GrupoPET/PET%20Ciência%2C%20Tecnologia%20e%20Inovação> .
+
+<#Membro/Raul%20Sales> a :Membro;
+  foaf:name "Raul Sales";
+  :integra <#GrupoPET/PET%20Conexões%20Acesso%20e%20Sucesso%20no%20Ensino%20Superior> .
+
+<#Membro/Isadora%20Fogaça> a :Membro;
+  foaf:name "Isadora Fogaça";
+  :integra <#GrupoPET/PET%20Medicina%20Veterinária> .
+
+<#Membro/Alice%20Cunha> a :Membro;
+  foaf:name "Alice Cunha";
+  :integra <#GrupoPET/PET%20Comunicação%20Social> .
+
+<#Membro/Maria%20Sophia%20Ribeiro> a :Membro;
+  foaf:name "Maria Sophia Ribeiro";
+  :integra <#GrupoPET/PET%20Educação%20Física> .
+
+<#Membro/Ana%20Julia%20Martins> a :Membro;
+  foaf:name "Ana Julia Martins";
+  :integra <#GrupoPET/PET%20Engenharia%20Química> .
+
+<#Membro/Lívia%20da%20Cruz> a :Membro;
+  foaf:name "Lívia da Cruz";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Pesca> .
+
+<#Membro/Amanda%20Correia> a :Membro;
+  foaf:name "Amanda Correia";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Lucas%20Gabriel%20Jesus> a :Membro;
+  foaf:name "Lucas Gabriel Jesus";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%20Ciências%20da%20Natureza%20e%20Matemática> .
+
+<#Membro/Lucca%20Teixeira> a :Membro;
+  foaf:name "Lucca Teixeira";
+  :integra <#GrupoPET/PET%20Engenharia%20Elétrica> .
+
+<#Membro/Bianca%20Sales> a :Membro;
+  foaf:name "Bianca Sales";
+  :integra <#GrupoPET/PET%20Engenharia%20Ambiental>, <#GrupoPET/PET%20Parasitologia> .
+
+<#Membro/Maitê%20da%20Conceição> a :Membro;
+  foaf:name "Maitê da Conceição";
+  :integra <#GrupoPET/PET%20Economia> .
+
+<#Membro/Luiza%20da%20Cunha> a :Membro;
+  foaf:name "Luiza da Cunha";
+  :integra <#GrupoPET/PET%20Parasitologia> .
+
+<#Membro/Elisa%20Aragão> a :Membro;
+  foaf:name "Elisa Aragão";
+  :integra <#GrupoPET/PET%20Matemática> .
+
+<#Membro/Luiz%20Otávio%20Azevedo> a :Membro;
+  foaf:name "Luiz Otávio Azevedo";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Stephany%20Gonçalves> a :Membro;
+  foaf:name "Stephany Gonçalves";
+  :integra <#GrupoPET/PET%20Medicina%20Veterinária> .
+
+<#Membro/Caroline%20da%20Costa> a :Membro;
+  foaf:name "Caroline da Costa";
+  :integra <#GrupoPET/Pet%20Engenharia%20Florestal> .
+
+<#Membro/Bruna%20Nogueira> a :Membro;
+  foaf:name "Bruna Nogueira";
+  :integra <#GrupoPET/PET%20Ciência%20da%20Computação> .
+
+<#Membro/Kamilly%20Castro> a :Membro;
+  foaf:name "Kamilly Castro";
+  :integra <#GrupoPET/PET%20Elétrica> .
+
+<#Membro/Cauê%20das%20Neves> a :Membro;
+  foaf:name "Cauê das Neves";
+  :integra <#GrupoPET/PET%20Ciência%20da%20Computação> .
+
+<#Membro/Daniela%20Cunha> a :Membro;
+  foaf:name "Daniela Cunha";
+  :integra <#GrupoPET/PET%20Letras> .
+
+<#Membro/Lorenzo%20Azevedo> a :Membro;
+  foaf:name "Lorenzo Azevedo";
+  :integra <#GrupoPET/PET%20Letras> .
+
+<#Membro/Luna%20da%20Mata> a :Membro;
+  foaf:name "Luna da Mata";
+  :integra <#GrupoPET/PET%20Engenharias> .
+
+<#Membro/Isis%20da%20Rocha> a :Membro;
+  foaf:name "Isis da Rocha";
+  :integra <#GrupoPET/PET%20Geologia> .
+
+<#Membro/Luiz%20Otávio%20Teixeira> a :Membro;
+  foaf:name "Luiz Otávio Teixeira";
+  :integra <#GrupoPET/PET%20Agronomia> .
+
+<#Membro/Sofia%20Fernandes> a :Membro;
+  foaf:name "Sofia Fernandes";
+  :integra <#GrupoPET/PET%20Práticas%20de%20Letramento> .
+
+<#Membro/Manuela%20da%20Costa> a :Membro;
+  foaf:name "Manuela da Costa";
+  :integra <#GrupoPET/PET%20Educação%20Física%20e%20Lazer> .
+
+<#Membro/Leandro%20Freitas> a :Membro;
+  foaf:name "Leandro Freitas";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Controle%20e%20Automação> .
+
+<#Membro/João%20Pedro%20Freitas> a :Membro;
+  foaf:name "João Pedro Freitas";
+  :integra <#GrupoPET/PET%20Física> .
+
+<#Membro/Luiz%20Felipe%20Jesus> a :Membro;
+  foaf:name "Luiz Felipe Jesus";
+  :integra <#GrupoPET/PET%20Ciências%20Biologicas> .
+
+<#Membro/Pedro%20Henrique%20da%20Paz> a :Membro;
+  foaf:name "Pedro Henrique da Paz";
+  :integra <#GrupoPET/PET%20Física> .
+
+<#Membro/Mirella%20Nascimento> a :Membro;
+  foaf:name "Mirella Nascimento";
+  :integra <#GrupoPET/PET%20Engenharia%20Civil> .
+
+<#Membro/Pedro%20Barros> a :Membro;
+  foaf:name "Pedro Barros";
+  :integra <#GrupoPET/PET%20Matemática> .
+
+<#Membro/Maysa%20da%20Mata> a :Membro;
+  foaf:name "Maysa da Mata";
+  :integra <#GrupoPET/PET%20Engenharia%20Florestal> .
+
+<#Membro/Benício%20Nunes> a :Membro;
+  foaf:name "Benício Nunes";
+  :integra <#GrupoPET/PET%20Geologia> .
+
+<#Membro/Enzo%20Pereira> a :Membro;
+  foaf:name "Enzo Pereira";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Alimentos> .
+
+<#Membro/Maria%20Eduarda%20Pinto> a :Membro;
+  foaf:name "Maria Eduarda Pinto";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Alimentos> .
+
+<#Membro/Samuel%20Cunha> a :Membro;
+  foaf:name "Samuel Cunha";
+  :integra <#GrupoPET/PET%20ENGENHARIA%20QUÍMICA> .
+
+<#Membro/Vinicius%20Jesus> a :Membro;
+  foaf:name "Vinicius Jesus";
+  :integra <#GrupoPET/PET%20Computação> .
+
+<#Membro/Rafael%20Dias> a :Membro;
+  foaf:name "Rafael Dias";
+  :integra <#GrupoPET/PET%20Intervenção%20Socioambiental%20em%20Uruçuí-Una> .
+
+<#Membro/Ana%20Sophia%20Fogaça> a :Membro;
+  foaf:name "Ana Sophia Fogaça";
+  :integra <#GrupoPET/PET%20Engenharia%20Elétrica> .
+
+<#Membro/Lucca%20Azevedo> a :Membro;
+  foaf:name "Lucca Azevedo";
+  :integra <#GrupoPET/PET%20Bacharelado%20em%20Zootecnia> .
+
+<#Membro/Pedro%20Lucas%20Ribeiro> a :Membro;
+  foaf:name "Pedro Lucas Ribeiro";
+  :integra <#GrupoPET/PET%20Administração> .
+
+<#Membro/Lucas%20Oliveira> a :Membro;
+  foaf:name "Lucas Oliveira";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%3A%20Cenários%20de%20Práticas%20e%20Estágios%20Curriculares%20Noturnos> .
+
+<#Membro/João%20Lucas%20Fogaça> a :Membro;
+  foaf:name "João Lucas Fogaça";
+  :integra <#GrupoPET/PET%20Farmácia> .
+
+<#Membro/Marina%20Barbosa> a :Membro;
+  foaf:name "Marina Barbosa";
+  :integra <#GrupoPET/PET%20Comunidades%20Urbanas%20-%20Conexões%20de%20Saberes> .
+
+<#Membro/Evelyn%20Santos> a :Membro;
+  foaf:name "Evelyn Santos";
+  :integra <#GrupoPET/PET%20em%20Ciência%20da%20Computação> .
+
+<#Membro/Emanuella%20Castro> a :Membro;
+  foaf:name "Emanuella Castro";
+  :integra <#GrupoPET/PET%20Letras> .
+
+<#Membro/Milena%20da%20Rocha> a :Membro;
+  foaf:name "Milena da Rocha";
+  :integra <#GrupoPET/PET%20Engenharia%20Elétrica> .
+
+<#Membro/Ana%20Laura%20Teixeira> a :Membro;
+  foaf:name "Ana Laura Teixeira";
+  :integra <#GrupoPET/PET%20Física> .
+
+<#Membro/Isaac%20Castro> a :Membro;
+  foaf:name "Isaac Castro";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Anthony%20das%20Neves> a :Membro;
+  foaf:name "Anthony das Neves";
+  :integra <#GrupoPET/PET%20Pedagogia> .
+
+<#Membro/Mirella%20Porto> a :Membro;
+  foaf:name "Mirella Porto";
+  :integra <#GrupoPET/PET%20Parasitologia> .
+
+<#Membro/Daniela%20da%20Conceição> a :Membro;
+  foaf:name "Daniela da Conceição";
+  :integra <#GrupoPET/PET%20Biologia> .
+
+<#Membro/Maria%20Eduarda%20da%20Mata> a :Membro;
+  foaf:name "Maria Eduarda da Mata";
+  :integra <#GrupoPET/PET%20Bacharelado%20em%20Ciência%20da%20Computação> .
+
+<#Membro/Lívia%20Pereira> a :Membro;
+  foaf:name "Lívia Pereira";
+  :integra <#GrupoPET/PET%20Biologia> .
+
+<#Membro/Melissa%20Pires> a :Membro;
+  foaf:name "Melissa Pires";
+  :integra <#GrupoPET/PET%20Pedagogia> .
+
+<#Membro/Maysa%20Alves> a :Membro;
+  foaf:name "Maysa Alves";
+  :integra <#GrupoPET/PET%20Administração> .
+
+<#Membro/Pedro%20Alves> a :Membro;
+  foaf:name "Pedro Alves";
+  :integra <#GrupoPET/PET%20Música> .
+
+<#Membro/Mariane%20Ribeiro> a :Membro;
+  foaf:name "Mariane Ribeiro";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Produção> .
+
+<#Membro/João%20Miguel%20Correia> a :Membro;
+  foaf:name "João Miguel Correia";
+  :integra <#GrupoPET/PET%20Odontologia> .
+
+<#Membro/Olivia%20da%20Mota> a :Membro;
+  foaf:name "Olivia da Mota";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Stella%20Correia> a :Membro;
+  foaf:name "Stella Correia";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Lorenzo%20Silveira> a :Membro;
+  foaf:name "Lorenzo Silveira";
+  :integra <#GrupoPET/PET%20Odontologia> .
+
+<#Membro/Heloísa%20Ramos> a :Membro;
+  foaf:name "Heloísa Ramos";
+  :integra <#GrupoPET/PET%20Bacharelado%20Interdisciplinar%20em%20Ciência%20e%20Economia> .
+
+<#Membro/Manuela%20Rodrigues> a :Membro;
+  foaf:name "Manuela Rodrigues";
+  :integra <#GrupoPET/PET%20Matemática> .
+
+<#Membro/Thomas%20da%20Rocha> a :Membro;
+  foaf:name "Thomas da Rocha";
+  :integra <#GrupoPET/PET%20Química> .
+
+<#Membro/Sophie%20Araújo> a :Membro;
+  foaf:name "Sophie Araújo";
+  :integra <#GrupoPET/Pet%20Engenharia%20Florestal> .
+
+<#Membro/Bruno%20da%20Mata> a :Membro;
+  foaf:name "Bruno da Mata";
+  :integra <#GrupoPET/PET%20Comunicação%20Social> .
+
+<#Membro/Caroline%20Novaes> a :Membro;
+  foaf:name "Caroline Novaes";
+  :integra <#GrupoPET/PET%20Indígena> .
+
+<#Membro/Marcelo%20Barbosa> a :Membro;
+  foaf:name "Marcelo Barbosa";
+  :integra <#GrupoPET/PET%20Arquitetura%20e%20Urbanismo%20UFSC> .
+
+<#Membro/Henrique%20Pinto> a :Membro;
+  foaf:name "Henrique Pinto";
+  :integra <#GrupoPET/PET%20Participação%20e%20Controle%20Social%20em%20Saúde> .
+
+<#Membro/Samuel%20Peixoto> a :Membro;
+  foaf:name "Samuel Peixoto";
+  :integra <#GrupoPET/PET%20Indígena> .
+
+<#Membro/João%20Lucas%20Porto> a :Membro;
+  foaf:name "João Lucas Porto";
+  :integra <#GrupoPET/PET%20Engenharia%20Civil> .
+
+<#Membro/Larissa%20Novaes> a :Membro;
+  foaf:name "Larissa Novaes";
+  :integra <#GrupoPET/PET%20Conexões%20Ciência%20da%20Computação> .
+
+<#Membro/Luiz%20Otávio%20Duarte> a :Membro;
+  foaf:name "Luiz Otávio Duarte";
+  :integra <#GrupoPET/PET%20Engenharia%20Civil> .
+
+<#Membro/Maria%20Vitória%20Nunes> a :Membro;
+  foaf:name "Maria Vitória Nunes";
+  :integra <#GrupoPET/PET%20Engenharia%20Química> .
+
+<#Membro/Augusto%20Correia> a :Membro;
+  foaf:name "Augusto Correia";
+  :integra <#GrupoPET/PET%20Agronomia%20-%20IFPA> .
+
+<#Membro/Luiz%20Fernando%20Cunha> a :Membro;
+  foaf:name "Luiz Fernando Cunha";
+  :integra <#GrupoPET/PET%20Indígena> .
+
+<#Membro/Nicole%20Silva> a :Membro;
+  foaf:name "Nicole Silva";
+  :integra <#GrupoPET/PET%20Biomecânica> .
+
+<#Membro/Helena%20da%20Cunha> a :Membro;
+  foaf:name "Helena da Cunha";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%20Estatísticos> .
+
+<#Membro/Davi%20Martins> a :Membro;
+  foaf:name "Davi Martins";
+  :integra <#GrupoPET/PET%20Física>, <#GrupoPET/PET%20Engenharia%20Agrícola> .
+
+<#Membro/Davi%20Porto> a :Membro;
+  foaf:name "Davi Porto";
+  :integra <#GrupoPET/PET%20Psicologia%20Geografia/Ciências%20Sociais> .
+
+<#Membro/Davi%20da%20Luz> a :Membro;
+  foaf:name "Davi da Luz";
+  :integra <#GrupoPET/PET%20Arquitetura%20e%20Urbanismo> .
+
+<#Membro/Cecília%20Jesus> a :Membro;
+  foaf:name "Cecília Jesus";
+  :integra <#GrupoPET/PET%20Biologia> .
+
+<#Membro/Yasmin%20Rocha> a :Membro;
+  foaf:name "Yasmin Rocha";
+  :integra <#GrupoPET/PET%20Indígena> .
+
+<#Membro/Bárbara%20Silveira> a :Membro;
+  foaf:name "Bárbara Silveira";
+  :integra <#GrupoPET/PET%20Engenharia%20Elétrica> .
+
+<#Membro/Emanuel%20Costela> a :Membro;
+  foaf:name "Emanuel Costela";
+  :integra <#GrupoPET/PET%20Licenciaturas> .
+
+<#Membro/Joaquim%20Mendes> a :Membro;
+  foaf:name "Joaquim Mendes";
+  :integra <#GrupoPET/PET%20Pedagogia> .
+
+<#Membro/Lorena%20Monteiro> a :Membro;
+  foaf:name "Lorena Monteiro";
+  :integra <#GrupoPET/PET%20Enfermagem> .
+
+<#Membro/João%20Lucas%20Castro> a :Membro;
+  foaf:name "João Lucas Castro";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Bryan%20Barros> a :Membro;
+  foaf:name "Bryan Barros";
+  :integra <#GrupoPET/PET%20Matemática> .
+
+<#Membro/Bruno%20Fogaça> a :Membro;
+  foaf:name "Bruno Fogaça";
+  :integra <#GrupoPET/PET%20Economia> .
+
+<#Membro/Enzo%20Gabriel%20Dias> a :Membro;
+  foaf:name "Enzo Gabriel Dias";
+  :integra <#GrupoPET/PET%20Nutrição> .
+
+<#Membro/Caroline%20Moura> a :Membro;
+  foaf:name "Caroline Moura";
+  :integra <#GrupoPET/GET%20Medicina> .
+
+<#Membro/Lucca%20Cardoso> a :Membro;
+  foaf:name "Lucca Cardoso";
+  :integra <#GrupoPET/PET%20Engenharia%20Civil> .
+
+<#Membro/Pedro%20Pereira> a :Membro;
+  foaf:name "Pedro Pereira";
+  :integra <#GrupoPET/PET%20Biologia> .
+
+<#Membro/Ana%20Luiza%20Cardoso> a :Membro;
+  foaf:name "Ana Luiza Cardoso";
+  :integra <#GrupoPET/PET%20Arquitetura%20e%20Urbanismo%20UFSC> .
+
+<#Membro/Antônio%20Dias> a :Membro;
+  foaf:name "Antônio Dias";
+  :integra <#GrupoPET/PET%20Medicina%20Veterinária> .
+
+<#Membro/Nina%20Ribeiro> a :Membro;
+  foaf:name "Nina Ribeiro";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Kamilly%20Sales> a :Membro;
+  foaf:name "Kamilly Sales";
+  :integra <#GrupoPET/PET%20Ciência%20da%20Computação> .
+
+<#Membro/Leonardo%20Castro> a :Membro;
+  foaf:name "Leonardo Castro";
+  :integra <#GrupoPET/GET%20Medicina> .
+
+<#Membro/Mariana%20Barros> a :Membro;
+  foaf:name "Mariana Barros";
+  :integra <#GrupoPET/PET%20Design> .
+
+<#Membro/Júlia%20Ribeiro> a :Membro;
+  foaf:name "Júlia Ribeiro";
+  :integra <#GrupoPET/PET%20Engenharia%20Química> .
+
+<#Membro/Alexandre%20Cunha> a :Membro;
+  foaf:name "Alexandre Cunha";
+  :integra <#GrupoPET/PET%20Matemática> .
+
+<#Membro/Davi%20Lucas%20Ribeiro> a :Membro;
+  foaf:name "Davi Lucas Ribeiro";
+  :integra <#GrupoPET/PET%20Bacharelado%20em%20Zootecnia> .
+
+<#Membro/Maria%20Alice%20Castro> a :Membro;
+  foaf:name "Maria Alice Castro";
+  :integra <#GrupoPET/PET%20Farmácia> .
+
+<#Membro/Alice%20Novaes> a :Membro;
+  foaf:name "Alice Novaes";
+  :integra <#GrupoPET/PET%20Cidade%20Saúde%20e%20Justiça> .
+
+<#Membro/Cauã%20Viana> a :Membro;
+  foaf:name "Cauã Viana";
+  :integra <#GrupoPET/PET%20Administração> .
+
+<#Membro/Ryan%20da%20Paz> a :Membro;
+  foaf:name "Ryan da Paz";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Computação> .
+
+<#Membro/Kaique%20Azevedo> a :Membro;
+  foaf:name "Kaique Azevedo";
+  :integra <#GrupoPET/PET%20Engenharia%20Química> .
+
+<#Membro/Carolina%20Costela> a :Membro;
+  foaf:name "Carolina Costela";
+  :integra <#GrupoPET/PET%20Engenharia%20Elétrica> .
+
+<#Membro/Otávio%20Oliveira> a :Membro;
+  foaf:name "Otávio Oliveira";
+  :integra <#GrupoPET/PET%20Informática> .
+
+<#Membro/Luiz%20Felipe%20da%20Mata> a :Membro;
+  foaf:name "Luiz Felipe da Mata";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Joaquim%20Fernandes> a :Membro;
+  foaf:name "Joaquim Fernandes";
+  :integra <#GrupoPET/PET%20Física> .
+
+<#Membro/Juan%20Viana> a :Membro;
+  foaf:name "Juan Viana";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%3A%20Comunidades%20Indígenas> .
+
+<#Membro/Nicole%20Freitas> a :Membro;
+  foaf:name "Nicole Freitas";
+  :integra <#GrupoPET/GET%20Medicina> .
+
+<#Membro/João%20Felipe%20Caldeira> a :Membro;
+  foaf:name "João Felipe Caldeira";
+  :integra <#GrupoPET/PET%20Letras> .
+
+<#Membro/Alice%20Lopes> a :Membro;
+  foaf:name "Alice Lopes";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Larissa%20Alves> a :Membro;
+  foaf:name "Larissa Alves";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Eduarda%20da%20Mata> a :Membro;
+  foaf:name "Eduarda da Mata";
+  :integra <#GrupoPET/PET%20Geologia%20UFC> .
+
+<#Membro/Luiz%20Henrique%20Costa> a :Membro;
+  foaf:name "Luiz Henrique Costa";
+  :integra <#GrupoPET/PET%20Odontologia>, <#GrupoPET/PET%20Protagonismo%20Juvenil%20em%20Periferias%20Urbanas> .
+
+<#Membro/Benjamin%20Pires> a :Membro;
+  foaf:name "Benjamin Pires";
+  :integra <#GrupoPET/PET%20Química> .
+
+<#Membro/Pietro%20Melo> a :Membro;
+  foaf:name "Pietro Melo";
+  :integra <#GrupoPET/PET%20Engenharia%20Elétrica> .
+
+<#Membro/Isabelly%20da%20Rocha> a :Membro;
+  foaf:name "Isabelly da Rocha";
+  :integra <#GrupoPET/PET%20Enfermagem> .
+
+<#Membro/Julia%20da%20Mata> a :Membro;
+  foaf:name "Julia da Mata";
+  :integra <#GrupoPET/PET%20Nutrição> .
+
+<#Membro/Milena%20da%20Cunha> a :Membro;
+  foaf:name "Milena da Cunha";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Emanuella%20da%20Paz> a :Membro;
+  foaf:name "Emanuella da Paz";
+  :integra <#GrupoPET/PET%20Engenharia%20Civil> .
+
+<#Membro/Stephany%20Cardoso> a :Membro;
+  foaf:name "Stephany Cardoso";
+  :integra <#GrupoPET/PET%20Nutrição> .
+
+<#Membro/Vitor%20Gabriel%20Cavalcanti> a :Membro;
+  foaf:name "Vitor Gabriel Cavalcanti";
+  :integra <#GrupoPET/PET%20Escola%20de%20Comunicação> .
+
+<#Membro/Maria%20Fernanda%20Jesus> a :Membro;
+  foaf:name "Maria Fernanda Jesus";
+  :integra <#GrupoPET/PET%20Engenharia%20Civil> .
+
+<#Membro/Breno%20Nogueira> a :Membro;
+  foaf:name "Breno Nogueira";
+  :integra <#GrupoPET/PET%20Matemática> .
+
+<#Membro/Diego%20Teixeira> a :Membro;
+  foaf:name "Diego Teixeira";
+  :integra <#GrupoPET/PET%20Agronomia%20-%20IFPA> .
+
+<#Membro/Agatha%20Aragão> a :Membro;
+  foaf:name "Agatha Aragão";
+  :integra <#GrupoPET/PET%20Comunicação%20Social> .
+
+<#Membro/Nicolas%20Almeida> a :Membro;
+  foaf:name "Nicolas Almeida";
+  :integra <#GrupoPET/PET%20Química%20Ambiental> .
+
+<#Membro/Daniela%20Nunes> a :Membro;
+  foaf:name "Daniela Nunes";
+  :integra <#GrupoPET/PET%20Bio%20Pontal> .
+
+<#Membro/Maria%20Cunha> a :Membro;
+  foaf:name "Maria Cunha";
+  :integra <#GrupoPET/PET%20Letras> .
+
+<#Membro/Clarice%20da%20Paz> a :Membro;
+  foaf:name "Clarice da Paz";
+  :integra <#GrupoPET/PET%20Educação%20Física> .
+
+<#Membro/Lavínia%20Lopes> a :Membro;
+  foaf:name "Lavínia Lopes";
+  :integra <#GrupoPET/PET%20Matemática> .
+
+<#Membro/Marcela%20Alves> a :Membro;
+  foaf:name "Marcela Alves";
+  :integra <#GrupoPET/PET%20Biologia> .
+
+<#Membro/Paulo%20Cunha> a :Membro;
+  foaf:name "Paulo Cunha";
+  :integra <#GrupoPET/PET%20Enfermagem> .
+
+<#Membro/Pedro%20Lucas%20Nascimento> a :Membro;
+  foaf:name "Pedro Lucas Nascimento";
+  :integra <#GrupoPET/PET%20História> .
+
+<#Membro/Vitor%20Hugo%20Gomes> a :Membro;
+  foaf:name "Vitor Hugo Gomes";
+  :integra <#GrupoPET/PET%20Letras> .
+
+<#Membro/Pedro%20Henrique%20Jesus> a :Membro;
+  foaf:name "Pedro Henrique Jesus";
+  :integra <#GrupoPET/PET%20Física> .
+
+<#Membro/Diego%20Cardoso> a :Membro;
+  foaf:name "Diego Cardoso";
+  :integra <#GrupoPET/PET%20Engenharia%20Química> .
+
+<#Membro/Yago%20Santos> a :Membro;
+  foaf:name "Yago Santos";
+  :integra <#GrupoPET/PET%20GAPE> .
+
+<#Membro/Vicente%20da%20Luz> a :Membro;
+  foaf:name "Vicente da Luz";
+  :integra <#GrupoPET/PET%20Engenharias> .
+
+<#Membro/Isabelly%20Viana> a :Membro;
+  foaf:name "Isabelly Viana";
+  :integra <#GrupoPET/PET%20Ciências%20Natuais> .
+
+<#Membro/Davi%20Lucas%20Rezende> a :Membro;
+  foaf:name "Davi Lucas Rezende";
+  :integra <#GrupoPET/PET%20Física> .
+
+<#Membro/Guilherme%20da%20Cruz> a :Membro;
+  foaf:name "Guilherme da Cruz";
+  :integra <#GrupoPET/PET%20Solos%3A%20agregando%20saberes> .
+
+<#Membro/Emilly%20Oliveira> a :Membro;
+  foaf:name "Emilly Oliveira";
+  :integra <#GrupoPET/PET%20Bacharelado%20Interdisciplinar%20em%20Ciência%20e%20Economia> .
+
+<#Membro/Juan%20Azevedo> a :Membro;
+  foaf:name "Juan Azevedo";
+  :integra <#GrupoPET/PET%20Administração%20Pública> .
+
+<#Membro/Gabriela%20Caldeira> a :Membro;
+  foaf:name "Gabriela Caldeira";
+  :integra <#GrupoPET/PET%20Engenharia%20Elétrica> .
+
+<#Membro/Laís%20Fogaça> a :Membro;
+  foaf:name "Laís Fogaça";
+  :integra <#GrupoPET/GET%20Engenharia%20Mecânica> .
+
+<#Membro/Natália%20Caldeira> a :Membro;
+  foaf:name "Natália Caldeira";
+  :integra <#GrupoPET/PET%20Ciência%20da%20Computação> .
+
+<#Membro/Pietra%20Cardoso> a :Membro;
+  foaf:name "Pietra Cardoso";
+  :integra <#GrupoPET/PET%20Farmácia> .
+
+<#Membro/Vitor%20Gabriel%20Castro> a :Membro;
+  foaf:name "Vitor Gabriel Castro";
+  :integra <#GrupoPET/PET%20Educação%20Física> .
+
+<#Membro/Raquel%20Cardoso> a :Membro;
+  foaf:name "Raquel Cardoso";
+  :integra <#GrupoPET/PET%20Engenharia%20Mecânica> .
+
+<#Membro/Júlia%20Azevedo> a :Membro;
+  foaf:name "Júlia Azevedo";
+  :integra <#GrupoPET/PET%20Zootecnia%20UFSM> .
+
+<#Membro/Alícia%20Correia> a :Membro;
+  foaf:name "Alícia Correia";
+  :integra <#GrupoPET/PET%20Engenharia%20Florestal> .
+
+<#Membro/Isabella%20Mendes> a :Membro;
+  foaf:name "Isabella Mendes";
+  :integra <#GrupoPET/PET%20Educação%20Física> .
+
+<#Membro/Maysa%20da%20Luz> a :Membro;
+  foaf:name "Maysa da Luz";
+  :integra <#GrupoPET/PET%20Ciência%20e%20Tecnologia> .
+
+<#Membro/Caio%20Azevedo> a :Membro;
+  foaf:name "Caio Azevedo";
+  :integra <#GrupoPET/PET%20Indígena> .
+
+<#Membro/Lucca%20Costela> a :Membro;
+  foaf:name "Lucca Costela";
+  :integra <#GrupoPET/PET%20Economia> .
+
+<#Membro/Davi%20Lucas%20Costela> a :Membro;
+  foaf:name "Davi Lucas Costela";
+  :integra <#GrupoPET/PET%20Serviço%20Social> .
+
+<#Membro/Maria%20Sophia%20Ramos> a :Membro;
+  foaf:name "Maria Sophia Ramos";
+  :integra <#GrupoPET/PET%20Enfermagem> .
+
+<#Membro/Agatha%20Jesus> a :Membro;
+  foaf:name "Agatha Jesus";
+  :integra <#GrupoPET/PET%20Matemática> .
+
+<#Membro/Alexia%20Souza> a :Membro;
+  foaf:name "Alexia Souza";
+  :integra <#GrupoPET/PET%20Interdisciplinar%20Conexões%20de%20Saberes> .
+
+<#Membro/Maria%20Clara%20Carvalho> a :Membro;
+  foaf:name "Maria Clara Carvalho";
+  :integra <#GrupoPET/PET%20Enfermagem> .
+
+<#Membro/João%20Miguel%20Araújo> a :Membro;
+  foaf:name "João Miguel Araújo";
+  :integra <#GrupoPET/PET%20Química> .
+
+<#Membro/Maysa%20Ramos> a :Membro;
+  foaf:name "Maysa Ramos";
+  :integra <#GrupoPET/PET%20Administração> .
+
+<#Membro/Pedro%20Oliveira> a :Membro;
+  foaf:name "Pedro Oliveira";
+  :integra <#GrupoPET/PET%20Cidade%20Saúde%20e%20Justiça> .
+
+<#Membro/Rebeca%20Martins> a :Membro;
+  foaf:name "Rebeca Martins";
+  :integra <#GrupoPET/PET%20Fronteiras%3A%20Saberes%20e%20Práticas%20Populares> .
+
+<#Membro/Raquel%20Dias> a :Membro;
+  foaf:name "Raquel Dias";
+  :integra <#GrupoPET/PET%20Administração> .
+
+<#Membro/Diogo%20das%20Neves> a :Membro;
+  foaf:name "Diogo das Neves";
+  :integra <#GrupoPET/PET%20Práticas%20de%20Letramento> .
+
+<#Membro/Alice%20Castro> a :Membro;
+  foaf:name "Alice Castro";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%3A%20Comunidades%20Indígenas> .
+
+<#Membro/Gustavo%20Henrique%20Peixoto> a :Membro;
+  foaf:name "Gustavo Henrique Peixoto";
+  :integra <#GrupoPET/PET%20Medicina> .
+
+<#Membro/Rafael%20Azevedo> a :Membro;
+  foaf:name "Rafael Azevedo";
+  :integra <#GrupoPET/PET%20Conexões%20Administração> .
+
+<#Membro/Luiz%20Felipe%20da%20Cruz> a :Membro;
+  foaf:name "Luiz Felipe da Cruz";
+  :integra <#GrupoPET/PET-Letras> .
+
+<#Membro/Ana%20Luiza%20Ramos> a :Membro;
+  foaf:name "Ana Luiza Ramos";
+  :integra <#GrupoPET/PET%20História> .
+
+<#Membro/Matheus%20Ramos> a :Membro;
+  foaf:name "Matheus Ramos";
+  :integra <#GrupoPET/PET%20Matemática> .
+
+<#Membro/Alana%20Gomes> a :Membro;
+  foaf:name "Alana Gomes";
+  :integra <#GrupoPET/PET%20História> .
+
+<#Membro/Caio%20Cavalcanti> a :Membro;
+  foaf:name "Caio Cavalcanti";
+  :integra <#GrupoPET/PET%20Engenharia%20Agrícola> .
+
+<#Membro/André%20da%20Rosa> a :Membro;
+  foaf:name "André da Rosa";
+  :integra <#GrupoPET/PET%20Agronomia> .
+
+<#Membro/Raul%20Cardoso> a :Membro;
+  foaf:name "Raul Cardoso";
+  :integra <#GrupoPET/PET%20Engenharia%20Florestal> .
+
+<#Membro/Pietro%20das%20Neves> a :Membro;
+  foaf:name "Pietro das Neves";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Alana%20Costela> a :Membro;
+  foaf:name "Alana Costela";
+  :integra <#GrupoPET/PET%20Zootecnia%20UFSM> .
+
+<#Membro/Juliana%20da%20Luz> a :Membro;
+  foaf:name "Juliana da Luz";
+  :integra <#GrupoPET/PET%20Agroflorestal> .
+
+<#Membro/Ana%20Carolina%20da%20Luz> a :Membro;
+  foaf:name "Ana Carolina da Luz";
+  :integra <#GrupoPET/PET%20Cidade%20Saúde%20e%20Justiça> .
+
+<#Membro/Luiza%20Cardoso> a :Membro;
+  foaf:name "Luiza Cardoso";
+  :integra <#GrupoPET/PET%20Medicina> .
+
+<#Membro/Ana%20Júlia%20Cavalcanti> a :Membro;
+  foaf:name "Ana Júlia Cavalcanti";
+  :integra <#GrupoPET/PET%20Educação%20Física> .
+
+<#Membro/Vicente%20Barros> a :Membro;
+  foaf:name "Vicente Barros";
+  :integra <#GrupoPET/GET%20Medicina> .
+
+<#Membro/Maria%20Sophia%20Pereira> a :Membro;
+  foaf:name "Maria Sophia Pereira";
+  :integra <#GrupoPET/PET%20em%20Ciência%20da%20Computação> .
+
+<#Membro/Daniel%20Cavalcanti> a :Membro;
+  foaf:name "Daniel Cavalcanti";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Produção> .
+
+<#Membro/Letícia%20da%20Paz> a :Membro;
+  foaf:name "Letícia da Paz";
+  :integra <#GrupoPET/PET%20Práticas%20Integradas%20em%20Saúde%20Coletiva> .
+
+<#Membro/Luiz%20Miguel%20Moura> a :Membro;
+  foaf:name "Luiz Miguel Moura";
+  :integra <#GrupoPET/PET%20Matemática> .
+
+<#Membro/Francisco%20Nunes> a :Membro;
+  foaf:name "Francisco Nunes";
+  :integra <#GrupoPET/PET%20Zootecnia%20UFSM> .
+
+<#Membro/Marcos%20Vinicius%20Costela> a :Membro;
+  foaf:name "Marcos Vinicius Costela";
+  :integra <#GrupoPET/PET%20Agronomia%20-%20IFPA> .
+
+<#Membro/Pietro%20Costela> a :Membro;
+  foaf:name "Pietro Costela";
+  :integra <#GrupoPET/PET%20Zootecnia> .
+
+<#Membro/Enrico%20Correia> a :Membro;
+  foaf:name "Enrico Correia";
+  :integra <#GrupoPET/PET%20Física> .
+
+<#Membro/Diego%20Silveira> a :Membro;
+  foaf:name "Diego Silveira";
+  :integra <#GrupoPET/PET%20Engenharia%20Agrícola> .
+
+<#Membro/Mariane%20da%20Mota> a :Membro;
+  foaf:name "Mariane da Mota";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%20-%20Penedo> .
+
+<#Membro/Julia%20Ramos> a :Membro;
+  foaf:name "Julia Ramos";
+  :integra <#GrupoPET/PET%20Agronomia%20-%20IFPA> .
+
+<#Membro/Isabella%20Araújo> a :Membro;
+  foaf:name "Isabella Araújo";
+  :integra <#GrupoPET/PET%20Geologia%20UFC> .
+
+<#Membro/Sophia%20Mendes> a :Membro;
+  foaf:name "Sophia Mendes";
+  :integra <#GrupoPET/PET%20Administração> .
+
+<#Membro/Samuel%20da%20Cruz> a :Membro;
+  foaf:name "Samuel da Cruz";
+  :integra <#GrupoPET/PET%20Engenharia%20Mecânica> .
+
+<#Membro/Luiz%20Henrique%20Ramos> a :Membro;
+  foaf:name "Luiz Henrique Ramos";
+  :integra <#GrupoPET/PET%20Zootecnia%20UFSM> .
+
+<#Membro/Luiz%20Otávio%20Cardoso> a :Membro;
+  foaf:name "Luiz Otávio Cardoso";
+  :integra <#GrupoPET/PET%20Ecologia> .
+
+<#Membro/João%20Vitor%20Silva> a :Membro;
+  foaf:name "João Vitor Silva";
+  :integra <#GrupoPET/PET%20Engenharia%20Florestal> .
+
+<#Membro/Bárbara%20Rodrigues> a :Membro;
+  foaf:name "Bárbara Rodrigues";
+  :integra <#GrupoPET/PET%20Política%20Públicas> .
+
+<#Membro/Maria%20Sophia%20Dias> a :Membro;
+  foaf:name "Maria Sophia Dias";
+  :integra <#GrupoPET/PET%20Engenharia%20Civil> .
+
+<#Membro/Olivia%20Gonçalves> a :Membro;
+  foaf:name "Olivia Gonçalves";
+  :integra <#GrupoPET/PET%20História> .
+
+<#Membro/Ana%20Vitória%20Pires> a :Membro;
+  foaf:name "Ana Vitória Pires";
+  :integra <#GrupoPET/PET%20Ciências%20Biológicas> .
+
+<#Membro/Rafael%20Santos> a :Membro;
+  foaf:name "Rafael Santos";
+  :integra <#GrupoPET/PET%20Biotecnologia> .
+
+<#Membro/Joana%20Freitas> a :Membro;
+  foaf:name "Joana Freitas";
+  :integra <#GrupoPET/PET%20Políticas%20Públicas> .
+
+<#Membro/Luiz%20Henrique%20Rezende> a :Membro;
+  foaf:name "Luiz Henrique Rezende";
+  :integra <#GrupoPET/PET%20GAPE> .
+
+<#Membro/Joaquim%20Moura> a :Membro;
+  foaf:name "Joaquim Moura";
+  :integra <#GrupoPET/PET%20Zootecnia> .
+
+<#Membro/Esther%20Lima> a :Membro;
+  foaf:name "Esther Lima";
+  :integra <#GrupoPET/PET%20Matemática%20%28Licenciatura%29> .
+
+<#Membro/Elisa%20Silveira> a :Membro;
+  foaf:name "Elisa Silveira";
+  :integra <#GrupoPET/PET%20Intercultural%20Indígena> .
+
+<#Membro/Enzo%20Freitas> a :Membro;
+  foaf:name "Enzo Freitas";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Pesca> .
+
+<#Membro/Caroline%20Pinto> a :Membro;
+  foaf:name "Caroline Pinto";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%3A%20Inclusão%2C%20Diversidade%20e%20Protagonismo> .
+
+<#Membro/André%20Moraes> a :Membro;
+  foaf:name "André Moraes";
+  :integra <#GrupoPET/PET%20GAPE> .
+
+<#Membro/Vicente%20da%20Costa> a :Membro;
+  foaf:name "Vicente da Costa";
+  :integra <#GrupoPET/PET%20Engenharia%20Civil> .
+
+<#Membro/Benjamin%20Costa> a :Membro;
+  foaf:name "Benjamin Costa";
+  :integra <#GrupoPET/PET%20Engenharia%20Elétrica> .
+
+<#Membro/Caio%20Pinto> a :Membro;
+  foaf:name "Caio Pinto";
+  :integra <#GrupoPET/PET%20Agronomia> .
+
+<#Membro/Catarina%20Silveira> a :Membro;
+  foaf:name "Catarina Silveira";
+  :integra <#GrupoPET/PET%20Biologia> .
+
+<#Membro/Luiz%20Henrique%20Ribeiro> a :Membro;
+  foaf:name "Luiz Henrique Ribeiro";
+  :integra <#GrupoPET/PET%20Comunicação%20Social> .
+
+<#Membro/Raquel%20Melo> a :Membro;
+  foaf:name "Raquel Melo";
+  :integra <#GrupoPET/PET%20Odontologia> .
+
+<#Membro/Manuela%20Carvalho> a :Membro;
+  foaf:name "Manuela Carvalho";
+  :integra <#GrupoPET/PET%20Humanidades%20e%20Letras> .
+
+<#Membro/Maitê%20Novaes> a :Membro;
+  foaf:name "Maitê Novaes";
+  :integra <#GrupoPET/PET%20Ecologia> .
+
+<#Membro/Rebeca%20da%20Cruz> a :Membro;
+  foaf:name "Rebeca da Cruz";
+  :integra <#GrupoPET/PET%20Intercultural%20Indígena> .
+
+<#Membro/Samuel%20Silva> a :Membro;
+  foaf:name "Samuel Silva";
+  :integra <#GrupoPET/PET%20Matemática> .
+
+<#Membro/Benício%20Martins> a :Membro;
+  foaf:name "Benício Martins";
+  :integra <#GrupoPET/PET%20Zootecnia%20%22João%20Dimas%20Graciano%22> .
+
+<#Membro/Luigi%20da%20Mota> a :Membro;
+  foaf:name "Luigi da Mota";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Bryan%20Pinto> a :Membro;
+  foaf:name "Bryan Pinto";
+  :integra <#GrupoPET/PET%20Psicologia> .
+
+<#Membro/Mirella%20Azevedo> a :Membro;
+  foaf:name "Mirella Azevedo";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%3A%20Comunidades%20Indígenas> .
+
+<#Membro/Kevin%20Viana> a :Membro;
+  foaf:name "Kevin Viana";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Produção> .
+
+<#Membro/Emanuelly%20da%20Rocha> a :Membro;
+  foaf:name "Emanuelly da Rocha";
+  :integra <#GrupoPET/PET%20Escola%20de%20Comunicação> .
+
+<#Membro/Maria%20Fernanda%20Novaes> a :Membro;
+  foaf:name "Maria Fernanda Novaes";
+  :integra <#GrupoPET/PET%20Matemática> .
+
+<#Membro/Yago%20Fernandes> a :Membro;
+  foaf:name "Yago Fernandes";
+  :integra <#GrupoPET/PET%20Educação%20Física%20e%20Lazer> .
+
+<#Membro/Felipe%20da%20Costa> a :Membro;
+  foaf:name "Felipe da Costa";
+  :integra <#GrupoPET/PET%20Biomecânica> .
+
+<#Membro/Bernardo%20da%20Luz> a :Membro;
+  foaf:name "Bernardo da Luz";
+  :integra <#GrupoPET/PET%20Engenharia%20Florestal> .
+
+<#Membro/Sabrina%20Souza> a :Membro;
+  foaf:name "Sabrina Souza";
+  :integra <#GrupoPET/PET%20Engenharia%20Mecânica> .
+
+<#Membro/Gabriela%20Alves> a :Membro;
+  foaf:name "Gabriela Alves";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%3A%20Comunidades%20Indígenas> .
+
+<#Membro/Gabriela%20Cunha> a :Membro;
+  foaf:name "Gabriela Cunha";
+  :integra <#GrupoPET/PET%20Farmácia> .
+
+<#Membro/Alexandre%20Souza> a :Membro;
+  foaf:name "Alexandre Souza";
+  :integra <#GrupoPET/PET%20AutoNet> .
+
+<#Membro/Ana%20Sophia%20Barros> a :Membro;
+  foaf:name "Ana Sophia Barros";
+  :integra <#GrupoPET/PET%20Comunicação%20Social> .
+
+<#Membro/Rafael%20da%20Cruz> a :Membro;
+  foaf:name "Rafael da Cruz";
+  :integra <#GrupoPET/PET%20Engenharias%20da%20Mobilidade> .
+
+<#Membro/Danilo%20Costa> a :Membro;
+  foaf:name "Danilo Costa";
+  :integra <#GrupoPET/PET%20Engenharia%20Agrícola> .
+
+<#Membro/Renan%20Costa> a :Membro;
+  foaf:name "Renan Costa";
+  :integra <#GrupoPET/PET%20Bacharelado%20em%20Estatística> .
+
+<#Membro/Maria%20Alice%20Nogueira> a :Membro;
+  foaf:name "Maria Alice Nogueira";
+  :integra <#GrupoPET/PET%20Fisioterapia> .
+
+<#Membro/Augusto%20da%20Luz> a :Membro;
+  foaf:name "Augusto da Luz";
+  :integra <#GrupoPET/PET%20Letras> .
+
+<#Membro/Vinicius%20Mendes> a :Membro;
+  foaf:name "Vinicius Mendes";
+  :integra <#GrupoPET/PET%20Design> .
+
+<#Membro/Helena%20Araújo> a :Membro;
+  foaf:name "Helena Araújo";
+  :integra <#GrupoPET/PET%20Zootecnia> .
+
+<#Membro/Gabrielly%20Farias> a :Membro;
+  foaf:name "Gabrielly Farias";
+  :integra <#GrupoPET/PET%20Farmácia> .
+
+<#Membro/Isabelly%20Almeida> a :Membro;
+  foaf:name "Isabelly Almeida";
+  :integra <#GrupoPET/PET%20EEL%20UFSC> .
+
+<#Membro/Nicole%20Peixoto> a :Membro;
+  foaf:name "Nicole Peixoto";
+  :integra <#GrupoPET/PET%20Química> .
+
+<#Membro/Ana%20Laura%20Jesus> a :Membro;
+  foaf:name "Ana Laura Jesus";
+  :integra <#GrupoPET/PET%20Engenharia%20Civil> .
+
+<#Membro/Diogo%20Cavalcanti> a :Membro;
+  foaf:name "Diogo Cavalcanti";
+  :integra <#GrupoPET/PET%20Floresta> .
+
+<#Membro/Maria%20Vitória%20Peixoto> a :Membro;
+  foaf:name "Maria Vitória Peixoto";
+  :integra <#GrupoPET/PET%20Floresta> .
+
+<#Membro/Luiza%20Carvalho> a :Membro;
+  foaf:name "Luiza Carvalho";
+  :integra <#GrupoPET/PET%20Práticas%20Integradas%20em%20Saúde%20Coletiva> .
+
+<#Membro/Fernando%20Rodrigues> a :Membro;
+  foaf:name "Fernando Rodrigues";
+  :integra <#GrupoPET/PET%20Ciências%20Biologicas> .
+
+<#Membro/Felipe%20Carvalho> a :Membro;
+  foaf:name "Felipe Carvalho";
+  :integra <#GrupoPET/PET%20Serviço%20Social> .
+
+<#Membro/Caio%20Azevedo> a :Membro;
+  foaf:name "Caio Azevedo";
+  :integra <#GrupoPET/PET%20Engenharia%20Civil> .
+
+<#Membro/Caroline%20Lima> a :Membro;
+  foaf:name "Caroline Lima";
+  :integra <#GrupoPET/PET%20Engenharia%20Química> .
+
+<#Membro/Thiago%20Lima> a :Membro;
+  foaf:name "Thiago Lima";
+  :integra <#GrupoPET/PET%20Ciências%20Agrárias> .
+
+<#Membro/Lorena%20Moura> a :Membro;
+  foaf:name "Lorena Moura";
+  :integra <#GrupoPET/PET%20Bacharelado%20em%20Zootecnia> .
+
+<#Membro/Leandro%20da%20Conceição> a :Membro;
+  foaf:name "Leandro da Conceição";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Alimentos> .
+
+<#Membro/Evelyn%20Moreira> a :Membro;
+  foaf:name "Evelyn Moreira";
+  :integra <#GrupoPET/PET%20Biotecnologia> .
+
+<#Membro/Noah%20da%20Conceição> a :Membro;
+  foaf:name "Noah da Conceição";
+  :integra <#GrupoPET/PET%20Zootecnia> .
+
+<#Membro/Davi%20Lucas%20Nogueira> a :Membro;
+  foaf:name "Davi Lucas Nogueira";
+  :integra <#GrupoPET/PET%20Cidade%20Saúde%20e%20Justiça> .
+
+<#Membro/Gustavo%20Pereira> a :Membro;
+  foaf:name "Gustavo Pereira";
+  :integra <#GrupoPET/PET%20Pedagogia> .
+
+<#Membro/Mirella%20Gomes> a :Membro;
+  foaf:name "Mirella Gomes";
+  :integra <#GrupoPET/PET%20Letras> .
+
+<#Membro/Juan%20Silva> a :Membro;
+  foaf:name "Juan Silva";
+  :integra <#GrupoPET/PET%20Engenharia%20Mecânica> .
+
+<#Membro/Gustavo%20Henrique%20Silva> a :Membro;
+  foaf:name "Gustavo Henrique Silva";
+  :integra <#GrupoPET/PET%20Ecologia> .
+
+<#Membro/Luiz%20Otávio%20Cavalcanti> a :Membro;
+  foaf:name "Luiz Otávio Cavalcanti";
+  :integra <#GrupoPET/PET%20Medicina%20Veterinária> .
+
+<#Membro/Marcos%20Vinicius%20Cardoso> a :Membro;
+  foaf:name "Marcos Vinicius Cardoso";
+  :integra <#GrupoPET/PET%20Intervenção%20Socioambiental%20em%20Uruçuí-Una> .
+
+<#Membro/Gabrielly%20Nogueira> a :Membro;
+  foaf:name "Gabrielly Nogueira";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Vicente%20Pereira> a :Membro;
+  foaf:name "Vicente Pereira";
+  :integra <#GrupoPET/PET%20CoCE> .
+
+<#Membro/Sofia%20Cavalcanti> a :Membro;
+  foaf:name "Sofia Cavalcanti";
+  :integra <#GrupoPET/PET%20Engenharia%20Elétrica> .
+
+<#Membro/Luiz%20Otávio%20da%20Conceição> a :Membro;
+  foaf:name "Luiz Otávio da Conceição";
+  :integra <#GrupoPET/PET%20Engenharias> .
+
+<#Membro/Ana%20Lívia%20Martins> a :Membro;
+  foaf:name "Ana Lívia Martins";
+  :integra <#GrupoPET/PET%20Administração> .
+
+<#Membro/Heitor%20Castro> a :Membro;
+  foaf:name "Heitor Castro";
+  :integra <#GrupoPET/PET%20Biomecânica> .
+
+<#Membro/Carlos%20Eduardo%20Moura> a :Membro;
+  foaf:name "Carlos Eduardo Moura";
+  :integra <#GrupoPET/PET%20Zootecnia> .
+
+<#Membro/Rebeca%20Alves> a :Membro;
+  foaf:name "Rebeca Alves";
+  :integra <#GrupoPET/PET%20ENGENHARIA%20QUÍMICA> .
+
+<#Membro/Luana%20da%20Costa> a :Membro;
+  foaf:name "Luana da Costa";
+  :integra <#GrupoPET/PET%20Biologia> .
+
+<#Membro/Isabelly%20Silveira> a :Membro;
+  foaf:name "Isabelly Silveira";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Alimentos> .
+
+<#Membro/Nathan%20Costa> a :Membro;
+  foaf:name "Nathan Costa";
+  :integra <#GrupoPET/PET%20Design> .
+
+<#Membro/Lara%20Sales> a :Membro;
+  foaf:name "Lara Sales";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%20Políticas%20Públicas%20de%20Juventude> .
+
+<#Membro/Ana%20Clara%20da%20Luz> a :Membro;
+  foaf:name "Ana Clara da Luz";
+  :integra <#GrupoPET/PET%20Física> .
+
+<#Membro/Ana%20Clara%20Pereira> a :Membro;
+  foaf:name "Ana Clara Pereira";
+  :integra <#GrupoPET/PET%20Licenciaturas> .
+
+<#Membro/Felipe%20Duarte> a :Membro;
+  foaf:name "Felipe Duarte";
+  :integra <#GrupoPET/PET%20Biologia> .
+
+<#Membro/Mariane%20Lima> a :Membro;
+  foaf:name "Mariane Lima";
+  :integra <#GrupoPET/PET%20Biologia> .
+
+<#Membro/João%20Pedro%20Pereira> a :Membro;
+  foaf:name "João Pedro Pereira";
+  :integra <#GrupoPET/PET%20Música> .
+
+<#Membro/Pietra%20Rezende> a :Membro;
+  foaf:name "Pietra Rezende";
+  :integra <#GrupoPET/PET%20Engenharia%20Ambiental> .
+
+<#Membro/Ana%20Clara%20Ribeiro> a :Membro;
+  foaf:name "Ana Clara Ribeiro";
+  :integra <#GrupoPET/PET%20Biologia> .
+
+<#Membro/Diogo%20Castro> a :Membro;
+  foaf:name "Diogo Castro";
+  :integra <#GrupoPET/PET%20Química> .
+
+<#Membro/Benjamin%20da%20Costa> a :Membro;
+  foaf:name "Benjamin da Costa";
+  :integra <#GrupoPET/PET%20Bacharelado%20em%20Engenharia%20Elétrica> .
+
+<#Membro/Maria%20Vitória%20Costa> a :Membro;
+  foaf:name "Maria Vitória Costa";
+  :integra <#GrupoPET/PET%20Farmácia>, <#GrupoPET/PET%20Enfermagem> .
+
+<#Membro/Rebeca%20Rezende> a :Membro;
+  foaf:name "Rebeca Rezende";
+  :integra <#GrupoPET/PET%20Administração> .
+
+<#Membro/Melissa%20Araújo> a :Membro;
+  foaf:name "Melissa Araújo";
+  :integra <#GrupoPET/GET%20Engenharia%20Computacional> .
+
+<#Membro/Luiz%20Henrique%20Duarte> a :Membro;
+  foaf:name "Luiz Henrique Duarte";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%3A%20Inclusão%2C%20Diversidade%20e%20Protagonismo> .
+
+<#Membro/Ana%20Clara%20Moreira> a :Membro;
+  foaf:name "Ana Clara Moreira";
+  :integra <#GrupoPET/PET%20Indígena%20-%20Ações%20em%20Saúde> .
+
+<#Membro/Benjamin%20Ribeiro> a :Membro;
+  foaf:name "Benjamin Ribeiro";
+  :integra <#GrupoPET/PET%20Engenharia%20Elétrica> .
+
+<#Membro/Agatha%20Barbosa> a :Membro;
+  foaf:name "Agatha Barbosa";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%20Ciências%20da%20Natureza%20e%20Matemática> .
+
+<#Membro/Laura%20Almeida> a :Membro;
+  foaf:name "Laura Almeida";
+  :integra <#GrupoPET/PET%20Química> .
+
+<#Membro/Luiz%20Henrique%20Nunes> a :Membro;
+  foaf:name "Luiz Henrique Nunes";
+  :integra <#GrupoPET/PET%20Química> .
+
+<#Membro/Stella%20da%20Mota> a :Membro;
+  foaf:name "Stella da Mota";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Pesca> .
+
+<#Membro/Yuri%20Cavalcanti> a :Membro;
+  foaf:name "Yuri Cavalcanti";
+  :integra <#GrupoPET/PET%20Elétrica> .
+
+<#Membro/Giovanna%20Jesus> a :Membro;
+  foaf:name "Giovanna Jesus";
+  :integra <#GrupoPET/PET%20Educação> .
+
+<#Membro/Juan%20Aragão> a :Membro;
+  foaf:name "Juan Aragão";
+  :integra <#GrupoPET/PET%20Agro> .
+
+<#Membro/Nathan%20da%20Cunha> a :Membro;
+  foaf:name "Nathan da Cunha";
+  :integra <#GrupoPET/PET%20Bacharelado%20em%20Zootecnia> .
+
+<#Membro/Emilly%20Santos> a :Membro;
+  foaf:name "Emilly Santos";
+  :integra <#GrupoPET/PET%20Engenharia%20Florestal> .
+
+<#Membro/Carolina%20da%20Paz> a :Membro;
+  foaf:name "Carolina da Paz";
+  :integra <#GrupoPET/PET%20Arquitetura> .
+
+<#Membro/Mirella%20Sales> a :Membro;
+  foaf:name "Mirella Sales";
+  :integra <#GrupoPET/PET%20Comunicação%20Social> .
+
+<#Membro/Carlos%20Eduardo%20da%20Luz> a :Membro;
+  foaf:name "Carlos Eduardo da Luz";
+  :integra <#GrupoPET/PET%20Produção> .
+
+<#Membro/Lorenzo%20da%20Costa> a :Membro;
+  foaf:name "Lorenzo da Costa";
+  :integra <#GrupoPET/PET%20Fitoterapia> .
+
+<#Membro/Vinicius%20Rodrigues> a :Membro;
+  foaf:name "Vinicius Rodrigues";
+  :integra <#GrupoPET/PET%20Agronomia> .
+
+<#Membro/Ryan%20Azevedo> a :Membro;
+  foaf:name "Ryan Azevedo";
+  :integra <#GrupoPET/PET%20Biomedicina> .
+
+<#Membro/Cauê%20Gomes> a :Membro;
+  foaf:name "Cauê Gomes";
+  :integra <#GrupoPET/PET%20Biologia> .
+
+<#Membro/Cauê%20Cavalcanti> a :Membro;
+  foaf:name "Cauê Cavalcanti";
+  :integra <#GrupoPET/PET%20Conexões%20Acesso%20e%20Sucesso%20no%20Ensino%20Superior> .
+
+<#Membro/Lucca%20Correia> a :Membro;
+  foaf:name "Lucca Correia";
+  :integra <#GrupoPET/PET%20Química> .
+
+<#Membro/Vinicius%20Farias> a :Membro;
+  foaf:name "Vinicius Farias";
+  :integra <#GrupoPET/PET%20Ciências%20Agrárias> .
+
+<#Membro/Luna%20Cardoso> a :Membro;
+  foaf:name "Luna Cardoso";
+  :integra <#GrupoPET/PET%20Engenharia%20Elétrica> .
+
+<#Membro/Larissa%20Novaes> a :Membro;
+  foaf:name "Larissa Novaes";
+  :integra <#GrupoPET/PET%20ProdBio> .
+
+<#Membro/Bernardo%20Sales> a :Membro;
+  foaf:name "Bernardo Sales";
+  :integra <#GrupoPET/PET%20Física> .
+
+<#Membro/Júlia%20Campos> a :Membro;
+  foaf:name "Júlia Campos";
+  :integra <#GrupoPET/PET%20Química> .
+
+<#Membro/Diogo%20Jesus> a :Membro;
+  foaf:name "Diogo Jesus";
+  :integra <#GrupoPET/PET%20Administração> .
+
+<#Membro/Júlia%20Caldeira> a :Membro;
+  foaf:name "Júlia Caldeira";
+  :integra <#GrupoPET/PET%20Política%20Públicas> .
+
+<#Membro/Arthur%20Mendes> a :Membro;
+  foaf:name "Arthur Mendes";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Alimentos> .
+
+<#Membro/Mariana%20Ramos> a :Membro;
+  foaf:name "Mariana Ramos";
+  :integra <#GrupoPET/PET%20Física> .
+
+<#Membro/Pedro%20Campos> a :Membro;
+  foaf:name "Pedro Campos";
+  :integra <#GrupoPET/PET%20Tecnologias%20em%20Saúde> .
+
+<#Membro/Enzo%20Gabriel%20Carvalho> a :Membro;
+  foaf:name "Enzo Gabriel Carvalho";
+  :integra <#GrupoPET/PET%20Engenharia%20Agrícola> .
+
+<#Membro/Daniel%20Duarte> a :Membro;
+  foaf:name "Daniel Duarte";
+  :integra <#GrupoPET/PET%20Zootecnia%20%22João%20Dimas%20Graciano%22> .
+
+<#Membro/Pedro%20Dias> a :Membro;
+  foaf:name "Pedro Dias";
+  :integra <#GrupoPET/PET%20EEL%20UFSC> .
+
+<#Membro/Mirella%20Jesus> a :Membro;
+  foaf:name "Mirella Jesus";
+  :integra <#GrupoPET/PET%20Zootecnia%20%22João%20Dimas%20Graciano%22> .
+
+<#Membro/Levi%20Silva> a :Membro;
+  foaf:name "Levi Silva";
+  :integra <#GrupoPET/PET%20Administração> .
+
+<#Membro/Luiz%20Otávio%20Caldeira> a :Membro;
+  foaf:name "Luiz Otávio Caldeira";
+  :integra <#GrupoPET/PET%20Matemática> .
+
+<#Membro/Bárbara%20Lopes> a :Membro;
+  foaf:name "Bárbara Lopes";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%3A%20Inclusão%2C%20Diversidade%20e%20Protagonismo> .
+
+<#Membro/Raquel%20Freitas> a :Membro;
+  foaf:name "Raquel Freitas";
+  :integra <#GrupoPET/PET%20Pedagogia> .
+
+<#Membro/Eduarda%20Lima> a :Membro;
+  foaf:name "Eduarda Lima";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Esther%20Sales> a :Membro;
+  foaf:name "Esther Sales";
+  :integra <#GrupoPET/Pet%20Engenharia%20Florestal> .
+
+<#Membro/Breno%20Rocha> a :Membro;
+  foaf:name "Breno Rocha";
+  :integra <#GrupoPET/PET%20Farmácia> .
+
+<#Membro/Kevin%20Melo> a :Membro;
+  foaf:name "Kevin Melo";
+  :integra <#GrupoPET/PET%20Biologia> .
+
+<#Membro/Antônio%20Pires> a :Membro;
+  foaf:name "Antônio Pires";
+  :integra <#GrupoPET/PET%20Comunidades%20Urbanas%20-%20Conexões%20de%20Saberes> .
+
+<#Membro/Raul%20Pereira> a :Membro;
+  foaf:name "Raul Pereira";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Alimentos> .
+
+<#Membro/Henrique%20Teixeira> a :Membro;
+  foaf:name "Henrique Teixeira";
+  :integra <#GrupoPET/PET%20Agronomia> .
+
+<#Membro/Calebe%20da%20Costa> a :Membro;
+  foaf:name "Calebe da Costa";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%3A%20Inclusão%2C%20Diversidade%20e%20Protagonismo> .
+
+<#Membro/Maria%20Fogaça> a :Membro;
+  foaf:name "Maria Fogaça";
+  :integra <#GrupoPET/PET%20Engenharia%20Civil>, <#GrupoPET/PET%20Educação%20Física%20e%20Lazer> .
+
+<#Membro/Marcela%20da%20Luz> a :Membro;
+  foaf:name "Marcela da Luz";
+  :integra <#GrupoPET/PET%20Zootecnia> .
+
+<#Membro/Nina%20Costa> a :Membro;
+  foaf:name "Nina Costa";
+  :integra <#GrupoPET/PET%20Farmácia> .
+
+<#Membro/Marcelo%20Monteiro> a :Membro;
+  foaf:name "Marcelo Monteiro";
+  :integra <#GrupoPET/PET%20Farmácia> .
+
+<#Membro/Ana%20Julia%20Dias> a :Membro;
+  foaf:name "Ana Julia Dias";
+  :integra <#GrupoPET/PET%20Engenharia%20Elétrica> .
+
+<#Membro/Luigi%20Araújo> a :Membro;
+  foaf:name "Luigi Araújo";
+  :integra <#GrupoPET/PET%20Farmácia> .
+
+<#Membro/João%20Vitor%20Moreira> a :Membro;
+  foaf:name "João Vitor Moreira";
+  :integra <#GrupoPET/PET%20Tecnologias%20em%20Saúde> .
+
+<#Membro/Rafaela%20Silveira> a :Membro;
+  foaf:name "Rafaela Silveira";
+  :integra <#GrupoPET/PET%20Cinema> .
+
+<#Membro/Alexandre%20Jesus> a :Membro;
+  foaf:name "Alexandre Jesus";
+  :integra <#GrupoPET/PET%20Conexões%20Administração> .
+
+<#Membro/Calebe%20Rodrigues> a :Membro;
+  foaf:name "Calebe Rodrigues";
+  :integra <#GrupoPET/PET%20Ciências%20Agrárias> .
+
+<#Membro/Miguel%20Moreira> a :Membro;
+  foaf:name "Miguel Moreira";
+  :integra <#GrupoPET/PET%20Biologia> .
+
+<#Membro/Gabrielly%20Carvalho> a :Membro;
+  foaf:name "Gabrielly Carvalho";
+  :integra <#GrupoPET/Pet%20Engenharia%20Florestal> .
+
+<#Membro/Gustavo%20Alves> a :Membro;
+  foaf:name "Gustavo Alves";
+  :integra <#GrupoPET/PET%20Parasitologia> .
+
+<#Membro/Giovanna%20Costela> a :Membro;
+  foaf:name "Giovanna Costela";
+  :integra <#GrupoPET/PET%20Nutrição> .
+
+<#Membro/Evelyn%20Nogueira> a :Membro;
+  foaf:name "Evelyn Nogueira";
+  :integra <#GrupoPET/PET%20Serviço%20Social> .
+
+<#Membro/Rebeca%20Vieira> a :Membro;
+  foaf:name "Rebeca Vieira";
+  :integra <#GrupoPET/PET%20Cinema> .
+
+<#Membro/Breno%20Ribeiro> a :Membro;
+  foaf:name "Breno Ribeiro";
+  :integra <#GrupoPET/PET%20Zootecnia> .
+
+<#Membro/Leandro%20Cardoso> a :Membro;
+  foaf:name "Leandro Cardoso";
+  :integra <#GrupoPET/PROPET%20Fonoaudiologia> .
+
+<#Membro/Levi%20Sales> a :Membro;
+  foaf:name "Levi Sales";
+  :integra <#GrupoPET/PET%20Agronomia> .
+
+<#Membro/João%20Miguel%20Monteiro> a :Membro;
+  foaf:name "João Miguel Monteiro";
+  :integra <#GrupoPET/PET%20Política%20Públicas>, <#GrupoPET/PET%20Biologia> .
+
+<#Membro/Pedro%20Lucas%20Carvalho> a :Membro;
+  foaf:name "Pedro Lucas Carvalho";
+  :integra <#GrupoPET/PET%20Ciência> .
+
+<#Membro/Manuela%20Rocha> a :Membro;
+  foaf:name "Manuela Rocha";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%20Tecnologias%20Sociais%2C%20Trabalho%20e%20Desenvolvimento%20Social%20Regional> .
+
+<#Membro/Igor%20Carvalho> a :Membro;
+  foaf:name "Igor Carvalho";
+  :integra <#GrupoPET/PET%20Química> .
+
+<#Membro/Milena%20Peixoto> a :Membro;
+  foaf:name "Milena Peixoto";
+  :integra <#GrupoPET/PET%20Agronomia> .
+
+<#Membro/Agatha%20Nogueira> a :Membro;
+  foaf:name "Agatha Nogueira";
+  :integra <#GrupoPET/PET%20Nutrição> .
+
+<#Membro/Isis%20Correia> a :Membro;
+  foaf:name "Isis Correia";
+  :integra <#GrupoPET/PET%20Engenharia%20Biomédica> .
+
+<#Membro/Ana%20Vitória%20Souza> a :Membro;
+  foaf:name "Ana Vitória Souza";
+  :integra <#GrupoPET/PET%20Engenharia%20Mecânica> .
+
+<#Membro/Clara%20Lima> a :Membro;
+  foaf:name "Clara Lima";
+  :integra <#GrupoPET/PET%20Bacharelado%20em%20Ciências%20Biológicas> .
+
+<#Membro/Mariane%20Caldeira> a :Membro;
+  foaf:name "Mariane Caldeira";
+  :integra <#GrupoPET/PET%20Informática> .
+
+<#Membro/Natália%20Azevedo> a :Membro;
+  foaf:name "Natália Azevedo";
+  :integra <#GrupoPET/PET%20Pedagogia> .
+
+<#Membro/Rafaela%20Cardoso> a :Membro;
+  foaf:name "Rafaela Cardoso";
+  :integra <#GrupoPET/PET%20Agronomia> .
+
+<#Membro/Enzo%20Gabriel%20da%20Luz> a :Membro;
+  foaf:name "Enzo Gabriel da Luz";
+  :integra <#GrupoPET/PET%20Administração> .
+
+<#Membro/Theo%20Martins> a :Membro;
+  foaf:name "Theo Martins";
+  :integra <#GrupoPET/PET%20Farmácia> .
+
+<#Membro/Maitê%20da%20Rocha> a :Membro;
+  foaf:name "Maitê da Rocha";
+  :integra <#GrupoPET/PET%20Medicina> .
+
+<#Membro/Kamilly%20Pinto> a :Membro;
+  foaf:name "Kamilly Pinto";
+  :integra <#GrupoPET/PET%20Direitos> .
+
+<#Membro/Amanda%20Aragão> a :Membro;
+  foaf:name "Amanda Aragão";
+  :integra <#GrupoPET/PET%20Agro> .
+
+<#Membro/Maria%20Clara%20Lima> a :Membro;
+  foaf:name "Maria Clara Lima";
+  :integra <#GrupoPET/PET%20Engenharia%20Civil> .
+
+<#Membro/Sophia%20Fogaça> a :Membro;
+  foaf:name "Sophia Fogaça";
+  :integra <#GrupoPET/PET%20Enfermagem> .
+
+<#Membro/Alana%20Nogueira> a :Membro;
+  foaf:name "Alana Nogueira";
+  :integra <#GrupoPET/PET%20Administração> .
+
+<#Membro/Giovanna%20Martins> a :Membro;
+  foaf:name "Giovanna Martins";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Henrique%20das%20Neves> a :Membro;
+  foaf:name "Henrique das Neves";
+  :integra <#GrupoPET/PET%20Agronomia> .
+
+<#Membro/Erick%20da%20Mota> a :Membro;
+  foaf:name "Erick da Mota";
+  :integra <#GrupoPET/PET%20EEL%20UFSC> .
+
+<#Membro/Bruna%20Moura> a :Membro;
+  foaf:name "Bruna Moura";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Sophie%20Melo> a :Membro;
+  foaf:name "Sophie Melo";
+  :integra <#GrupoPET/PET%20Engenharia%20Elétrica> .
+
+<#Membro/Rebeca%20Ribeiro> a :Membro;
+  foaf:name "Rebeca Ribeiro";
+  :integra <#GrupoPET/PET%20Física>, <#GrupoPET/PET%20Pedagogia%20UFSC> .
+
+<#Membro/Raquel%20Fernandes> a :Membro;
+  foaf:name "Raquel Fernandes";
+  :integra <#GrupoPET/PET%20Química%20Ambiental> .
+
+<#Membro/Ryan%20Costela> a :Membro;
+  foaf:name "Ryan Costela";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Alimentos> .
+
+<#Membro/Sophia%20Mendes> a :Membro;
+  foaf:name "Sophia Mendes";
+  :integra <#GrupoPET/PET%20Administração> .
+
+<#Membro/Isadora%20Pereira> a :Membro;
+  foaf:name "Isadora Pereira";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Alimentos> .
+
+<#Membro/Felipe%20Dias> a :Membro;
+  foaf:name "Felipe Dias";
+  :integra <#GrupoPET/PET%20Medicina%20Veterinária> .
+
+<#Membro/Marina%20da%20Rocha> a :Membro;
+  foaf:name "Marina da Rocha";
+  :integra <#GrupoPET/PET%20Ecologia> .
+
+<#Membro/Maria%20Sophia%20da%20Rosa> a :Membro;
+  foaf:name "Maria Sophia da Rosa";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%20Ciências%20da%20Natureza%20e%20Matemática> .
+
+<#Membro/João%20Guilherme%20Melo> a :Membro;
+  foaf:name "João Guilherme Melo";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%3A%20Cenários%20de%20Práticas%20e%20Estágios%20Curriculares%20Noturnos> .
+
+<#Membro/Beatriz%20da%20Rocha> a :Membro;
+  foaf:name "Beatriz da Rocha";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Maria%20Fernanda%20Lopes> a :Membro;
+  foaf:name "Maria Fernanda Lopes";
+  :integra <#GrupoPET/PET%20Letras> .
+
+<#Membro/Eduarda%20Moura> a :Membro;
+  foaf:name "Eduarda Moura";
+  :integra <#GrupoPET/PET%20Engenharia%20Florestal> .
+
+<#Membro/Ana%20Sophia%20Ferreira> a :Membro;
+  foaf:name "Ana Sophia Ferreira";
+  :integra <#GrupoPET/GET%20Engenharia%20Ambiental%20e%20Sanitária> .
+
+<#Membro/Camila%20Sales> a :Membro;
+  foaf:name "Camila Sales";
+  :integra <#GrupoPET/PET%20Economia> .
+
+<#Membro/Calebe%20da%20Rocha> a :Membro;
+  foaf:name "Calebe da Rocha";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Alimentos> .
+
+<#Membro/Mariane%20da%20Costa> a :Membro;
+  foaf:name "Mariane da Costa";
+  :integra <#GrupoPET/PET%20História> .
+
+<#Membro/Arthur%20Moreira> a :Membro;
+  foaf:name "Arthur Moreira";
+  :integra <#GrupoPET/PET%20Engenharia%20Civil> .
+
+<#Membro/Ana%20Laura%20Nogueira> a :Membro;
+  foaf:name "Ana Laura Nogueira";
+  :integra <#GrupoPET/PET%20Fronteiras%3A%20Saberes%20e%20Práticas%20Populares> .
+
+<#Membro/Pedro%20da%20Rocha> a :Membro;
+  foaf:name "Pedro da Rocha";
+  :integra <#GrupoPET/PET%20Economia> .
+
+<#Membro/Lívia%20Rocha> a :Membro;
+  foaf:name "Lívia Rocha";
+  :integra <#GrupoPET/PET%20Arquitetura%20e%20Urbanismo> .
+
+<#Membro/Luiz%20Felipe%20Costa> a :Membro;
+  foaf:name "Luiz Felipe Costa";
+  :integra <#GrupoPET/PET%20Psicologia> .
+
+<#Membro/Benjamin%20Lopes> a :Membro;
+  foaf:name "Benjamin Lopes";
+  :integra <#GrupoPET/PET%20Conexões%20Administração> .
+
+<#Membro/Yuri%20da%20Conceição> a :Membro;
+  foaf:name "Yuri da Conceição";
+  :integra <#GrupoPET/PET%20Informática> .
+
+<#Membro/Clarice%20Rodrigues> a :Membro;
+  foaf:name "Clarice Rodrigues";
+  :integra <#GrupoPET/PET%20Matemática> .
+
+<#Membro/Stella%20Ribeiro> a :Membro;
+  foaf:name "Stella Ribeiro";
+  :integra <#GrupoPET/PET%20Engenharia%20Civil> .
+
+<#Membro/Maria%20Julia%20Porto> a :Membro;
+  foaf:name "Maria Julia Porto";
+  :integra <#GrupoPET/PET%20Farmácia> .
+
+<#Membro/Pedro%20Lucas%20Caldeira> a :Membro;
+  foaf:name "Pedro Lucas Caldeira";
+  :integra <#GrupoPET/PET%20Química> .
+
+<#Membro/Thales%20Monteiro> a :Membro;
+  foaf:name "Thales Monteiro";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Produção> .
+
+<#Membro/Alice%20Almeida> a :Membro;
+  foaf:name "Alice Almeida";
+  :integra <#GrupoPET/PET%20Farmácia> .
+
+<#Membro/Helena%20Viana> a :Membro;
+  foaf:name "Helena Viana";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Lorenzo%20Oliveira> a :Membro;
+  foaf:name "Lorenzo Oliveira";
+  :integra <#GrupoPET/PET%20Design> .
+
+<#Membro/Lívia%20Moreira> a :Membro;
+  foaf:name "Lívia Moreira";
+  :integra <#GrupoPET/PET%20Educação%20Física%20-%20Biomecânica> .
+
+<#Membro/Sabrina%20Lima> a :Membro;
+  foaf:name "Sabrina Lima";
+  :integra <#GrupoPET/PET%20Zootecnia> .
+
+<#Membro/Kamilly%20Gomes> a :Membro;
+  foaf:name "Kamilly Gomes";
+  :integra <#GrupoPET/PET%20Agronomia> .
+
+<#Membro/Agatha%20Martins> a :Membro;
+  foaf:name "Agatha Martins";
+  :integra <#GrupoPET/PET%20Farmácia> .
+
+<#Membro/Bárbara%20Correia> a :Membro;
+  foaf:name "Bárbara Correia";
+  :integra <#GrupoPET/PET%20Odontologia> .
+
+<#Membro/Ana%20Julia%20Barros> a :Membro;
+  foaf:name "Ana Julia Barros";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Alimentos> .
+
+<#Membro/João%20Lucas%20Farias> a :Membro;
+  foaf:name "João Lucas Farias";
+  :integra <#GrupoPET/PET%20Agronomia> .
+
+<#Membro/Bárbara%20Silva> a :Membro;
+  foaf:name "Bárbara Silva";
+  :integra <#GrupoPET/PET%20Cinema> .
+
+<#Membro/Ana%20Júlia%20Cavalcanti> a :Membro;
+  foaf:name "Ana Júlia Cavalcanti";
+  :integra <#GrupoPET/PET%20Computação> .
+
+<#Membro/Daniela%20Barros> a :Membro;
+  foaf:name "Daniela Barros";
+  :integra <#GrupoPET/PET%20Geologia> .
+
+<#Membro/André%20Nogueira> a :Membro;
+  foaf:name "André Nogueira";
+  :integra <#GrupoPET/PET%20Ciências%20Biologicas> .
+
+<#Membro/Joaquim%20Silveira> a :Membro;
+  foaf:name "Joaquim Silveira";
+  :integra <#GrupoPET/PET%20Ecologia> .
+
+<#Membro/Eduardo%20Cavalcanti> a :Membro;
+  foaf:name "Eduardo Cavalcanti";
+  :integra <#GrupoPET/PET%20Geologia> .
+
+<#Membro/Lavínia%20Santos> a :Membro;
+  foaf:name "Lavínia Santos";
+  :integra <#GrupoPET/PET%20Engenharia%20Mecânica> .
+
+<#Membro/Thales%20Barbosa> a :Membro;
+  foaf:name "Thales Barbosa";
+  :integra <#GrupoPET/PET%20Biologia> .
+
+<#Membro/Ana%20Sophia%20Novaes> a :Membro;
+  foaf:name "Ana Sophia Novaes";
+  :integra <#GrupoPET/PET%20Administração> .
+
+<#Membro/Pietra%20Correia> a :Membro;
+  foaf:name "Pietra Correia";
+  :integra <#GrupoPET/PET-Letras> .
+
+<#Membro/Maysa%20da%20Costa> a :Membro;
+  foaf:name "Maysa da Costa";
+  :integra <#GrupoPET/PET%20Bacharelado%20Interdisciplinar%20em%20Ciência%20e%20Economia> .
+
+<#Membro/Emanuella%20Gomes> a :Membro;
+  foaf:name "Emanuella Gomes";
+  :integra <#GrupoPET/PET%20Administração> .
+
+<#Membro/Luigi%20Cardoso> a :Membro;
+  foaf:name "Luigi Cardoso";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Alimentos> .
+
+<#Membro/Benjamin%20Silveira> a :Membro;
+  foaf:name "Benjamin Silveira";
+  :integra <#GrupoPET/PET%20Engenharia%20Civil> .
+
+<#Membro/Diogo%20Almeida> a :Membro;
+  foaf:name "Diogo Almeida";
+  :integra <#GrupoPET/PET%20Educação%20Física%20-%20Biomecânica> .
+
+<#Membro/Davi%20Lucca%20Cavalcanti> a :Membro;
+  foaf:name "Davi Lucca Cavalcanti";
+  :integra <#GrupoPET/PET%20Bacharelado%20em%20Zootecnia> .
+
+<#Membro/Benjamin%20Fogaça> a :Membro;
+  foaf:name "Benjamin Fogaça";
+  :integra <#GrupoPET/PET%20Matemática> .
+
+<#Membro/Murilo%20da%20Paz> a :Membro;
+  foaf:name "Murilo da Paz";
+  :integra <#GrupoPET/PET%20Computação> .
+
+<#Membro/Enzo%20Gabriel%20Moreira> a :Membro;
+  foaf:name "Enzo Gabriel Moreira";
+  :integra <#GrupoPET/PET%20Pedagogia>, <#GrupoPET/PET%20Ciência%20da%20Computação> .
+
+<#Membro/Bianca%20Almeida> a :Membro;
+  foaf:name "Bianca Almeida";
+  :integra <#GrupoPET/PET%20Agronomia> .
+
+<#Membro/Yuri%20Araújo> a :Membro;
+  foaf:name "Yuri Araújo";
+  :integra <#GrupoPET/PET%20Psicologia> .
+
+<#Membro/Alexandre%20Azevedo> a :Membro;
+  foaf:name "Alexandre Azevedo";
+  :integra <#GrupoPET/PET%20Educação%20Física> .
+
+<#Membro/Joana%20Dias> a :Membro;
+  foaf:name "Joana Dias";
+  :integra <#GrupoPET/PET%20Engenharia%20Elétrica> .
+
+<#Membro/Carolina%20Gonçalves> a :Membro;
+  foaf:name "Carolina Gonçalves";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Produção> .
+
+<#Membro/Nina%20Gomes> a :Membro;
+  foaf:name "Nina Gomes";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Heloísa%20Sales> a :Membro;
+  foaf:name "Heloísa Sales";
+  :integra <#GrupoPET/PET%20Comunicação%20Social> .
+
+<#Membro/Maitê%20Cardoso> a :Membro;
+  foaf:name "Maitê Cardoso";
+  :integra <#GrupoPET/PET%20Engenharia%20Civil> .
+
+<#Membro/André%20Lopes> a :Membro;
+  foaf:name "André Lopes";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Agatha%20da%20Mota> a :Membro;
+  foaf:name "Agatha da Mota";
+  :integra <#GrupoPET/PET%20História> .
+
+<#Membro/Sofia%20Cunha> a :Membro;
+  foaf:name "Sofia Cunha";
+  :integra <#GrupoPET/PROPET%20Fonoaudiologia> .
+
+<#Membro/Juliana%20Moreira> a :Membro;
+  foaf:name "Juliana Moreira";
+  :integra <#GrupoPET/PET%20Administração> .
+
+<#Membro/Vitor%20Vieira> a :Membro;
+  foaf:name "Vitor Vieira";
+  :integra <#GrupoPET/GET%20Telecom> .
+
+<#Membro/Maria%20Alice%20Mendes> a :Membro;
+  foaf:name "Maria Alice Mendes";
+  :integra <#GrupoPET/PET%20Biologia> .
+
+<#Membro/Yuri%20Fernandes> a :Membro;
+  foaf:name "Yuri Fernandes";
+  :integra <#GrupoPET/PET%20Engenharia%20Química> .
+
+<#Membro/Joaquim%20Almeida> a :Membro;
+  foaf:name "Joaquim Almeida";
+  :integra <#GrupoPET/PET%20Bacharelado%20em%20Engenharia%20Elétrica> .
+
+<#Membro/Pedro%20Oliveira> a :Membro;
+  foaf:name "Pedro Oliveira";
+  :integra <#GrupoPET/PET%20Medicina%20UFTM> .
+
+<#Membro/Bruna%20da%20Paz> a :Membro;
+  foaf:name "Bruna da Paz";
+  :integra <#GrupoPET/PET%20Biotecnologia> .
+
+<#Membro/Camila%20Souza> a :Membro;
+  foaf:name "Camila Souza";
+  :integra <#GrupoPET/Pet%20Engenharia%20Florestal> .
+
+<#Membro/Mariana%20Duarte> a :Membro;
+  foaf:name "Mariana Duarte";
+  :integra <#GrupoPET/PET%20Matemática> .
+
+<#Membro/Isabelly%20Pereira> a :Membro;
+  foaf:name "Isabelly Pereira";
+  :integra <#GrupoPET/PET%20Comunicação%20Social> .
+
+<#Membro/Stella%20Silveira> a :Membro;
+  foaf:name "Stella Silveira";
+  :integra <#GrupoPET/PET%20História> .
+
+<#Membro/Nathan%20Azevedo> a :Membro;
+  foaf:name "Nathan Azevedo";
+  :integra <#GrupoPET/PET%20Indígena%20-%20Ações%20em%20Saúde> .
+
+<#Membro/Alexia%20Moreira> a :Membro;
+  foaf:name "Alexia Moreira";
+  :integra <#GrupoPET/PET%20Letras> .
+
+<#Membro/João%20Pedro%20Rocha> a :Membro;
+  foaf:name "João Pedro Rocha";
+  :integra <#GrupoPET/PET%20Bacharelado%20em%20Engenharia%20Elétrica> .
+
+<#Membro/Emilly%20Silva> a :Membro;
+  foaf:name "Emilly Silva";
+  :integra <#GrupoPET/PET%20Biologia> .
+
+<#Membro/Melissa%20Alves> a :Membro;
+  foaf:name "Melissa Alves";
+  :integra <#GrupoPET/PET%20Engenharia%20Mecânica> .
+
+<#Membro/Alana%20Melo> a :Membro;
+  foaf:name "Alana Melo";
+  :integra <#GrupoPET/PET%20Educação%20Física%20-%20Biomecânica> .
+
+<#Membro/Cecília%20da%20Luz> a :Membro;
+  foaf:name "Cecília da Luz";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%3A%20Comunidades%20Indígenas> .
+
+<#Membro/Luiza%20Farias> a :Membro;
+  foaf:name "Luiza Farias";
+  :integra <#GrupoPET/PET%20Bacharelado%20em%20Sistemas%20de%20Informação> .
+
+<#Membro/Giovanna%20Rocha> a :Membro;
+  foaf:name "Giovanna Rocha";
+  :integra <#GrupoPET/PET%20Educação%20Física%20e%20Lazer> .
+
+<#Membro/Nicole%20Caldeira> a :Membro;
+  foaf:name "Nicole Caldeira";
+  :integra <#GrupoPET/PET%20Agricultura%20Familiar> .
+
+<#Membro/Eduarda%20da%20Mata> a :Membro;
+  foaf:name "Eduarda da Mata";
+  :integra <#GrupoPET/PET%20Biologia> .
+
+<#Membro/Pietro%20Cardoso> a :Membro;
+  foaf:name "Pietro Cardoso";
+  :integra <#GrupoPET/PET%20Educação%20Física%20e%20Lazer> .
+
+<#Membro/Milena%20Souza> a :Membro;
+  foaf:name "Milena Souza";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%20Estatísticos> .
+
+<#Membro/Alana%20Cavalcanti> a :Membro;
+  foaf:name "Alana Cavalcanti";
+  :integra <#GrupoPET/PET%20Design> .
+
+<#Membro/Olivia%20Alves> a :Membro;
+  foaf:name "Olivia Alves";
+  :integra <#GrupoPET/PET%20Pedagogia> .
+
+<#Membro/Maria%20Clara%20Aragão> a :Membro;
+  foaf:name "Maria Clara Aragão";
+  :integra <#GrupoPET/PET%20Odontologia> .
+
+<#Membro/Diego%20Martins> a :Membro;
+  foaf:name "Diego Martins";
+  :integra <#GrupoPET/PET%20Biologia> .
+
+<#Membro/Pietra%20Santos> a :Membro;
+  foaf:name "Pietra Santos";
+  :integra <#GrupoPET/PET%20Escola%20de%20Comunicação> .
+
+<#Membro/Gabriel%20Rezende> a :Membro;
+  foaf:name "Gabriel Rezende";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%3A%20Cenários%20de%20Práticas%20e%20Estágios%20Curriculares%20Noturnos> .
+
+<#Membro/Eduardo%20das%20Neves> a :Membro;
+  foaf:name "Eduardo das Neves";
+  :integra <#GrupoPET/PET%20Comunicação%20Social> .
+
+<#Membro/Alexia%20da%20Costa> a :Membro;
+  foaf:name "Alexia da Costa";
+  :integra <#GrupoPET/PET%20Física> .
+
+<#Membro/Maria%20Rodrigues> a :Membro;
+  foaf:name "Maria Rodrigues";
+  :integra <#GrupoPET/PET%20Ciência%20da%20Computação> .
+
+<#Membro/Marcelo%20da%20Rosa> a :Membro;
+  foaf:name "Marcelo da Rosa";
+  :integra <#GrupoPET/PET%20Engenharia%20Civil> .
+
+<#Membro/Pedro%20Henrique%20Rezende> a :Membro;
+  foaf:name "Pedro Henrique Rezende";
+  :integra <#GrupoPET/PET%20Política%20Públicas> .
+
+<#Membro/Felipe%20Aragão> a :Membro;
+  foaf:name "Felipe Aragão";
+  :integra <#GrupoPET/PET%20Química> .
+
+<#Membro/Maria%20Luiza%20Costela> a :Membro;
+  foaf:name "Maria Luiza Costela";
+  :integra <#GrupoPET/PET%20Ciência%2C%20Tecnologia%20%26%20Cidadania> .
+
+<#Membro/Isaac%20da%20Cunha> a :Membro;
+  foaf:name "Isaac da Cunha";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%20Estatísticos> .
+
+<#Membro/Marcos%20Vinicius%20Peixoto> a :Membro;
+  foaf:name "Marcos Vinicius Peixoto";
+  :integra <#GrupoPET/PET%20Letras> .
+
+<#Membro/Enzo%20Gabriel%20Santos> a :Membro;
+  foaf:name "Enzo Gabriel Santos";
+  :integra <#GrupoPET/PET%20Agronomia> .
+
+<#Membro/Maria%20Sophia%20Correia> a :Membro;
+  foaf:name "Maria Sophia Correia";
+  :integra <#GrupoPET/PET%20Enfermagem> .
+
+<#Membro/Gabriela%20da%20Mata> a :Membro;
+  foaf:name "Gabriela da Mata";
+  :integra <#GrupoPET/PET%20Ciência%2C%20Tecnologia%20%26%20Cidadania> .
+
+<#Membro/Henrique%20Barros> a :Membro;
+  foaf:name "Henrique Barros";
+  :integra <#GrupoPET/PET%20Pedagogia> .
+
+<#Membro/Larissa%20da%20Rosa> a :Membro;
+  foaf:name "Larissa da Rosa";
+  :integra <#GrupoPET/PET%20Ciências> .
+
+<#Membro/Gabrielly%20Rezende> a :Membro;
+  foaf:name "Gabrielly Rezende";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Danilo%20Barros> a :Membro;
+  foaf:name "Danilo Barros";
+  :integra <#GrupoPET/PET%20Comunicação%20Social> .
+
+<#Membro/Luiz%20Otávio%20da%20Mota> a :Membro;
+  foaf:name "Luiz Otávio da Mota";
+  :integra <#GrupoPET/PET%20Biologia> .
+
+<#Membro/Isabelly%20Costela> a :Membro;
+  foaf:name "Isabelly Costela";
+  :integra <#GrupoPET/PET%20Educação%20Física> .
+
+<#Membro/Luiz%20Felipe%20Barbosa> a :Membro;
+  foaf:name "Luiz Felipe Barbosa";
+  :integra <#GrupoPET/PET%20Bacharelado%20em%20Engenharia%20Elétrica> .
+
+<#Membro/Enzo%20Lopes> a :Membro;
+  foaf:name "Enzo Lopes";
+  :integra <#GrupoPET/PET%20Medicina%20UFTM> .
+
+<#Membro/Letícia%20Pereira> a :Membro;
+  foaf:name "Letícia Pereira";
+  :integra <#GrupoPET/PET%20Cidade%20Saúde%20e%20Justiça> .
+
+<#Membro/Ana%20Carolina%20Costela> a :Membro;
+  foaf:name "Ana Carolina Costela";
+  :integra <#GrupoPET/PET%20Biotecnologia> .
+
+<#Membro/Gabriela%20Rodrigues> a :Membro;
+  foaf:name "Gabriela Rodrigues";
+  :integra <#GrupoPET/PET%20Psicologia> .
+
+<#Membro/Nicolas%20Ramos> a :Membro;
+  foaf:name "Nicolas Ramos";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Alimentos> .
+
+<#Membro/Evelyn%20Santos> a :Membro;
+  foaf:name "Evelyn Santos";
+  :integra <#GrupoPET/PET%20Enfermagem> .
+
+<#Membro/Sophia%20Correia> a :Membro;
+  foaf:name "Sophia Correia";
+  :integra <#GrupoPET/PET%20Agronomia> .
+
+<#Membro/Júlia%20Pires> a :Membro;
+  foaf:name "Júlia Pires";
+  :integra <#GrupoPET/PET%20Bacharelado%20em%20Bioquímica> .
+
+<#Membro/Luigi%20Pires> a :Membro;
+  foaf:name "Luigi Pires";
+  :integra <#GrupoPET/PET%20Bacharelado%20em%20Bioquímica> .
+
+<#Membro/Joana%20da%20Paz> a :Membro;
+  foaf:name "Joana da Paz";
+  :integra <#GrupoPET/PET%20Biologia> .
+
+<#Membro/Sofia%20Pinto> a :Membro;
+  foaf:name "Sofia Pinto";
+  :integra <#GrupoPET/PET%20Física> .
+
+<#Membro/Ana%20Clara%20Gomes> a :Membro;
+  foaf:name "Ana Clara Gomes";
+  :integra <#GrupoPET/PET%20Administração> .
+
+<#Membro/Francisco%20da%20Cunha> a :Membro;
+  foaf:name "Francisco da Cunha";
+  :integra <#GrupoPET/PET%20Matemática%20%28Licenciatura%29> .
+
+<#Membro/Maria%20Sophia%20Teixeira> a :Membro;
+  foaf:name "Maria Sophia Teixeira";
+  :integra <#GrupoPET/PET%20Odontologia> .
+
+<#Membro/João%20Lucas%20Jesus> a :Membro;
+  foaf:name "João Lucas Jesus";
+  :integra <#GrupoPET/PET%20Ciências%20Agrárias> .
+
+<#Membro/Joana%20Costa> a :Membro;
+  foaf:name "Joana Costa";
+  :integra <#GrupoPET/PET%20Engenharia%20Elétrica> .
+
+<#Membro/Rafaela%20Caldeira> a :Membro;
+  foaf:name "Rafaela Caldeira";
+  :integra <#GrupoPET/PET%20Medicina%20Veterinária> .
+
+<#Membro/Danilo%20Fernandes> a :Membro;
+  foaf:name "Danilo Fernandes";
+  :integra <#GrupoPET/PET%20Agronomia> .
+
+<#Membro/João%20Pedro%20da%20Mota> a :Membro;
+  foaf:name "João Pedro da Mota";
+  :integra <#GrupoPET/PET%20Física> .
+
+<#Membro/Benício%20da%20Cruz> a :Membro;
+  foaf:name "Benício da Cruz";
+  :integra <#GrupoPET/PET%20Engenharia%20Civil> .
+
+<#Membro/Yuri%20da%20Costa> a :Membro;
+  foaf:name "Yuri da Costa";
+  :integra <#GrupoPET/PET%20História> .
+
+<#Membro/João%20Felipe%20Peixoto> a :Membro;
+  foaf:name "João Felipe Peixoto";
+  :integra <#GrupoPET/PET%20Economia> .
+
+<#Membro/Luiz%20Fernando%20Jesus> a :Membro;
+  foaf:name "Luiz Fernando Jesus";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Benjamin%20Costela> a :Membro;
+  foaf:name "Benjamin Costela";
+  :integra <#GrupoPET/PET%20Zootecnia%20%22João%20Dimas%20Graciano%22> .
+
+<#Membro/Daniela%20Rezende> a :Membro;
+  foaf:name "Daniela Rezende";
+  :integra <#GrupoPET/PET%20Engenharia%20Agrícola> .
+
+<#Membro/Fernanda%20Melo> a :Membro;
+  foaf:name "Fernanda Melo";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Alimentos> .
+
+<#Membro/André%20Azevedo> a :Membro;
+  foaf:name "André Azevedo";
+  :integra <#GrupoPET/PET%20Química> .
+
+<#Membro/Mariana%20Moraes> a :Membro;
+  foaf:name "Mariana Moraes";
+  :integra <#GrupoPET/PET%20Farmácia> .
+
+<#Membro/Rodrigo%20Fernandes> a :Membro;
+  foaf:name "Rodrigo Fernandes";
+  :integra <#GrupoPET/PET%20Medicina%20UFTM> .
+
+<#Membro/Bernardo%20Gonçalves> a :Membro;
+  foaf:name "Bernardo Gonçalves";
+  :integra <#GrupoPET/PET%20Engenharia%20Mecânica> .
+
+<#Membro/João%20Guilherme%20Ramos> a :Membro;
+  foaf:name "João Guilherme Ramos";
+  :integra <#GrupoPET/GET%20Engenharia%20Computacional> .
+
+<#Membro/Ana%20Lívia%20Fogaça> a :Membro;
+  foaf:name "Ana Lívia Fogaça";
+  :integra <#GrupoPET/PET%20Medicina%20Veterinária> .
+
+<#Membro/Carlos%20Eduardo%20Dias> a :Membro;
+  foaf:name "Carlos Eduardo Dias";
+  :integra <#GrupoPET/PET%20Conexões%20Acesso%20e%20Sucesso%20no%20Ensino%20Superior> .
+
+<#Membro/Lucas%20Gabriel%20Silva> a :Membro;
+  foaf:name "Lucas Gabriel Silva";
+  :integra <#GrupoPET/PET%20Engenharia%20Civil> .
+
+<#Membro/Pedro%20Lucas%20da%20Paz> a :Membro;
+  foaf:name "Pedro Lucas da Paz";
+  :integra <#GrupoPET/PET%20Bacharelado%20em%20Ciências%20Biológicas> .
+
+<#Membro/Luana%20Barbosa> a :Membro;
+  foaf:name "Luana Barbosa";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Bianca%20Lima> a :Membro;
+  foaf:name "Bianca Lima";
+  :integra <#GrupoPET/PET%20Zootecnia%20%22João%20Dimas%20Graciano%22> .
+
+<#Membro/Natália%20Teixeira> a :Membro;
+  foaf:name "Natália Teixeira";
+  :integra <#GrupoPET/PET%20Bacharelado%20em%20Sistemas%20de%20Informação> .
+
+<#Membro/Ana%20Julia%20Gomes> a :Membro;
+  foaf:name "Ana Julia Gomes";
+  :integra <#GrupoPET/PET%20Ciência%20da%20Computação> .
+
+<#Membro/Catarina%20Ferreira> a :Membro;
+  foaf:name "Catarina Ferreira";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Alimentos> .
+
+<#Membro/Ana%20Lívia%20Fernandes> a :Membro;
+  foaf:name "Ana Lívia Fernandes";
+  :integra <#GrupoPET/PET%20Serviço%20Social> .
+
+<#Membro/Gabriel%20Jesus> a :Membro;
+  foaf:name "Gabriel Jesus";
+  :integra <#GrupoPET/Pet%20Engenharia%20Florestal> .
+
+<#Membro/Cauê%20Fernandes> a :Membro;
+  foaf:name "Cauê Fernandes";
+  :integra <#GrupoPET/PET%20Medicina%20Veterinária> .
+
+<#Membro/Renan%20Barbosa> a :Membro;
+  foaf:name "Renan Barbosa";
+  :integra <#GrupoPET/PET%20Indígena> .
+
+<#Membro/Ana%20Clara%20Silva> a :Membro;
+  foaf:name "Ana Clara Silva";
+  :integra <#GrupoPET/PET%20Engenharias> .
+
+<#Membro/Esther%20Rodrigues> a :Membro;
+  foaf:name "Esther Rodrigues";
+  :integra <#GrupoPET/PET%20Engenharia%20Mecânica> .
+
+<#Membro/Joaquim%20Lopes> a :Membro;
+  foaf:name "Joaquim Lopes";
+  :integra <#GrupoPET/PET%20Agronomia> .
+
+<#Membro/Beatriz%20Moura> a :Membro;
+  foaf:name "Beatriz Moura";
+  :integra <#GrupoPET/PET%20Economia%20Solidária> .
+
+<#Membro/Ana%20Sophia%20Pires> a :Membro;
+  foaf:name "Ana Sophia Pires";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%3A%20Inclusão%2C%20Diversidade%20e%20Protagonismo> .
+
+<#Membro/Ana%20Júlia%20Moura> a :Membro;
+  foaf:name "Ana Júlia Moura";
+  :integra <#GrupoPET/PET%20Bacharelado%20em%20Engenharia%20Elétrica> .
+
+<#Membro/Marina%20Aragão> a :Membro;
+  foaf:name "Marina Aragão";
+  :integra <#GrupoPET/PET%20Estratégias%20para%20Diminuir%20a%20Retenção%20e%20a%20Evasão> .
+
+<#Membro/Helena%20Vieira> a :Membro;
+  foaf:name "Helena Vieira";
+  :integra <#GrupoPET/PET%20Biblioteconomia%20e%20Ciência%20da%20Informação> .
+
+<#Membro/Pedro%20Miguel%20Farias> a :Membro;
+  foaf:name "Pedro Miguel Farias";
+  :integra <#GrupoPET/PET%20Farmácia> .
+
+<#Membro/Marina%20Lopes> a :Membro;
+  foaf:name "Marina Lopes";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Lívia%20da%20Mata> a :Membro;
+  foaf:name "Lívia da Mata";
+  :integra <#GrupoPET/GET%20Telecom> .
+
+<#Membro/Raquel%20Lopes> a :Membro;
+  foaf:name "Raquel Lopes";
+  :integra <#GrupoPET/PET%20Engenharia%20Civil> .
+
+<#Membro/Ian%20Freitas> a :Membro;
+  foaf:name "Ian Freitas";
+  :integra <#GrupoPET/PET%20Comunicação%20Social> .
+
+<#Membro/Manuela%20Alves> a :Membro;
+  foaf:name "Manuela Alves";
+  :integra <#GrupoPET/PET%20Ciências%20Agrárias> .
+
+<#Membro/Yuri%20Gonçalves> a :Membro;
+  foaf:name "Yuri Gonçalves";
+  :integra <#GrupoPET/PET%20Medicina%20Veterinária> .
+
+<#Membro/Carolina%20Barbosa> a :Membro;
+  foaf:name "Carolina Barbosa";
+  :integra <#GrupoPET/PET%20Música> .
+
+<#Membro/Anthony%20Barros> a :Membro;
+  foaf:name "Anthony Barros";
+  :integra <#GrupoPET/PET%20Ciências%20Natuais> .
+
+<#Membro/Brenda%20Souza> a :Membro;
+  foaf:name "Brenda Souza";
+  :integra <#GrupoPET/PET%20Psicologia> .
+
+<#Membro/Ana%20Luiza%20Vieira> a :Membro;
+  foaf:name "Ana Luiza Vieira";
+  :integra <#GrupoPET/PET%20Engenharia%20Mecânica> .
+
+<#Membro/Rodrigo%20da%20Conceição> a :Membro;
+  foaf:name "Rodrigo da Conceição";
+  :integra <#GrupoPET/PET%20Farmácia> .
+
+<#Membro/Alexia%20Farias> a :Membro;
+  foaf:name "Alexia Farias";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Catarina%20Teixeira> a :Membro;
+  foaf:name "Catarina Teixeira";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%3A%20Cenários%20de%20Práticas%20e%20Estágios%20Curriculares%20Noturnos> .
+
+<#Membro/Maria%20Vitória%20Farias> a :Membro;
+  foaf:name "Maria Vitória Farias";
+  :integra <#GrupoPET/PET%20Floresta> .
+
+<#Membro/Felipe%20da%20Rocha> a :Membro;
+  foaf:name "Felipe da Rocha";
+  :integra <#GrupoPET/PET%20Intervenção%20Socioambiental%20em%20Uruçuí-Una> .
+
+<#Membro/Júlia%20da%20Rocha> a :Membro;
+  foaf:name "Júlia da Rocha";
+  :integra <#GrupoPET/PET%20Solos%3A%20agregando%20saberes> .
+
+<#Membro/Gabriela%20Silva> a :Membro;
+  foaf:name "Gabriela Silva";
+  :integra <#GrupoPET/PET%20Comunicação%20Social> .
+
+<#Membro/Vitor%20Hugo%20da%20Rocha> a :Membro;
+  foaf:name "Vitor Hugo da Rocha";
+  :integra <#GrupoPET/PET%20Biblioteconomia%20e%20Ciência%20da%20Informação> .
+
+<#Membro/Isis%20Gomes> a :Membro;
+  foaf:name "Isis Gomes";
+  :integra <#GrupoPET/PET%20Física> .
+
+<#Membro/Renan%20Correia> a :Membro;
+  foaf:name "Renan Correia";
+  :integra <#GrupoPET/PET%20Comunicação%20Social> .
+
+<#Membro/Natália%20Costela> a :Membro;
+  foaf:name "Natália Costela";
+  :integra <#GrupoPET/PET%20Práticas%20de%20Letramento> .
+
+<#Membro/Davi%20Lucas%20Fogaça> a :Membro;
+  foaf:name "Davi Lucas Fogaça";
+  :integra <#GrupoPET/PET%20Arquitetura%20e%20Urbanismo> .
+
+<#Membro/Fernando%20Barbosa> a :Membro;
+  foaf:name "Fernando Barbosa";
+  :integra <#GrupoPET/PET%20Educação%20Física%20-%20Biomecânica> .
+
+<#Membro/Anthony%20Caldeira> a :Membro;
+  foaf:name "Anthony Caldeira";
+  :integra <#GrupoPET/PET%20Comunicação%20Social> .
+
+<#Membro/Vitor%20da%20Luz> a :Membro;
+  foaf:name "Vitor da Luz";
+  :integra <#GrupoPET/PET%20Nutrição> .
+
+<#Membro/Elisa%20Ramos> a :Membro;
+  foaf:name "Elisa Ramos";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Alimentos> .
+
+<#Membro/Gabrielly%20Novaes> a :Membro;
+  foaf:name "Gabrielly Novaes";
+  :integra <#GrupoPET/PET%20Biologia> .
+
+<#Membro/Kevin%20Aragão> a :Membro;
+  foaf:name "Kevin Aragão";
+  :integra <#GrupoPET/PET%20Engenharia%20Civil> .
+
+<#Membro/Benício%20Peixoto> a :Membro;
+  foaf:name "Benício Peixoto";
+  :integra <#GrupoPET/PET%20Educação%20Física> .
+
+<#Membro/Daniela%20Moraes> a :Membro;
+  foaf:name "Daniela Moraes";
+  :integra <#GrupoPET/PET%20Ciências%20Natuais> .
+
+<#Membro/Emanuella%20Melo> a :Membro;
+  foaf:name "Emanuella Melo";
+  :integra <#GrupoPET/PET%20Matemática> .
+
+<#Membro/Manuela%20da%20Cunha> a :Membro;
+  foaf:name "Manuela da Cunha";
+  :integra <#GrupoPET/PET%20Agronomia> .
+
+<#Membro/Lucca%20Souza> a :Membro;
+  foaf:name "Lucca Souza";
+  :integra <#GrupoPET/PET%20Mais%20Saúde> .
+
+<#Membro/Joaquim%20Rocha> a :Membro;
+  foaf:name "Joaquim Rocha";
+  :integra <#GrupoPET/PET%20Cinema> .
+
+<#Membro/Julia%20Santos> a :Membro;
+  foaf:name "Julia Santos";
+  :integra <#GrupoPET/PET%20Música> .
+
+<#Membro/Ana%20Beatriz%20Carvalho> a :Membro;
+  foaf:name "Ana Beatriz Carvalho";
+  :integra <#GrupoPET/PET%20Pedagogia> .
+
+<#Membro/Helena%20da%20Rosa> a :Membro;
+  foaf:name "Helena da Rosa";
+  :integra <#GrupoPET/PROPET%20Fonoaudiologia> .
+
+<#Membro/Maysa%20Mendes> a :Membro;
+  foaf:name "Maysa Mendes";
+  :integra <#GrupoPET/PET%20Odontologia> .
+
+<#Membro/Marcela%20Moreira> a :Membro;
+  foaf:name "Marcela Moreira";
+  :integra <#GrupoPET/PET%20Economia%20Solidária> .
+
+<#Membro/Anthony%20Nogueira> a :Membro;
+  foaf:name "Anthony Nogueira";
+  :integra <#GrupoPET/PET%20Medicina%20Veterinária> .
+
+<#Membro/Olivia%20Fogaça> a :Membro;
+  foaf:name "Olivia Fogaça";
+  :integra <#GrupoPET/PET%20Engenharia%20Agrícola>, <#GrupoPET/PET%20Economia> .
+
+<#Membro/Beatriz%20Cunha> a :Membro;
+  foaf:name "Beatriz Cunha";
+  :integra <#GrupoPET/PET%20Letras> .
+
+<#Membro/Camila%20Nascimento> a :Membro;
+  foaf:name "Camila Nascimento";
+  :integra <#GrupoPET/PET%20Cidade%20Saúde%20e%20Justiça> .
+
+<#Membro/Stella%20Vieira> a :Membro;
+  foaf:name "Stella Vieira";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Controle%20e%20Automação> .
+
+<#Membro/Joaquim%20Melo> a :Membro;
+  foaf:name "Joaquim Melo";
+  :integra <#GrupoPET/PET%20Matemática%20%28Licenciatura%29> .
+
+<#Membro/João%20Felipe%20Castro> a :Membro;
+  foaf:name "João Felipe Castro";
+  :integra <#GrupoPET/PET%20Engenharia%20Elétrica> .
+
+<#Membro/Isabel%20Almeida> a :Membro;
+  foaf:name "Isabel Almeida";
+  :integra <#GrupoPET/PET%20Bacharelado%20em%20Estatística> .
+
+<#Membro/Alice%20Ramos> a :Membro;
+  foaf:name "Alice Ramos";
+  :integra <#GrupoPET/PET%20Fisioterapia> .
+
+<#Membro/Sophia%20Teixeira> a :Membro;
+  foaf:name "Sophia Teixeira";
+  :integra <#GrupoPET/GET%20Medicina> .
+
+<#Membro/Lavínia%20da%20Cruz> a :Membro;
+  foaf:name "Lavínia da Cruz";
+  :integra <#GrupoPET/PET%20Ecologia> .
+
+<#Membro/Rafael%20Moreira> a :Membro;
+  foaf:name "Rafael Moreira";
+  :integra <#GrupoPET/PET%20Engenharia%20Civil> .
+
+<#Membro/Joaquim%20Barros> a :Membro;
+  foaf:name "Joaquim Barros";
+  :integra <#GrupoPET/GET%20Telecom> .
+
+<#Membro/Eloah%20da%20Rocha> a :Membro;
+  foaf:name "Eloah da Rocha";
+  :integra <#GrupoPET/PET%20Tecnologias%20em%20Saúde> .
+
+<#Membro/Ana%20Vitória%20Duarte> a :Membro;
+  foaf:name "Ana Vitória Duarte";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%20Socioambientais> .
+
+<#Membro/Isadora%20Oliveira> a :Membro;
+  foaf:name "Isadora Oliveira";
+  :integra <#GrupoPET/PET%20Química> .
+
+<#Membro/Caroline%20Duarte> a :Membro;
+  foaf:name "Caroline Duarte";
+  :integra <#GrupoPET/PET%20História> .
+
+<#Membro/Heitor%20Ramos> a :Membro;
+  foaf:name "Heitor Ramos";
+  :integra <#GrupoPET/PET%20Química> .
+
+<#Membro/Sophia%20Nunes> a :Membro;
+  foaf:name "Sophia Nunes";
+  :integra <#GrupoPET/PET%20Engenharia%20Têxtil> .
+
+<#Membro/Nina%20Ferreira> a :Membro;
+  foaf:name "Nina Ferreira";
+  :integra <#GrupoPET/PET%20GAPE> .
+
+<#Membro/Amanda%20Novaes> a :Membro;
+  foaf:name "Amanda Novaes";
+  :integra <#GrupoPET/PET%20Biologia> .
+
+<#Membro/Bruno%20Moreira> a :Membro;
+  foaf:name "Bruno Moreira";
+  :integra <#GrupoPET/PET%20Agricultura%20Familiar> .
+
+<#Membro/Júlia%20da%20Rosa> a :Membro;
+  foaf:name "Júlia da Rosa";
+  :integra <#GrupoPET/PET%20Medicina%20UFTM>, <#GrupoPET/PET%20Agronomia>, <#GrupoPET/PET%20Geologia> .
+
+<#Membro/Danilo%20Costela> a :Membro;
+  foaf:name "Danilo Costela";
+  :integra <#GrupoPET/PET%20ProdBio> .
+
+<#Membro/Anthony%20Gonçalves> a :Membro;
+  foaf:name "Anthony Gonçalves";
+  :integra <#GrupoPET/PET%20Cidade%20Saúde%20e%20Justiça> .
+
+<#Membro/Daniel%20Moraes> a :Membro;
+  foaf:name "Daniel Moraes";
+  :integra <#GrupoPET/PET%20Pedagogia> .
+
+<#Membro/Maria%20Julia%20Araújo> a :Membro;
+  foaf:name "Maria Julia Araújo";
+  :integra <#GrupoPET/PET%20Enfermagem> .
+
+<#Membro/Gustavo%20Henrique%20Santos> a :Membro;
+  foaf:name "Gustavo Henrique Santos";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Produção> .
+
+<#Membro/Pedro%20Peixoto> a :Membro;
+  foaf:name "Pedro Peixoto";
+  :integra <#GrupoPET/PET%20Agronomia> .
+
+<#Membro/Luiz%20Henrique%20Silveira> a :Membro;
+  foaf:name "Luiz Henrique Silveira";
+  :integra <#GrupoPET/PET%20Engenharia%20Civil> .
+
+<#Membro/Rafael%20Alves> a :Membro;
+  foaf:name "Rafael Alves";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Produção> .
+
+<#Membro/Bernardo%20Sales> a :Membro;
+  foaf:name "Bernardo Sales";
+  :integra <#GrupoPET/PET%20Engenharia%20Civil> .
+
+<#Membro/Daniel%20Nunes> a :Membro;
+  foaf:name "Daniel Nunes";
+  :integra <#GrupoPET/PET%20Conexões%20Licenciaturas> .
+
+<#Membro/João%20Vitor%20Cavalcanti> a :Membro;
+  foaf:name "João Vitor Cavalcanti";
+  :integra <#GrupoPET/PET%20Ciências%20Biológicas> .
+
+<#Membro/Yuri%20Teixeira> a :Membro;
+  foaf:name "Yuri Teixeira";
+  :integra <#GrupoPET/PET%20Arquitetura%20e%20Urbanismo> .
+
+<#Membro/Diego%20Barros> a :Membro;
+  foaf:name "Diego Barros";
+  :integra <#GrupoPET/PET%20Bacharelado%20em%20Bioquímica> .
+
+<#Membro/Arthur%20Costela> a :Membro;
+  foaf:name "Arthur Costela";
+  :integra <#GrupoPET/PET%20Matemática> .
+
+<#Membro/João%20Guilherme%20Castro> a :Membro;
+  foaf:name "João Guilherme Castro";
+  :integra <#GrupoPET/PET%20Engenharia%20Elétrica> .
+
+<#Membro/Davi%20Lucca%20Jesus> a :Membro;
+  foaf:name "Davi Lucca Jesus";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Produção> .
+
+<#Membro/Henrique%20Costela> a :Membro;
+  foaf:name "Henrique Costela";
+  :integra <#GrupoPET/PET%20Geologia> .
+
+<#Membro/Ana%20Carolina%20Freitas> a :Membro;
+  foaf:name "Ana Carolina Freitas";
+  :integra <#GrupoPET/PET%20Humanidades%20e%20Letras>, <#GrupoPET/PET%20Fitoterapia> .
+
+<#Membro/Vitor%20Hugo%20Moraes> a :Membro;
+  foaf:name "Vitor Hugo Moraes";
+  :integra <#GrupoPET/PET%20Ciências%20Natuais> .
+
+<#Membro/Antônio%20Ferreira> a :Membro;
+  foaf:name "Antônio Ferreira";
+  :integra <#GrupoPET/PET%20Biologia> .
+
+<#Membro/Vicente%20Peixoto> a :Membro;
+  foaf:name "Vicente Peixoto";
+  :integra <#GrupoPET/PET%20Agronomia> .
+
+<#Membro/Miguel%20Pires> a :Membro;
+  foaf:name "Miguel Pires";
+  :integra <#GrupoPET/PET%20Solos%3A%20agregando%20saberes> .
+
+<#Membro/João%20Lucas%20Campos> a :Membro;
+  foaf:name "João Lucas Campos";
+  :integra <#GrupoPET/PET%20Medicina%20Veterinária> .
+
+<#Membro/Nicole%20Viana> a :Membro;
+  foaf:name "Nicole Viana";
+  :integra <#GrupoPET/PET%20Floresta> .
+
+<#Membro/Igor%20Silva> a :Membro;
+  foaf:name "Igor Silva";
+  :integra <#GrupoPET/PET%20EEL%20UFSC> .
+
+<#Membro/Luiz%20Gustavo%20Jesus> a :Membro;
+  foaf:name "Luiz Gustavo Jesus";
+  :integra <#GrupoPET/PET%20CoCE> .
+
+<#Membro/Alana%20Martins> a :Membro;
+  foaf:name "Alana Martins";
+  :integra <#GrupoPET/PET%20Ciência%2C%20Tecnologia%20%26%20Cidadania> .
+
+<#Membro/Marina%20Fernandes> a :Membro;
+  foaf:name "Marina Fernandes";
+  :integra <#GrupoPET/PET%20Química> .
+
+<#Membro/Benício%20Ferreira> a :Membro;
+  foaf:name "Benício Ferreira";
+  :integra <#GrupoPET/PET%20Conexões%20Urbanas> .
+
+<#Membro/Ana%20Júlia%20Ferreira> a :Membro;
+  foaf:name "Ana Júlia Ferreira";
+  :integra <#GrupoPET/PET%20Parasitologia> .
+
+<#Membro/Lucas%20Jesus> a :Membro;
+  foaf:name "Lucas Jesus";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Joaquim%20Freitas> a :Membro;
+  foaf:name "Joaquim Freitas";
+  :integra <#GrupoPET/PET%20Administração> .
+
+<#Membro/Elisa%20Porto> a :Membro;
+  foaf:name "Elisa Porto";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Joana%20Dias> a :Membro;
+  foaf:name "Joana Dias";
+  :integra <#GrupoPET/PET%20Engenharia%20Elétrica> .
+
+<#Membro/Alexandre%20da%20Mota> a :Membro;
+  foaf:name "Alexandre da Mota";
+  :integra <#GrupoPET/PET%20Letras> .
+
+<#Membro/Augusto%20Moraes> a :Membro;
+  foaf:name "Augusto Moraes";
+  :integra <#GrupoPET/PET%20Matemática> .
+
+<#Membro/Ryan%20Porto> a :Membro;
+  foaf:name "Ryan Porto";
+  :integra <#GrupoPET/PET%20Práxis> .
+
+<#Membro/Ana%20Carolina%20Rezende> a :Membro;
+  foaf:name "Ana Carolina Rezende";
+  :integra <#GrupoPET/PET%20Matemática%20%28Licenciatura%29> .
+
+<#Membro/Daniel%20Monteiro> a :Membro;
+  foaf:name "Daniel Monteiro";
+  :integra <#GrupoPET/PET%20Conexões%20Administração> .
+
+<#Membro/Esther%20Farias> a :Membro;
+  foaf:name "Esther Farias";
+  :integra <#GrupoPET/PET%20Engenharia%20Agrícola> .
+
+<#Membro/Davi%20Lucas%20Silveira> a :Membro;
+  foaf:name "Davi Lucas Silveira";
+  :integra <#GrupoPET/PET%20Tecnologias%20em%20Saúde> .
+
+<#Membro/Antônio%20Jesus> a :Membro;
+  foaf:name "Antônio Jesus";
+  :integra <#GrupoPET/PET%20Design> .
+
+<#Membro/Elisa%20Jesus> a :Membro;
+  foaf:name "Elisa Jesus";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Alimentos> .
+
+<#Membro/Isabel%20das%20Neves> a :Membro;
+  foaf:name "Isabel das Neves";
+  :integra <#GrupoPET/PET%20em%20Ciência%20da%20Computação> .
+
+<#Membro/Guilherme%20da%20Rocha> a :Membro;
+  foaf:name "Guilherme da Rocha";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Pesca> .
+
+<#Membro/Joaquim%20da%20Rosa> a :Membro;
+  foaf:name "Joaquim da Rosa";
+  :integra <#GrupoPET/PET%20Odontologia> .
+
+<#Membro/Lívia%20Porto> a :Membro;
+  foaf:name "Lívia Porto";
+  :integra <#GrupoPET/PET%20Matemática> .
+
+<#Membro/Juliana%20Costa> a :Membro;
+  foaf:name "Juliana Costa";
+  :integra <#GrupoPET/PET%20Odontologia> .
+
+<#Membro/Caio%20Nunes> a :Membro;
+  foaf:name "Caio Nunes";
+  :integra <#GrupoPET/PET%20Administração> .
+
+<#Membro/Raul%20Rodrigues> a :Membro;
+  foaf:name "Raul Rodrigues";
+  :integra <#GrupoPET/PET%20Geologia> .
+
+<#Membro/Kamilly%20Ferreira> a :Membro;
+  foaf:name "Kamilly Ferreira";
+  :integra <#GrupoPET/PET%20Engenharia%20Mecânica> .
+
+<#Membro/Diego%20Barbosa> a :Membro;
+  foaf:name "Diego Barbosa";
+  :integra <#GrupoPET/PET%20Engenharias%20da%20Mobilidade> .
+
+<#Membro/Kevin%20Gomes> a :Membro;
+  foaf:name "Kevin Gomes";
+  :integra <#GrupoPET/PET%20Biomedicina>, <#GrupoPET/PET%20Engenharia%20Civil> .
+
+<#Membro/Kevin%20da%20Mota> a :Membro;
+  foaf:name "Kevin da Mota";
+  :integra <#GrupoPET/PET%20Práticas%20Integradas%20em%20Saúde%20Coletiva> .
+
+<#Membro/Camila%20Moreira> a :Membro;
+  foaf:name "Camila Moreira";
+  :integra <#GrupoPET/PET%20Computação> .
+
+<#Membro/Yuri%20Moraes> a :Membro;
+  foaf:name "Yuri Moraes";
+  :integra <#GrupoPET/PET%20Solos%3A%20agregando%20saberes> .
+
+<#Membro/Ana%20Laura%20Monteiro> a :Membro;
+  foaf:name "Ana Laura Monteiro";
+  :integra <#GrupoPET/PET%20Biologia> .
+
+<#Membro/Leandro%20da%20Costa> a :Membro;
+  foaf:name "Leandro da Costa";
+  :integra <#GrupoPET/PET%20Comunicação%20Social> .
+
+<#Membro/Mirella%20da%20Luz> a :Membro;
+  foaf:name "Mirella da Luz";
+  :integra <#GrupoPET/PET%20Ciências%20Natuais> .
+
+<#Membro/Esther%20Freitas> a :Membro;
+  foaf:name "Esther Freitas";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/João%20Miguel%20Farias> a :Membro;
+  foaf:name "João Miguel Farias";
+  :integra <#GrupoPET/PET%20Bacharelado%20Interdisciplinar%20em%20Ciência%20e%20Economia> .
+
+<#Membro/Pietro%20Gonçalves> a :Membro;
+  foaf:name "Pietro Gonçalves";
+  :integra <#GrupoPET/PET%20Educação%20Física> .
+
+<#Membro/Stephany%20Santos> a :Membro;
+  foaf:name "Stephany Santos";
+  :integra <#GrupoPET/PET%20Zootecnia%20UFSM> .
+
+<#Membro/Brenda%20Oliveira> a :Membro;
+  foaf:name "Brenda Oliveira";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Luiz%20Otávio%20Freitas> a :Membro;
+  foaf:name "Luiz Otávio Freitas";
+  :integra <#GrupoPET/PET%20Engenharia%20Civil> .
+
+<#Membro/João%20Mendes> a :Membro;
+  foaf:name "João Mendes";
+  :integra <#GrupoPET/PET%20Engenharia%20Civil> .
+
+<#Membro/Emanuella%20Araújo> a :Membro;
+  foaf:name "Emanuella Araújo";
+  :integra <#GrupoPET/PET%20GAPE> .
+
+<#Membro/Vinicius%20Melo> a :Membro;
+  foaf:name "Vinicius Melo";
+  :integra <#GrupoPET/PET%20História> .
+
+<#Membro/Danilo%20Ramos> a :Membro;
+  foaf:name "Danilo Ramos";
+  :integra <#GrupoPET/PET%20Odontologia> .
+
+<#Membro/Eloah%20Barros> a :Membro;
+  foaf:name "Eloah Barros";
+  :integra <#GrupoPET/PET%20Fitoterapia> .
+
+<#Membro/Antônio%20Mendes> a :Membro;
+  foaf:name "Antônio Mendes";
+  :integra <#GrupoPET/PET%20Engenharia%20Elétrica> .
+
+<#Membro/Rafaela%20Caldeira> a :Membro;
+  foaf:name "Rafaela Caldeira";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%20Ciências%20da%20Natureza%20e%20Matemática> .
+
+<#Membro/Rebeca%20da%20Rocha> a :Membro;
+  foaf:name "Rebeca da Rocha";
+  :integra <#GrupoPET/PET%20Participação%20e%20Controle%20Social%20em%20Saúde> .
+
+<#Membro/Sabrina%20Costela> a :Membro;
+  foaf:name "Sabrina Costela";
+  :integra <#GrupoPET/PET%20Matemática> .
+
+<#Membro/Isabelly%20Santos> a :Membro;
+  foaf:name "Isabelly Santos";
+  :integra <#GrupoPET/PET%20Computação> .
+
+<#Membro/Carlos%20Eduardo%20Almeida> a :Membro;
+  foaf:name "Carlos Eduardo Almeida";
+  :integra <#GrupoPET/PET%20Enfermagem> .
+
+<#Membro/Theo%20Costela> a :Membro;
+  foaf:name "Theo Costela";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%20Socioambientais> .
+
+<#Membro/Eduarda%20Vieira> a :Membro;
+  foaf:name "Eduarda Vieira";
+  :integra <#GrupoPET/PET%20Nutrição> .
+
+<#Membro/Luiza%20da%20Rocha> a :Membro;
+  foaf:name "Luiza da Rocha";
+  :integra <#GrupoPET/PET%20Engenharia%20Elétrica> .
+
+<#Membro/Isis%20Mendes> a :Membro;
+  foaf:name "Isis Mendes";
+  :integra <#GrupoPET/PET%20Computação> .
+
+<#Membro/Leonardo%20Cunha> a :Membro;
+  foaf:name "Leonardo Cunha";
+  :integra <#GrupoPET/PET%20Intervenção%20Socioambiental%20em%20Uruçuí-Una> .
+
+<#Membro/Erick%20Souza> a :Membro;
+  foaf:name "Erick Souza";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Computação> .
+
+<#Membro/Daniel%20Barros> a :Membro;
+  foaf:name "Daniel Barros";
+  :integra <#GrupoPET/GET%20Engenharia%20Computacional> .
+
+<#Membro/Isaac%20Fernandes> a :Membro;
+  foaf:name "Isaac Fernandes";
+  :integra <#GrupoPET/PET%20Engenharia%20Química> .
+
+<#Membro/Alexia%20Duarte> a :Membro;
+  foaf:name "Alexia Duarte";
+  :integra <#GrupoPET/PET%20Economia> .
+
+<#Membro/Enrico%20Cavalcanti> a :Membro;
+  foaf:name "Enrico Cavalcanti";
+  :integra <#GrupoPET/PET%20Matemática> .
+
+<#Membro/Paulo%20Souza> a :Membro;
+  foaf:name "Paulo Souza";
+  :integra <#GrupoPET/PET%20Economia> .
+
+<#Membro/Cauê%20Pereira> a :Membro;
+  foaf:name "Cauê Pereira";
+  :integra <#GrupoPET/PET%20Engenharia%20Elétrica> .
+
+<#Membro/Ana%20Júlia%20da%20Costa> a :Membro;
+  foaf:name "Ana Júlia da Costa";
+  :integra <#GrupoPET/PET%20Biologia> .
+
+<#Membro/Clara%20Nascimento> a :Membro;
+  foaf:name "Clara Nascimento";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Kevin%20Nogueira> a :Membro;
+  foaf:name "Kevin Nogueira";
+  :integra <#GrupoPET/PET%20Engenharia%20Mecânica> .
+
+<#Membro/Calebe%20Caldeira> a :Membro;
+  foaf:name "Calebe Caldeira";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Raul%20Jesus> a :Membro;
+  foaf:name "Raul Jesus";
+  :integra <#GrupoPET/PET%20Enfermagem> .
+
+<#Membro/Bruno%20da%20Mata> a :Membro;
+  foaf:name "Bruno da Mata";
+  :integra <#GrupoPET/PET%20Matemática> .
+
+<#Membro/Isaac%20Moura> a :Membro;
+  foaf:name "Isaac Moura";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Alimentos> .
+
+<#Membro/Alice%20Aragão> a :Membro;
+  foaf:name "Alice Aragão";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%20Tecnologias%20Sociais%2C%20Trabalho%20e%20Desenvolvimento%20Social%20Regional> .
+
+<#Membro/João%20Lucas%20Fernandes> a :Membro;
+  foaf:name "João Lucas Fernandes";
+  :integra <#GrupoPET/GET%20Engenharia%20Ambiental%20e%20Sanitária> .
+
+<#Membro/Elisa%20Oliveira> a :Membro;
+  foaf:name "Elisa Oliveira";
+  :integra <#GrupoPET/PET%20Biomecânica> .
+
+<#Membro/Pedro%20Martins> a :Membro;
+  foaf:name "Pedro Martins";
+  :integra <#GrupoPET/PET%20EEL%20UFSC> .
+
+<#Membro/Bruna%20Peixoto> a :Membro;
+  foaf:name "Bruna Peixoto";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Isaac%20Oliveira> a :Membro;
+  foaf:name "Isaac Oliveira";
+  :integra <#GrupoPET/PET%20Comunicação%20Social> .
+
+<#Membro/Larissa%20Costela> a :Membro;
+  foaf:name "Larissa Costela";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%3A%20Comunidades%20Indígenas> .
+
+<#Membro/Felipe%20Almeida> a :Membro;
+  foaf:name "Felipe Almeida";
+  :integra <#GrupoPET/PET%20Tecnologias%20em%20Saúde> .
+
+<#Membro/Maria%20Cecília%20Cunha> a :Membro;
+  foaf:name "Maria Cecília Cunha";
+  :integra <#GrupoPET/PET%20Medicina%20Veterinária> .
+
+<#Membro/Mariane%20Melo> a :Membro;
+  foaf:name "Mariane Melo";
+  :integra <#GrupoPET/PET%20Matemática%20%28Licenciatura%29> .
+
+<#Membro/Maria%20Sophia%20Porto> a :Membro;
+  foaf:name "Maria Sophia Porto";
+  :integra <#GrupoPET/PET%20Engenharia%20Elétrica> .
+
+<#Membro/Enzo%20Cardoso> a :Membro;
+  foaf:name "Enzo Cardoso";
+  :integra <#GrupoPET/PET%20Comunidades%20Urbanas%20-%20Conexões%20de%20Saberes> .
+
+<#Membro/João%20Novaes> a :Membro;
+  foaf:name "João Novaes";
+  :integra <#GrupoPET/PET%20Ciências%20Biológicas> .
+
+<#Membro/Kamilly%20Peixoto> a :Membro;
+  foaf:name "Kamilly Peixoto";
+  :integra <#GrupoPET/PET%20Letras> .
+
+<#Membro/Heloísa%20Campos> a :Membro;
+  foaf:name "Heloísa Campos";
+  :integra <#GrupoPET/PET%20Matemática> .
+
+<#Membro/Maysa%20Moreira> a :Membro;
+  foaf:name "Maysa Moreira";
+  :integra <#GrupoPET/PET%20Zootecnia%20%22João%20Dimas%20Graciano%22> .
+
+<#Membro/Guilherme%20Fogaça> a :Membro;
+  foaf:name "Guilherme Fogaça";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%20Estatísticos> .
+
+<#Membro/Alícia%20Nogueira> a :Membro;
+  foaf:name "Alícia Nogueira";
+  :integra <#GrupoPET/PET%20Fisioterapia> .
+
+<#Membro/Ana%20Julia%20Nunes> a :Membro;
+  foaf:name "Ana Julia Nunes";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Alimentos> .
+
+<#Membro/Marcos%20Vinicius%20Nunes> a :Membro;
+  foaf:name "Marcos Vinicius Nunes";
+  :integra <#GrupoPET/PET%20Ciência%20da%20Computação> .
+
+<#Membro/Isabel%20Freitas> a :Membro;
+  foaf:name "Isabel Freitas";
+  :integra <#GrupoPET/PET%20Engenharia%20Elétrica> .
+
+<#Membro/Rafael%20Nunes> a :Membro;
+  foaf:name "Rafael Nunes";
+  :integra <#GrupoPET/PET%20Física> .
+
+<#Membro/Luiz%20Otávio%20Mendes> a :Membro;
+  foaf:name "Luiz Otávio Mendes";
+  :integra <#GrupoPET/PET%20Engenharia%20Ambiental> .
+
+<#Membro/Amanda%20Lima> a :Membro;
+  foaf:name "Amanda Lima";
+  :integra <#GrupoPET/PET%20Computação> .
+
+<#Membro/Gabriel%20da%20Mata> a :Membro;
+  foaf:name "Gabriel da Mata";
+  :integra <#GrupoPET/GET%20Medicina> .
+
+<#Membro/Luana%20Gonçalves> a :Membro;
+  foaf:name "Luana Gonçalves";
+  :integra <#GrupoPET/PET%20Ciência%20da%20Computação> .
+
+<#Membro/Luiz%20Fernando%20Correia> a :Membro;
+  foaf:name "Luiz Fernando Correia";
+  :integra <#GrupoPET/PET%20Zootecnia%20UFSM> .
+
+<#Membro/Stella%20Fogaça> a :Membro;
+  foaf:name "Stella Fogaça";
+  :integra <#GrupoPET/PET%20Agroflorestal> .
+
+<#Membro/Isis%20Pires> a :Membro;
+  foaf:name "Isis Pires";
+  :integra <#GrupoPET/PET%20Administração> .
+
+<#Membro/Mirella%20Farias> a :Membro;
+  foaf:name "Mirella Farias";
+  :integra <#GrupoPET/PET%20Química> .
+
+<#Membro/Gustavo%20Ferreira> a :Membro;
+  foaf:name "Gustavo Ferreira";
+  :integra <#GrupoPET/PET%20Matemática> .
+
+<#Membro/Julia%20Cardoso> a :Membro;
+  foaf:name "Julia Cardoso";
+  :integra <#GrupoPET/PET%20Direitos> .
+
+<#Membro/Vitória%20Duarte> a :Membro;
+  foaf:name "Vitória Duarte";
+  :integra <#GrupoPET/PET%20Educação%20Física> .
+
+<#Membro/Henrique%20Pereira> a :Membro;
+  foaf:name "Henrique Pereira";
+  :integra <#GrupoPET/PET%20Química> .
+
+<#Membro/Emanuella%20Caldeira> a :Membro;
+  foaf:name "Emanuella Caldeira";
+  :integra <#GrupoPET/PET%20Biblioteconomia> .
+
+<#Membro/Cauã%20Almeida> a :Membro;
+  foaf:name "Cauã Almeida";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%20Tecnologias%20Sociais%2C%20Trabalho%20e%20Desenvolvimento%20Social%20Regional> .
+
+<#Membro/Emanuel%20Pires> a :Membro;
+  foaf:name "Emanuel Pires";
+  :integra <#GrupoPET/PET%20Psicologia%20Geografia/Ciências%20Sociais> .
+
+<#Membro/Juan%20Rodrigues> a :Membro;
+  foaf:name "Juan Rodrigues";
+  :integra <#GrupoPET/PET%20Ciência%20da%20Computação> .
+
+<#Membro/João%20Felipe%20Moreira> a :Membro;
+  foaf:name "João Felipe Moreira";
+  :integra <#GrupoPET/PET%20GAPE> .
+
+<#Membro/Maria%20Eduarda%20Aragão> a :Membro;
+  foaf:name "Maria Eduarda Aragão";
+  :integra <#GrupoPET/PET%20Letras> .
+
+<#Membro/Lorena%20Pereira> a :Membro;
+  foaf:name "Lorena Pereira";
+  :integra <#GrupoPET/PET%20Práticas%20de%20Letramento> .
+
+<#Membro/Davi%20Lucas%20Viana> a :Membro;
+  foaf:name "Davi Lucas Viana";
+  :integra <#GrupoPET/PET%20Química> .
+
+<#Membro/Antônio%20Araújo> a :Membro;
+  foaf:name "Antônio Araújo";
+  :integra <#GrupoPET/PET%20Pedagogia%20UFSC> .
+
+<#Membro/Luana%20Melo> a :Membro;
+  foaf:name "Luana Melo";
+  :integra <#GrupoPET/PET%20Parasitologia> .
+
+<#Membro/Vitor%20Hugo%20Almeida> a :Membro;
+  foaf:name "Vitor Hugo Almeida";
+  :integra <#GrupoPET/PET%20Administração> .
+
+<#Membro/Clarice%20Cardoso> a :Membro;
+  foaf:name "Clarice Cardoso";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%20Ciências%20da%20Natureza%20e%20Matemática> .
+
+<#Membro/Augusto%20Costa> a :Membro;
+  foaf:name "Augusto Costa";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Alimentos> .
+
+<#Membro/Nicolas%20Azevedo> a :Membro;
+  foaf:name "Nicolas Azevedo";
+  :integra <#GrupoPET/PET%20Música%20em%20Etnografia> .
+
+<#Membro/Pedro%20Barros> a :Membro;
+  foaf:name "Pedro Barros";
+  :integra <#GrupoPET/PET%20Engenharia%20Química> .
+
+<#Membro/Maria%20Cecília%20Vieira> a :Membro;
+  foaf:name "Maria Cecília Vieira";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%3A%20Comunidades%20Indígenas> .
+
+<#Membro/Stella%20Rezende> a :Membro;
+  foaf:name "Stella Rezende";
+  :integra <#GrupoPET/PET%20Odontologia> .
+
+<#Membro/Marcela%20Barros> a :Membro;
+  foaf:name "Marcela Barros";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%20Estatísticos> .
+
+<#Membro/Clarice%20Azevedo> a :Membro;
+  foaf:name "Clarice Azevedo";
+  :integra <#GrupoPET/PET%20Zootecnia> .
+
+<#Membro/Elisa%20Fernandes> a :Membro;
+  foaf:name "Elisa Fernandes";
+  :integra <#GrupoPET/PET%20Economia> .
+
+<#Membro/Eduarda%20Peixoto> a :Membro;
+  foaf:name "Eduarda Peixoto";
+  :integra <#GrupoPET/PET%20Ciências%20Agrárias> .
+
+<#Membro/Lorena%20Lima> a :Membro;
+  foaf:name "Lorena Lima";
+  :integra <#GrupoPET/PET%20Ciência%20da%20Computação> .
+
+<#Membro/Otávio%20Rocha> a :Membro;
+  foaf:name "Otávio Rocha";
+  :integra <#GrupoPET/PET%20Engenharia%20Elétrica> .
+
+<#Membro/Giovanna%20Teixeira> a :Membro;
+  foaf:name "Giovanna Teixeira";
+  :integra <#GrupoPET/PET%20Floresta> .
+
+<#Membro/Ana%20Vitória%20Ribeiro> a :Membro;
+  foaf:name "Ana Vitória Ribeiro";
+  :integra <#GrupoPET/PET%20Intervenção%20Socioambiental%20em%20Uruçuí-Una> .
+
+<#Membro/Beatriz%20da%20Paz> a :Membro;
+  foaf:name "Beatriz da Paz";
+  :integra <#GrupoPET/PET%20Computação> .
+
+<#Membro/Clarice%20Jesus> a :Membro;
+  foaf:name "Clarice Jesus";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Emanuelly%20Cavalcanti> a :Membro;
+  foaf:name "Emanuelly Cavalcanti";
+  :integra <#GrupoPET/PET%20Engenharia%20Mecânica> .
+
+<#Membro/Henrique%20Lima> a :Membro;
+  foaf:name "Henrique Lima";
+  :integra <#GrupoPET/PET%20Engenharia%20Química> .
+
+<#Membro/Elisa%20Pires> a :Membro;
+  foaf:name "Elisa Pires";
+  :integra <#GrupoPET/PET%20Bacharelado%20em%20Sistemas%20de%20Informação> .
+
+<#Membro/Kamilly%20Cavalcanti> a :Membro;
+  foaf:name "Kamilly Cavalcanti";
+  :integra <#GrupoPET/PET%20Engenharia%20Mecânica> .
+
+<#Membro/Manuela%20Gomes> a :Membro;
+  foaf:name "Manuela Gomes";
+  :integra <#GrupoPET/PET%20Conexões%20Administração> .
+
+<#Membro/Larissa%20Fernandes> a :Membro;
+  foaf:name "Larissa Fernandes";
+  :integra <#GrupoPET/PET%20Agronomia> .
+
+<#Membro/Maria%20Sophia%20Campos> a :Membro;
+  foaf:name "Maria Sophia Campos";
+  :integra <#GrupoPET/PET%20Pedagogia%20UFSC> .
+
+<#Membro/Fernando%20Cardoso> a :Membro;
+  foaf:name "Fernando Cardoso";
+  :integra <#GrupoPET/PET%20Agronomia> .
+
+<#Membro/Rodrigo%20Vieira> a :Membro;
+  foaf:name "Rodrigo Vieira";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%20-%20Penedo> .
+
+<#Membro/Valentina%20Rocha> a :Membro;
+  foaf:name "Valentina Rocha";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Alimentos> .
+
+<#Membro/Murilo%20Jesus> a :Membro;
+  foaf:name "Murilo Jesus";
+  :integra <#GrupoPET/PET%20História> .
+
+<#Membro/Levi%20Gonçalves> a :Membro;
+  foaf:name "Levi Gonçalves";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Luiz%20Miguel%20Araújo> a :Membro;
+  foaf:name "Luiz Miguel Araújo";
+  :integra <#GrupoPET/PET%20Educação%20Física%20e%20Lazer> .
+
+<#Membro/Camila%20Barros> a :Membro;
+  foaf:name "Camila Barros";
+  :integra <#GrupoPET/PET%20Química> .
+
+<#Membro/Stella%20Melo> a :Membro;
+  foaf:name "Stella Melo";
+  :integra <#GrupoPET/PET%20Engenharia%20Química> .
+
+<#Membro/Cauã%20Viana> a :Membro;
+  foaf:name "Cauã Viana";
+  :integra <#GrupoPET/PET%20EEL%20UFSC> .
+
+<#Membro/João%20Vitor%20da%20Mota> a :Membro;
+  foaf:name "João Vitor da Mota";
+  :integra <#GrupoPET/GET%20Medicina> .
+
+<#Membro/Maria%20Vitória%20das%20Neves> a :Membro;
+  foaf:name "Maria Vitória das Neves";
+  :integra <#GrupoPET/PET%20História> .
+
+<#Membro/Mirella%20da%20Cruz> a :Membro;
+  foaf:name "Mirella da Cruz";
+  :integra <#GrupoPET/PET%20Letras> .
+
+<#Membro/Caio%20da%20Cruz> a :Membro;
+  foaf:name "Caio da Cruz";
+  :integra <#GrupoPET/PET%20Agricultura%20Familiar> .
+
+<#Membro/Pedro%20Lucas%20Oliveira> a :Membro;
+  foaf:name "Pedro Lucas Oliveira";
+  :integra <#GrupoPET/PET%20Geologia> .
+
+<#Membro/Gabriel%20Mendes> a :Membro;
+  foaf:name "Gabriel Mendes";
+  :integra <#GrupoPET/PROPET%20Fonoaudiologia> .
+
+<#Membro/Luiz%20Fernando%20Costela> a :Membro;
+  foaf:name "Luiz Fernando Costela";
+  :integra <#GrupoPET/GET%20Engenharia%20Ambiental%20e%20Sanitária> .
+
+<#Membro/Brenda%20da%20Costa> a :Membro;
+  foaf:name "Brenda da Costa";
+  :integra <#GrupoPET/PET%20Ações%20das%20Engenharias> .
+
+<#Membro/Maria%20Vitória%20Cavalcanti> a :Membro;
+  foaf:name "Maria Vitória Cavalcanti";
+  :integra <#GrupoPET/PET%20Ciências%20Agrárias> .
+
+<#Membro/Vinicius%20Silva> a :Membro;
+  foaf:name "Vinicius Silva";
+  :integra <#GrupoPET/PET%20Estratégias%20para%20Diminuir%20a%20Retenção%20e%20a%20Evasão> .
+
+<#Membro/Rafaela%20Cardoso> a :Membro;
+  foaf:name "Rafaela Cardoso";
+  :integra <#GrupoPET/PET%20Psicologia>, <#GrupoPET/PET%20Educação%20Física%20e%20Lazer> .
+
+<#Membro/Marcos%20Vinicius%20Viana> a :Membro;
+  foaf:name "Marcos Vinicius Viana";
+  :integra <#GrupoPET/PET%20Bacharelado%20em%20Zootecnia> .
+
+<#Membro/Isabella%20Oliveira> a :Membro;
+  foaf:name "Isabella Oliveira";
+  :integra <#GrupoPET/PET%20Práxis> .
+
+<#Membro/Felipe%20Cavalcanti> a :Membro;
+  foaf:name "Felipe Cavalcanti";
+  :integra <#GrupoPET/PET%20Ciência%20da%20Computação> .
+
+<#Membro/Thiago%20Lima> a :Membro;
+  foaf:name "Thiago Lima";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Arthur%20Barbosa> a :Membro;
+  foaf:name "Arthur Barbosa";
+  :integra <#GrupoPET/GET%20Engenharia%20Computacional> .
+
+<#Membro/Gustavo%20Henrique%20Azevedo> a :Membro;
+  foaf:name "Gustavo Henrique Azevedo";
+  :integra <#GrupoPET/PET%20Engenharia%20Elétrica> .
+
+<#Membro/Pedro%20Lucas%20Rodrigues> a :Membro;
+  foaf:name "Pedro Lucas Rodrigues";
+  :integra <#GrupoPET/PET%20Fronteiras%3A%20Saberes%20e%20Práticas%20Populares> .
+
+<#Membro/Diogo%20da%20Mata> a :Membro;
+  foaf:name "Diogo da Mata";
+  :integra <#GrupoPET/PET%20Zootecnia> .
+
+<#Membro/Davi%20Santos> a :Membro;
+  foaf:name "Davi Santos";
+  :integra <#GrupoPET/PET%20Medicina> .
+
+<#Membro/Luiz%20Otávio%20Pereira> a :Membro;
+  foaf:name "Luiz Otávio Pereira";
+  :integra <#GrupoPET/PET%20Enfermagem> .
+
+<#Membro/Rodrigo%20Gonçalves> a :Membro;
+  foaf:name "Rodrigo Gonçalves";
+  :integra <#GrupoPET/PET%20Direitos> .
+
+<#Membro/Davi%20Novaes> a :Membro;
+  foaf:name "Davi Novaes";
+  :integra <#GrupoPET/PET%20Engenharia%20Elétrica> .
+
+<#Membro/Sophia%20Lopes> a :Membro;
+  foaf:name "Sophia Lopes";
+  :integra <#GrupoPET/PET%20Bacharelado%20em%20Zootecnia> .
+
+<#Membro/Ian%20Rodrigues> a :Membro;
+  foaf:name "Ian Rodrigues";
+  :integra <#GrupoPET/PET%20Letras> .
+
+<#Membro/Samuel%20Cavalcanti> a :Membro;
+  foaf:name "Samuel Cavalcanti";
+  :integra <#GrupoPET/PET%20Ciências%20Biologicas> .
+
+<#Membro/João%20Guilherme%20Cardoso> a :Membro;
+  foaf:name "João Guilherme Cardoso";
+  :integra <#GrupoPET/PET%20Engenharia%20Civil> .
+
+<#Membro/Bruno%20Lima> a :Membro;
+  foaf:name "Bruno Lima";
+  :integra <#GrupoPET/PET%20Química> .
+
+<#Membro/Maria%20Vitória%20Pinto> a :Membro;
+  foaf:name "Maria Vitória Pinto";
+  :integra <#GrupoPET/PET%20Química> .
+
+<#Membro/Bernardo%20Santos> a :Membro;
+  foaf:name "Bernardo Santos";
+  :integra <#GrupoPET/PET%20Ciências%20Agrárias> .
+
+<#Membro/Thales%20Araújo> a :Membro;
+  foaf:name "Thales Araújo";
+  :integra <#GrupoPET/PET%20Agronomia> .
+
+<#Membro/Luana%20Aragão> a :Membro;
+  foaf:name "Luana Aragão";
+  :integra <#GrupoPET/PET%20Engenharia%20Elétrica> .
+
+<#Membro/João%20Gabriel%20Novaes> a :Membro;
+  foaf:name "João Gabriel Novaes";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Pesca> .
+
+<#Membro/Pedro%20Henrique%20Araújo> a :Membro;
+  foaf:name "Pedro Henrique Araújo";
+  :integra <#GrupoPET/PET%20Matemática> .
+
+<#Membro/Lucca%20Lopes> a :Membro;
+  foaf:name "Lucca Lopes";
+  :integra <#GrupoPET/PET%20Ciência%20da%20Computação> .
+
+<#Membro/Luiz%20Felipe%20Farias> a :Membro;
+  foaf:name "Luiz Felipe Farias";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%20-%20Licenciaturas%20e%20Serviço%20Social> .
+
+<#Membro/Bianca%20da%20Rosa> a :Membro;
+  foaf:name "Bianca da Rosa";
+  :integra <#GrupoPET/PET%20Bacharelado%20em%20Estatística> .
+
+<#Membro/Esther%20Costa> a :Membro;
+  foaf:name "Esther Costa";
+  :integra <#GrupoPET/PET%20Matemática> .
+
+<#Membro/Igor%20Nogueira> a :Membro;
+  foaf:name "Igor Nogueira";
+  :integra <#GrupoPET/PET%20Engenharia%20Química> .
+
+<#Membro/Heitor%20Peixoto> a :Membro;
+  foaf:name "Heitor Peixoto";
+  :integra <#GrupoPET/PET%20Elétrica> .
+
+<#Membro/Maria%20Vitória%20Mendes> a :Membro;
+  foaf:name "Maria Vitória Mendes";
+  :integra <#GrupoPET/PET%20Física> .
+
+<#Membro/Marcelo%20Jesus> a :Membro;
+  foaf:name "Marcelo Jesus";
+  :integra <#GrupoPET/PET%20Odontologia> .
+
+<#Membro/Olivia%20Santos> a :Membro;
+  foaf:name "Olivia Santos";
+  :integra <#GrupoPET/PET%20Floresta> .
+
+<#Membro/Fernanda%20Melo> a :Membro;
+  foaf:name "Fernanda Melo";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Emanuel%20Sales> a :Membro;
+  foaf:name "Emanuel Sales";
+  :integra <#GrupoPET/PET%20Informática> .
+
+<#Membro/Luiz%20Felipe%20Vieira> a :Membro;
+  foaf:name "Luiz Felipe Vieira";
+  :integra <#GrupoPET/PET%20Engenharia%20Florestal> .
+
+<#Membro/Levi%20Monteiro> a :Membro;
+  foaf:name "Levi Monteiro";
+  :integra <#GrupoPET/PET%20Odontologia> .
+
+<#Membro/Julia%20Dias> a :Membro;
+  foaf:name "Julia Dias";
+  :integra <#GrupoPET/PET%20Engenharia%20Química> .
+
+<#Membro/Eloah%20Moreira> a :Membro;
+  foaf:name "Eloah Moreira";
+  :integra <#GrupoPET/Pet%20Engenharia%20Florestal> .
+
+<#Membro/Henrique%20da%20Paz> a :Membro;
+  foaf:name "Henrique da Paz";
+  :integra <#GrupoPET/PET%20Biologia> .
+
+<#Membro/Vinicius%20Rodrigues> a :Membro;
+  foaf:name "Vinicius Rodrigues";
+  :integra <#GrupoPET/PET%20Agronomia> .
+
+<#Membro/Nicolas%20Fogaça> a :Membro;
+  foaf:name "Nicolas Fogaça";
+  :integra <#GrupoPET/PET%20AutoNet> .
+
+<#Membro/Pedro%20Miguel%20Monteiro> a :Membro;
+  foaf:name "Pedro Miguel Monteiro";
+  :integra <#GrupoPET/PET%20Produção%20Leiteira> .
+
+<#Membro/Ana%20Beatriz%20Gomes> a :Membro;
+  foaf:name "Ana Beatriz Gomes";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Pesca> .
+
+<#Membro/Gustavo%20Henrique%20Campos> a :Membro;
+  foaf:name "Gustavo Henrique Campos";
+  :integra <#GrupoPET/GET%20Telecom> .
+
+<#Membro/Maysa%20Silveira> a :Membro;
+  foaf:name "Maysa Silveira";
+  :integra <#GrupoPET/PET%20EEL%20UFSC> .
+
+<#Membro/Beatriz%20da%20Mota> a :Membro;
+  foaf:name "Beatriz da Mota";
+  :integra <#GrupoPET/PET%20Administração> .
+
+<#Membro/Pietra%20Rodrigues> a :Membro;
+  foaf:name "Pietra Rodrigues";
+  :integra <#GrupoPET/PET%20Letras> .
+
+<#Membro/Bianca%20Lopes> a :Membro;
+  foaf:name "Bianca Lopes";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Produção> .
+
+<#Membro/João%20Felipe%20Viana> a :Membro;
+  foaf:name "João Felipe Viana";
+  :integra <#GrupoPET/PET%20Ciências%20Biológicas> .
+
+<#Membro/Theo%20Cavalcanti> a :Membro;
+  foaf:name "Theo Cavalcanti";
+  :integra <#GrupoPET/PET%20História> .
+
+<#Membro/Enzo%20Martins> a :Membro;
+  foaf:name "Enzo Martins";
+  :integra <#GrupoPET/PET%20Arquitetura> .
+
+<#Membro/Lívia%20da%20Mata> a :Membro;
+  foaf:name "Lívia da Mata";
+  :integra <#GrupoPET/PET%20Arquitetura%20e%20Urbanismo> .
+
+<#Membro/Joaquim%20Rodrigues> a :Membro;
+  foaf:name "Joaquim Rodrigues";
+  :integra <#GrupoPET/PET%20Educação%20Física%20e%20Lazer> .
+
+<#Membro/Raul%20Barros> a :Membro;
+  foaf:name "Raul Barros";
+  :integra <#GrupoPET/PET%20Engenharias> .
+
+<#Membro/Leandro%20Santos> a :Membro;
+  foaf:name "Leandro Santos";
+  :integra <#GrupoPET/PET%20Práticas%20Integradas%20em%20Saúde%20Coletiva> .
+
+<#Membro/Sofia%20Alves> a :Membro;
+  foaf:name "Sofia Alves";
+  :integra <#GrupoPET/PET%20Agronomia> .
+
+<#Membro/Letícia%20Cardoso> a :Membro;
+  foaf:name "Letícia Cardoso";
+  :integra <#GrupoPET/PET%20Agronomia> .
+
+<#Membro/Alexandre%20Alves> a :Membro;
+  foaf:name "Alexandre Alves";
+  :integra <#GrupoPET/PET%20Ciência%20e%20Tecnologia> .
+
+<#Membro/Helena%20Moreira> a :Membro;
+  foaf:name "Helena Moreira";
+  :integra <#GrupoPET/PET%20Floresta> .
+
+<#Membro/Lara%20Martins> a :Membro;
+  foaf:name "Lara Martins";
+  :integra <#GrupoPET/PET%20Economia> .
+
+<#Membro/Laís%20Vieira> a :Membro;
+  foaf:name "Laís Vieira";
+  :integra <#GrupoPET/PET%20Química> .
+
+<#Membro/Heitor%20Vieira> a :Membro;
+  foaf:name "Heitor Vieira";
+  :integra <#GrupoPET/PET%20Química> .
+
+<#Membro/Vitor%20Gabriel%20Moreira> a :Membro;
+  foaf:name "Vitor Gabriel Moreira";
+  :integra <#GrupoPET/PET%20Farmácia> .
+
+<#Membro/Guilherme%20Barros> a :Membro;
+  foaf:name "Guilherme Barros";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%20Socioambientais> .
+
+<#Membro/Júlia%20Peixoto> a :Membro;
+  foaf:name "Júlia Peixoto";
+  :integra <#GrupoPET/PET%20Nutrição> .
+
+<#Membro/Benício%20Melo> a :Membro;
+  foaf:name "Benício Melo";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Milena%20Ramos> a :Membro;
+  foaf:name "Milena Ramos";
+  :integra <#GrupoPET/PET%20Agronomia> .
+
+<#Membro/Esther%20Vieira> a :Membro;
+  foaf:name "Esther Vieira";
+  :integra <#GrupoPET/PET%20Geologia%20UFC> .
+
+<#Membro/Giovanna%20Martins> a :Membro;
+  foaf:name "Giovanna Martins";
+  :integra <#GrupoPET/PET%20Geologia%20UFC> .
+
+<#Membro/Thiago%20da%20Cunha> a :Membro;
+  foaf:name "Thiago da Cunha";
+  :integra <#GrupoPET/PET%20Educação%20Física> .
+
+<#Membro/Marcela%20da%20Mota> a :Membro;
+  foaf:name "Marcela da Mota";
+  :integra <#GrupoPET/PET%20Zootecnia> .
+
+<#Membro/Emanuel%20Alves> a :Membro;
+  foaf:name "Emanuel Alves";
+  :integra <#GrupoPET/PET%20Biotecnologia> .
+
+<#Membro/Amanda%20da%20Mota> a :Membro;
+  foaf:name "Amanda da Mota";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Danilo%20Martins> a :Membro;
+  foaf:name "Danilo Martins";
+  :integra <#GrupoPET/GET%20Engenharia%20Ambiental%20e%20Sanitária> .
+
+<#Membro/Marina%20Viana> a :Membro;
+  foaf:name "Marina Viana";
+  :integra <#GrupoPET/PET%20Práxis> .
+
+<#Membro/Catarina%20Araújo> a :Membro;
+  foaf:name "Catarina Araújo";
+  :integra <#GrupoPET/PET%20Economia> .
+
+<#Membro/Augusto%20Moura> a :Membro;
+  foaf:name "Augusto Moura";
+  :integra <#GrupoPET/PET%20Geografia> .
+
+<#Membro/Clarice%20Gonçalves> a :Membro;
+  foaf:name "Clarice Gonçalves";
+  :integra <#GrupoPET/PET%20Matemática> .
+
+<#Membro/Stella%20da%20Cunha> a :Membro;
+  foaf:name "Stella da Cunha";
+  :integra <#GrupoPET/PET%20Conexões%20de%20Saberes%20Estatísticos> .
+
+<#Membro/Olivia%20Carvalho> a :Membro;
+  foaf:name "Olivia Carvalho";
+  :integra <#GrupoPET/PET%20Engenharia%20Florestal> .
+
+<#Membro/Leandro%20Duarte> a :Membro;
+  foaf:name "Leandro Duarte";
+  :integra <#GrupoPET/PET%20Medicina%20Veterinária> .
+
+<#Membro/Helena%20Carvalho> a :Membro;
+  foaf:name "Helena Carvalho";
+  :integra <#GrupoPET/PET%20Educação%20Física> .
+
+<#Membro/Luiz%20Gustavo%20Souza> a :Membro;
+  foaf:name "Luiz Gustavo Souza";
+  :integra <#GrupoPET/PET%20ENGENHARIA%20QUÍMICA> .
+
+<#Membro/Luana%20da%20Cruz> a :Membro;
+  foaf:name "Luana da Cruz";
+  :integra <#GrupoPET/PET%20Direitos> .
+
+<#Membro/Benício%20Nunes> a :Membro;
+  foaf:name "Benício Nunes";
+  :integra <#GrupoPET/PET%20Engenharia%20de%20Alimentos> .
+
+<#Membro/Davi%20Lucca%20Gomes> a :Membro;
+  foaf:name "Davi Lucca Gomes";
+  :integra <#GrupoPET/PET%20Farmácia> .
+
+<#Membro/Guilherme%20Oliveira> a :Membro;
+  foaf:name "Guilherme Oliveira";
+  :integra <#GrupoPET/PET%20Protagonismo%20Juvenil%20em%20Periferias%20Urbanas> .
+
+<#Membro/Cecília%20Costela> a :Membro;
+  foaf:name "Cecília Costela";
+  :integra <#GrupoPET/PET%20Informática> .
+
+<#Membro/Cecília%20Cardoso> a :Membro;
+  foaf:name "Cecília Cardoso";
+  :integra <#GrupoPET/PET%20Pedagogia> .
+
+<#Membro/Raul%20Rezende> a :Membro;
+  foaf:name "Raul Rezende";
+  :integra <#GrupoPET/PET%20Ciências%20Agrárias> .
+
+<#Membro/Nicole%20Jesus> a :Membro;
+  foaf:name "Nicole Jesus";
+  :integra <#GrupoPET/PET%20Educação%20Física> .
