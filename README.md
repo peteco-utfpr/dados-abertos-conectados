@@ -39,3 +39,30 @@ coadjuvantes na modelagem. Os seguintes dados foram coletados de diferentes font
 - Universidade_Wikidata_id
 - Ano de criação
 - Instagram
+  
+.
+├── docs
+│   ├── Projeto Final.pdf
+│   ├── relatorio.pdf
+│   └── resultados.pdf
+├── LICENSE
+├── ontologias
+│   ├── ontologia-atividades-pet.owl
+│   └── pet.owl
+├── parser-cenapet
+│   ├── cenapet (copie).csv
+│   ├── cenapet.csv
+│   ├── geckodriver.log
+│   ├── grupos.ttl
+│   ├── membros.ttl
+│   ├── parser-cenapet.ipynb
+│   ├── pet.owl
+│   ├── random_names.csv
+│   └── subs.ipynb
+├── populacoes
+│   ├── dados.ttl
+│   ├── grupos.ttl
+│   └── membros.ttl
+└── README.md
+
+4 directories, 19 files
